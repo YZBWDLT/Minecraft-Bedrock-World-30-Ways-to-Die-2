@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§l§c30种死法§6 2 §r§3专用行为包&函数包",
+        "name": "§l§c30种死法§6 2",
+        "uuid": "7bebe33f-6bb8-4d50-9456-96d5b5677d5d",
+        "version": [ 2, 3, 0 ],
+        "min_engine_version": [ 1, 18, 30 ]
+    },
+    "modules": [
+        {
+            "description": "§e一只卑微的量筒",
+            "type": "data",
+            "uuid": "7bebe33f-b723-405c-bca3-3a8345358174",
+            "version": [2, 0, 0]
+        }
+    ]
+}

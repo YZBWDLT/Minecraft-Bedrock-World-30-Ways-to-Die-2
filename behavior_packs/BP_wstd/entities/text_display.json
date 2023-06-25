@@ -1,0 +1,28 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "wstd:text_display",
+            "is_experimental": false,
+            "is_spawnable": false,
+            "is_summonable": true,
+            "runtime_identifier": "minecraft:snowball"
+        },
+        "components": {
+            "minecraft:collision_box": { "height": 0.1, "width": 0 },
+            "minecraft:health": { "value": 1, "max": 1 },
+            "minecraft:physics": { "has_gravity": false, "has_collision": false },
+            "minecraft:type_family": { "family": [ "text_display" ] },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": { "filters": [ { "none_of": [ { "test": "has_ability" ,"value": "mayfly" , "subject": "damager" } ] } ] },
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:nameable": { "allow_name_tag_renaming": true, "always_show": true },
+            "minecraft:knockback_resistance": { "value": 1 }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "num_mip_levels" : 4,
+    "padding" : 8,
+    "resource_pack_name" : "vanilla",
+    "texture_name" : "atlas.terrain",
+    "texture_data": {
+        "fake_quartz_pillar_bottom": {
+            "textures": [ "textures/blocks/quartz_block_lines_top" ]
+        },
+        "fake_quartz_pillar_side": {
+            "textures": [ "textures/blocks/quartz_block_lines" ]
+        },
+        "fake_quartz_pillar_top": {
+            "textures": [ "textures/blocks/quartz_block_lines_top" ]
+        }
+    }
+}

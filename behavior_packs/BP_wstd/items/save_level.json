@@ -1,0 +1,19 @@
+{
+    "format_version": "1.18.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wstd:save_level"
+        },
+        "components": {
+            "minecraft:display_name": { "value": "item.wstd:save_level.name" },
+            "minecraft:icon": { "texture": "save_level" },
+            "minecraft:max_stack_size": 1,
+            "minecraft:on_use": { "on_use": { "event": "trigger_function", "target": "self" } }
+        },
+        "events": {
+            "trigger_function": {
+                "run_command": { "command": [ "function items/save_level" ] }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+## New Items Translation
+item.wstd:hunger_potion.name=Hunger Potion
+item.wstd:random_potion.name=Random Potion
+item.wstd:hint.name=§aHint
+item.wstd:strategy.name=§bStrategy
+item.wstd:skip.name=§cSkip
+item.wstd:reset.name=§eReset Level
+item.wstd:quit.name=§6Quit Level
+item.wstd:next_step.name=§aNext Step
+
+## New Entities Translation
+item.spawn_egg.entity.wstd:creator.name=Spawn Author & Testers
+entity.wstd:creator.name=Author & Testers
+entity.je:marker.name=Marker
+
+## Non-translated Texts in Vanilla
+tile.lit_redstone_ore.name=Lit Redstone Ore

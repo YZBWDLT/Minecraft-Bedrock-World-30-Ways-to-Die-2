@@ -1,0 +1,141 @@
+{
+   "format_version" : "1.14.0",
+   "sound_definitions" : {
+      "hard_achievement_complete" : {
+         "category" : "ui",
+         "sounds" : [
+            "sounds/sound/hard_achievement_complete"
+         ]
+      },
+      "smelly" : {
+         "category" : "ambient",
+         "sounds" : [
+            "sounds/sound/smelly"
+         ]
+      },
+      "maingame": {
+         "category": "music",
+         "sounds": [
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame1",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame2",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame3",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame4",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame5",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame6",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame7",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame8",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame9",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame10",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame11",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/maingame12",
+               "stream": true,
+               "volume": 0.2
+            }
+         ]
+      },
+      "timelimit": {
+         "category": "music",
+         "sounds": [
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/timelimit1",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/timelimit2",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/timelimit3",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/timelimit4",
+               "stream": true,
+               "volume": 0.2
+            },
+            {
+               "load_on_low_memory": true,
+               "name": "sounds/sound/timelimit5",
+               "stream": true,
+               "volume": 0.2
+            }
+         ]
+      },
+      "firework_show": {
+         "category": "music",
+         "sounds": [
+            "sounds/sound/firework_show"
+         ]
+      },
+      "end": {
+         "category": "music",
+         "sounds": [
+            "sounds/sound/end"
+         ]
+      }
+   }
+}

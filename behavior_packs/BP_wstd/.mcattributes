@@ -1,0 +1,3 @@
+diagnostic.disable.minecraft.mode.gamemodes.invalid=true
+diagnostic.disable.minecraft.commands.execute.deprecated=true
+diagnostic.disable.minecraft.commands.enchant.syntax=true

@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "wstd:zero",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/new_particles/numbers"
+			}
+		},
+		"components": {
+			"minecraft:emitter_rate_steady": {
+				"spawn_rate": 2,
+				"max_particles": 1
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 1
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 1
+			},
+			"minecraft:particle_initial_speed": 0,
+			"minecraft:particle_motion_dynamic": {},
+			"minecraft:particle_appearance_billboard": {
+				"size": [0.175, 0.25],
+				"facing_camera_mode": "lookat_xyz",
+				"uv": {
+					"texture_width": 35,
+					"texture_height": 20,
+					"uv": [0, 0],
+					"uv_size": [7, 10]
+				}
+			},
+			"minecraft:particle_appearance_tinting": {
+				"color": [1, 1, 1, 1]
+			}
+		}
+	}
+}

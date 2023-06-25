@@ -1,0 +1,83 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:piglin",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+
+		"components": {
+			"minecraft:equip_item": { },
+			"minecraft:type_family": { "family": [ "piglin", "monster" ] },
+			"minecraft:admire_item": { "duration": 8, "cooldown_after_being_attacked": 20 },
+			"minecraft:collision_box": { "width": 0.6, "height": 1.9 },
+			"minecraft:breathable": { "total_supply": 15, "suffocate_time": 0 },
+			"minecraft:health": { "value": 16, "max": 16 },
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:navigation.walk": { "can_path_over_water": true, "can_open_doors": true },
+			"minecraft:annotation.open_door": {},
+			"minecraft:movement.basic": {},
+			"minecraft:movement": { "value": 0.35 },
+			"minecraft:jump.static": {},
+			"minecraft:nameable": {},
+			"minecraft:inventory": { "inventory_size": 8 },
+			"minecraft:despawn": { "despawn_from_distance": {} },
+			"minecraft:behavior.admire_item": {
+				"priority": 2,
+				"admire_item_sound": "admire",
+				"sound_interval": { "range_min": 2.0, "range_max": 5.0 },
+				"on_admire_item_start": { "event": "admire_item_started_event", "target": "self" },
+				"on_admire_item_stop": { "event": "admire_item_stopped_event", "target": "self" }
+			},
+			"minecraft:behavior.barter": { "priority": 3 },
+			"minecraft:behavior.equip_item": { "priority": 5 },
+			"minecraft:behavior.pickup_items": { "priority": 6, "max_dist": 10, "goal_radius": 2, "speed_multiplier": 0.8, "pickup_based_on_chance": false, "can_pickup_any_item": false, "cooldown_after_being_attacked": 20.0 },
+			"minecraft:behavior.random_stroll": { "priority": 10, "speed_multiplier": 0.6 },
+			"minecraft:behavior.look_at_player": { "priority": 11, "look_distance": 8 },
+			"minecraft:behavior.random_look_around": { "priority": 12 },
+			"minecraft:physics": {},
+			"minecraft:pushable": { "is_pushable": true, "is_pushable_by_piston": true },
+			"minecraft:follow_range": { "value": 64 },
+			"minecraft:shareables": {
+				"items": [
+					{ "item": "minecraft:gold_block", "priority": 2, "admire": true, "pickup_limit": 1, "stored_in_inventory": true },
+					{ "item": "minecraft:gold_nugget", "priority": 2, "stored_in_inventory": true },
+					{ "item": "minecraft:gold_ingot", "priority": 1, "pickup_limit": 1, "admire": true, "barter": true }
+				]
+			},
+			"minecraft:barter": { "barter_table": "loot_tables/entities/piglin_barter.json", "cooldown_after_being_attacked": 20 },
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{ "test": "has_equipment", "subject": "other", "domain": "hand", "value": "gold_ingot" },
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							}
+						},
+						"barter": true,
+						"admire": true,
+						"use_item": true,
+						"cooldown_after_being_attacked": 20,
+						"interact_text": "action.interact.barter"
+					}
+				]
+			}
+		},
+
+		"events": { },
+		"component_groups": { }
+	}
+}

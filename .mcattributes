@@ -1,0 +1,9 @@
+diagnostic.disable.minecraft.commands.execute.deprecated=true
+diagnostic.disable.minecraft.commands.enchant.syntax=true
+diagnostic.disable.minecraft.mode.gamemodes.invalid=true
+diagnostic.disable.behaviorpack.loot_table.missing=true
+diagnostic.disable.resourcepack.sound.missing=true
+diagnostic.disable.minecraft.commands.summon.syntax=true
+diagnostic.disable.behaviorpack.block.states.invalid=true
+diagnostic.disable.minecraft.commands.fill.syntax=true
+diagnostic.disable.behaviorpack.block.missing=true

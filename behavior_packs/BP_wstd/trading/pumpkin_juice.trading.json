@@ -1,0 +1,31 @@
+{
+    "tiers": [
+        {
+            "total_exp_required": 0,
+            "groups": [
+                {
+                    "num_to_select": 17,
+                    "trades": [
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32 } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 1 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 2 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 3 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 4 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 5 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 6 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 7 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 8 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 9 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:red_flower", "quantity": 32, "functions": [ { "function": "set_data", "data": 10 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:yellow_flower", "quantity": 32 } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:double_plant", "quantity": 32 } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:double_plant", "quantity": 32, "functions": [ { "function": "set_data", "data": 1 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:double_plant", "quantity": 32, "functions": [ { "function": "set_data", "data": 4 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:double_plant", "quantity": 32, "functions": [ { "function": "set_data", "data": 5 } ] } ], "reward_exp": false, "max_uses": -1 },
+                        { "wants": [ { "item": "minecraft:netherite_ingot", "quantity": 1 } ], "gives": [ { "item": "minecraft:wither_rose", "quantity": 32 } ], "reward_exp": false, "max_uses": -1 }
+                    ]
+                }
+            ]
+        }
+    ]
+}

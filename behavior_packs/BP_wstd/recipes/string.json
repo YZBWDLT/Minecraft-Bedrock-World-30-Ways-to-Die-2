@@ -1,0 +1,12 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": { "identifier": "minecraft:string" },
+        "priority": 0,
+        "tags": [ "crafting_table" ],
+        "ingredients": [
+            { "item": "web" }
+        ],
+        "result": { "item": "minecraft:string", "count": 9 }
+    }
+}

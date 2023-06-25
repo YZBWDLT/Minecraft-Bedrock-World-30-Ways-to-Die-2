@@ -1,0 +1,174 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "wstd:creator",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": { "family": [ "npc", "creator" ] },
+            "minecraft:health": { "value": 1, "max": 1 },
+            "minecraft:collision_box": { "height": 1.8, "width": 0.6 },
+            "minecraft:nameable": { "always_show": true, "allow_name_tag_renaming": true },
+            "minecraft:physics": {},
+            "minecraft:knockback_resistance": { "value": 1.0 },
+
+            "minecraft:movement": { "value": 0.0 },
+            "minecraft:navigation.walk": { "is_amphibious": true, "can_path_over_water": true, "can_pass_doors": true, "can_open_doors": true, "can_walk": true, "avoid_water": true },
+            "minecraft:movement.basic": {},
+
+            "minecraft:equipment": { "slot_drop_chance": [ { "slot": "slot.weapon.mainhand", "drop_chance": 0 } ] },
+
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "on_damage": {
+                            "filters": { "test": "has_ability", "subject": "damager", "value": "mayfly", "operator": "!=" }
+                        },
+                        "deals_damage": false
+                    }
+                ]
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "sequence": [
+                    {
+                        "filters": { "test": "has_component", "operator": "!=", "value": "minecraft:skin_id" },
+                        "randomize": [
+                            { "weight": 1, "add": { "component_groups": [ "lt" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "bd" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "ngz" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "zy" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "xs" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "gz" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "hws" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "ly" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "jd" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "lt_pose" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "bd_pose" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "zy_pose" ] } }
+                        ]
+                    }
+                ]
+            },
+            "become_lt":{
+                "add": { "component_groups": [ "lt" ] }
+            },
+            "become_bd":{
+                "add": { "component_groups": [ "bd" ] }
+            },
+            "become_ngz":{
+                "add": { "component_groups": [ "ngz" ] }
+            },
+            "become_zy":{
+                "add": { "component_groups": [ "zy" ] }
+            },
+            "become_xs":{
+                "add": { "component_groups": [ "xs" ] }
+            },
+            "become_gz":{
+                "add": { "component_groups": [ "gz" ] }
+            },
+            "become_hws":{
+                "add": { "component_groups": [ "hws" ] }
+            },
+            "become_ly":{
+                "add": { "component_groups": [ "ly" ] }
+            },
+            "become_jd":{
+                "add": { "component_groups": [ "jd" ] }
+            },
+            "become_lt_pose":{
+                "add": { "component_groups": [ "lt_pose" ] }
+            },
+            "become_bd_pose":{
+                "add": { "component_groups": [ "bd_pose" ] }
+            },
+            "become_zy_pose":{
+                "add": { "component_groups": [ "zy_pose" ] }
+            },
+            "become_ngz_tradable": {
+                "add": { "component_groups": [ "ngz", "become_tradable" ] }
+            }
+        },
+        "component_groups": {
+            "lt": {
+                "minecraft:skin_id": { "value": 0 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "bd": {
+                "minecraft:skin_id": { "value": 1 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "ngz": {
+                "minecraft:skin_id": { "value": 2 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "zy": {
+                "minecraft:skin_id": { "value": 3 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "xs": {
+                "minecraft:skin_id": { "value": 4 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "gz": {
+                "minecraft:skin_id": { "value": 5 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "hws": {
+                "minecraft:skin_id": { "value": 6 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "ly": {
+                "minecraft:skin_id": { "value": 7 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "jd": {
+                "minecraft:skin_id": { "value": 8 },
+                "minecraft:variant": { "value": 0 },
+                "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
+            },
+            "lt_pose": {
+                "minecraft:skin_id": { "value": 0 },
+                "minecraft:variant": { "value": 1 }
+            },
+            "bd_pose": {
+                "minecraft:skin_id": { "value": 1 },
+                "minecraft:variant": { "value": 1 }
+            },
+            "zy_pose": {
+                "minecraft:skin_id": { "value": 3 },
+                "minecraft:variant": { "value": 1 }
+            },
+
+            "become_tradable": {
+                "minecraft:trade_table": {
+                    "display_name": "author.pumpkin_juice",
+                    "new_screen": true,
+                    "table": "trading/pumpkin_juice.trading.json",
+                    "convert_trades_economy": true
+                },
+                "minecraft:damage_sensor": {
+                    "triggers": [
+                        {
+                            "cause": "all",
+                            "deals_damage": false
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

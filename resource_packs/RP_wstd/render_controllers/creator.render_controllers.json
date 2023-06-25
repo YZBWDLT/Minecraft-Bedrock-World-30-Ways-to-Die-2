@@ -1,0 +1,44 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+        "controller.render.creator": {
+            "arrays": {
+                "textures": {
+                    "Array.skins": [
+                        "Texture.lt",
+                        "Texture.bd",
+                        "Texture.ngz",
+                        "Texture.zy",
+                        "texture.xs",
+                        "texture.gz",
+                        "texture.hws",
+                        "texture.ly",
+                        "texture.jd"
+                    ]
+                },
+                "geometries": {
+                    "Array.geometries": [
+                        "geometry.default",
+                        "geometry.default",
+                        "geometry.default",
+                        "geometry.default",
+                        "geometry.default",
+                        "geometry.slim",
+                        "geometry.default",
+                        "geometry.default",
+                        "geometry.default"
+                    ]
+                }
+            },
+            "geometry": "Array.geometries[query.skin_id]",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Array.skins[query.skin_id]"
+            ]
+        }
+    }
+}

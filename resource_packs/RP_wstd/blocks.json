@@ -1,0 +1,10 @@
+{
+    "wstd:fake_quartz_pillar" : {
+        "sound" : "stone",
+        "textures" : {
+           "down" : "fake_quartz_pillar_bottom",
+           "side" : "fake_quartz_pillar_side",
+           "up" : "fake_quartz_pillar_top"
+        }
+     }
+}

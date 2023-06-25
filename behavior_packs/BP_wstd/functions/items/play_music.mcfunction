@@ -1,0 +1,1 @@
+function system/music/play_maingame

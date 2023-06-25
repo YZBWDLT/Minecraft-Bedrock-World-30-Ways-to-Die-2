@@ -1,0 +1,43 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "wstd:creator",
+            "materials": { "default": "entity_alphatest" },
+            "textures": {
+                "lt": "textures/new_entities/creators/yzbwdlt",
+                "bd": "textures/new_entities/creators/andy7343",
+                "ngz": "textures/new_entities/creators/pumpkinjui",
+                "zy": "textures/new_entities/creators/xhduoduobaby",
+                "xs": "textures/new_entities/creators/xiaoshu512",
+                "gz": "textures/new_entities/creators/pigeonk",
+                "hws": "textures/new_entities/creators/animalchalk2526",
+                "ly": "textures/new_entities/creators/greeleaf",
+                "jd": "textures/new_entities/creators/mildturt"
+            },
+            "geometry": {
+                "default": "geometry.manikin_male",
+                "slim": "geometry.manikin_female"
+            },
+            "render_controllers": [ "controller.render.creator" ],
+            "spawn_egg": { "base_color": "#e8b211", "overlay_color": "#47f118" },
+            "animations": {
+                "bob": "animation.player.bob",
+                "holding": "animation.player.holding",
+                "pose_1": "animation.armor_stand.athena_pose",
+                "pose_2": "animation.armor_stand.solemn_pose",
+                "pose_3": "animation.armor_stand.hero_pose"
+            },
+            "scripts": {
+                "scale": "0.9375",
+                "animate": [
+                    { "bob": "query.variant == 0" },
+                    { "holding": "query.variant == 0" },
+                    { "pose_1": "query.variant == 1 && query.skin_id == 0" },
+                    { "pose_2": "query.variant == 1 && query.skin_id == 1" },
+                    { "pose_3": "query.variant == 1 && query.skin_id == 3" }
+                ]
+            }
+        }
+    }
+}
