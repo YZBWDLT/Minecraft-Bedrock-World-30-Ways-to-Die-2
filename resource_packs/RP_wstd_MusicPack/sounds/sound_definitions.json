@@ -128,13 +128,19 @@
       "firework_show": {
          "category": "music",
          "sounds": [
-            "sounds/sound/firework_show"
+            {
+               "name": "sounds/sound/firework_show",
+               "volume": 0.2
+            }
          ]
       },
       "end": {
          "category": "music",
          "sounds": [
-            "sounds/sound/end"
+            {
+               "name": "sounds/sound/end",
+               "volume": 0.2
+            }
          ]
       }
    }
