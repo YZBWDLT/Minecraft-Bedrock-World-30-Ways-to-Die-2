@@ -1,1 +1,4 @@
-# Minecraft-Bedrock-World-30-Ways-to-Die-2
+# Minecraft Bedrock World: 30 Ways to Die 2
+
+# 我的世界基岩版地图：30种死法2
+本地图是一张基岩版地图，你需要在30+个不同的房间中利用所给的道具和场景死亡。为方便制作，也为方便大家交流技术等，我将本地图的所有文件上传到Github。如果有问题欢迎提出issues，我将尽力回答相关问题。
