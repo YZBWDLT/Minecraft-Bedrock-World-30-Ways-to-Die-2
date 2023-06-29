@@ -7,3 +7,4 @@ diagnostic.disable.minecraft.commands.summon.syntax=true
 diagnostic.disable.behaviorpack.block.states.invalid=true
 diagnostic.disable.minecraft.commands.fill.syntax=true
 diagnostic.disable.behaviorpack.block.missing=true
+diagnostic.disable.minecraft.language.duplicate=true
