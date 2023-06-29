@@ -26,6 +26,7 @@ item.wstd:reset_command_system.name=§b重置命令系统
 item.spawn_egg.entity.wstd:creator.name=作者&测试员 刷怪蛋
 entity.wstd:creator.name=作者&测试员
 entity.je:marker.name=标记
+entity.flower_solder.name=智慧的卖花商人
 
 ## 新方块翻译
 tile.wstd:fake_quartz_pillar.name=伪石英柱

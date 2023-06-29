@@ -155,9 +155,9 @@
 
             "become_tradable": {
                 "minecraft:trade_table": {
-                    "display_name": "author.pumpkin_juice",
+                    "display_name": "entity.flower_solder.name",
                     "new_screen": true,
-                    "table": "trading/pumpkin_juice.trading.json",
+                    "table": "trading/flower_solder.trading.json",
                     "convert_trades_economy": true
                 },
                 "minecraft:damage_sensor": {
