@@ -90,8 +90,8 @@
             "become_zy_pose":{
                 "add": { "component_groups": [ "zy_pose" ] }
             },
-            "become_ngz_tradable": {
-                "add": { "component_groups": [ "ngz", "become_tradable" ] }
+            "become_xs_tradable": {
+                "add": { "component_groups": [ "xs", "become_tradable" ] }
             }
         },
         "component_groups": {
