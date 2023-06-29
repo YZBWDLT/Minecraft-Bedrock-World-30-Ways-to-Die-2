@@ -18,5 +18,5 @@ execute @e[name=level,scores={backend=!31,backend=!18}] ~~~ execute @e[type=ende
 execute @e[name=level,scores={backend=!31,backend=!18}] ~~~ execute @e[type=ender_pearl] ~~~ kill @s
 
 # 在自定义关卡清除传送门
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @a[x=-132,y=0,z=-41,dx=31,dy=31,dz=31] ~~~ fill ~-5~-5~-5~5~5~5 minecraft:air [] replace minecraft:portal
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @a[x=-132,y=0,z=-41,dx=31,dy=31,dz=31] ~~~ fill ~-5~-5~-5~5~5~5 minecraft:air [] replace minecraft:end_portal
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @a[x=-132,y=0,z=-41,dx=31,dy=31,dz=31] ~~~ fill ~-5~-5~-5~5~5~5 air [] replace portal
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @a[x=-132,y=0,z=-41,dx=31,dy=31,dz=31] ~~~ fill ~-5~-5~-5~5~5~5 air [] replace end_portal

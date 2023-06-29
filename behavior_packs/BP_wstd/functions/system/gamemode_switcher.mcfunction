@@ -1,8 +1,8 @@
 ## 游戏模式切换器（仅开发者模式使用）
 
 ## 给予末影珍珠和下界砖
-replaceitem entity @a[hasitem={item=netherbrick,quantity=0}] slot.inventory 1 minecraft:netherbrick
-replaceitem entity @a[hasitem={item=ender_pearl,quantity=0}] slot.inventory 0 minecraft:ender_pearl
+replaceitem entity @a[hasitem={item=netherbrick,quantity=0}] slot.inventory 1 netherbrick
+replaceitem entity @a[hasitem={item=ender_pearl,quantity=0}] slot.inventory 0 ender_pearl
 
 ## 切换为冒险模式
 tellraw @a[m=!adventure,hasitem={item=netherbrick,location=slot.weapon.mainhand}] {"rawtext":[{"translate":"feedback.developer.gamemode_switcher"}]}

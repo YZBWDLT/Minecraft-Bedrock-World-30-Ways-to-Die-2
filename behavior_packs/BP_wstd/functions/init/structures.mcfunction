@@ -6,26 +6,26 @@ function halls/starting_room/gate
 function halls/end/mainline_completed/gate
 
 # ===== 结束屋的地板 =====
-fill -44 8 29 -48 8 25 minecraft:iron_block
+fill -44 8 29 -48 8 25 iron_block
 
 # ===== 结束屋的信标 =====
-setblock -47 9 28 minecraft:glass
-setblock -45 9 28 minecraft:glass
-setblock -45 9 26 minecraft:glass
-setblock -47 9 26 minecraft:glass
+setblock -47 9 28 glass
+setblock -45 9 28 glass
+setblock -45 9 26 glass
+setblock -47 9 26 glass
 
 # ===== 激活起始屋 =====
-fill 28 9 27 28 11 27 minecraft:quartz_block ["chisel_type":"lines","pillar_axis":"y"]
+fill 28 9 27 28 11 27 quartz_block ["chisel_type":"lines","pillar_axis":"y"]
 setblock 29 10 27 stone_button ["facing_direction":5]
 
 # ===== 起始屋的彩蛋 =====
-fill 29 10 33 27 12 33 minecraft:quartz_block ["chisel_type":"lines","pillar_axis":"y"]
-fill 28 10 36 28 11 36 minecraft:quartz_block ["chisel_type":"lines","pillar_axis":"y"]
+fill 29 10 33 27 12 33 quartz_block ["chisel_type":"lines","pillar_axis":"y"]
+fill 28 10 36 28 11 36 quartz_block ["chisel_type":"lines","pillar_axis":"y"]
 setblock 28 11 35 stone_button ["facing_direction":2]
 
 # ===== 结束屋的隐藏按钮 =====
-fill -47 10 33 -45 12 33 minecraft:quartz_block ["chisel_type":"lines","pillar_axis":"y"]
-fill -46 10 36 -46 11 36 minecraft:quartz_block ["chisel_type":"lines","pillar_axis":"y"]
+fill -47 10 33 -45 12 33 quartz_block ["chisel_type":"lines","pillar_axis":"y"]
+fill -46 10 36 -46 11 36 quartz_block ["chisel_type":"lines","pillar_axis":"y"]
 setblock -46 11 35 stone_button ["facing_direction":2]
 
 # ===== 统计屋重置 =====

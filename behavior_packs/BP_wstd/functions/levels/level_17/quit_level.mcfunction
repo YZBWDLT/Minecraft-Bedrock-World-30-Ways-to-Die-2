@@ -4,4 +4,4 @@ function levels/all_levels/quit_level
 function system/disable_timeline
 
 # 关闭进度检测
-fill 9 5 9 9 5 11 minecraft:air
+fill 9 5 9 9 5 11 air

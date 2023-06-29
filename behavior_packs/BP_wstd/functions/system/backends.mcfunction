@@ -29,7 +29,7 @@ execute @e[name=level,scores={backend=-3..0}] ~~~ execute @e[name=timeline,score
 
 ## ===== 末地按钮，且挖空黑曜石柱，以防末影龙复活时黑曜石柱重置 =====
 execute @a[scores={dimension=2},c=1] ~~~ execute @s ~~~ detect 37 58 -2 stone_button 11 tp @a[x=36,y=56,z=-2,dx=2,dy=2,dz=2] 35 62 2
-execute @e[name=ticker,scores={time=0}] ~~~ execute @a[scores={dimension=2},c=1] ~~~ fill 39 57 0 39 62 0 minecraft:air
+execute @e[name=ticker,scores={time=0}] ~~~ execute @a[scores={dimension=2},c=1] ~~~ fill 39 57 0 39 62 0 air
 
 ## ===== 锁定难度 =====
 execute @e[name=backendSecond,scores={time=0}] ~~~ execute @e[name=level,scores={backend=!24}] ~~~ difficulty hard

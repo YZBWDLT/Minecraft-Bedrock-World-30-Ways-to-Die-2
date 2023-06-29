@@ -20,16 +20,16 @@ execute @e[name=diyIsLoading,scores={backend=104}] ~~~ clear @a ender_pearl
 execute @e[name=diyIsLoading,scores={backend=103}] ~~~ gamemode adventure @a
 execute @e[name=diyIsLoading,scores={backend=103}] ~~~ tp @a 4 8 3
 ## 加载结构前在结构上下方放置屏障/空气 | 编辑模式&游戏模式
-execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ fill -101 0 -10 -132 0 -41 minecraft:air
-execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ fill -101 32 -10 -132 32 -41 minecraft:air
-execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ fill -101 0 -10 -132 0 -41 minecraft:barrier
-execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ fill -101 32 -10 -132 32 -41 minecraft:barrier
+execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ fill -101 0 -10 -132 0 -41 air
+execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ fill -101 32 -10 -132 32 -41 air
+execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ fill -101 0 -10 -132 0 -41 barrier
+execute @e[name=diyIsLoading,scores={backend=102}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ fill -101 32 -10 -132 32 -41 barrier
 ## 加载结构前提醒玩家开始加载 | 编辑模式
 execute @e[name=diyIsLoading,scores={backend=102}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.diy_levels.load_level.start_loading"}]}
 ## 加载结构 | 编辑模式&游戏模式
 execute @e[name=diyIsLoading,scores={backend=100}] ~~~ function levels/diy_levels/load_level
 ## 加载完成后激活命令系统区域的启动游戏 | 游戏模式
-execute @e[name=diyIsLoading,scores={backend=5}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -12 minecraft:redstone_block
+execute @e[name=diyIsLoading,scores={backend=5}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -12 redstone_block
 ## 加载完成后的倒计时提醒 | 编辑模式&游戏模式
 execute @e[name=diyIsLoading,scores={backend=1}] ~~~ tellraw @a[x=3,y=8,z=2,dx=2,dy=2,dz=2] {"rawtext":[{"translate":"chat.diy_levels.load_level.complete"}]}
 ## 加载完成后将玩家传送回自定义关卡区域 | 编辑模式&游戏模式

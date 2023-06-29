@@ -14,9 +14,9 @@ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter
 ### 创建展示文本
 execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:text_display "这儿没东西，真的awa" -110 66 90
 #### 当未获得[禁止套娃]进度时，放置木桶
-execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=advTheEnd,scores={stats=1}] ~~~ execute @e[name=advNoDolls,scores={stats=0}] ~~~ setblock -129 64 74 minecraft:barrel["facing_direction":0,"open_bit":false]
+execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=advTheEnd,scores={stats=1}] ~~~ execute @e[name=advNoDolls,scores={stats=0}] ~~~ setblock -129 64 74 barrel["facing_direction":0,"open_bit":false]
 #### 当未获得[绿宝石！]进度时，放置绿宝石
-execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=advSurviveMaster,scores={stats=1}] ~~~ execute @e[name=advEmerald,scores={stats=0}] ~~~ setblock -123 45 87 minecraft:emerald_ore
+execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=advSurviveMaster,scores={stats=1}] ~~~ execute @e[name=advEmerald,scores={stats=0}] ~~~ setblock -123 45 87 emerald_ore
 ### 创建交易者
 execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:creator -125 65 77 become_ngz_tradable
 

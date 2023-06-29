@@ -36,7 +36,7 @@ summon wstd:text_display "§a原模原样复制出来即可！" -18.9 22.1 -100
 summon wstd:text_display "§a复制出5个建筑即可获胜，祝你好运b（￣▽￣）d" -18.9 21.8 -100
 
 # 红石灯重置
-fill -21 23 -98 -21 23 -102 minecraft:air
+fill -21 23 -98 -21 23 -102 air
 
 # 检测器 | 因为旧版语法限制，必须用命令方块代替
-fill 13 5 7 13 5 12 minecraft:redstone_block
+fill 13 5 7 13 5 12 redstone_block

@@ -18,4 +18,4 @@ execute @e[name=timeline,scores={time=120}] ~~~ execute @a ~~~ playsound random.
 execute @e[name=timeline,scores={time=200}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.easter_egg_4.dislike.line3"}]}
 execute @e[name=timeline,scores={time=200}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=280..}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @a ~~~ summon minecraft:lightning_bolt
+execute @e[name=timeline,scores={time=280..}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @a ~~~ summon lightning_bolt

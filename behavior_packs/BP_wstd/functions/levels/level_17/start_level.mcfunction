@@ -27,7 +27,7 @@ scoreboard players set @e[name=itemTester2] active 0
 scoreboard players set @e[name=itemTester3] active 0
 
 # 开启进度检测（哎，要是有新exe能用就好了，可惜还要用1.18.30的旧语法写，好难受啊）
-fill 9 5 9 9 5 11 minecraft:redstone_block
+fill 9 5 9 9 5 11 redstone_block
 
 # 启动时间线
 function system/enable_timeline

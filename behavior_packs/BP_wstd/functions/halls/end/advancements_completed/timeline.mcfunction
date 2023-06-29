@@ -14,23 +14,23 @@ execute @e[name=timeline,scores={active=1,time=50..}] ~~~ tp @a -41 9 27 facing 
 ## 时间线
 execute @e[name=timeline,scores={time=1,active=1}] ~~~ execute @a ~~~ playsound random.levelup @s ~~~ 1 0.6
 
-execute @e[name=timeline,scores={time=6,active=1}] ~~~ setblock -46 8 27 minecraft:gold_block
+execute @e[name=timeline,scores={time=6,active=1}] ~~~ setblock -46 8 27 gold_block
 
-execute @e[name=timeline,scores={time=12,active=1}] ~~~ fill -45 8 26 -47 8 28 minecraft:gold_block
-execute @e[name=timeline,scores={time=12,active=1}] ~~~ setblock -46 8 27 minecraft:diamond_block
+execute @e[name=timeline,scores={time=12,active=1}] ~~~ fill -45 8 26 -47 8 28 gold_block
+execute @e[name=timeline,scores={time=12,active=1}] ~~~ setblock -46 8 27 diamond_block
 
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -44 8 25 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -44 8 27 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -44 8 29 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -48 8 25 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -48 8 27 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -48 8 29 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 25 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 29 minecraft:gold_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 28 minecraft:diamond_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -47 8 27 minecraft:diamond_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 26 minecraft:diamond_block
-execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -45 8 27 minecraft:diamond_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -44 8 25 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -44 8 27 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -44 8 29 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -48 8 25 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -48 8 27 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -48 8 29 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 25 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 29 gold_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 28 diamond_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -47 8 27 diamond_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 26 diamond_block
+execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -45 8 27 diamond_block
 
 execute @e[name=timeline,scores={time=80,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line1"}]}
 execute @e[name=timeline,scores={time=80,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
@@ -117,7 +117,7 @@ execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a title {"raw
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_3"}]}
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ execute @a ~~~ playsound random.levelup @s ~~~ 1 0.75
 #### 替换logo
-execute @e[name=timeline,scores={time=320,active=3}] ~~~ fill 47 6 21 48 20 33 minecraft:air[] destroy
+execute @e[name=timeline,scores={time=320,active=3}] ~~~ fill 47 6 21 48 20 33 air[] destroy
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ kill @e[type=item]
 execute @e[name=timeline,scores={time=321,active=3}] ~~~ structure load logo_completed 47 6 21
 
@@ -136,7 +136,7 @@ execute @e[name=timeline,scores={time=540,active=3}] ~~~ titleraw @a title {"raw
 execute @e[name=timeline,scores={time=540,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_5"}]}
 execute @e[name=timeline,scores={time=540,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 #### 作者平台 祉语
-execute @e[name=timeline,scores={time=680,active=3}] ~~~ fill -35 21 -25 -35 22 -25 minecraft:air
+execute @e[name=timeline,scores={time=680,active=3}] ~~~ fill -35 21 -25 -35 22 -25 air
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ setblock -34 22 -21 lantern
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ summon wstd:creator -35 21 -25 become_zy
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ tp @e[name=rotater] -35 21 -25 facing -31 21 -29

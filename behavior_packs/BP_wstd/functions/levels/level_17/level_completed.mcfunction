@@ -26,4 +26,4 @@ execute @e[name=levelAdvancement,scores={stats=16}] ~~~ scoreboard players set @
 function levels/all_levels/level_completed
 
 # 关闭进度检测
-fill 9 5 9 9 5 11 minecraft:air
+fill 9 5 9 9 5 11 air

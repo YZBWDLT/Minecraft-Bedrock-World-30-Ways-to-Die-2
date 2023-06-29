@@ -13,15 +13,15 @@ execute @e[name=levelAdvancement,scores={stats=30}] ~~~ summon wstd:text_display
 ## ===== 地图完成后的作者介绍 =====
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ summon wstd:creator -51 10 27 become_lt_pose
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ tp @e[x=-51,y=10,z=27,r=2,type=wstd:creator] -51 10 27 facing -40 10 27
-execute @e[name=mapCompleted,scores={stats=2}] ~~~ replaceitem entity @e[x=-51,y=10,z=27,r=2,type=wstd:creator] slot.weapon.mainhand 0 minecraft:command_block
+execute @e[name=mapCompleted,scores={stats=2}] ~~~ replaceitem entity @e[x=-51,y=10,z=27,r=2,type=wstd:creator] slot.weapon.mainhand 0 command_block
 
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ summon wstd:creator -46 10 32 become_bd_pose
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ tp @e[x=-46,y=10,z=32,r=2,type=wstd:creator] -46 10 32 facing -46 10 20
-execute @e[name=mapCompleted,scores={stats=2}] ~~~ replaceitem entity @e[x=-46,y=10,z=32,r=2,type=wstd:creator] slot.weapon.mainhand 0 minecraft:diamond_pickaxe
+execute @e[name=mapCompleted,scores={stats=2}] ~~~ replaceitem entity @e[x=-46,y=10,z=32,r=2,type=wstd:creator] slot.weapon.mainhand 0 diamond_pickaxe
 
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ summon wstd:creator -46 10 22 become_zy_pose
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ tp @e[x=-46,y=10,z=22,r=2,type=wstd:creator] -46 10 22 facing -46 10 32
-execute @e[name=mapCompleted,scores={stats=2}] ~~~ replaceitem entity @e[x=-46,y=10,z=22,r=2,type=wstd:creator] slot.weapon.mainhand 0 minecraft:structure_block
+execute @e[name=mapCompleted,scores={stats=2}] ~~~ replaceitem entity @e[x=-46,y=10,z=22,r=2,type=wstd:creator] slot.weapon.mainhand 0 structure_block
 
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ summon wstd:text_display "§l§b作者 §r§f| §e一只卑微的量筒" -49.9 9.2 27
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ summon wstd:text_display "§l§b联合作者 §r§f| §e狂野巴豆" -46 9.2 31.9

@@ -16,8 +16,8 @@ function levels/all_levels/level_completed
 function system/disable_timeline
 
 # 关闭检测器 | 因为旧版语法限制，必须用命令方块代替
-fill 13 5 7 13 5 12 minecraft:air
+fill 13 5 7 13 5 12 air
 
 # 信标与结束语
-execute @e[name=timeLimitedAdvancement,scores={stats=40}] ~~~ detect -45 9 28 glass -1 setblock -45 9 28 minecraft:beacon
+execute @e[name=timeLimitedAdvancement,scores={stats=40}] ~~~ detect -45 9 28 glass -1 setblock -45 9 28 beacon
 execute @e[name=timeLimitedAdvancement,scores={stats=40}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.time_limited_levels.completed"}]}

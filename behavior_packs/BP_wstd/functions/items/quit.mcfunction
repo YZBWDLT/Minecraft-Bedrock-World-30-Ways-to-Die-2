@@ -62,5 +62,5 @@ execute @e[name=level,scores={backend=49}] ~~~ function levels/easter_egg_9/quit
 execute @e[name=level,scores={backend=50}] ~~~ function levels/easter_egg_10/quit_level
 
 ## 51~60 | 自定义关卡
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -13 minecraft:redstone_block
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -13 redstone_block
 execute @e[name=level,scores={backend=51..60}] ~~~ function levels/all_levels/quit_level

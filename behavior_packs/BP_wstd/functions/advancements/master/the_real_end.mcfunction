@@ -21,7 +21,7 @@ scoreboard players operation @e[name=endTimeTick] stats = @e[name=ticker] time
 function system/record_calculator
 
 ## ===== 替换信标 =====
-setblock -45 9 26 minecraft:beacon
+setblock -45 9 26 beacon
 
 ## ===== 关闭速通模式 =====
 execute @e[name=speedrunMode,scores={settings=1}] ~~~ function settings/speedrun_mode

@@ -1,4 +1,4 @@
-setblock 45 22 -28 minecraft:air
+setblock 45 22 -28 air
 kill @a
 scoreboard players set @e[name=timeline] time 400
 scoreboard players set @e[name=timeline] active 1

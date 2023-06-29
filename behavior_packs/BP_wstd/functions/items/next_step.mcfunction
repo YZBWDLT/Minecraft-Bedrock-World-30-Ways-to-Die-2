@@ -22,7 +22,7 @@ execute @e[name=level,scores={backend=-1}] ~~~ function halls/diy_hall/mode_swit
 execute @e[name=level,scores={backend=36}] ~~~ structure load time_limited_1_1 -54 21 -71
 
 ## 38 | 限时第3关 | 召唤鸡
-execute @e[name=level,scores={backend=38}] ~~~ summon minecraft:chicken 8 21 -85
+execute @e[name=level,scores={backend=38}] ~~~ summon chicken 8 21 -85
 
 ## 39 | 限时第4关 | 下一步以开始游戏，或生成生物
 execute @e[name=level,scores={backend=39}] ~~~ scoreboard players set @e[name=timeline] active 1

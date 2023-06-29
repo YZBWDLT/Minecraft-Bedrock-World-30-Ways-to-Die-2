@@ -5,7 +5,7 @@ execute @e[name=level,scores={backend=!51..60}] ~~~ tellraw @a {"rawtext":[{"tra
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.diy_levels.not_edit_mode"}]}
 
 ## 清空原房间
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ fill -102 15 -11 -131 31 -40 minecraft:air
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ fill -102 15 -11 -131 31 -40 air
 
 ## 满足特定条件时，轮换小中大关卡
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ scoreboard players add @e[name=diyRoomSize] backend 1

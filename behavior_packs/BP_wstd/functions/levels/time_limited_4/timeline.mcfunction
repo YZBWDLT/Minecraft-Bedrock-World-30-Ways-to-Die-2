@@ -9,9 +9,9 @@ scoreboard players remove @e[name=timeline,scores={time=20..}] time 20
 execute @e[name=remainingTime,scores={time=..0}] ~~~ function levels/time_limited_4/quit_level
 
 ## ===== 给玩家弓和钓竿 =====
-execute @e[name=timeline,scores={active=1}] ~~~ give @a[hasitem={item=minecraft:fishing_rod,quantity=0}] fishing_rod 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
-execute @e[name=timeline,scores={active=1}] ~~~ give @a[hasitem={item=minecraft:bow,quantity=0}] bow 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
-execute @e[name=timeline,scores={active=1}] ~~~ give @a[hasitem={item=minecraft:arrow,quantity=0}] arrow 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
+execute @e[name=timeline,scores={active=1}] ~~~ give @a[hasitem={item=fishing_rod,quantity=0}] fishing_rod 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
+execute @e[name=timeline,scores={active=1}] ~~~ give @a[hasitem={item=bow,quantity=0}] bow 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
+execute @e[name=timeline,scores={active=1}] ~~~ give @a[hasitem={item=arrow,quantity=0}] arrow 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
 
 ## ===== 防止玩家掉进坑里 =====
 execute @a[x=-57,y=21,z=-99,dx=8,dy=9,dz=8] ~~~ scoreboard players set @e[name=soundPlayer] active 5
@@ -37,19 +37,19 @@ kill @e[type=zombie_pigman,x=-54,y=21,z=-96,dx=2,dy=0,dz=2]
 ## ===== 红石灯同步 =====
 ### 1分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ setblock -59 27 -93 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=1..5}] ~~~ setblock -59 27 -93 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=1..5}] ~~~ setblock -59 27 -93 redstone_block
 ### 2分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..1}] ~~~ setblock -59 27 -94 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=2..5}] ~~~ setblock -59 27 -94 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=2..5}] ~~~ setblock -59 27 -94 redstone_block
 ### 3分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..2}] ~~~ setblock -59 27 -95 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=3..5}] ~~~ setblock -59 27 -95 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=3..5}] ~~~ setblock -59 27 -95 redstone_block
 ### 4分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..3}] ~~~ setblock -59 27 -96 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=4..5}] ~~~ setblock -59 27 -96 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=4..5}] ~~~ setblock -59 27 -96 redstone_block
 ### 5分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..4}] ~~~ setblock -59 27 -97 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ setblock -59 27 -97 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ setblock -59 27 -97 redstone_block
 
 ## ===== 当玩家达成目标时，给予跳过 =====
 ### active.soundPlayer将播放mob.villager.yes

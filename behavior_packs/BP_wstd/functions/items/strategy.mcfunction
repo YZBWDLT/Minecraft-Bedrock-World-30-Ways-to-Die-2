@@ -50,5 +50,5 @@ execute @e[name=level,scores={backend=49}] ~~~ function levels/easter_egg_9/stra
 execute @e[name=level,scores={backend=50}] ~~~ function levels/easter_egg_10/strategy
 
 # 51~60 | 自定义关卡 - 游戏模式
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -15 minecraft:redstone_block
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -15 redstone_block
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.diy_levels.edit_mode"}]}

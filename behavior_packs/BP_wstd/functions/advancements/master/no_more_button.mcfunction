@@ -15,5 +15,5 @@ scoreboard players set @e[name=advNoMoreButton] stats 1
 execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.rare","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.master.no_more_button"}]}}]}}]}
 
 ## ===== 毁掉按钮 =====
-fill -46 10 36 -46 11 35 minecraft:air[] destroy
+fill -46 10 36 -46 11 35 air[] destroy
 kill @e[type=item]

@@ -1,10 +1,10 @@
 # 教程关卡
 
 ## 第一阶段
-execute @e[name=timeline,scores={time=1}] ~~~ fill 41 21 -21 49 25 -29 minecraft:air
+execute @e[name=timeline,scores={time=1}] ~~~ fill 41 21 -21 49 25 -29 air
 execute @e[name=timeline,scores={time=1}] ~~~ tp @a 45 22 -25
 execute @e[name=timeline,scores={time=1}] ~~~ spawnpoint @a 45 22 -25
-execute @e[name=timeline,scores={time=1}] ~~~ fill 41 21 -25 41 22 -25 minecraft:air
+execute @e[name=timeline,scores={time=1}] ~~~ fill 41 21 -25 41 22 -25 air
 execute @e[name=timeline,scores={time=1}] ~~~ structure load level_0 40 20 -30
 execute @e[name=timeline,scores={time=1}] ~~~ structure load tutorial_cb 44 21 -29
 

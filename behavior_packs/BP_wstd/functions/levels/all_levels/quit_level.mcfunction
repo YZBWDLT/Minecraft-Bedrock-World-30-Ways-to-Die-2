@@ -15,7 +15,7 @@ execute @e[name=level,scores={backend=51..60}] ~~~ function system/music/play_ma
 
 # ===== 停止运行命令系统 =====
 ## 从DIY关卡返回
-execute @e[name=level,scores={backend=51..60}] ~~~ fill -101 1 -10 -111 7 -21 air[] replace minecraft:redstone_block
+execute @e[name=level,scores={backend=51..60}] ~~~ fill -101 1 -10 -111 7 -21 air 0 replace redstone_block
 
 # ===== 运行各大厅主界面场景 =====
 ## 从主线关卡返回

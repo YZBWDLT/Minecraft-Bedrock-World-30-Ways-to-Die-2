@@ -11,7 +11,7 @@ loot give @a loot "items/books/map_rule"
 replaceitem entity @a slot.hotbar 8 wstd:next_step 1 0
 
 ## 清空房间
-fill 41 21 -21 49 25 -29 minecraft:air
+fill 41 21 -21 49 25 -29 air
 
 ## 播放音效
 execute @a ~~~ playsound random.levelup @s ~~~ 1 2

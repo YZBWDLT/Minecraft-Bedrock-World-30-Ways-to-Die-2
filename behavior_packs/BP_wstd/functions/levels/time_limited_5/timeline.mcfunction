@@ -30,16 +30,16 @@ execute @e[name=counter,scores={backend=6}] ~~~ execute @e[name=remainingTime,sc
 ## ===== 红石灯同步 =====
 ### 1分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..1}] ~~~ setblock -21 23 -98 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=2..6}] ~~~ setblock -21 23 -98 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=2..6}] ~~~ setblock -21 23 -98 redstone_block
 ### 2分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..2}] ~~~ setblock -21 23 -99 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=3..6}] ~~~ setblock -21 23 -99 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=3..6}] ~~~ setblock -21 23 -99 redstone_block
 ### 3分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..3}] ~~~ setblock -21 23 -100 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=4..6}] ~~~ setblock -21 23 -100 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=4..6}] ~~~ setblock -21 23 -100 redstone_block
 ### 4分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..4}] ~~~ setblock -21 23 -101 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=5..6}] ~~~ setblock -21 23 -101 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=5..6}] ~~~ setblock -21 23 -101 redstone_block
 ### 5分红石灯
 execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=0..5}] ~~~ setblock -21 23 -102 air
-execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=6}] ~~~ setblock -21 23 -102 minecraft:redstone_block
+execute @e[name=timeline,scores={time=0}] ~~~ execute @e[name=counter,scores={backend=6}] ~~~ setblock -21 23 -102 redstone_block
