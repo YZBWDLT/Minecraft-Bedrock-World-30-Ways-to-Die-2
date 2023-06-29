@@ -28,5 +28,5 @@ execute @a ~~~ detect ~~~ portal -1 fill ~-2~-2~-2~2~2~2 air [] replace portal
 execute @a[hasitem={item=netherite_pickaxe,location=slot.weapon.mainhand}] ~~~ fill ~-2~-1~-2~2~1~2 air [] replace bedrock
 
 ### --- 始终给予玩家状态效果 ---
-execute @e[name=ticker,scores={time=0}] ~~~ effect @a fire_resistance 30 0 true
+effect @a fire_resistance 30 0 true
 execute @e[name=ticker,scores={time=0}] ~~~ effect @a water_breathing 30 0 true
