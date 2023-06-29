@@ -12,5 +12,5 @@ execute @e[name=strategyEnabled,scores={settings=1}] ~~~ particle wstd:green -10
 execute @e[name=skipEnabled,scores={settings=0}] ~~~ particle wstd:red -104 18 43
 execute @e[name=skipEnabled,scores={settings=1}] ~~~ particle wstd:green -104 18 43
 
-particle wstd:grey -108 18 49
-particle wstd:grey -108 18 43
+particle wstd:light_blue -108 18 49
+particle wstd:light_blue -108 18 43

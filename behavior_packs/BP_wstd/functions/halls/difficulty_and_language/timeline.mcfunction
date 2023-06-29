@@ -35,3 +35,13 @@ execute @a[x=-102,y=19,z=43.5,r=1] ~~~ tp @s -102 19 46
 execute @a[x=-104,y=19,z=43.5,r=1] ~~~ function settings/difficulty/custom_skip
 execute @a[x=-104,y=19,z=43.5,r=1] ~~~ function halls/difficulty_and_language/text_display
 execute @a[x=-104,y=19,z=43.5,r=1] ~~~ tp @s -104 19 46
+
+## === 语言：中文 ===
+execute @a[x=-108,y=19,z=49,r=1] ~~~ function settings/language/chinese
+execute @a[x=-108,y=19,z=49,r=1] ~~~ function halls/difficulty_and_language/text_display
+execute @a[x=-108,y=19,z=49,r=1] ~~~ tp @s -108 19 46
+
+## === Language: English ===
+execute @a[x=-108,y=19,z=43.5,r=1] ~~~ function settings/language/english
+execute @a[x=-108,y=19,z=43.5,r=1] ~~~ function halls/difficulty_and_language/text_display
+execute @a[x=-108,y=19,z=43.5,r=1] ~~~ tp @s -108 19 46
