@@ -3,7 +3,7 @@ scoreboard objectives add display dummy "§c§l30种死法 §62"
 scoreboard objectives setdisplay sidebar display ascending
 scoreboard players set "§l作者 §r§e一只卑微的量筒" display 1
 scoreboard players set "§l出品 §r§b极筑工坊" display 2
-scoreboard players set "§l版本 §r§cBeta 2.3_01" display 3
+scoreboard players set "§l版本 §r§cBeta 2.3_02" display 3
 scoreboard players set "§l难度 §r§7还未选择" display 4
 scoreboard players set "=============" display 5
 scoreboard players set "§l     关卡进度" display 6
