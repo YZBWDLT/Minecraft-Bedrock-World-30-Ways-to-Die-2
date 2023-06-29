@@ -22,7 +22,7 @@ tp @a 13 22 -82 facing 6 22 -99
 # 给予辅助功能物品
 execute @e[name=hintEnabled,scores={settings=1}] ~~~ give @a wstd:hint 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a wstd:strategy 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
-give @a wstd:next_step
+give @a wstd:next_step 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 启动时间线
 function system/enable_timeline
