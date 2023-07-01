@@ -743,58 +743,58 @@ feedback.map_rule.line5=§7Please use at least the §fbedrock version 1.18.30 or
 feedback.map_rule.line6=§lGame mode requirement
 feedback.map_rule.line7=§fDefault and lock to adventure mode§7, You can unlock this lock, but just like some Android phones are not guaranteed after ROOT, we will not be responsible for the problems caused by changing the game mode.
 feedback.map_rule.line8=§lCommand requirement
-feedback.map_rule.line9=§fIt is not recommended to use any command, especially the function command that comes with the map. §7If you have related command requirements, you can unlock anti-cheating first in the Advanced Settings in the Settings Center. Commands such as /kill are §cHIGHLY NOT RECOMMENDED§7, because it will seriously damage your game experience, and it is a serious cheating.
+feedback.map_rule.line9=§fIt is not recommended to use any command, especially the function command that comes with the map. §7If you have related command requirements, you can unlock anti-cheating first in the Advanced Settings in the Setting Center. Commands such as /kill are §cHIGHLY NOT RECOMMENDED§7, because it will seriously damage your game experience, and it is a serious cheating.
 feedback.map_rule.line10=§lNumber of players requirement
 feedback.map_rule.line11=§fSingleplayer recommended. §7We can't guarantee the stability of the map and the game experience in the case of multi-players, because after testing, the experience of multi-player play is very bad.
 feedback.map_rule.line12=§lDANGEROUS CONTENT WARNING
 feedback.map_rule.line13=§cThe theme of this map is death map, so please don't imitate the "induced suicide" behavior that may be contained in the map in reality! This is just a game!
 
 feedback.help.line1=§bQ&A
-feedback.help.line2=以下是我能想到的一些你可能遇到的问题, 希望对你能够有所帮助~当然, 如果以下这些问题都不是你想问的, 可以直接在评论区提问哦! 
-feedback.help.line3=Q1: 地图难度不是我想选的怎么办? 
-feedback.help.line4=§7A: 可以前往设置中心 - 更改地图难度调整哦! 还可以自主选择是否开启提示等辅助功能。(～￣▽￣)～
-feedback.help.line5=Q2: 地图怎么这么大? 四五十MB? 
-feedback.help.line6=§7A: 这是因为地图内置了许多的BGM, 音乐占大头QwQ
-feedback.help.line7=Q3: 地图玩起来有点卡...? 
-feedback.help.line8=§7A: 这个没办法...我已经尽力做优化了, 到达这样体量的地图确实是很容易就会卡, 当然也有可能是国际或netease高版本本身就比较卡的关系(尤其是渲染龙), 所以这种问题我给出的解决方案就是: 换个游玩设备QwQ
-feedback.help.line9=Q4: 自定义死亡信息是怎么做到的? 想学...
-feedback.help.line10=§7A: 直接一个tellraw就可以了哦, 感兴趣的话可以拆地图看(建议等玩完之后拆)(～￣▽￣)～
-feedback.help.line11=Q5: 开了困难, 结果不会过关, 怎么办? 
-feedback.help.line12=§7A: 参见Q1哦awa
-feedback.help.line13=Q6: 钓鱼怎么全是河豚呀! 怎么做到的? 
-feedback.help.line14=§7A: 改了战利品表, 不光如此, 猪灵的战利品表也改过了awa 这个版本还加入了更多的战利品表, 感兴趣的话可以自行分析地图的addon看看哦=w=
-feedback.help.line15=Q7: 第30关挖遍地图也不知道怎么过关...
-feedback.help.line16=§7A: 可以在@极筑工坊 的B站账号查看本版本的攻略~ 注意是2.3版本哦! 
-feedback.help.line17=Q8: 玩完所有30关就是通关了吧! 
-feedback.help.line18=§7A: 不是哦~我在这地图里设计了很多东西, 还有彩蛋、限时关卡、以及进度, 只有完成所有30个进度才算通关哦! 
-feedback.help.line19=Q9: 彩蛋在哪儿? 
-feedback.help.line20=§7A: 既然你找到这儿了, 那我就给你个更明显的提示吧...在大厅的起始屋, 地图是有猫腻的! 这再找不到就不能怪我了qwq, 已经很显眼了...
-feedback.help.line21=Q10: 想开坐标...
-feedback.help.line22=§7A: 当然是可以的! 但是有点麻烦, 如你所见这个地图开了强制的gamerule锁定, 所以你需要去设置中心 - gamerule锁定设定, 先把gamerule锁定解除掉再开显示坐标就可以啦! 这个设置房间也有好多东西等你探索哦! 
-feedback.help.line23=Q11: 这地图的防作弊怎么关? 
-feedback.help.line24=§7A: 既然你问起来了, 说明你已经发现了这地图有防作弊了=w=, 但是放心, 我设置了一套很人性化的解除防作弊方案! 在设置中心 - 权限等级设定与高级设置 - 调整权限等级里就可以调整权限等级啦! 
-feedback.help.line25=§7只要1以上的权限等级就可以无视防作弊限制了! 当然, 如果你喜欢分析地图命令之类的我会推荐你调整到2, 你会接触到许多地图底层的东西帮你拆图。
-feedback.help.line26=Q12: 地图能联机吗? 
-feedback.help.line27=§7A: 上个版本是不能的, 这个版本...至少已经进化到能跑但游戏体验很差了(QAQ)
-feedback.help.line28=Q13: 地图很好玩! 我可以推荐给我的好友玩吗? 
-feedback.help.line29=§7A: 当然! 完全可以! §c但是如果你要转载的话, 请务必通知我让我知晓。
-feedback.help.line30=Q14: 作者大大有其他的地图吗? 我可以体验吗? 
-feedback.help.line31=§7A: 当然! 加入QQ群: 673941729就可体验到我最新的地图! 
-feedback.help.line32=Q15: 地图打算发到网易吗? 
-feedback.help.line33=§7A: 当你看到这段的时候, 我已经用特殊手段检测到了你在用国际版awa, 至于网易版嘛, 这个版本我也更新到同步支持啦, 网易版玩家应该会看到不同的内容。确实是挺不容易的, 我把我几乎所有的命令都迁移到了函数包里, 以防止我所有的命令被屏蔽...QAQ
-feedback.help.line33.netease=§7A: 当你看到这段的时候, 我已经用特殊手段检测到了你在用Netease Version awa, 只能说屏蔽词确实是有点...烦人, 花了好大力气才在中国版适配, 很不容易的呢! 
-feedback.help.line34=Q16: 作者大大的联系方式? 
-feedback.help.line35=§7A: [QQ]1543585291 | [QQ测试群]673941729 | [B站]@一只卑微的量筒 | [B站|工作室]@极筑工坊 | [中国版|工作室]@极筑工坊 | [中国版]@YZBWDLT, @我是一只小量筒 | [国际版]@YZBWDLT | 非诚勿扰哦~推荐通过QQ测试群联系。
-feedback.help.line36=Q17: 地图有Bug! 我卡关了QAQ
-feedback.help.line37=§7A: 遇到这种情况请一定要在评论区汇报! 或者加我们的测试群当面和作者说哦~我们会以最快速度修复bug的(可能也许或许大概似乎好像貌似说不定没准maybe可以吧=w=)! 
-feedback.help.line38=Q18: 地图做的不戳! 我想分析地图, 应该从何开始呢? 
-feedback.help.line39=§7A: 首先需要指出, 这个地图有着十分复杂的系统在运作, 全面涉及了execute和scoreboard等高难命令和Add-on, 所以对于新手来说, 拆这张地图属实不是什么简单的事情...而且从这个版本开始, 地图的所有命令系统全部都迁移到了函数包里, 所以拆地图的难度会更大一些。如果你要分析这张地图, 我会给你以下几个步骤:  
-feedback.help.line40=§71. 玩完地图, 然后重新下载 | 2. 在新地图执行2次/function settings/oplevel, 调权限等级为2 | 3. 执行/function developer/developer_mode, 开启开发者模式 | 4. 用文本编辑器(例如VSC)打开地图文件夹(如果是安卓可以用MT文件管理器之类的) | 5.开始分析 :)
-feedback.help.line41=§7加油, 如果你能啃下这块骨头, 我相信你会有很大的收获! 也欢迎来群聊分享技术~! 友善交流, 非诚勿扰! 
-feedback.help.line42=Q19: 我还有其他问题! 
-feedback.help.line43=§7A: 在评论区问吧~作者很希望大家能够在评论区多活跃的哦qwq
-feedback.help.line44=Q20: 考虑用其他网盘之类的提供下载链接吗? 
-feedback.help.line45=§7A: 当然有考虑啦! 但是一直不知道哪家更好用, 如果你有更好用的可以给我推荐一波! 
+feedback.help.line2=Here are some questions I could think of that you might encounter. I hope they can be helpful to you~ Of course, if none of these questions are what you want to ask, feel free to ask in the comment section!
+feedback.help.line3=Q1: What if the map difficulty is not what I want to choose?
+feedback.help.line4=§7A: You can go to the Setting Center - Difficulty and Language Settings to adjust! You can also choose whether to enable hints and other auxiliary functions. (～￣▽￣)～
+feedback.help.line5=Q2: Why is the map so large? 40-50MB?
+feedback.help.line6=§7A: This is because the map has many built-in BGMs, and the music takes up most of the space QwQ
+feedback.help.line7=Q3: The map feels a bit laggy when playing...?
+feedback.help.line8=§7A: There's not much I can do about that... I've tried my best to optimize it, but a map of this size is indeed prone to lagging. It could also be due to the international or Netease high versions being laggy themselves (especially the Render Dragon). So, the solution I offer for this issue is: try playing on a different device QwQ
+feedback.help.line9=Q4: How did you create custom death messages? I want to learn...
+feedback.help.line10=§7A: You can achieve it with a simple tellraw command. If you're interested, you can dissect the map and see (I recommend doing this after you've finished playing) (～￣▽￣)～
+feedback.help.line11=Q5: I chose the Hard mode, but now I can't pass the level. What should I do?
+feedback.help.line12=§7A: Please refer to Q1 awa
+feedback.help.line13=Q6: Why do I only catch pufferfish when fishing? How did you do that?
+feedback.help.line14=§7A: I modified the loot table. Not only that, but the Piglin loot table has also been changed (awa). This version also adds more loot tables. If you're interested, you can analyze the map's addon on your own to see =w=
+feedback.help.line15=Q7: I've dug all over the map in level 30, but I still don't know how to pass the level...
+feedback.help.line16=§7A: You can check the walkthrough for this version on the @AB Workshop's Bilibili account. Make sure it's version 2.3!
+feedback.help.line17=Q8: So, I've completed the game after finishing all 30 levels, right?
+feedback.help.line18=§7A: Not quite~ I designed many things in this map, including Easter eggs, time-limited levels, and advancements. You only truly complete the game once you've finished all 30 advancements!
+feedback.help.line19=Q9: Where are the Easter eggs?
+feedback.help.line20=§7A: Since you found this, I'll give you a more obvious hint... In the starting house of the main hall, there's something fishy about the map! If you can't find it now, it's not my fault qwq, it's already very noticeable...
+feedback.help.line21=Q10: I want to enable coordinates...
+feedback.help.line22=§7A: Of course, you can! But it's a bit complicated. As you can see, this map has a forced gamerule lock. So, you need to go to the Setting Center - Gamerule lock settings, unlock the gamerule lock first, and then enable display coordinates! There's also a lot more to explore in the settings room!
+feedback.help.line23=Q11: How to disable the anti-cheat in this map?
+feedback.help.line24=§7A: Since you asked, it means you've already discovered that this map has anti-cheat =w=. But don't worry, I've set up a very user-friendly anti-cheat removal solution! Go to Setting Center - Permission Level Settings and Advanced Settings - Change Permission Level, and you can change the permission level there!
+feedback.help.line25=§7As long as your permission level is above 1, you can bypass the anti-cheat restrictions! Of course, if you like analyzing map commands, I recommend adjusting the level to 2, which will give you access to many underlying aspects of the map to help you dissect it.
+feedback.help.line26=Q12: Can I play this map in multiplayer?
+feedback.help.line27=§7A: The previous version couldn't, but this version... at least it has evolved to the point where it can run, but the gaming experience might be poor (QAQ)
+feedback.help.line28=Q13: The map is so much fun! Can I recommend it to my friends?
+feedback.help.line29=§7A: Of course! Absolutely! §cBut if you want to repost it, please be sure to inform me so that I am aware.
+feedback.help.line30=Q14: Does the author have any other maps? Can I try them out?
+feedback.help.line31=§7A: Of course! Join the QQ group: 673941729 to experience my latest maps!
+feedback.help.line32=Q15: Are you planning to release the map on NetEase?
+feedback.help.line33=§7A: By the time you see this, I've already detected through special means that you're using the international version awa. As for the NetEase version, I've updated this version to support it as well. NetEase players should see different content. Indeed, it wasn't easy. I moved almost all of my commands to function packs to prevent them from being blocked... QAQ
+feedback.help.line33.netease=§7A: By the time you see this, I've already detected through special means that you're using the NetEase version awa. I can only say that the blocked words are indeed a bit... annoying. It took a lot of effort to adapt to the Chinese version, and it wasn't easy!
+feedback.help.line34=Q16: How can I contact the author?
+feedback.help.line35=§7A: [QQ]1543585291 | [QQ Test Group]673941729 | [Bilibili]@一只卑微的量筒 | [Bilibili | Workshop]@极筑工坊 | [Netease Version | Workshop]@极筑工坊 | [Netease Version]@YZBWDLT, @我是一只小量筒 | [International Version]@YZBWDLT | Serious inquiries only, please~ It's recommended to contact through the QQ test group.
+feedback.help.line36=Q17: There's a bug in the map! I'm stuck QAQ
+feedback.help.line37=§7A: In such situations, be sure to report it in the comments section! Or join our test group and talk to the author directly~ We'll fix the bug as quickly as possible (maybe, perhaps, possibly, seemingly, seemingly, perhaps, probably, maybe, we will, =w=)!
+feedback.help.line38=Q18: The map is well-done! I want to analyze the map, where should I start?
+feedback.help.line39=§7A: First, it should be pointed out that this map has a very complex system in operation, involving advanced commands such as execute and scoreboard, as well as Add-ons. So for beginners, dismantling this map is not an easy task... Moreover, starting from this version, all command systems in the map have been migrated to function packs, making it even more difficult to dismantle the map. If you want to analyze this map, I would give you the following steps:
+feedback.help.line40=§71. Finish playing the map, then redownload | 2. Execute /function settings/oplevel twice in the new map to set the permission level to 2 | 3. Execute /function developer/developer_mode to enable developer mode | 4. Use a text editor (such as VSC) to open the map folder (if on Android, you can use MT file manager or similar) | 5. Start analyzing :)
+feedback.help.line41=§7Good luck! If you can tackle this challenge, I believe you'll gain a lot! You're also welcome to join the test group to share your techniques~! Friendly communication, serious inquiries only!
+feedback.help.line42=Q19: I have other questions!
+feedback.help.line43=§7A: Ask in the comments section~ The author hopes everyone can be more active in the comments section qwq
+feedback.help.line44=Q20: Have you considered providing download links through other cloud storage services?
+feedback.help.line45=§7A: Of course, I have considered it! But I've always been unsure which ones are better to use. If you know a better one, feel free to recommend it to me!
 
 feedback.developer.scoreboard_query.line1=§bScoreboard and Variable Table | Below feedback format: (object).(name of marker) = (value), And feedback comments
 
@@ -901,5 +901,5 @@ feedback.error.level_unlocked=§cFailed to unlock levels while all levels are un
 feedback.error.request_out_of_time=§cThe request has timed out
 feedback.error.change_difficulty.in_speedrun_mode=§cChanging difficulty in speedrun mode isn't allowed
 
-## 原版未翻译文本
+## Vanilla Non-translated Texts
 tile.lit_redstone_ore.name=Lit Redstone Ore
