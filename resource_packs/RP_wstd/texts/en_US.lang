@@ -33,14 +33,14 @@ tile.wstd:fake_quartz_pillar.name=Fake Quartz Pillar
 
 ## ===== Rawtext JSON Translation =====
 
-### Advancements（advancement.xxx）
+### Advancements(advancement.xxx)
 advancement.mainline.get_started=Newcomer
 advancement.mainline.more_skilled=More Skilled
 advancement.mainline.half_way=Halfway Journey
 advancement.mainline.the_end=The real end! ... yet?
 advancement.mainline.another_way=Explore alternative paths
 advancement.mainline.why_place_iron_like_this=Why do we place iron in this way?
-advancement.mainline.white_mobs_anywhere=White organisms covering the ground
+advancement.mainline.white_mobs_anywhere=White creatures covering the ground
 advancement.mainline.bug=BUG!
 advancement.mainline.lucky_dog=Lucky person
 advancement.mainline.no_dolls=No nesting dolls allowed
@@ -62,10 +62,10 @@ advancement.master.the_real_end=The real end!
 advancement.miscellaneous.let_me_see=Let me see
 advancement.miscellaneous.celebration=Celebration
 advancement.miscellaneous.who=Who? 
-advancement.miscellaneous.appreciate_and_watch=Appreciation, observation.
+advancement.miscellaneous.appreciate_and_watch=Appreciation, observation
 advancement.miscellaneous.diy=DIY! 
 
-### Authors（author.xxx）
+### Authors(author.xxx)
 author.yzbwdlt=YZBWDLT
 author.pigeonki=PigeonKI
 author.pumpkinjui=PumpkinJui
@@ -73,7 +73,7 @@ author.andy7343=Andy7343
 author.greeleaf=GreeLeaf
 author.xiaoshu512=xiaoshu512
 
-### Chats（chat.xxx）
+### Chats(chat.xxx)
 chat.level_tutorial.line1=§bHello there, %s! ヾ(✿ﾟ▽ﾟ)ノ§r
 chat.level_tutorial.line2=§bThis is a tutorial level - guiding you on how to play this map! (=^▽^=)§r
 chat.level_tutorial.line3=§bFirst, you see, many levels will have a chest like this.ヾ(^▽^*)))§r
@@ -82,7 +82,7 @@ chat.level_tutorial.line5=§bGreat! Then place the button on the red block and p
 chat.level_tutorial.line6=§bWell done! That's right, in each level, your goal is §eto use the given items to kill yourself§b. ヾ(✿ﾟ▽ﾟ)ノ§r
 chat.level_tutorial.line7=§bAdditionally, you can use some small tools, I call them §eAuxiliary Functions§b. ヾ(´∀｀。ヾ)§r
 chat.level_tutorial.line8=§bThis is a Hint! Right-click to use it and give it a try!§7(For mobile players, please long-press the screen to use the hint. )§b(*^ω^*)§r
-chat.level_tutorial.line9=§bGreat! The hint will provide you §ewith some key information to help you pass the level§b! （￣▽￣）§r
+chat.level_tutorial.line9=§bGreat! The hint will provide you §ewith some key information to help you pass the level§b! (￣▽￣)§r
 chat.level_tutorial.line10=§bSure! I'll give you another Strategy! Again, right-click (or long-press for mobile) to use it!(*^ω^*)§r
 chat.level_tutorial.line11=§bThe strategy will §ereveal all the secrets§b of this level to you! (◦˙▽˙◦)§r
 chat.level_tutorial.line12=§bThese two things only appear in the less challenging levels! §r
@@ -96,7 +96,7 @@ chat.level_tutorial.line19=§cFurthermore, it is important to pay attention that
 chat.level_tutorial.line20=§bThat's it! Now all you need to do is make a few simple configurations, and you'll be ready to start the game! Have fun and enjoy your gaming experience! ٩(๑•̀ω•́๑)۶§r
 chat.level_13.ender_pearl_used=§bEnder Pearls cannot be used in this level.(@_@;) Just returning the Ender Pearl you threw away! §r
 chat.level_13.void=§cΣ(っ °Д °;)っ Stop getting stuck with bugs! §r
-chat.level_21.skip_used=§bDid you end up skipping this level in the end? （￣▽￣）§r
+chat.level_21.skip_used=§bDid you end up skipping this level in the end? (￣▽￣)§r
 chat.level_30.portal=§cYou built a portal really well, so next time don’t bother building a new one.(＃°Д°)§r
 chat.level_30.dialogue.line1=§eYZBWDLT joined the game
 chat.level_30.dialogue.line2=<%s> (＃°Д°)? Wait, what's going on? Isn't this a single-player map?
@@ -111,7 +111,7 @@ chat.easter_egg_1.dialogue.line1=§cPlease lower the volume ahead, beware of bec
 chat.easter_egg_1.dialogue.line2=<Oak Tree> Ouch, it hurts! I've been chopped in the waist!!!
 chat.easter_egg_1.dialogue.line3=<Oak Tree> Hmm~ Hm hm~ Ahhhhahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahah!
 chat.easter_egg_2.question_0.right=§aAlright! Please go ahead and ask your question!
-chat.easter_egg_2.question_0.wrong=§cI've let you back in! But don’t expect you to pass the challenge! （〃｀ 3′〃）
+chat.easter_egg_2.question_0.wrong=§cI've let you back in! But don’t expect you to pass the challenge! (〃｀ 3′〃)
 chat.easter_egg_2.question_1.right=§cYou are wrong... But it’s not your fault either.
 chat.easter_egg_2.question_1.wrong=§aYou’re definitely guessing!!! Unless you are a Chinese...
 chat.easter_egg_2.question_2.right=§aCorrect! Using a Stonecutter, indeed, you can cut 7 Blocks of Copper into 28 Cut Coppers!
@@ -130,7 +130,7 @@ chat.easter_egg_4.dislike.line3=§caughhhhhhhh die!!! (╬▔皿▔)╯
 chat.easter_egg_10.failed=§cUh-oh... bad luck, let's do it again!
 chat.time_limited_1.succeed=§bYEAHHHHヽ(✿ﾟ▽ﾟ)ノ! You made it!! §r
 chat.time_limited_4.too_many_entities=§bThere are too many creatures on the battlefield! Please clean up some of them before reloading! §r
-chat.time_limited_4.fell_into_hole=§cOops... Be more careful next time! I'm sending you back now!（￣▽￣）§r
+chat.time_limited_4.fell_into_hole=§cOops... Be more careful next time! I'm sending you back now!(￣▽￣)§r
 chat.time_limited_4.succeed=§bYeah! ヽ(✿ﾟ▽ﾟ)ノ Use the skip and end it! §r
 chat.hided_1=§bThis level is a hidden stage, and there is no predetermined way to die. (～￣▽￣)～ Stand on the Quartz Brick, and take a photo together with the authors. awa
 chat.hided_2=§bIt seems like you've been stuck in this place for a long time, right? Don't worry, I'm not here to help. I'm here to give you an extra boost! Are you happy now? ψ(｀∇´)ψ
@@ -200,7 +200,7 @@ chat.played_time.evaluate8=§5Uh ... How's your liver? QAQ, I'm sorry, I didn't 
 
 chat.play_end_music=§bNow play: the end room music
 chat.replay_end_effects=§bThe replay end effect is ready.
-chat.reset_map.warning=§cAre you sure you want to reset the map? This will clear all your current checkpoint records, but your best records will be kept. Confirm Reset Please try to reset again within 10 seconds, otherwise the request will be cancelled.
+chat.reset_map.warning=§cAre you sure you want to reset the map? This will clear all your current checkpoint records, but your best records will be kept. If you confirm reset, please try to reset again within 10 seconds, otherwise the request will be cancelled.
 
 chat.placeable_block=§bYou can place %s now! §7Please check the specific places where items can be placed in the inventory~
 chat.destroyable_tool=§bYou can use %s now! §7Please check the specific places what blocks items can destory in the inventory~
@@ -218,7 +218,7 @@ chat.advancement.get.rare=%s has made the rare advancement §d[%s]§r
 chat.advancement.get.legend=%s has made the legend advancement §e[%s] §r!
 chat.advancement.new_advancement_unlocked=§7New advancement has been opened.§r
 
-### Death Messages（deathmessage.xxx）
+### Death Messages(deathmessage.xxx)
 deathmessage.tutorial_level=%s died because he was too curious about a button
 deathmessage.level_1=%s walked into the void
 deathmessage.level_2=%s found this hot water as hot as lava.
@@ -275,7 +275,7 @@ deathmessage.hided_1=%s cheated himself, but it has nothing to do with the autho
 deathmessage.hided_2=%s finally experienced @ZiMin's pain
 deathmessage.hided_3=%s had a dream of going back in time
 
-### Hints（hint.xxx）
+### Hints(hint.xxx)
 hint.tutorial_level=§lHint for Tutorial Level>>§r§6Aren't you interested in that KILLER command block?(～￣▽￣)～
 hint.level_1=§lHint for Level 1>>§r§6See what your shovel can destroy!
 hint.level_2=§lHint for Level 2>>§r§6This is no ordinary hot water. Why don't you try it inside?
@@ -323,7 +323,7 @@ hint.time_limited_3=§lHint for Time Limited Level 3>>§r§6If the C H I C K E N
 hint.time_limited_4=§lHint for Time Limited Level 4>>§r§6Just follow the rules!
 hint.time_limited_5=§lHint for Time Limited Level 5>>§r§6Come on! ヾ(•ω•`)o
 
-### 攻略（strategy.xxx）
+### 攻略(strategy.xxx)
 strategy.tutorial_level=§lStrategy for Tutorial Level>>§r§6Take out the button in the chest, then put it on the red concrete block and press it.
 strategy.level_1=§lStrategy for Level 1>>§r§6Open the chest and get a diamond shovel; Dig up the grass block and dirt in the corner of the room with the diamond shovel you get and jump into the void.
 strategy.level_2=§lStrategy for Level 2>>§r§6Into the lava. Yes, it's that simple. (However, you used the strategy...)
@@ -529,33 +529,33 @@ actionbar.set_difficulty_line1=§lPlease choose the difficulty that suits you, a
 actionbar.set_difficulty_line2=§bVery East§7 - Enable all auxiliary functions §r| §aEasy§7 - Disable Strategy
 actionbar.set_difficulty_line3=§eNormal§7 - Disable Hint and Strategy §r| §cHard§7 - Disable all auxiliary functions
 actionbar.set_difficulty_line4=§cSpeedrun§7 - Hard locked, time display is more accurate, play time limit music, just for speedrunning the game!
-actionbar.random_hint1=§l§a== 如果您获得了一些药效比如"防火"，通常你需要牛奶！ ==§r
-actionbar.random_hint2=§l§a== 不是说某些方块可以放在xxx方块上就一定是有用的！ ==§r
-actionbar.random_hint3=§l§a== 也不是说所有物品都一定都是有用的... ==§r
-actionbar.random_hint4=§l§a== 卡关了就大胆使用重置吧！反正也不会被记录~ ==§r
-actionbar.random_hint5=§l§a== 发现这关没有工作台？相信我，你大多数时候需要它！ ==§r
-actionbar.random_hint6=§l§a== 能不用提示就别用啦！ ==§r
-actionbar.random_hint7=§l§a== 难度选的不合适？前往设置中心调整！ ==§r
-actionbar.random_hint8=§l§a== 对于一些能使用物品，电脑版右键，手机版长按即可使用！ ==§r
-actionbar.random_hint9=§l§a== 想成为钢铁侠的话，不亲自穿上衣服试试怎么行？ ==§r
-actionbar.random_hint10=§l§a== 实在不知道怎么过关，不要强迫自己了！用提示吧~ ==§r
-actionbar.random_hint11=§l§a== 时刻默念着作者最帅有利于你过关5毛一条，别忘删括号 ==§r
-actionbar.random_hint12=§l§a== 在这张地图，运气相当重要！ ==§r
-actionbar.random_hint13=§l§a== V2.3！函数化！好耶！ ==§r
-actionbar.random_hint14=§l§a== 咕咕咕 ==§r
-actionbar.random_hint15=§l§a== 如果你不知道彩蛋在哪儿，可以试试把大厅的地图当成画蹭一蹭！ ==§r
-actionbar.random_hint16.easter_egg_not_found=§l§a== 你还没找到彩蛋吗？就在这个大厅里，仔细找找吧！ ==§r
-actionbar.random_hint16.easter_egg_found=§l§a== 看来你找到彩蛋关卡了！好玩吗？OwO ==§r
-actionbar.random_hint17=§l§a== 再也没有过于严格的防作弊了！ ==§r
-actionbar.random_hint18=§l§a== 箱下箱？不妨看看这个进度是从什么时候出现的~ ==§r
-actionbar.random_hint19=§l§a== 你敢相信！岷叔录过这张地图！万岁！！！ ==§r
-actionbar.random_hint20=§l§a== 如果你通过了一次关卡，那么以后这关的提示攻略跳过就随便用吧！ ==§r
-actionbar.random_hint21=§l§a== 限时关卡和彩蛋关卡的提示攻略跳过都不会被记录。 ==§r
-actionbar.level_30.wait=§b关卡正在加载，稍稍等一小会儿吧~
+actionbar.random_hint1=§l§a== If you get some effect like "Fire Resistance", usually you'll need milk! ==§r
+actionbar.random_hint2=§l§a== It doesn't mean that some blocks can be put on xxx blocks, so it must be useful! ==§r
+actionbar.random_hint3=§l§a== It doesn't mean that all items will be useful either... ==§r
+actionbar.random_hint4=§l§a== Use Reset boldly if you get stucked! It will not be recorded anyway~ ==§r
+actionbar.random_hint5=§l§a== Found that no crafting table for this level? Believe me, you'll need it for most time! ==§r
+actionbar.random_hint6=§l§a== Don't use hint if you don't need it! ==§r
+actionbar.random_hint7=§l§a== The difficulty isn't suit for you? Go to Setting Center to reset it! ==§r
+actionbar.random_hint8=§l§a== For some usable items, you can use it by right-click for PC, or long-press your screen for phones! ==§r
+actionbar.random_hint9=§l§a== If you want to be an Ironman, wear them instead of watching them! ==§r
+actionbar.random_hint10=§l§a== If you have no idea how to pass the level, just don't force yourself and use hints~ ==§r
+actionbar.random_hint11=§l§a== It is good for you to pass level that say the author is the most handsome at all times 50 cents, don't forget to delete the brackets. ==§r
+actionbar.random_hint12=§l§a== In this map, luck is very important! ==§r
+actionbar.random_hint13=§l§a== V2.3! Functionalization! YEAH!!! ==§r
+actionbar.random_hint14=§l§a== goo goo goo ==§r
+actionbar.random_hint15=§l§a== If you don't know where's the easter egg, just try to rub the map in the start room like paintings! ==§r
+actionbar.random_hint16.easter_egg_not_found=§l§a== Haven't you found the easter eggs yet? It's in this hall. Look for it carefully! ==§r
+actionbar.random_hint16.easter_egg_found=§l§a== Looks like you found the easter egg level! Is it fun? OwO ==§r
+actionbar.random_hint17=§l§a== No more strict anti-cheating anymore!! ==§r
+actionbar.random_hint18=§l§a== Chest under chest? Just notice when this advancement appears~ ==§r
+actionbar.random_hint19=§l§a== Don't you dare believe it! ZiMin recorded this map! Hooray!!! ==§r
+actionbar.random_hint20=§l§a== If you pass the level once, then you can use Skip Strategy & Hint casually because they won't be recorded anymore! ==§r
+actionbar.random_hint21=§l§a== Auxiliary Functions for time limited level and easter egg level will not be recorded ==§r
+actionbar.level_30.wait=§bThe level is loading, just wait a second~
 ## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}}]}}
-actionbar.time_played=Your play time:§6 %s §fminutes§r
+actionbar.time_played=Played:§6 %s §fminutes§r
 ## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
-actionbar.time_played.speedrun_mode=Your play time:§6 %s:%s.%s §r
+actionbar.time_played.speedrun_mode=Played:§6 %s:%s.%s §r
 
 actionbar.nether_error=§cOops... There seems to be an error. Please use Next to continue!
 ## {"translate":"actionbar.firework_tutorial.step","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=counter]"}}]}}
@@ -563,72 +563,72 @@ actionbar.firework_tutorial.step=§7Step §a%s §7/ 8
 ## {"translate":"actionbar.time_limited_levels.remaining_time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=remainingTime]"}}]}}
 actionbar.time_limited_levels.remaining_time=§bTime remaining: §6 %s §bseconds§r
 actionbar.time_limited_levels.game_not_start=§cUse Next to start the game!
-actionbar.explore_map=§l§b预览全地图§r | 使用返回回到设置中心 | 不用怕掉下去，有屏障和保护机制~
+actionbar.explore_map=§l§bPreview full map§r | Use Back to back to setting center | There's barrier so don't afraid of falling down
 actionbar.about=§l§bAbout§r
-actionbar.questions_and_answers=§l§b地图规则与玩法，常见问题§r
-actionbar.difficulty_and_language=§l§b地图难度与语言设定§r
-actionbar.firework_settings=§l§b结束特效的烟花设定§r
-actionbar.advanced_settings=§l§b权限等级设定与高级功能§r
-actionbar.end_1=§b结束特效加载中...请不要退出游戏哦~
-actionbar.end_2=§b使用返回以结束烟花秀~
+actionbar.questions_and_answers=§l§bRule, play and Q&A of the map§r
+actionbar.difficulty_and_language=§l§bDifficulty and Language Settings§r
+actionbar.firework_settings=§l§bFirework settings for end effect§r
+actionbar.advanced_settings=§l§bPermission Level Setting and Advanced Setting§r
+actionbar.end_1=§bEnd effect is loading ... please don't quit the game~
+actionbar.end_2=§bUse Back to end the firework show~
 
 ## {"translate":"developer_mode.actionbar.oplevel","with":{"rawtext":[{"score":{"objective":"oplevel","name":"@s"}}]}}
-developer_mode.actionbar.oplevel=§b权限等级 §6%s§r
+developer_mode.actionbar.oplevel=§bPermission Level §6%s§r
 ## {"translate":"developer_mode.actionbar.level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
-developer_mode.actionbar.level_id=§b关卡ID §6%s§r
+developer_mode.actionbar.level_id=§bLevel ID §6%s§r
 ## {"translate":"developer_mode.actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"name":"@e[name=playedSecond]","objective":"time"}}]}}
-developer_mode.actionbar.time_played=§b游玩时间 §6%s：%s§r
+developer_mode.actionbar.time_played=§bPlayed §6%s: %s§r
 ## {"translate":"developer_mode.actionbar.timeline","with":{"rawtext":[{"score":{"objective":"active","name":"@e[name=timeline]"}},{"score":{"name":"@e[name=timeline]","objective":"time"}}]}}
-developer_mode.actionbar.timeline=§b时间线状态与值 §6%s/%s§r
+developer_mode.actionbar.timeline=§bTimeline status & value §6%s/%s§r
 
-description.level_1=太简单啦！
-description.level_2=妇孺皆知的死法之一~
-description.level_3=这个使者能做什么让你达成目标呢？
-description.level_4=窒息了！快打120！（bushi
-description.level_5=至少比你重得多
-description.level_6=温馨提示：现实生活中不要去河边游泳哦！
-description.level_7=一猜便知
-description.level_8=So EASY~
-description.level_9=岷叔：这关还是要稍微动点脑子的
-description.level_10=提示：下界一关游
-description.level_11=谁都知道这意味着什么
+description.level_1=SO EASY!
+description.level_2=Everyone knows it~
+description.level_3=What can this messenger do to let you achieve your goal? 
+description.level_4=Choking! Call 911!!! (bushi
+description.level_5=At least much more heavier than you
+description.level_6=Tips: Don't go swimming by the river in real life!
+description.level_7=Just guess
+description.level_8=So EASY *2~
+description.level_9=ZiMin: This level still needs a little brains
+description.level_10=Hint: Nether travel for one day
+description.level_11=Everyone knows what does it mean
 description.level_12=y²=2px
-description.level_13=玩过的人无一不说恶心
-description.level_14=希望你遇到的不是真正意义上的“小”猪
-description.level_15=问题来了，去哪儿旅行呢？
-description.level_16=某种意义上，可乐喝多了也是毒药（确信
-description.level_17=开箱前不妨猜猜是什么东西
-description.level_18=派大星直呼内行
-description.level_19=甭管来哪个，一口干了！
-description.level_20=可乐的教训
-description.level_21=《 简 单 》，很好，我又出了本书
+description.level_13=Everyone who has played is disgusting
+description.level_14=I hope you didn't meet a real "piggy".
+description.level_15=So where do we go?
+description.level_16=In a sense, drinking too much coke is also poison (sure
+description.level_17=Guess what it is before checking the chest
+description.level_18=Patrick thinks it's AWESOME!
+description.level_19=Never mind which one comes, let's do it!
+description.level_20=The lesson of coke
+description.level_21=" E A S Y ",remember this word
 description.level_22=Cold knowledge: this is the title of the original Chinese version.
-description.level_23=放个烟花庆祝一下
-description.level_24=河豚：昨天你对我爱答不理，今天我让你高攀不起（）
-description.level_25=懂的都懂
-description.level_26=一定是合成弩吧！（确信）
-description.level_27=至少他们比某些村民良心
-description.level_28=Deja Vu！！！
+description.level_23=Let off a fireworks to celebrate
+description.level_24=Puffer: Yesterday, you ignored my love, but today I let you down()
+description.level_25=Well... that's it.
+description.level_26=Must be craft a crossbow!(Sure)
+description.level_27=At least they are more conscientious than some villagers
+description.level_28=Deja Vu! ! ! 
 description.level_29=E=mv²/2
-description.level_30=最终关卡！...吗？
-description.easter_egg_1=也就一棵树，你能搞出什么名堂？
-description.easter_egg_2=你都会多少呢？
-description.easter_egg_3=前面"简单"，这个"普通"，没一个准的
-description.easter_egg_4=请填写好评，谢谢合作
-description.easter_egg_5=开玩笑的，其实没有山崖
+description.level_30=The final level!... is it?
+description.easter_egg_1=It's just a tree. What can you do?
+description.easter_egg_2=How many do you know?
+description.easter_egg_3="Easy" for level 21, and "Ordinary" for this one...
+description.easter_egg_4=Please choose "great", thank you for your cooperation.
+description.easter_egg_5=It's just a joke, no cliff here :)
 description.easter_egg_6=You can stand under my unbrella~~ella~ella~
-description.easter_egg_7=抟扶摇而上者九万里，去以六月息者也...
-description.easter_egg_8=Dream速通の小曲，开始！
-description.easter_egg_9=拼人品的时候到了！！！
-description.easter_egg_10=芜~~~~~湖~~~~~~~！！（回音）
-description.time_limited_1=我可没说合成多少东西
-description.time_limited_2=得，这b作者愿意说啥是啥吧
-description.time_limited_3=小黑子！你让我怎么荔枝？
-description.time_limited_4=你们永远不知道钓鱼佬有多快乐...啊，不是钓鱼啊？
-description.time_limited_5=我有种不好的预感...
-description.hided_1=合影啦！1..2..3..咕咕~！
-description.hided_2=说到远古版本，不能不说这个把岷叔搞得心态爆炸的关卡了！
-description.hided_3=怀念.jpg
+description.easter_egg_7=抟扶摇而上者九万里, 去以六月息者也...(From Xiaoyaoyou)
+description.easter_egg_8=Dream's speedrun ditty, start playing!
+description.easter_egg_9=It's time to spell character!!!
+description.easter_egg_10=WOO~~~~HOOOOOOO~~~~!!(echo)
+description.time_limited_1=I didn't say how many items will be crafted
+description.time_limited_2=Well... just let the stupid author say what he want
+description.time_limited_3=鸡你太美~(A meme from China)
+description.time_limited_4=You never know how happy fishermen are ... ah, not fishing fishes?
+description.time_limited_5=I have a bad feeling...
+description.hided_1=Take a group photo! 1... 2... 3... Goo goo~!
+description.hided_2=Speaking of the old version, this level makes ZiMin's mentality explode!
+description.hided_3=reminiscence.jpg
 
 settings.difficulty.hint.enabled=§aHint is enabled
 settings.difficulty.hint.disabled=§cHint is disabled
@@ -669,8 +669,8 @@ settings.oplevel=Setting your permission level to %s
 settings.speedrun_mode.enabled=§aSpeedrun Mode has been enabled. Time limit music will play, time display will show game tick, difficulty has been locked to Hard, and the dialogue of Level 30 has been disabled.
 settings.speedrun_mode.disabled=§cSpeedrun Mode has been disabled
 
-op.end.line1=§b设置完成！祝游戏愉快~ ヾ(•ω•`)o
-op.end.line2=§7若想重新设置难度，可以前往设置中心 - 地图难度与语言设定重新设置哦！
+op.end.line1=§bSetup is complete! Have a good game ~ ヾ(•ω•`)o
+op.end.line2=§7If you want to reset the difficulty, you can go to the Setting Center - Difficulty and Language Settings to reset!
 
 feedback.developer_mode.on.line1=Developer Mode has been started
 feedback.developer_mode.on.line2=§cDeveloper mode will cause the map to fail to work properly, because it is exclusively used by developers, and some commands are blocked to ensure the development experience. If you are still in the game, please turn off this switch immediately. We are not responsible for the problems caused by the developer mode.
@@ -679,213 +679,213 @@ feedback.developer.get_items=Items have been given successfully
 feedback.developer.gamemode_switcher=Looking up in spectator mode turns into creative mode.
 feedback.developer.start_test=Please manually execute /function init/data_init once to reset the data
 
-feedback.credits.line1=§b制作人表
-feedback.credits.line2=§l作者 §r| §7YZBWDLT
-feedback.credits.line3=§l联合作者 §r| §7Andy7343
-feedback.credits.line4=§l出品 §r| §7AB Workshop
-feedback.credits.line5=§l发布 §r| §7YZBWDLT
-feedback.credits.line6=§l建筑建造 §r| §7YZBWDLT，冰封君（原支线第4关），Matthew887（原支线第3关）
-feedback.credits.line7=§l初版测试 §r| §7YZBWDLT，浮世流光floria（现昵称 PigeonKI），地雷，张霄楠ZXN（现昵称 PumpkinJui），梦影，tianqi，小启OwO，小嗨黑，可爱的犀犀利，樱花可可，MCPE星际
-feedback.credits.line8=§l2.2版本测试 §r| §7YZBWDLT，PumpkinJui，Andy7343，残梦，一只辉金吖~
-feedback.credits.line9=§l本版本测试 §r| §7YZBWDLT，PigeonKI，PumpkinJui，Andy7343，GreeLeaf，xiaoshu512
-feedback.credits.line10=§l特别鸣谢 §r| §7xhduoduobaby（感谢提供服务器！），ZiMin（感谢岷叔给我的地图录视频！！），PumpkinJui（超级认真的测试员），晨风（感谢室长的努力才能让我地图被更多人知道~）
-feedback.credits.line11=§l感谢全体测试群成员和你的支持，同时感谢你的游玩！
+feedback.credits.line1=§bCredits
+feedback.credits.line2=§lAuthor §r| §7YZBWDLT
+feedback.credits.line3=§lAssociate Author §r| §7Andy7343
+feedback.credits.line4=§lPresent §r| §7AB Workshop
+feedback.credits.line5=§lRelease §r| §7YZBWDLT
+feedback.credits.line6=§lBuildings §r| §7YZBWDLT, 冰封君(Branch Line Level 4), Matthew887(Branch Line Level 3)
+feedback.credits.line7=§lFirst Edition Test §r| §7YZBWDLT, PigeonKI, 地雷, PumpkinJui, 梦影, tianqi, 小启OwO, 小嗨黑, 可爱的犀犀利, 樱花可可, MCPE星际
+feedback.credits.line8=§lVersion 2.2 Test §r| §7YZBWDLT, PumpkinJui, Andy7343, 残梦, 一只辉金吖~
+feedback.credits.line9=§lVersion 2.3 Test §r| §7YZBWDLT, PigeonKI, PumpkinJui, Andy7343, GreeLeaf, xiaoshu512
+feedback.credits.line10=§lSpecial Thanks §r| §7xhduoduobaby(Thanks for providing server! ), ZiMin(Really really really thank you for recording my map! ), PumpkinJui(Super serious tester), 晨风(感谢室长的努力才能让我地图被更多人知道~)
+feedback.credits.line11=§lThanks to all the members of the test group and your support, and thanks for your playing!
 
-feedback.map_information.line1=§b地图信息
-feedback.map_information.line2=§l地图版本 §r| §72.3 - 国际版平台
-feedback.map_information.line3=§l发布平台 §r| §7MCBBS（我的世界中文论坛），KLPBBS（苦力怕论坛），MineBBS，MCBEBBS，MCPEDL，TITAIKE
-feedback.map_information.line4=§lMC需求版本 §r| §7基岩版 1.18.30
-feedback.map_information.line5=§l售价 §r| §7免费
+feedback.map_information.line1=§bMap Information
+feedback.map_information.line2=§lMap Version §r| §72.3 - International Version Platform
+feedback.map_information.line3=§lReleased Platforms §r| §7MCBBS, KLPBBS, MineBBS, MCBEBBS, MCPEDL, TITAIKE
+feedback.map_information.line4=§lMC Requirement Version §r| §7Minecraft Bedrock Edition 1.18.30
+feedback.map_information.line5=§lPrice §r| §7FREE
 
-feedback.update_log.line1=§b更新日志
-feedback.update_log.line2=§l2.0 §r| §7加入了主线关卡、支线关卡和彩蛋关卡，统计和成就，DIY关卡，以及设置中心
-feedback.update_log.line3=§l2.1 §r| §7加入了奖杯，并修复了一些bug
-feedback.update_log.line4=§l2.2 §r| §7从命令底层重制地图，拥有新的关卡布局；将成就改为进度系统，将支线改为限时关卡；并为DIY关卡添加了新的9个槽位，将原来的支线移动到DIY关卡的预设关卡中；加入了BGM；以及其他关卡底层的更改等
-feedback.update_log.line5=§l2.3 §r| §7将地图函数化，加入展示文本、粒子等addon层面的新内容，并修改了大厅的设计语言，同时修复2.2中存在的一些漏洞，并对Netease Version提供支持
+feedback.update_log.line1=§bUpdate Log
+feedback.update_log.line2=§l2.0 §r| §7Joined the mainline levels, branch line levels and easter egg levels, statistic center and achievement center, DIY levels, and setting center.
+feedback.update_log.line3=§l2.1 §r| §7Added trophies and fixed some bugs.
+feedback.update_log.line4=§l2.2 §r| §7Reproduce the map from the bottom of the command and have a new level layout; Replace achievements with advancements and branch line levels with time limited levels; And 9 new level slots are added for DIY level, and the original branch line is moved to the preset level of DIY level; Joined BGM; As well as the changes at the bottom of other levels.
+feedback.update_log.line5=§l2.3 §r| §7Functionalize the map, add new contents such as display text and particles at addon level, modify the design language of the hall, fix some bugs in 2.2, and provide support for Netease Version.
 
-feedback.how_to_play.line1=§b地图玩法
-feedback.how_to_play.line2=§l怎么玩？
-feedback.how_to_play.line3=§7游戏规则非常简单，§f在每个房间里利用所给道具死掉就赢啦§7！尽力完成30个主线关卡，§f甚至30个进度§7！(☆▽☆)
-feedback.how_to_play.line4=§l关卡
-feedback.how_to_play.line5=§7地图有主线、彩蛋和限时关卡的区分！
-feedback.how_to_play.line6=§7在大厅的这30个关卡就是§f主线关卡§7啦，平平无奇(ﾉ*･ω･)ﾉ
-feedback.how_to_play.line7=§7此外地图还有§f彩蛋§7！一共10关，奇奇怪怪，就藏在大厅的某一处，慢慢找吧(￣y▽,￣)╭ 
-feedback.how_to_play.line8=§7你也可以进入§f限时关卡§7 -- 一种限制规定时间内通过的关卡，一共有5关！
-feedback.how_to_play.line9=§7当然，还有§f自定义关卡§7，可以允许你自定义关卡的布景、设计甚至底层命令！当然...很多功能都需要完成主线关卡，所以...你懂得╰(￣ω￣ｏ)
-feedback.how_to_play.line10=§7* 彩蛋关卡必须在大厅的某处解锁之后才能进入 | * 限时关卡和自定义关卡必须完成主线关卡后才能游玩，其中限时关卡还要完成一个特定的彩蛋关卡才能进入
-feedback.how_to_play.line11=§l难度
-feedback.how_to_play.line12=§7每一个主线关卡都有所谓的§f“关卡难度”§7！
-feedback.how_to_play.line13=§7每一关的难度都用这关数字的颜色来表示，§f绿色§7表示这关卡可太简单了，§f黄色§7就表示这关一般般，§f红色§7就表示这关有点东西...
-feedback.how_to_play.line14=§7绿色和黄色关卡都提供§f攻略和提示§7（前提是你得能用，哈哈哈），而红色关卡则直接提供§f跳过§7！
-feedback.how_to_play.line15=§7整个地图的难度也就是所谓的§f“地图难度”§7，也就是你一开始选的那个东西！
-feedback.how_to_play.line16=§7§f地图难度决定你能用什么辅助功能§7，非常简单时没什么限制，而一直到困难时就什么都用不了了(＃°Д°)
-feedback.how_to_play.line17=§7调错了可以在设置中改哦！
-feedback.how_to_play.line18=§l统计
-feedback.how_to_play.line19=§7地图§f会统计你的辅助功能使用情况§7！如果一个提示都没用，甚至还可以跟别人炫耀炫耀(☆▽☆)
+feedback.how_to_play.line1=§bHow to Play
+feedback.how_to_play.line2=§lHow to play? 
+feedback.how_to_play.line3=§7The rules of the game are very simple. §fUse the given items in every room to die and win! §7Try to complete 30 mainline levels,  §feven 30 advancements§7! (☆▽☆)
+feedback.how_to_play.line4=§lLevels
+feedback.how_to_play.line5=§7The map is divided into mainlines, easter eggs and time limited levels!
+feedback.how_to_play.line6=§7These 30 levels in the lobby are the §fmainline level§7, which is plain(ﾉ*･ω･)ﾉ
+feedback.how_to_play.line7=§7In addition, the map has §fEaster Egg Levels§7! There are 10 levels in all and very strange(awa). It's hidden somewhere in the hall. Take your time to find it.(￣y▽,￣)╭ 
+feedback.how_to_play.line8=§7You can also enter §fTime Limited Levels§7 -- restricts the passage within a specified time, with a total of 5 levels!
+feedback.how_to_play.line9=§7Of course, we have §fDIY Levels§7, which allow you to custom the scenery, design and even commands! Of course... to unlock it, you should complete mainline levels first ╰(￣ω￣ｏ)
+feedback.how_to_play.line10=§7* The egg level must be unlocked somewhere in the hall before you can enter. | * Time Limited Levels and DIY levels must complete the mainline levels before they can play, and the Time Limited Levels must complete a specific Easter Egg Level before entering.
+feedback.how_to_play.line11=§lDifficulty
+feedback.how_to_play.line12=§7每一个主线关卡都有所谓的§f“关卡难度”§7! 
+feedback.how_to_play.line13=§7每一关的难度都用这关数字的颜色来表示, §f绿色§7表示这关卡可太简单了, §f黄色§7就表示这关一般般, §f红色§7就表示这关有点东西...
+feedback.how_to_play.line14=§7绿色和黄色关卡都提供§f攻略和提示§7(前提是你得能用, 哈哈哈), 而红色关卡则直接提供§f跳过§7! 
+feedback.how_to_play.line15=§7整个地图的难度也就是所谓的§f“地图难度”§7, 也就是你一开始选的那个东西! 
+feedback.how_to_play.line16=§7§f地图难度决定你能用什么辅助功能§7, 非常简单时没什么限制, 而一直到困难时就什么都用不了了(＃°Д°)
+feedback.how_to_play.line17=§7调错了可以在设置中改哦! 
+feedback.how_to_play.line18=§lStatistics
+feedback.how_to_play.line19=§7地图§f会统计你的辅助功能使用情况§7! 如果一个提示都没用, 甚至还可以跟别人炫耀炫耀(☆▽☆)
 feedback.how_to_play.line20=§7* 仅限于主线关卡会记录 | * 仅限主线关卡完成后开启统计中心 | * 关卡结束后再度使用不会记录
-feedback.how_to_play.line21=§l辅助性功能与物品
+feedback.how_to_play.line21=§lAuxiliary functions and items
 feedback.how_to_play.line22=§7每一关都会给予你一些§f辅助性功能§7~
-feedback.how_to_play.line23=§7§f重置§7允许你重新开始关卡，而§f退出§7允许你直接离开这个关卡(～￣▽￣)～
-feedback.how_to_play.line24=§7如果你的“地图难度”允许，你还可以获得提示攻略和跳过！
-feedback.how_to_play.line25=§7§f提示§7将给予你一个大致的过关思路，§f攻略§7则是完整的过关方法，§f跳过§7简单粗暴，把你干掉ψ(｀∇´)ψ
-feedback.how_to_play.line26=§7§f在未完成过的主线关卡使用提示攻略和跳过会被记录！§7请务必谨慎使用(＃°Д°)
-feedback.how_to_play.line27=§7这些“可使用物品”请直接§f右键（手机版玩家长按）§7使用！
-feedback.how_to_play.line28=§l进度
-feedback.how_to_play.line29=§7地图有着各种各样的进度等你探索！进入进度中心可以查看详情~
-feedback.how_to_play.line30=§7完成所有30个进度，这张地图就基本被你探索完啦！加油完成这些进度哦，结尾还会有惊喜等着你呢~
-feedback.how_to_play.line31=就是这些啦！说的有点太多了...但祝游玩开心！遇到问题可以加入QQ群聊：673941729，欢迎来友善发言~
+feedback.how_to_play.line23=§7§f重置§7允许你重新开始关卡, 而§f退出§7允许你直接离开这个关卡(～￣▽￣)～
+feedback.how_to_play.line24=§7如果你的“地图难度”允许, 你还可以获得提示攻略和跳过! 
+feedback.how_to_play.line25=§7§f提示§7将给予你一个大致的过关思路, §f攻略§7则是完整的过关方法, §f跳过§7简单粗暴, 把你干掉ψ(｀∇´)ψ
+feedback.how_to_play.line26=§7§f在未完成过的主线关卡使用提示攻略和跳过会被记录! §7请务必谨慎使用(＃°Д°)
+feedback.how_to_play.line27=§7这些“可使用物品”请直接§f右键(手机版玩家长按)§7使用! 
+feedback.how_to_play.line28=§lAdvancements
+feedback.how_to_play.line29=§7地图有着各种各样的进度等你探索! 进入进度中心可以查看详情~
+feedback.how_to_play.line30=§7完成所有30个进度, 这张地图就基本被你探索完啦! 加油完成这些进度哦, 结尾还会有惊喜等着你呢~
+feedback.how_to_play.line31=就是这些啦! 说的有点太多了...但祝游玩开心! 遇到问题可以加入QQ群聊: 673941729, 欢迎来友善发言~
 
-feedback.map_rule.line1=§b地图规则
-feedback.map_rule.line2=§l免责声明
-feedback.map_rule.line3=§7当您游玩本地图时，将默认您同意本规则中所明确的注意事项。违反规则而造成的一切后果，本团队概不负责。
-feedback.map_rule.line4=§l版本需求
-feedback.map_rule.line5=§7请至少使用§f基岩版1.18.30或最新中国版§7以获得完整体验。
-feedback.map_rule.line6=§l游戏模式需求
-feedback.map_rule.line7=§f默认且锁定冒险模式§7，您可以解除这锁定，但就像部分安卓手机ROOT后不予保修一样，由更改游戏模式引发的问题我们也不会负责。
-feedback.map_rule.line8=§l命令需求
-feedback.map_rule.line9=§f不推荐使用任何命令，尤其是地图自带的函数命令。§7如果您有相关命令需求，可以在设置中心中的高级设置选项先解除防作弊。§c极不推荐§7使用诸如/kill的命令，因为这会严重破坏您的游戏体验，并且这是严重的作弊行为。
-feedback.map_rule.line10=§l玩家人数需求
-feedback.map_rule.line11=§f推荐单人游玩。§7我们不能保证多人情况下地图的稳定性和游戏体验，因为经过测试，多人游玩的体验非常糟糕。
-feedback.map_rule.line12=§l危险性内容警告
-feedback.map_rule.line13=§c本地图主题上为死法类地图，地图中可能含有的“诱导自杀类”行为请勿在现实中模仿！这只是个游戏！
+feedback.map_rule.line1=§bRule of the Map
+feedback.map_rule.line2=§lDisclaimer
+feedback.map_rule.line3=§7When you play this map, you will agree to the precautions specified in this rule by default. The team is not responsible for all the consequences caused by violating the rules.
+feedback.map_rule.line4=§lVersion requirement
+feedback.map_rule.line5=§7Please use at least the §fbedrock version 1.18.30 or the latest China version§7 for a complete experience.
+feedback.map_rule.line6=§lGame mode requirement
+feedback.map_rule.line7=§fDefault and lock to adventure mode§7, You can unlock this lock, but just like some Android phones are not guaranteed after ROOT, we will not be responsible for the problems caused by changing the game mode.
+feedback.map_rule.line8=§lCommand requirement
+feedback.map_rule.line9=§fIt is not recommended to use any command, especially the function command that comes with the map. §7If you have related command requirements, you can unlock anti-cheating first in the Advanced Settings in the Settings Center. Commands such as /kill are §cHIGHLY NOT RECOMMENDED§7, because it will seriously damage your game experience, and it is a serious cheating.
+feedback.map_rule.line10=§lNumber of players requirement
+feedback.map_rule.line11=§fSingleplayer recommended. §7We can't guarantee the stability of the map and the game experience in the case of multi-players, because after testing, the experience of multi-player play is very bad.
+feedback.map_rule.line12=§lDANGEROUS CONTENT WARNING
+feedback.map_rule.line13=§cThe theme of this map is death map, so please don't imitate the "induced suicide" behavior that may be contained in the map in reality! This is just a game!
 
-feedback.help.line1=§b帮助 Q&A
-feedback.help.line2=以下是我能想到的一些你可能遇到的问题，希望对你能够有所帮助~当然，如果以下这些问题都不是你想问的，可以直接在评论区提问哦！
-feedback.help.line3=Q1：地图难度不是我想选的怎么办？
-feedback.help.line4=§7A：可以前往设置中心 - 更改地图难度调整哦！还可以自主选择是否开启提示等辅助功能。(～￣▽￣)～
-feedback.help.line5=Q2：地图怎么这么大？四五十MB？
-feedback.help.line6=§7A：这是因为地图内置了许多的BGM，音乐占大头QwQ
-feedback.help.line7=Q3：地图玩起来有点卡...？
-feedback.help.line8=§7A：这个没办法...我已经尽力做优化了，到达这样体量的地图确实是很容易就会卡，当然也有可能是国际或netease高版本本身就比较卡的关系（尤其是渲染龙），所以这种问题我给出的解决方案就是：换个游玩设备QwQ
-feedback.help.line9=Q4：自定义死亡信息是怎么做到的？想学...
-feedback.help.line10=§7A：直接一个tellraw就可以了哦，感兴趣的话可以拆地图看（建议等玩完之后拆）(～￣▽￣)～
-feedback.help.line11=Q5：开了困难，结果不会过关，怎么办？
-feedback.help.line12=§7A：参见Q1哦awa
-feedback.help.line13=Q6：钓鱼怎么全是河豚呀！怎么做到的？
-feedback.help.line14=§7A：改了战利品表，不光如此，猪灵的战利品表也改过了awa 这个版本还加入了更多的战利品表，感兴趣的话可以自行分析地图的addon看看哦=w=
-feedback.help.line15=Q7：第30关挖遍地图也不知道怎么过关...
-feedback.help.line16=§7A：可以在@极筑工坊 的B站账号查看本版本的攻略~ 注意是2.3版本哦！
-feedback.help.line17=Q8：玩完所有30关就是通关了吧！
-feedback.help.line18=§7A：不是哦~我在这地图里设计了很多东西，还有彩蛋、限时关卡、以及进度，只有完成所有30个进度才算通关哦！
-feedback.help.line19=Q9：彩蛋在哪儿？
-feedback.help.line20=§7A：既然你找到这儿了，那我就给你个更明显的提示吧...在大厅的起始屋，地图是有猫腻的！这再找不到就不能怪我了qwq，已经很显眼了...
-feedback.help.line21=Q10：想开坐标...
-feedback.help.line22=§7A：当然是可以的！但是有点麻烦，如你所见这个地图开了强制的gamerule锁定，所以你需要去设置中心 - gamerule锁定设定，先把gamerule锁定解除掉再开显示坐标就可以啦！这个设置房间也有好多东西等你探索哦！
-feedback.help.line23=Q11：这地图的防作弊怎么关？
-feedback.help.line24=§7A：既然你问起来了，说明你已经发现了这地图有防作弊了=w=，但是放心，我设置了一套很人性化的解除防作弊方案！在设置中心 - 权限等级设定与高级设置 - 调整权限等级里就可以调整权限等级啦！
-feedback.help.line25=§7只要1以上的权限等级就可以无视防作弊限制了！当然，如果你喜欢分析地图命令之类的我会推荐你调整到2，你会接触到许多地图底层的东西帮你拆图。
-feedback.help.line26=Q12：地图能联机吗？
-feedback.help.line27=§7A：上个版本是不能的，这个版本...至少已经进化到能跑但游戏体验很差了(QAQ)
-feedback.help.line28=Q13：地图很好玩！我可以推荐给我的好友玩吗？
-feedback.help.line29=§7A：当然！完全可以！§c但是如果你要转载的话，请务必通知我让我知晓。
-feedback.help.line30=Q14：作者大大有其他的地图吗？我可以体验吗？
-feedback.help.line31=§7A：当然！加入QQ群：673941729就可体验到我最新的地图！
-feedback.help.line32=Q15：地图打算发到网易吗？
-feedback.help.line33=§7A：当你看到这段的时候，我已经用特殊手段检测到了你在用国际版awa，至于网易版嘛，这个版本我也更新到同步支持啦，网易版玩家应该会看到不同的内容。确实是挺不容易的，我把我几乎所有的命令都迁移到了函数包里，以防止我所有的命令被屏蔽...QAQ
-feedback.help.line33.netease=§7A：当你看到这段的时候，我已经用特殊手段检测到了你在用Netease Version awa，只能说屏蔽词确实是有点...烦人，花了好大力气才在中国版适配，很不容易的呢！
-feedback.help.line34=Q16：作者大大的联系方式？
-feedback.help.line35=§7A：[QQ]1543585291 | [QQ测试群]673941729 | [B站]@一只卑微的量筒 | [B站|工作室]@极筑工坊 | [中国版|工作室]@极筑工坊 | [中国版]@YZBWDLT，@我是一只小量筒 | [国际版]@YZBWDLT | 非诚勿扰哦~推荐通过QQ测试群联系。
-feedback.help.line36=Q17：地图有Bug！我卡关了QAQ
-feedback.help.line37=§7A：遇到这种情况请一定要在评论区汇报！或者加我们的测试群当面和作者说哦~我们会以最快速度修复bug的（可能也许或许大概似乎好像貌似说不定没准maybe可以吧=w=）！
-feedback.help.line38=Q18：地图做的不戳！我想分析地图，应该从何开始呢？
-feedback.help.line39=§7A：首先需要指出，这个地图有着十分复杂的系统在运作，全面涉及了execute和scoreboard等高难命令和Add-on，所以对于新手来说，拆这张地图属实不是什么简单的事情...而且从这个版本开始，地图的所有命令系统全部都迁移到了函数包里，所以拆地图的难度会更大一些。如果你要分析这张地图，我会给你以下几个步骤： 
-feedback.help.line40=§71. 玩完地图，然后重新下载 | 2. 在新地图执行2次/function settings/oplevel，调权限等级为2 | 3. 执行/function developer/developer_mode，开启开发者模式 | 4. 用文本编辑器(例如VSC)打开地图文件夹（如果是安卓可以用MT文件管理器之类的） | 5.开始分析 :)
-feedback.help.line41=§7加油，如果你能啃下这块骨头，我相信你会有很大的收获！也欢迎来群聊分享技术~！友善交流，非诚勿扰！
-feedback.help.line42=Q19：我还有其他问题！
-feedback.help.line43=§7A：在评论区问吧~作者很希望大家能够在评论区多活跃的哦qwq
-feedback.help.line44=Q20：考虑用其他网盘之类的提供下载链接吗？
-feedback.help.line45=§7A：当然有考虑啦！但是一直不知道哪家更好用，如果你有更好用的可以给我推荐一波！
+feedback.help.line1=§bQ&A
+feedback.help.line2=以下是我能想到的一些你可能遇到的问题, 希望对你能够有所帮助~当然, 如果以下这些问题都不是你想问的, 可以直接在评论区提问哦! 
+feedback.help.line3=Q1: 地图难度不是我想选的怎么办? 
+feedback.help.line4=§7A: 可以前往设置中心 - 更改地图难度调整哦! 还可以自主选择是否开启提示等辅助功能。(～￣▽￣)～
+feedback.help.line5=Q2: 地图怎么这么大? 四五十MB? 
+feedback.help.line6=§7A: 这是因为地图内置了许多的BGM, 音乐占大头QwQ
+feedback.help.line7=Q3: 地图玩起来有点卡...? 
+feedback.help.line8=§7A: 这个没办法...我已经尽力做优化了, 到达这样体量的地图确实是很容易就会卡, 当然也有可能是国际或netease高版本本身就比较卡的关系(尤其是渲染龙), 所以这种问题我给出的解决方案就是: 换个游玩设备QwQ
+feedback.help.line9=Q4: 自定义死亡信息是怎么做到的? 想学...
+feedback.help.line10=§7A: 直接一个tellraw就可以了哦, 感兴趣的话可以拆地图看(建议等玩完之后拆)(～￣▽￣)～
+feedback.help.line11=Q5: 开了困难, 结果不会过关, 怎么办? 
+feedback.help.line12=§7A: 参见Q1哦awa
+feedback.help.line13=Q6: 钓鱼怎么全是河豚呀! 怎么做到的? 
+feedback.help.line14=§7A: 改了战利品表, 不光如此, 猪灵的战利品表也改过了awa 这个版本还加入了更多的战利品表, 感兴趣的话可以自行分析地图的addon看看哦=w=
+feedback.help.line15=Q7: 第30关挖遍地图也不知道怎么过关...
+feedback.help.line16=§7A: 可以在@极筑工坊 的B站账号查看本版本的攻略~ 注意是2.3版本哦! 
+feedback.help.line17=Q8: 玩完所有30关就是通关了吧! 
+feedback.help.line18=§7A: 不是哦~我在这地图里设计了很多东西, 还有彩蛋、限时关卡、以及进度, 只有完成所有30个进度才算通关哦! 
+feedback.help.line19=Q9: 彩蛋在哪儿? 
+feedback.help.line20=§7A: 既然你找到这儿了, 那我就给你个更明显的提示吧...在大厅的起始屋, 地图是有猫腻的! 这再找不到就不能怪我了qwq, 已经很显眼了...
+feedback.help.line21=Q10: 想开坐标...
+feedback.help.line22=§7A: 当然是可以的! 但是有点麻烦, 如你所见这个地图开了强制的gamerule锁定, 所以你需要去设置中心 - gamerule锁定设定, 先把gamerule锁定解除掉再开显示坐标就可以啦! 这个设置房间也有好多东西等你探索哦! 
+feedback.help.line23=Q11: 这地图的防作弊怎么关? 
+feedback.help.line24=§7A: 既然你问起来了, 说明你已经发现了这地图有防作弊了=w=, 但是放心, 我设置了一套很人性化的解除防作弊方案! 在设置中心 - 权限等级设定与高级设置 - 调整权限等级里就可以调整权限等级啦! 
+feedback.help.line25=§7只要1以上的权限等级就可以无视防作弊限制了! 当然, 如果你喜欢分析地图命令之类的我会推荐你调整到2, 你会接触到许多地图底层的东西帮你拆图。
+feedback.help.line26=Q12: 地图能联机吗? 
+feedback.help.line27=§7A: 上个版本是不能的, 这个版本...至少已经进化到能跑但游戏体验很差了(QAQ)
+feedback.help.line28=Q13: 地图很好玩! 我可以推荐给我的好友玩吗? 
+feedback.help.line29=§7A: 当然! 完全可以! §c但是如果你要转载的话, 请务必通知我让我知晓。
+feedback.help.line30=Q14: 作者大大有其他的地图吗? 我可以体验吗? 
+feedback.help.line31=§7A: 当然! 加入QQ群: 673941729就可体验到我最新的地图! 
+feedback.help.line32=Q15: 地图打算发到网易吗? 
+feedback.help.line33=§7A: 当你看到这段的时候, 我已经用特殊手段检测到了你在用国际版awa, 至于网易版嘛, 这个版本我也更新到同步支持啦, 网易版玩家应该会看到不同的内容。确实是挺不容易的, 我把我几乎所有的命令都迁移到了函数包里, 以防止我所有的命令被屏蔽...QAQ
+feedback.help.line33.netease=§7A: 当你看到这段的时候, 我已经用特殊手段检测到了你在用Netease Version awa, 只能说屏蔽词确实是有点...烦人, 花了好大力气才在中国版适配, 很不容易的呢! 
+feedback.help.line34=Q16: 作者大大的联系方式? 
+feedback.help.line35=§7A: [QQ]1543585291 | [QQ测试群]673941729 | [B站]@一只卑微的量筒 | [B站|工作室]@极筑工坊 | [中国版|工作室]@极筑工坊 | [中国版]@YZBWDLT, @我是一只小量筒 | [国际版]@YZBWDLT | 非诚勿扰哦~推荐通过QQ测试群联系。
+feedback.help.line36=Q17: 地图有Bug! 我卡关了QAQ
+feedback.help.line37=§7A: 遇到这种情况请一定要在评论区汇报! 或者加我们的测试群当面和作者说哦~我们会以最快速度修复bug的(可能也许或许大概似乎好像貌似说不定没准maybe可以吧=w=)! 
+feedback.help.line38=Q18: 地图做的不戳! 我想分析地图, 应该从何开始呢? 
+feedback.help.line39=§7A: 首先需要指出, 这个地图有着十分复杂的系统在运作, 全面涉及了execute和scoreboard等高难命令和Add-on, 所以对于新手来说, 拆这张地图属实不是什么简单的事情...而且从这个版本开始, 地图的所有命令系统全部都迁移到了函数包里, 所以拆地图的难度会更大一些。如果你要分析这张地图, 我会给你以下几个步骤:  
+feedback.help.line40=§71. 玩完地图, 然后重新下载 | 2. 在新地图执行2次/function settings/oplevel, 调权限等级为2 | 3. 执行/function developer/developer_mode, 开启开发者模式 | 4. 用文本编辑器(例如VSC)打开地图文件夹(如果是安卓可以用MT文件管理器之类的) | 5.开始分析 :)
+feedback.help.line41=§7加油, 如果你能啃下这块骨头, 我相信你会有很大的收获! 也欢迎来群聊分享技术~! 友善交流, 非诚勿扰! 
+feedback.help.line42=Q19: 我还有其他问题! 
+feedback.help.line43=§7A: 在评论区问吧~作者很希望大家能够在评论区多活跃的哦qwq
+feedback.help.line44=Q20: 考虑用其他网盘之类的提供下载链接吗? 
+feedback.help.line45=§7A: 当然有考虑啦! 但是一直不知道哪家更好用, 如果你有更好用的可以给我推荐一波! 
 
-feedback.developer.scoreboard_query.line1=§b记分板及变量表 | 下文反馈格式: (记分项).(标记名) = (值)，并反馈注释
+feedback.developer.scoreboard_query.line1=§bScoreboard and Variable Table | Below feedback format: (object).(name of marker) = (value), And feedback comments
 
-feedback.developer.id_query.line1=§b关卡ID表
-feedback.developer.id_query.line2=-20 开始屋 | -19 开幕时 | -18 教程关卡 | -17 查看规则 | -16 选择难度
-feedback.developer.id_query.line3=-15 下界异常情况 | -14 烟花教程 | -13 结束屋 | -12 进度中心 | -11 统计中心
-feedback.developer.id_query.line4=-10 设置中心 | -9 制作人 | -8 旁观地图 | -7 Q&A | -6 难度与语言设定
-feedback.developer.id_query.line5=-5 烟花秀设置 | -4 高级设置 | -3 限时关卡大厅 | -2 彩蛋大厅 | -1 DIY关卡大厅
-feedback.developer.id_query.line6=0 主大厅 | 1 主线第1关 | 2 主线第2关 | 3 主线第3关 | 4 主线第4关
-feedback.developer.id_query.line7=5 主线第5关 | 6 主线第6关 | 7 主线第7关 | 8 主线第8关 | 9 主线第9关
-feedback.developer.id_query.line8=10 主线第10关 | 11 主线第11关 | 12 主线第12关 | 13 主线第13关第1部分 | 14 主线第14关
-feedback.developer.id_query.line9=15 主线第15关 | 16 主线第16关 | 17 主线第17关 | 18 主线第18关 | 19 主线第19关
-feedback.developer.id_query.line10=20 主线第20关 | 21 主线第21关 | 22 主线第22关 | 23 主线第23关 | 24 主线第24关
-feedback.developer.id_query.line11=25 主线第25关 | 26 主线第26关 | 27 主线第27关 | 28 主线第28关 | 29 主线第29关
-feedback.developer.id_query.line12=30 主线第30关 | 31 主线第13关第2部分 | 32 主线第13关第3部分 | 33 隐藏第1关 | 34 隐藏第2关
-feedback.developer.id_query.line13=35 隐藏第3关 | 36 限时第1关 | 37 限时第2关 | 38 限时第3关 | 39 限时第4关
-feedback.developer.id_query.line14=40 限时第5关 | 41 彩蛋第1关 | 42 彩蛋第2关 | 43 彩蛋第3关 | 44 彩蛋第4关
-feedback.developer.id_query.line15=45 彩蛋第5关 | 46 彩蛋第6关 | 47 彩蛋第7关 | 48 彩蛋第8关 | 49 彩蛋第9关
-feedback.developer.id_query.line16=50 彩蛋第10关 | 51 DIY第1关 | 52 DIY第2关 | 53 DIY第3关 | 54 DIY第4关
-feedback.developer.id_query.line17=55 DIY第5关 | 56 DIY第6关 | 57 DIY第7关 | 58 DIY第8关 | 59 DIY第9关
-feedback.developer.id_query.line18=60 DIY第10关
+feedback.developer.id_query.line1=§bLevel ID Table
+feedback.developer.id_query.line2=-20 Start Room | -19 Open | -18 Tutorial Level | -17 Map Rules | -16 Choose Difficulty
+feedback.developer.id_query.line3=-15 Error in Nether | -14 Firework Tutorial | -13 End Room | -12 Advancement Center | -11 Statistic Center
+feedback.developer.id_query.line4=-10 Setting Center | -9 Credits | -8 Spectate Map | -7 Q&A | -6 Difficulty and Language Settings
+feedback.developer.id_query.line5=-5 Firework Show Settings | -4 Advanced Settings | -3 Time Limited Hall | -2 Easter Egg Hall | -1 DIY Hall
+feedback.developer.id_query.line6=0 Main Hall | 1 Mainline Level 1 | 2 Mainline Level 2 | 3 Mainline Level 3 | 4 Mainline Level 4
+feedback.developer.id_query.line7=5 Mainline Level 5 | 6 Mainline Level 6 | 7 Mainline Level 7 | 8 Mainline Level 8 | 9 Mainline Level 9
+feedback.developer.id_query.line8=10 Mainline Level 10 | 11 Mainline Level 11 | 12 Mainline Level 12 | 13 Mainline Level 13 Part 1 | 14 Mainline Level 14
+feedback.developer.id_query.line9=15 Mainline Level 15 | 16 Mainline Level 16 | 17 Mainline Level 17 | 18 Mainline Level 18 | 19 Mainline Level 19
+feedback.developer.id_query.line10=20 Mainline Level 20 | 21 Mainline Level 21 | 22 Mainline Level 22 | 23 Mainline Level 23 | 24 Mainline Level 24
+feedback.developer.id_query.line11=25 Mainline Level 25 | 26 Mainline Level 26 | 27 Mainline Level 27 | 28 Mainline Level 28 | 29 Mainline Level 29
+feedback.developer.id_query.line12=30 Mainline Level 30 | 31 Mainline Level 13 Part 2 | 32 Mainline Level 13 Part 3 | 33 Hided Level 1 | 34 Hided Level 2
+feedback.developer.id_query.line13=35 Hided Level 3 | 36 Time Limited Level 1 | 37 Time Limited Level 2 | 38 Time Limited Level 3 | 39 Time Limited Level 4
+feedback.developer.id_query.line14=40 Time Limited Level 5 | 41 Easter Egg Level 1 | 42 Easter Egg Level 2 | 43 Easter Egg Level 3 | 44 Easter Egg Level 4
+feedback.developer.id_query.line15=45 Easter Egg Level 5 | 46 Easter Egg Level 6 | 47 Easter Egg Level 7 | 48 Easter Egg Level 8 | 49 Easter Egg Level 9
+feedback.developer.id_query.line16=50 Easter Egg Level 10 | 51 DIY Level 1 | 52 DIY Level 2 | 53 DIY Level 3 | 54 DIY Level 4
+feedback.developer.id_query.line17=55 DIY Level 5 | 56 DIY Level 6 | 57 DIY Level 7 | 58 DIY Level 8 | 59 DIY Level 9
+feedback.developer.id_query.line18=60 DIY Level 10
 
-feedback.developer.advancement_query.line1=§b进度表 | -1 = 锁定 0 = 开放 1 = 解锁
-feedback.developer.advancement_query.line2=§6主线进度
-feedback.developer.advancement_query.line3=初来乍到 | 完成第1关 | 上游：无
-feedback.developer.advancement_query.line4=小试牛刀 | 完成第5关 | 上游：初来乍到
-feedback.developer.advancement_query.line5=半程旅途 | 完成第15关 | 上游：小试牛刀
-feedback.developer.advancement_query.line6=结束了！...吗？ | 完成第30关 | 上游：半程旅途
-feedback.developer.advancement_query.line7=另辟蹊径 | 在第7关不进入下界死亡 | 上游：小试牛刀
-feedback.developer.advancement_query.line8=为什么要这么摆放铁啊？ | 在第15关合成一个铁头盔 | 上游：另辟蹊径
-feedback.developer.advancement_query.line9=满地的白色生物 | 在第17关放下所有的骷髅 | 上游：半程旅途
-feedback.developer.advancement_query.line10=BUG！ | 在第18关卡进虚空 | 上游：满地的白色生物
-feedback.developer.advancement_query.line11=幸运儿 | 钓到弓 | 上游：满地的白色生物
-feedback.developer.advancement_query.line12=禁止套娃 | 打开箱子下的木桶 | 上游：结束了！...吗？
-feedback.developer.advancement_query.line13=§6彩蛋进度
-feedback.developer.advancement_query.line14=藏得够深的！ | 发现彩蛋 | 上游：无
-feedback.developer.advancement_query.line15=好耶！ | 完成10个彩蛋关卡 | 上游：藏得够深的！
-feedback.developer.advancement_query.line16=我还以为是跑酷 | 完成彩蛋3的跑酷 | 上游：藏得够深的！
-feedback.developer.advancement_query.line17=超级好评 | 彩蛋4选择7次好评 | 上游：藏得够深的！
-feedback.developer.advancement_query.line18=钢铁侠 | 彩蛋5制作出一套铁套并穿上 | 上游：超级好评
-feedback.developer.advancement_query.line19=§6大师进度
-feedback.developer.advancement_query.line20=酿造家 | 不跳过完成第20关 | 上游：半程旅途
-feedback.developer.advancement_query.line21=红石家 | 第13（3）关不使用侦测器通关 | 上游：小试牛刀
-feedback.developer.advancement_query.line22=生存家 | 不跳过完成第30关 | 上游：半程旅途
-feedback.developer.advancement_query.line23=绿宝石 | 发现第30关的绿宝石 | 上游：生存家
-feedback.developer.advancement_query.line24=按钮 | 发现第20关的按钮 | 上游：半程旅途
-feedback.developer.advancement_query.line25=又双叒叕是按钮 | 发现末地的按钮 | 上游：按钮
-feedback.developer.advancement_query.line26=不是吧？还有？ | 发现结束屋的按钮 | 上游：又双叒叕是按钮
-feedback.developer.advancement_query.line27=神速 | 60秒通关彩蛋8 | 上游：藏得够深的！
-feedback.developer.advancement_query.line28=这也能速通？ | 通关限时关卡 | 上游：神速
-feedback.developer.advancement_query.line29=结束了！ | 获取所有29个进度 | 上游：无
-feedback.developer.advancement_query.line30=§6杂项进度
-feedback.developer.advancement_query.line31=让我康康 | 进入进度中心 | 上游：无
-feedback.developer.advancement_query.line32=庆典 | 进入烟花教程 | 上游：让我康康
-feedback.developer.advancement_query.line33=是谁？ | 查看制作人 | 上游：让我康康
-feedback.developer.advancement_query.line34=DIY | 进入进度中心 | 上游：是谁？
-feedback.developer.advancement_query.line35=欣赏，观望 | 旁观地图 | 上游：DIY
+feedback.developer.advancement_query.line1=§bAdvancement Table | -1 = Locked 0 = Opened 1 = Unlocked
+feedback.developer.advancement_query.line2=§6Mainline Advancements
+feedback.developer.advancement_query.line3=Newcomer | Complete Level 1 | Upstream: None
+feedback.developer.advancement_query.line4=More Skilled | Complete Level 5 | Upstream: Newcomer
+feedback.developer.advancement_query.line5=Halfway Journey | Complete Level 15 | Upstream: More Skilled
+feedback.developer.advancement_query.line6=The real end! ... yet? | Complete Level 30 | Upstream: Halfway Journey
+feedback.developer.advancement_query.line7=Explore alternative paths | Complete Level 7 without entering the nether | Upstream: More Skilled
+feedback.developer.advancement_query.line8=Why do we place iron in this way? | Craft an Iron Helmet in Level 15 | Upstream: Explore alternative paths
+feedback.developer.advancement_query.line9=White creatures covering the ground | Summon all 27 skeletons in Level 17 | Upstream: Halfway Journey
+feedback.developer.advancement_query.line10=BUG!  | Stuck into the void in Level 18 | Upstream: White creatures covering the ground
+feedback.developer.advancement_query.line11=Lucky person | Fish a bow in Level 24 | Upstream: White creatures covering the ground
+feedback.developer.advancement_query.line12=No nesting dolls allowed | Open the barrel under the chest | Upstream: The real end! ... yet?
+feedback.developer.advancement_query.line13=§6Easter Egg Advancements
+feedback.developer.advancement_query.line14=Hidden deep enough! | Found Easter Egg Levels | Upstream: None
+feedback.developer.advancement_query.line15=Good yeah! | Complete all 10 Easter Egg Levels | Upstream: Hidden deep enough!
+feedback.developer.advancement_query.line16=I thought it was parkour | Complete the parkour of EEL 3 | Upstream: Hidden deep enough!
+feedback.developer.advancement_query.line17=Super great | Choose "Great" 7 times in EEL 4 | Upstream: Hidden deep enough!
+feedback.developer.advancement_query.line18=Ironman | Make an iron suit and put it on in EEL 5 | Upstream: Super great
+feedback.developer.advancement_query.line19=§6Master Advancements
+feedback.developer.advancement_query.line20=Brewer | Complete Level 20 without skipping it | Upstream: Halfway Journey
+feedback.developer.advancement_query.line21=Redstone Master | Complete Level 13(3) without using observer | Upstream: More Skilled
+feedback.developer.advancement_query.line22=Survivalist | Complete Level 30 without skipping it | Upstream: Halfway Journey
+feedback.developer.advancement_query.line23=Emerald | Get an emerald in Level 30 | Upstream: Survivalist
+feedback.developer.advancement_query.line24=Button! | Found a button in Level 20 | Upstream: Halfway Journey
+feedback.developer.advancement_query.line25=Again, again, and again it’s the button… | Found a button in The End | Upstream: Button!
+feedback.developer.advancement_query.line26=Really? There’s more? | Found a button in the end room | Upstream: Again, again, and again it’s the button…
+feedback.developer.advancement_query.line27=Blazing fast | Complete EEL 8 in 60 seconds | Upstream: Hidden deep enough!
+feedback.developer.advancement_query.line28=Can this also be speedrun? | Complete Time Limited Levels | Upstream: Blazing fast
+feedback.developer.advancement_query.line29=The real end!  | Gain all 29 advancements | Upstream: None
+feedback.developer.advancement_query.line30=§6Miscellneous Advancements
+feedback.developer.advancement_query.line31=Let me see | Enter Advancement Center | Upstream: None
+feedback.developer.advancement_query.line32=Celebration | Enter Firework Tutorial | Upstream: Let me see
+feedback.developer.advancement_query.line33=Celebration | See Credits | Upstream: Let me see
+feedback.developer.advancement_query.line34=DIY | Enter DIY Levels hall | Upstream: Celebration
+feedback.developer.advancement_query.line35=Appreciation, observation | Spectate the map | Upstream: DIY
 
-feedback.developer.structure_query.line1=§b结构表 | §7带*的为非行为包结构
-feedback.developer.structure_query.line2=level_1 第1关 | level_2 第2关 | level_3 第3关 | level_4 第4关 | level_5 第5关
-feedback.developer.structure_query.line3=level_6 第6关 | level_7 第7关 | level_7_nether 第7关 - 下界部分 | level_8 第8关 | level_9 第9关
-feedback.developer.structure_query.line4=level_10 第10关 | level_11 第11关 | level_12 第12关 | level_13_1 第13关第1部分 | level_13_2 第13关第2部分
-feedback.developer.structure_query.line5=level_13_3 第13关第3部分 | level_14 第14关 | level_15 第15关 | level_16 第16关 | level_17 第17关
-feedback.developer.structure_query.line6=level_18 第18关 | level_19 第19关 | level_20 第20关 | level_21 第21关 | level_22 第22关
-feedback.developer.structure_query.line7=level_23 第23关 | level_24 第24关 | level_25 第25关 | level_26 第26关 | level_27 第27关
-feedback.developer.structure_query.line8=level_28 第28关 | level_29 第29关 | level_30 第30关 | level_0 教程关卡
+feedback.developer.structure_query.line1=§bStructure Table | §7Non-behavior pack structure with *
+feedback.developer.structure_query.line2=level_1 Level 1 | level_2 Level 2 | level_3 Level 3 | level_4 Level 4 | level_5 Level 5
+feedback.developer.structure_query.line3=level_6 Level 6 | level_7 Level 7 | level_7_nether Level 7 - Part Nether | level_8 Level 8 | level_9 Level 9
+feedback.developer.structure_query.line4=level_10 Level 10 | level_11 Level 11 | level_12 Level 12 | level_13_1 Level 13 - Part 1 | level_13_2 Level 13 - Part 2
+feedback.developer.structure_query.line5=level_13_3 Level 13 - Part 3 | level_14 Level 14 | level_15 Level 15 | level_16 Level 16 | level_17 Level 17
+feedback.developer.structure_query.line6=level_18 Level 18 | level_19 Level 19 | level_20 Level 20 | level_21 Level 21 | level_22 Level 22
+feedback.developer.structure_query.line7=level_23 Level 23 | level_24 Level 24 | level_25 Level 25 | level_26 Level 26 | level_27 Level 27
+feedback.developer.structure_query.line8=level_28 Level 28 | level_29 Level 29 | level_30 Level 30 | level_0 Tutorial Level
 feedback.developer.structure_query.line9= 
-feedback.developer.structure_query.line10=easter_egg_1 彩蛋第1关 | easter_egg_2 彩蛋第2关 | easter_egg_3 彩蛋第3关 - 起始屋 | easter_egg_3_1 彩蛋第3关 - 跑酷部分 | easter_egg_4 彩蛋第4关
-feedback.developer.structure_query.line11=easter_egg_5 彩蛋第5关 | easter_egg_6 彩蛋第6关 | easter_egg_7 彩蛋第7关 | easter_egg_8 彩蛋第8关 | easter_egg_8_1 彩蛋第8关 - 绿宝石块陷阱
-feedback.developer.structure_query.line12=easter_egg_9 彩蛋第9关 | easter_egg_10 彩蛋第10关 | easter_egg_10_1 彩蛋第10关 - 岩立方部分
+feedback.developer.structure_query.line10=easter_egg_1 Easter Egg Level 1 | easter_egg_2 Easter Egg Level 2 | easter_egg_3 Easter Egg Level 3 - Start Room | easter_egg_3_1 Easter Egg Level 3 - Parkour Room | easter_egg_4 Easter Egg Level 4
+feedback.developer.structure_query.line11=easter_egg_5 Easter Egg Level 5 | easter_egg_6 Easter Egg Level 6 | easter_egg_7 Easter Egg Level 7 | easter_egg_8 Easter Egg Level 8 | easter_egg_8_1 Easter Egg Level 8 - Emerald Block Trap
+feedback.developer.structure_query.line12=easter_egg_9 Easter Egg Level 9 | easter_egg_10 Easter Egg Level 10 | easter_egg_10_1 Easter Egg Level 10 - Main Room
 feedback.developer.structure_query.line13= 
-feedback.developer.structure_query.line14=time_limited_1 限时第1关 | time_limited_2 限时第2关 | time_limited_3 限时第3关 | time_limited_4 限时第4关 | time_limited_5 限时第5关
-feedback.developer.structure_query.line15=time_limited_5_1 限时第5关 - 第1个建筑 | time_limited_5_2 限时第5关 - 第2个建筑 | time_limited_5_3 限时第5关 - 第3个建筑 | time_limited_5_4 限时第5关 - 第4个建筑 | time_limited_5_5 限时第5关 - 第5个建筑
+feedback.developer.structure_query.line14=time_limited_1 Time Limited Level 1 | time_limited_2 Time Limited Level 2 | time_limited_3 Time Limited Level 3 | time_limited_4 Time Limited Level 4 | time_limited_5 Time Limited Level 5
+feedback.developer.structure_query.line15=time_limited_5_1 Time Limited Level 5 - Building 1 | time_limited_5_2 Time Limited Level 5 - Building 2 | time_limited_5_3 Time Limited Level 5 - Building 3 | time_limited_5_4 Time Limited Level 5 - Building 4 | time_limited_5_5 Time Limited Level 5 - Building 5
 feedback.developer.structure_query.line16= 
-feedback.developer.structure_query.line17=diy_1 *第1关 | diy_2 *第2关 | diy_3 *第3关 | diy_4 *第4关 | diy_5 *第5关
-feedback.developer.structure_query.line18=diy_6 *第6关 | diy_7 *第7关 | diy_8 *第8关 | diy_9 *第9关 | diy_10 *第10关
-feedback.developer.structure_query.line19=diy_command_system 自定义关卡预设命令系统 | small_room 小房间预设 | middle_room 中房间预设 | large_room 大房间预设
+feedback.developer.structure_query.line17=diy_1 *DIY Level 1 | diy_2 *DIY Level 2 | diy_3 *DIY Level 3 | diy_4 *DIY Level 4 | diy_5 *DIY Level 5
+feedback.developer.structure_query.line18=diy_6 *DIY Level 6 | diy_7 *DIY Level 7 | diy_8 *DIY Level 8 | diy_9 *DIY Level 9 | diy_10 *DIY Level 10
+feedback.developer.structure_query.line19=diy_command_system Preset Command System in DIY Levels | small_room Small Room Preset | middle_room Middle Room Preset | large_room Large Room Preset
 feedback.developer.structure_query.line20= 
-feedback.developer.structure_query.line21=firework_tutorial_1 烟花教程第1步 | firework_tutorial_2 烟花教程第2步 | firework_tutorial_3 烟花教程第3步 | firework_tutorial_4 烟花教程第4步 | firework_tutorial_5 烟花教程第5步
-feedback.developer.structure_query.line22=firework_tutorial_6 烟花教程第6步 | firework_tutorial_7 烟花教程第7步 | firework_tutorial_8 烟花教程第8步 | firework_settings 烟花秀设置房间 | firework_dispenser *烟花秀发射器
+feedback.developer.structure_query.line21=firework_tutorial_1 Firework Tutorial Step 1 | firework_tutorial_2 Firework Tutorial Step 2 | firework_tutorial_3 Firework Tutorial Step 3 | firework_tutorial_4 Firework Tutorial Step 4 | firework_tutorial_5 Firework Tutorial Step 5
+feedback.developer.structure_query.line22=firework_tutorial_6 Firework Tutorial Step 6 | firework_tutorial_7 Firework Tutorial Step 7 | firework_tutorial_8 Firework Tutorial Step 8 | firework_settings Setting Room for Firework Show | firework_dispenser *Firework Dispenser for Firework Show
 feedback.developer.structure_query.line23= 
-feedback.developer.structure_query.line24=hided_1 隐藏第1关 | hided_2 隐藏第2关（大迷宫） | hided_3 隐藏第3关（死法1第30关）
+feedback.developer.structure_query.line24=hided_1 Hided Level 1 | hided_2 Hided Level 2 | hided_3 Hided Level 3
 feedback.developer.structure_query.line25= 
-feedback.developer.structure_query.line26=logo 地图原始logo | logo_completed 地图通关logo | ban 禁止展示框 | tutorial_cb 教程关卡命令方块 | tutorial_chest 教程关卡箱子
+feedback.developer.structure_query.line26=logo Origin Logo of the Map | logo_completed Completed Logo of the Map | ban Ban Item Frame | tutorial_cb Command Block of Tutorial Level | tutorial_chest Chest of Tutorial Level
 feedback.developer.structure_query.line27= 
-feedback.developer.structure_query.line28=level_zx1 原支线第1关 | level_zx2 原支线第2关 | level_zx3 原支线第3关 | level_zx4 原支线第4关 | level_zx5 原支线第5关
+feedback.developer.structure_query.line28=level_zx1 Branch Line Level 1 | level_zx2 Branch Line Level 2 | level_zx3 Branch Line Level 3 | level_zx4 Branch Line Level 4 | level_zx5 Branch Line Level 5
 
-feedback.level_unlocked=已解锁所有主线关卡
+feedback.level_unlocked=All mainline levels has been unlocked
 
 ## {"translate":"feedback.error.invalid_level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
-feedback.error.invalid_level_id=§cLevel ID %s is invaild
+feedback.error.invalid_level_id=§cLevel ID %s is invalid
 feedback.error.invalid_level_id.nether=§c%s is not a reasonable nether level ID
 feedback.error.invalid_level_id.not_expected=§cLevel ID %s is not expected
 feedback.error.developer_mode.run_command_failed=§cSome command cannot execute in developer mode
