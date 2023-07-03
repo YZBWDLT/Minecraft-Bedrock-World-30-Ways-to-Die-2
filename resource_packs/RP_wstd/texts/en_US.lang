@@ -215,7 +215,7 @@ chat.time_limited_levels.out_of_time=§cYou're running out of time! ヽ(*。>Д<
 chat.advancement.get=§a§lAdvancement Made!§r
 chat.advancement.get.normal=%s has made the advancement §a[%s]§r
 chat.advancement.get.rare=%s has made the rare advancement §d[%s]§r
-chat.advancement.get.legend=%s has made the legend advancement §e[%s] §r!
+chat.advancement.get.legend=%s has made the legendary advancement §e[%s] §r!
 chat.advancement.new_advancement_unlocked=§7New advancement has been opened.§r
 
 ### Death Messages(deathmessage.xxx)
@@ -529,28 +529,28 @@ actionbar.set_difficulty_line1=Choose the difficulty that suits you, step into t
 actionbar.set_difficulty_line2=§bVery Easy§7 - Enable all auxiliary functions§r | §aEasy§7 - Disable Strategy
 actionbar.set_difficulty_line3=§eNormal§7 - Disable Hints and Strategy§r | §cHard§7 - Disable all auxiliary functions
 actionbar.set_difficulty_line4=§cSpeedrun§7 - Locks to Hard, precise time display, plays time limited music
-actionbar.random_hint1=§a== If you get some effect like "Fire Resistance", usually you'll need milk! ==§r
-actionbar.random_hint2=§a== It doesn't mean that some blocks can be put on xxx blocks, so it must be useful! ==§r
-actionbar.random_hint3=§a== It doesn't mean that all items will be useful either... ==§r
-actionbar.random_hint4=§a== Use Reset boldly if you get stucked! It will not be recorded anyway~ ==§r
-actionbar.random_hint5=§a== Found that no crafting table for this level? Believe me, you'll need it for most time! ==§r
+actionbar.random_hint1=§a== If you have “Fire Resistance” effect, milk required! ==§r
+actionbar.random_hint2=§a== Blocks placed on top of xxx block not always useful! ==§r
+actionbar.random_hint3=§a== Not all items are necessarily useful...  ==§r
+actionbar.random_hint4=§a== Stuck? Use Reset, not recorded! ==§r
+actionbar.random_hint5=§a== No crafting table? You'll need it! ==§r
 actionbar.random_hint6=§a== Don't use hint if you don't need it! ==§r
-actionbar.random_hint7=§a== The difficulty isn't suit for you? Go to Setting Center to reset it! ==§r
-actionbar.random_hint8=§a== Right-click on computer, long-press on mobile to use usable items ==§r
-actionbar.random_hint9=§a== If you want to be an Ironman, wear them instead of watching them! ==§r
-actionbar.random_hint10=§a== If you have no idea how to pass the level, just don't force yourself and use hints~ ==§r
+actionbar.random_hint7=§a== Difficulty not right? Adjust in Setting Center! ==§r
+actionbar.random_hint8=§a== R-click on PC, long-press on mobile to use usable items ==§r
+actionbar.random_hint9=§a== Wanna be Ironman? Wear the suit! ==§r
+actionbar.random_hint10=§a== Stuck on a level? Use hints! ==§r
 actionbar.random_hint11=§a== Silently chant "author handsome = success" =) ==§r
 actionbar.random_hint12=§a== In this map, luck is very important! ==§r
 actionbar.random_hint13=§a== V2.3! Functionalization! YEAH!!! ==§r
 actionbar.random_hint14=§a== goo goo goo ==§r
-actionbar.random_hint15=§a== If you don't know where's the easter egg, just try to rub the map like paintings! ==§r
-actionbar.random_hint16.easter_egg_not_found=§a== Haven't you found the easter eggs yet? It's in this hall. Look for it carefully! ==§r
-actionbar.random_hint16.easter_egg_found=§a== Looks like you found the easter egg level! Is it fun? OwO ==§r
+actionbar.random_hint15=§a== Can't find easter egg? Rub map in hall! ==§r
+actionbar.random_hint16.easter_egg_not_found=§a== Easter Egg here! Search hall carefully! ==§r
+actionbar.random_hint16.easter_egg_found=§a== Found Easter Egg level! Fun? OwO ==§r
 actionbar.random_hint17=§a== No more strict anti-cheating anymore!! ==§r
-actionbar.random_hint18=§a== Chest under chest? Just notice when this advancement appears~ ==§r
-actionbar.random_hint19=§a== Don't you dare believe it! ZiMin recorded this map! Hooray!!! ==§r
-actionbar.random_hint20=§a== If you pass the level once, then you can use Skip Strategy & Hint casually! ==§r
-actionbar.random_hint21=§a== Auxiliary Functions for time limited level and easter egg level will not be recorded ==§r
+actionbar.random_hint18=§a== Chest under chest? Notice advancement! ==§r
+actionbar.random_hint19=§a== Can you believe it? ZiMin recorded this map! Hooray!!! ==§r
+actionbar.random_hint20=§a== Pass level once = Auxiliary Functions FREE! ==§r
+actionbar.random_hint21=§a== No record for Time Limited & Easter Egg levels' aux functions. ==§r
 actionbar.level_30.wait=§bThe level is loading, just wait a second~
 ## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}}]}}
 actionbar.time_played=Played:§6 %s §fminutes§r
