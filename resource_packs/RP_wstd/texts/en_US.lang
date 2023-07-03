@@ -56,8 +56,8 @@ advancement.master.so_fast=Blazing fast
 advancement.master.how_can_you_speedrun=Can this also be speedrun?
 advancement.master.emerald=Emerald!
 advancement.master.button=Button!
-advancement.master.button_again=Again, again, and again it’s the button…
-advancement.master.no_more_button=Really? There’s more?
+advancement.master.button_again=Again, again, and again it's the button...
+advancement.master.no_more_button=Really? There's more?
 advancement.master.the_real_end=The real end! 
 advancement.miscellaneous.let_me_see=Let me see
 advancement.miscellaneous.celebration=Celebration
@@ -94,10 +94,10 @@ chat.level_tutorial.line17=§bThe other thing is a Quit, which allows you to ret
 chat.level_tutorial.line18=§bJust a heads up, please be mindful not to abuse the Skip, Strategy and Hint. The map logs the usage of these three functions._(:з」∠)_§r
 chat.level_tutorial.line19=§cFurthermore, it is important to pay attention that this is only a game, so please don't imitate it in real life! (っ °Д °;)っ§r
 chat.level_tutorial.line20=§bThat's it! Now all you need to do is make a few simple configurations, and you'll be ready to start the game! Have fun and enjoy your gaming experience! ٩(๑•̀ω•́๑)۶§r
-chat.level_13.ender_pearl_used=§bEnder Pearls cannot be used in this level.(@_@;) Just returning the Ender Pearl you threw away! §r
-chat.level_13.void=§cΣ(っ °Д °;)っ Stop getting stuck with bugs! §r
+chat.level_13.ender_pearl_used=§bYou can't use Ender Pearls in this level! (@_@;) Here, I'll give you back the Ender Pearl you threw!§r
+chat.level_13.void=§cΣ(っ °Д °;)っ Don't get stuck in bugs anymore!§r
 chat.level_21.skip_used=§bDid you end up skipping this level in the end? (￣▽￣)§r
-chat.level_30.portal=§cYou built a portal really well, so next time don’t bother building a new one.(＃°Д°)§r
+chat.level_30.portal=§cYou built a portal really well, so next time don't bother building a new one.(＃°Д°)§r
 chat.level_30.dialogue.line1=§eYZBWDLT joined the game
 chat.level_30.dialogue.line2=<%s> (＃°Д°)? Wait, what's going on? Isn't this a single-player map?
 chat.level_30.dialogue.line3=<YZBWDLT> Nice! ヽ(✿ﾟ▽ﾟ)ノ, Have you completed 29 levels already?
@@ -111,16 +111,16 @@ chat.easter_egg_1.dialogue.line1=§cPlease lower the volume ahead, beware of bec
 chat.easter_egg_1.dialogue.line2=<Oak Tree> Ouch, it hurts! I've been chopped in the waist!!!
 chat.easter_egg_1.dialogue.line3=<Oak Tree> Hmm~ Hm hm~ Ahhhhahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahah!
 chat.easter_egg_2.question_0.right=§aAlright! Please go ahead and ask your question!
-chat.easter_egg_2.question_0.wrong=§cI've let you back in! But don’t expect you to pass the challenge! (〃｀ 3′〃)
-chat.easter_egg_2.question_1.right=§cYou are wrong... But it’s not your fault either.
-chat.easter_egg_2.question_1.wrong=§aYou’re definitely guessing!!! Unless you are a Chinese...
+chat.easter_egg_2.question_0.wrong=§cI've let you back in! But don't expect you to pass the challenge! (〃｀ 3′〃)
+chat.easter_egg_2.question_1.right=§cYou are wrong... But it's not your fault either.
+chat.easter_egg_2.question_1.wrong=§aYou're definitely guessing!!! Unless you are a Chinese...
 chat.easter_egg_2.question_2.right=§aCorrect! Using a Stonecutter, indeed, you can cut 7 Blocks of Copper into 28 Cut Coppers!
 chat.easter_egg_2.question_2.wrong=§cPresumably, you only considered the Crafting Table, right? How about considering… a Stonecutter?
 chat.easter_egg_2.question_3.right=§aBingo! You can only get two grasses by cutting like this.
 chat.easter_egg_2.question_3.wrong=§cqwq
 chat.easter_egg_2.question_4.right=§cThe painting of Wither should be of size 2*2!
 chat.easter_egg_2.question_4.wrong=§aYes! The painting of Wither should be of size 2*2!
-chat.easter_egg_2.question_5.right=§aCorrect!.. Although it doesn’t seem like there’s much to be proud of?
+chat.easter_egg_2.question_5.right=§aCorrect!.. Although it doesn't seem like there's much to be proud of?
 chat.easter_egg_2.question_5.wrong=§cYou are the tail! (╯‵□′)╯︵┻━┻
 chat.easter_egg_3.destination=§cCongratulations on coming over! But why not just jump into the void directly? (￣y▽,￣)╭ 
 chat.easter_egg_4.like=§bThank you for the feedback! awa
@@ -209,7 +209,7 @@ chat.ender_pearl_not_allowed=§bYou can't use Ender Pearl in this level! (@_@;)�
 chat.level_locked=§cPlease complete the previous level first!
 chat.easter_egg_levels.completed=§bCongratulations on completing all the Easter Egg Levels! You are now one step closer to completing the actual map!
 chat.easter_egg_levels.unlocked=§bCongratulations on finding the Easter egg level! Right-click (long-press for mobile players) to use the Easter egg item and enter the Easter Egg Level lobby. Have fun and enjoy your time!ヾ(^▽^*)
-chat.time_limited_levels.completed=§bCongratulations on completing all the Time-Limited Levels! You’re doing an amazing job! Now, let’s continue towards the goal of achieving all 30 advancements! Let’s go! ヽ(✿ﾟ▽ﾟ)ノ
+chat.time_limited_levels.completed=§bCongratulations on completing all the Time-Limited Levels! You're doing an amazing job! Now, let's continue towards the goal of achieving all 30 advancements! Let's go! ヽ(✿ﾟ▽ﾟ)ノ
 chat.time_limited_levels.unlocked=§bTime-limited challenge unlocked! Don't forget to take a look, okay~ヾ(^▽^*)
 chat.time_limited_levels.out_of_time=§cYou're running out of time! ヽ(*。>Д<)o゜§r
 chat.advancement.get=§a§lAdvancement Made!§r
@@ -221,18 +221,18 @@ chat.advancement.new_advancement_unlocked=§7New advancement has been opened.§r
 ### Death Messages(deathmessage.xxx)
 deathmessage.tutorial_level=%s died because he was too curious about a button
 deathmessage.level_1=%s walked into the void
-deathmessage.level_2=%s found this hot water as hot as lava.
-deathmessage.level_3=%s tried to hug the cactus warmly.
+deathmessage.level_2=%s found this hot water as hot as lava
+deathmessage.level_3=%s tried to hug the cactus warmly
 deathmessage.level_4=%s found that the oxygen content in the sand was low
 deathmessage.level_5=%s succeeded in becoming a two-dimensional creature
 deathmessage.level_6.line1=%s is a drowning now, not a human being
 deathmessage.level_6.line2=§bSo never go swimming by rivers and puddles!
 deathmessage.level_7=%s CHEATED!!! Σ(っ °Д °;)っ
 deathmessage.level_8=%s found out that the Ender Dragon didn't welcome him
-deathmessage.level_9=%s found that milk and hot water are more suitable
+deathmessage.level_9=%s found that milk suits hot water
 deathmessage.level_10=%s was killed by [Intentional Game Design]
 deathmessage.level_11=%s became food for food
-deathmessage.level_12=%s and Newton both died peacefully
+deathmessage.level_12=%s gone with Newton peacefully
 deathmessage.level_13=%s 's CPU burned up because of overload
 deathmessage.level_13.skip_used=%s 's CPU performance doesn't seem to be enough
 deathmessage.level_14=%s and §cPeggy Piggy§r were both killed
@@ -247,12 +247,12 @@ deathmessage.level_21=%s was killed by parkour
 deathmessage.level_22=%s forgot the lesson of the Tutorial Level
 deathmessage.level_23=%s went off with a bang
 deathmessage.level_24=%s understood the significance of strict food handling
-deathmessage.level_25=%s made his debut, and there was a loud noise
+deathmessage.level_25=%s %s shines on the stage, with a boom that engages
 deathmessage.level_26.line1=%s didn't encounter a bug and passed away smoothly
 deathmessage.level_26.line2=§c(Because @ZiMin encountered a bug while playing this level before)
 deathmessage.level_27=%s didn't notice the height limit of two blocks
 deathmessage.level_28.line1=%s found that he shouldn't drive fast
-deathmessage.level_28.line2=§bYZBWDLT reminds you: there are thousands of roads, and safety comes first.
+deathmessage.level_28.line2=§bYZBWDLT reminds you: Roads are countless, safety is foremost
 deathmessage.level_29=%s experienced kinetic energy
 deathmessage.level_30=%s succeeded in living to death
 deathmessage.easter_egg_1=%s was blown up by a Oak Tree
@@ -279,10 +279,10 @@ deathmessage.hided_3=%s had a dream of going back in time
 hint.tutorial_level=§lHint for Tutorial Level>>§r§6Aren't you interested in that KILLER command block?(～￣▽￣)～
 hint.level_1=§lHint for Level 1>>§r§6See what your shovel can destroy!
 hint.level_2=§lHint for Level 2>>§r§6This is no ordinary hot water. Why don't you try it inside?
-hint.level_3=§lHint for Level 3>>§r§6This messenger from the desert wants to give you a deep hug! Get close to it!
+hint.level_3=§lHint for Level 3>>§r§6This desert messenger wants to give you a deep hug! Get close to it!
 hint.level_4=§lHint for Level 4>>§r§6How would you feel if sand fell on your face?
 hint.level_5=§lHint for Level 5>>§r§6How do you feel if several tons of things fall from the sky and fall on your face?
-hint.level_6=§lHint for Level 6>>§r§6If you have heard of the word drowning, I don't think you will use this hint.
+hint.level_6=§lHint for Level 6>>§r§6If you have heard of the word drowning, I don't think you will use this hint
 hint.level_7=§lHint for Level 7>>§r§6The nether is very dangerous!
 hint.level_8=§lHint for Level 8>>§r§6To draw a "door", add eyes first!
 hint.level_9=§lHint for Level 9>>§r§6Milk can remove any effect!
@@ -392,9 +392,9 @@ title.level_10=§lLevel §e10§r
 title.level_11=§lLevel §a11§r
 title.level_12=§lLevel §e12§r
 title.level_13=§lLevel §c13§r
-title.level_13.part_1=§lLevel §c13 - Part 1§r
-title.level_13.part_2=§lLevel §c13 - Part 2§r
-title.level_13.part_3=§lLevel §c13 - Part 3§r
+title.level_13.part_1=§lLevel §c13(1)§r
+title.level_13.part_2=§lLevel §c13(2)§r
+title.level_13.part_3=§lLevel §c13(3)§r
 title.level_14=§lLevel §e14§r
 title.level_15=§lLevel §a15§r
 title.level_16=§lLevel §a16§r
@@ -464,17 +464,17 @@ subtitle.stats_center=See how many auxiliary functions you used!
 subtitle.firework_tutorial=Let's see how to make cool fireworks!
 subtitle.level_1=The Road to Void
 subtitle.level_2=Take a Hot Bath
-subtitle.level_3=A Messenger from the Desert
+subtitle.level_3=Desert Messenger
 subtitle.level_4=Lose Your Breath
 subtitle.level_5=How Heavy!
-subtitle.level_6=Water Hole
+subtitle.level_6=paddle
 subtitle.level_7=The Door to the Unknown
 subtitle.level_8=The Door to the Unknown - 2
 subtitle.level_9=Moo~
 subtitle.level_10=Meh~
 subtitle.level_11=Sombee
 subtitle.level_12=parabola
-subtitle.level_13=The Test of Redstone Engineer
+subtitle.level_13=Redstone Engineer's Challenge
 subtitle.level_14=Go! Piggy Peggy!
 subtitle.level_15=Go to Travel
 subtitle.level_16=This is Coke, Not Poison!
@@ -486,9 +486,9 @@ subtitle.level_21=A Simple Parkour
 subtitle.level_22=Maze Means Amazing!
 subtitle.level_23=Celebration
 subtitle.level_24=Catch a Fish to Eat
-subtitle.level_25=Shoot the Rapids
+subtitle.level_25=Rushtide
 subtitle.level_26=The Second Usage of the Bow
-subtitle.level_27=dishonest trader
+subtitle.level_27=Profiteer
 subtitle.level_28=Universal Tools for Land and Water
 subtitle.level_29=Experience Kinetic Energy
 subtitle.level_30=To Be or Not to Be
@@ -525,32 +525,32 @@ subtitle.end_10=§lTHANKS FOR YOUR PLAYING!!
 actionbar.starting_room=§bPress button to start the game§r
 actionbar.tutorial_level=§b§lTuturial Level
 actionbar.read_rules=§aPlease review the map rules first, and then use Next to continue.
-actionbar.set_difficulty_line1=§lPlease choose the difficulty that suits you, and then walk into the corresponding particles to start the game.§r
-actionbar.set_difficulty_line2=§bVery East§7 - Enable all auxiliary functions §r| §aEasy§7 - Disable Strategy
-actionbar.set_difficulty_line3=§eNormal§7 - Disable Hint and Strategy §r| §cHard§7 - Disable all auxiliary functions
-actionbar.set_difficulty_line4=§cSpeedrun§7 - Hard locked, time display is more accurate, play time limit music, just for speedrunning the game!
-actionbar.random_hint1=§l§a== If you get some effect like "Fire Resistance", usually you'll need milk! ==§r
-actionbar.random_hint2=§l§a== It doesn't mean that some blocks can be put on xxx blocks, so it must be useful! ==§r
-actionbar.random_hint3=§l§a== It doesn't mean that all items will be useful either... ==§r
-actionbar.random_hint4=§l§a== Use Reset boldly if you get stucked! It will not be recorded anyway~ ==§r
-actionbar.random_hint5=§l§a== Found that no crafting table for this level? Believe me, you'll need it for most time! ==§r
-actionbar.random_hint6=§l§a== Don't use hint if you don't need it! ==§r
-actionbar.random_hint7=§l§a== The difficulty isn't suit for you? Go to Setting Center to reset it! ==§r
-actionbar.random_hint8=§l§a== For some usable items, you can use it by right-click for PC, or long-press your screen for phones! ==§r
-actionbar.random_hint9=§l§a== If you want to be an Ironman, wear them instead of watching them! ==§r
-actionbar.random_hint10=§l§a== If you have no idea how to pass the level, just don't force yourself and use hints~ ==§r
-actionbar.random_hint11=§l§a== It is good for you to pass level that say the author is the most handsome at all times 50 cents, don't forget to delete the brackets. ==§r
-actionbar.random_hint12=§l§a== In this map, luck is very important! ==§r
-actionbar.random_hint13=§l§a== V2.3! Functionalization! YEAH!!! ==§r
-actionbar.random_hint14=§l§a== goo goo goo ==§r
-actionbar.random_hint15=§l§a== If you don't know where's the easter egg, just try to rub the map in the start room like paintings! ==§r
-actionbar.random_hint16.easter_egg_not_found=§l§a== Haven't you found the easter eggs yet? It's in this hall. Look for it carefully! ==§r
-actionbar.random_hint16.easter_egg_found=§l§a== Looks like you found the easter egg level! Is it fun? OwO ==§r
-actionbar.random_hint17=§l§a== No more strict anti-cheating anymore!! ==§r
-actionbar.random_hint18=§l§a== Chest under chest? Just notice when this advancement appears~ ==§r
-actionbar.random_hint19=§l§a== Don't you dare believe it! ZiMin recorded this map! Hooray!!! ==§r
-actionbar.random_hint20=§l§a== If you pass the level once, then you can use Skip Strategy & Hint casually because they won't be recorded anymore! ==§r
-actionbar.random_hint21=§l§a== Auxiliary Functions for time limited level and easter egg level will not be recorded ==§r
+actionbar.set_difficulty_line1=Choose the difficulty that suits you, step into the particle to start the game§r
+actionbar.set_difficulty_line2=§bVery Easy§7 - Enable all auxiliary functions§r | §aEasy§7 - Disable Strategy
+actionbar.set_difficulty_line3=§eNormal§7 - Disable Hints and Strategy§r | §cHard§7 - Disable all auxiliary functions
+actionbar.set_difficulty_line4=§cSpeedrun§7 - Locks to Hard, precise time display, plays time limited music
+actionbar.random_hint1=§a== If you get some effect like "Fire Resistance", usually you'll need milk! ==§r
+actionbar.random_hint2=§a== It doesn't mean that some blocks can be put on xxx blocks, so it must be useful! ==§r
+actionbar.random_hint3=§a== It doesn't mean that all items will be useful either... ==§r
+actionbar.random_hint4=§a== Use Reset boldly if you get stucked! It will not be recorded anyway~ ==§r
+actionbar.random_hint5=§a== Found that no crafting table for this level? Believe me, you'll need it for most time! ==§r
+actionbar.random_hint6=§a== Don't use hint if you don't need it! ==§r
+actionbar.random_hint7=§a== The difficulty isn't suit for you? Go to Setting Center to reset it! ==§r
+actionbar.random_hint8=§a== Right-click on computer, long-press on mobile to use usable items ==§r
+actionbar.random_hint9=§a== If you want to be an Ironman, wear them instead of watching them! ==§r
+actionbar.random_hint10=§a== If you have no idea how to pass the level, just don't force yourself and use hints~ ==§r
+actionbar.random_hint11=§a== Silently chant "author handsome = success" =) ==§r
+actionbar.random_hint12=§a== In this map, luck is very important! ==§r
+actionbar.random_hint13=§a== V2.3! Functionalization! YEAH!!! ==§r
+actionbar.random_hint14=§a== goo goo goo ==§r
+actionbar.random_hint15=§a== If you don't know where's the easter egg, just try to rub the map like paintings! ==§r
+actionbar.random_hint16.easter_egg_not_found=§a== Haven't you found the easter eggs yet? It's in this hall. Look for it carefully! ==§r
+actionbar.random_hint16.easter_egg_found=§a== Looks like you found the easter egg level! Is it fun? OwO ==§r
+actionbar.random_hint17=§a== No more strict anti-cheating anymore!! ==§r
+actionbar.random_hint18=§a== Chest under chest? Just notice when this advancement appears~ ==§r
+actionbar.random_hint19=§a== Don't you dare believe it! ZiMin recorded this map! Hooray!!! ==§r
+actionbar.random_hint20=§a== If you pass the level once, then you can use Skip Strategy & Hint casually! ==§r
+actionbar.random_hint21=§a== Auxiliary Functions for time limited level and easter egg level will not be recorded ==§r
 actionbar.level_30.wait=§bThe level is loading, just wait a second~
 ## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}}]}}
 actionbar.time_played=Played:§6 %s §fminutes§r
@@ -583,8 +583,8 @@ developer_mode.actionbar.timeline=§bTimeline status & value §6%s/%s§r
 
 description.level_1=SO EASY!
 description.level_2=Everyone knows it~
-description.level_3=What can this messenger do to let you achieve your goal? 
-description.level_4=Choking! Call 911!!! (bushi
+description.level_3=What can this do to help you achieve your goals?
+description.level_4=Choking! Call 911!!! (no
 description.level_5=At least much more heavier than you
 description.level_6=Tips: Don't go swimming by the river in real life!
 description.level_7=Just guess
@@ -593,18 +593,18 @@ description.level_9=ZiMin: This level still needs a little brains
 description.level_10=Hint: Nether travel for one day
 description.level_11=Everyone knows what does it mean
 description.level_12=y²=2px
-description.level_13=Everyone who has played is disgusting
+description.level_13=Players say it's nauseating
 description.level_14=I hope you didn't meet a real "piggy".
 description.level_15=So where do we go?
-description.level_16=In a sense, drinking too much coke is also poison (sure
+description.level_16=Drinking too much coke is also poison (sure
 description.level_17=Guess what it is before checking the chest
 description.level_18=Patrick thinks it's AWESOME!
 description.level_19=Never mind which one comes, let's do it!
 description.level_20=The lesson of coke
 description.level_21=" E A S Y ",remember this word
-description.level_22=Cold knowledge: this is the title of the original Chinese version.
+description.level_22=Fun Fact: The Chinese original version has this title
 description.level_23=Let off a fireworks to celebrate
-description.level_24=Puffer: Yesterday, you ignored my love, but today I let you down()
+description.level_24=Puffer: Yesterday you give me up, today I let you down:(
 description.level_25=Well... that's it.
 description.level_26=Must be craft a crossbow!(Sure)
 description.level_27=At least they are more conscientious than some villagers
@@ -613,8 +613,8 @@ description.level_29=E=mv²/2
 description.level_30=The final level!... is it?
 description.easter_egg_1=It's just a tree. What can you do?
 description.easter_egg_2=How many do you know?
-description.easter_egg_3="Easy" for level 21, and "Ordinary" for this one...
-description.easter_egg_4=Please choose "great", thank you for your cooperation.
+description.easter_egg_3=Ordinary... serious?
+description.easter_egg_4=Please choose "great", thank you.
 description.easter_egg_5=It's just a joke, no cliff here :)
 description.easter_egg_6=You can stand under my unbrella~~ella~ella~
 description.easter_egg_7=抟扶摇而上者九万里, 去以六月息者也...(From Xiaoyaoyou)
@@ -841,8 +841,8 @@ feedback.developer.advancement_query.line21=Redstone Master | Complete Level 13(
 feedback.developer.advancement_query.line22=Survivalist | Complete Level 30 without skipping it | Upstream: Halfway Journey
 feedback.developer.advancement_query.line23=Emerald | Get an emerald in Level 30 | Upstream: Survivalist
 feedback.developer.advancement_query.line24=Button! | Found a button in Level 20 | Upstream: Halfway Journey
-feedback.developer.advancement_query.line25=Again, again, and again it’s the button… | Found a button in The End | Upstream: Button!
-feedback.developer.advancement_query.line26=Really? There’s more? | Found a button in the end room | Upstream: Again, again, and again it’s the button…
+feedback.developer.advancement_query.line25=Again, again, and again it's the button… | Found a button in The End | Upstream: Button!
+feedback.developer.advancement_query.line26=Really? There's more? | Found a button in the end room | Upstream: Again, again, and again it's the button…
 feedback.developer.advancement_query.line27=Blazing fast | Complete EEL 8 in 60 seconds | Upstream: Hidden deep enough!
 feedback.developer.advancement_query.line28=Can this also be speedrun? | Complete Time Limited Levels | Upstream: Blazing fast
 feedback.developer.advancement_query.line29=The real end!  | Gain all 29 advancements | Upstream: None

@@ -18,7 +18,7 @@ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter
 #### 当未获得[绿宝石！]进度时，放置绿宝石
 execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=advSurviveMaster,scores={stats=1}] ~~~ execute @e[name=advEmerald,scores={stats=0}] ~~~ setblock -123 45 87 emerald_ore
 ### 创建交易者
-execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:creator -125 65 77 become_ngz_tradable
+execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:creator -125 65 77 become_xs_tradable
 
 ### --- 检测下界传送门，检测到后立马销毁 ---
 execute @a ~~~ detect ~~~ portal -1 tellraw @a {"rawtext":[{"translate":"chat.level_30.portal"}]}
