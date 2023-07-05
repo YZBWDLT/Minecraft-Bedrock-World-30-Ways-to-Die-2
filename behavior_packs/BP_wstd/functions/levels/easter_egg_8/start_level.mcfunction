@@ -30,4 +30,5 @@ function system/enable_timeline
 
 function system/enable_level_complete_delay
 
-summon wstd:text_display "§c效率附魔已失效，加油！" -2 20.5 -62
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§c效率附魔已失效，加油！" -2 20.5 -62
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cNo efficiency enchant this level, come on!" -2 20.5 -62

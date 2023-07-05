@@ -27,4 +27,5 @@ give @a wstd:next_step 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 # 启动时间线
 function system/enable_timeline
 
-summon wstd:text_display "§b使用下一步以生成鸡" 10 21.5 -82
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b使用下一步以生成鸡" 10 21.5 -82
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bUse Next to summon a chicken" 10 21.5 -82

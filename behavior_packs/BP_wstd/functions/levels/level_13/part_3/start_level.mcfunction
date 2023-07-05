@@ -26,8 +26,11 @@ function system/enable_timeline
 function system/enable_level_complete_delay
 
 # 展示文本
-summon wstd:text_display "§6让红石灯亮起来！" -46 22 55
-summon wstd:text_display "§a左侧频闪10次时，右侧红石灯就会亮起" -54 21 62.00
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6让红石灯亮起来！" -46 22 55
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a左侧频闪10次时，右侧红石灯就会亮起" -54 21 62.00
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6Make the lamp light up!" -46 22 55
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aLeft flashes 10 times, right lights up" -54 21 62.00
 
 # 灯亮起次数初始化
 scoreboard players set @e[name=counter] backend 0

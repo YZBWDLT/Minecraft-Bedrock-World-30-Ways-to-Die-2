@@ -20,8 +20,12 @@ tp @a 18 22 100 facing 11 22 93
 execute @e[name=skipEnabled,scores={settings=1}] ~~~ give @a wstd:skip 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 展示文本
-summon wstd:text_display "§6灰常简单的啦~(￣▽￣)" 16 21 96
-summon wstd:text_display "§7别把没用的东西都拿光了，别怪我没提醒你（" 16 20.7 96
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6灰常简单的啦~(￣▽￣)" 16 21 96
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§7别把没用的东西都拿光了，别怪我没提醒你（" 16 20.7 96
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6Pretty easy~(￣▽￣)" 16 21 96
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§7Don't take all useless things" 16 20.7 96
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§7don't blame that I didn't remind you(" 16 20.4 96
 
 # 启用隐藏关卡检测
 function system/enable_timeline_without_flowing

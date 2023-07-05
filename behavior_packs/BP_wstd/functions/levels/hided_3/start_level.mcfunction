@@ -20,7 +20,8 @@ tp @a -75 22 122
 tellraw @a {"rawtext":[{"translate":"chat.hided_3"}]}
 
 # 展示文本
-summon wstd:text_display ":( 我渴了" -89 23 107
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display ":( 我渴了" -89 23 107
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display ":( I'm thirsty" -89 23 107
 
 # 启用时间线
 function system/enable_timeline

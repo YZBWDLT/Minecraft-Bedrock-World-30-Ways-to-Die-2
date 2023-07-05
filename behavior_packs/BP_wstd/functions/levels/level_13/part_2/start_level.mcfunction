@@ -27,4 +27,5 @@ function system/enable_timeline
 scoreboard players set @e[name=itemTester1] active 2
 
 # 展示文本
-summon wstd:text_display "§6让红石灯亮起来！" -27 26 59
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6让红石灯亮起来！" -27 26 59
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6Make the lamp light up!" -27 26 59

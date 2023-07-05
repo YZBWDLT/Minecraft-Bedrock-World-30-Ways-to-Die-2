@@ -33,7 +33,10 @@ scoreboard players set @e[name=itemTester1] active 2
 scoreboard players set @e[name=itemTester2] active 2
 scoreboard players set @e[name=itemTester3] active 2
 
-summon wstd:text_display "§b超级丰厚的奖励箱！φ(゜▽゜*)♪" -73 22 82
-summon wstd:text_display "§d水可以\"破坏\"下界门(～￣▽￣)～" -75 23 88.0
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b超级丰厚的奖励箱！φ(゜▽゜*)♪" -73 22 82
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§d水可以\"破坏\"下界门(～￣▽￣)～" -75 23 88.0
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bMassive bonus chest!φ(゜▽゜*)♪" -73 22 82
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§dWater can \"break\" the nether portal(～￣▽￣)～" -75 23 88.0
 
 scoreboard players set @e[name=skipUsed] backend 0

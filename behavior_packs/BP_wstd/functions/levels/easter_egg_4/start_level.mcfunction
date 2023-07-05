@@ -23,10 +23,15 @@ execute @e[name=hintEnabled,scores={settings=1}] ~~~ give @a wstd:hint 1 0 {"ite
 execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a wstd:strategy 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 显示文本
-summon wstd:text_display "§6你觉得这张地图怎么样？" -22 21.7 -45
-summon wstd:text_display "§a挺好的awa" -23 22.0 -43
-summon wstd:text_display "§a挺好的awa" -23 22.0 -47
-summon wstd:text_display "§7也就那样吧，平凡之至" -16 22.0 -49
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6你觉得这张地图怎么样？" -22 21.7 -45
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a挺好的awa" -23 22.0 -43
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a挺好的awa" -23 22.0 -47
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§7也就那样吧，平凡之至" -16 22.0 -49
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6What do you think of this map?" -22 21.7 -45
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aGreat! awa" -23 22.0 -43
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aGreat! awa" -23 22.0 -47
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§7Just so-so" -16 22.0 -49
 
 # 启动时间线
 function system/enable_timeline_without_flowing

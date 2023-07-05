@@ -29,7 +29,10 @@ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bU
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bUse §e\"Back\"§b to go back without saving" 10 22.3 -28.9
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cNo strange items please, only fireworks!" 10 22.0 -28.9
 
-execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lPaper & Gunpowder" 7.3 21.2 -21
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lPaper &" 7.3 21.2 -21
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lGunpowder" 7.3 20.9 -21
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lDye" 7.3 21.2 -23
-execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lPattern Materials" 7.3 21.2 -25
-execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lSpecial Effects Materials" 7.3 21.2 -27
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lPattern" 7.3 21.2 -25
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lMaterials" 7.3 20.9 -25
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lEffect" 7.3 21.2 -27
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§f§lMaterials" 7.3 20.9 -27

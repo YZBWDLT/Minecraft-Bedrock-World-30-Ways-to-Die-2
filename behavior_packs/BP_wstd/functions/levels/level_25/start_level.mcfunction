@@ -23,4 +23,5 @@ execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a wstd:strategy 1
 # 给予药效
 effect @a water_breathing 100000 0 true
 
-summon wstd:text_display "摔落伤害已开启" -62 21 97
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "摔落伤害已开启" -62 21 97
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "fall damage is now on" -62 21 97

@@ -26,4 +26,6 @@ function system/enable_timeline
 scoreboard players set @e[name=itemTester1] active 2
 
 # 展示文本
-summon wstd:text_display "致1.20.10或更高版本玩家：熟悉的配方还在" 54 21 112.7
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "致1.20.10或更高版本玩家：熟悉的配方还在" 54 21 112.7
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "For 1.20.10+ players: the recipe" 54 21 112.7
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "you always know is still there" 54 20.7 112.7

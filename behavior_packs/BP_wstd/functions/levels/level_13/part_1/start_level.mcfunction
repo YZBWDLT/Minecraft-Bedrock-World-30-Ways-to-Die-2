@@ -25,4 +25,5 @@ execute @e[name=skipEnabled,scores={settings=1}] ~~~ give @a wstd:skip 1 0 {"ite
 function system/enable_timeline_without_flowing
 
 # 展示文本
-summon wstd:text_display "§6让红石灯亮起来！" 3 22 64
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6让红石灯亮起来！" 3 22 64
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6Make the lamp light up!" 3 22 64

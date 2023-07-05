@@ -12,7 +12,8 @@ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter
 #### 移除开发者
 execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ kill @e[type=wstd:creator,x=5,y=5,z=14,r=3]
 ### 创建展示文本
-execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:text_display "这儿没东西，真的awa" -110 66 90
+execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "这儿没东西，真的awa" -110 66 90
+execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "nothing here, really :)" -110 66 90
 #### 当未获得[禁止套娃]进度时，放置木桶
 execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=advTheEnd,scores={stats=1}] ~~~ execute @e[name=advNoDolls,scores={stats=0}] ~~~ setblock -129 64 74 barrel["facing_direction":0,"open_bit":false]
 #### 当未获得[绿宝石！]进度时，放置绿宝石

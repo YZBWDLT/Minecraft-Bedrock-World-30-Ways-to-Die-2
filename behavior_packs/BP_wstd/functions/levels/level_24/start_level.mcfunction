@@ -24,7 +24,8 @@ execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a wstd:strategy 1
 function system/enable_timeline_without_flowing
 
 # 展示文本
-summon wstd:text_display "§3一片可以钓上大量河豚的神奇水池awa" -40 22 97
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§3一片可以钓上大量河豚的神奇水池awa" -40 22 97
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§3A magical pool teeming with pufferfish awa" -40 22 97
 
 # 重新提供饱食度
 effect @a saturation 1 255 true

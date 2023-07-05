@@ -21,10 +21,15 @@ execute @e[name=hintEnabled,scores={settings=1}] ~~~ give @a wstd:hint 1 0 {"ite
 execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a wstd:strategy 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 显示文本
-summon wstd:text_display "§6接下来你要回答5个关于MC的问题！" -67 22.0 -25
-summon wstd:text_display "§6准备好了吗？awa" -67 21.7 -25
-summon wstd:text_display "§aAye, aye, captain! " -68 22.3 -23
-summon wstd:text_display "§cNO!!! LEAVE ME ALONE!!! " -68 22.3 -27
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6接下来你要回答5个关于MC的问题！" -67 22.0 -25
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6准备好了吗？awa" -67 21.7 -25
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§aAye, aye, captain! " -68 22.3 -23
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§cNO!!! LEAVE ME ALONE!!! " -68 22.3 -27
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6Next you have to answer 5 questions about Minecraft!" -67 22.0 -25
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§6Are you ready? awa" -67 21.7 -25
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aAye, aye, captain! " -68 22.3 -23
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cNO!!! LEAVE ME ALONE!!! " -68 22.3 -27
 
 # 设置问题为0
 scoreboard players set @e[name=counter] backend 0

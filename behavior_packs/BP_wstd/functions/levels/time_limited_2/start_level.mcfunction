@@ -24,7 +24,8 @@ execute @e[name=hintEnabled,scores={settings=1}] ~~~ give @a wstd:hint 1 0 {"ite
 execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a wstd:strategy 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 展示文本
-summon wstd:text_display "§b从这儿开始，祝你好运！o((>ω< ))o" -38 22.0 -84
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b从这儿开始，祝你好运！o((>ω< ))o" -38 22.0 -84
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bLET'S GO!!! o((>ω< ))o" -38 22.0 -84
 
 # 启动时间线
 function system/enable_timeline

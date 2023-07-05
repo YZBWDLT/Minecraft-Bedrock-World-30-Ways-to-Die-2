@@ -20,6 +20,10 @@ tp @a 45 22 100 facing 38 22 93
 execute @e[name=skipEnabled,scores={settings=1}] ~~~ give @a wstd:skip 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 展示文本
-summon wstd:text_display "§a从这儿开始，祝你好运(*^▽^*)" 37 22 95
-summon wstd:text_display "§b拉下拉杆，设置重生点" 44 25 92
-summon wstd:text_display "§b拉下拉杆，设置重生点" 39 27 102
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a从这儿开始，祝你好运(*^▽^*)" 37 22 95
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b拉下拉杆，设置重生点" 44 25 92
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b拉下拉杆，设置重生点" 39 27 102
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aGo from here, good luck(*^▽^*)" 37 22 95
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bPull lever to set spawnpoint" 44 25 92
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bPull lever to set spawnpoint" 39 27 102

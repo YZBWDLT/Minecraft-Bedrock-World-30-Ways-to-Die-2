@@ -30,6 +30,11 @@ function system/enable_timeline
 # 给予药效
 effect @a resistance 999999 9 true
 
-summon wstd:text_display "§b用侦测器、弩、脚手架、皮革马铠和磁石" -50 21.2 -78
-summon wstd:text_display "§b合成一个跳过以通过这关，祝你好运:)" -50 20.9 -78
-summon wstd:text_display "§c提示：使用下一步以重置所有资源" -50 20.6 -78
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b用侦测器、弩、脚手架、皮革马铠和磁石" -50 21.2 -78
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b合成一个跳过以通过这关，祝你好运:)" -50 20.9 -78
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§c提示：使用下一步以重置所有资源" -50 20.6 -78
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bCraft a Skip by using observer, crossbow," -50 21.2 -78
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bscaffolding, leather horse armor and lodestone" -50 20.9 -78
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bto complete this level, good luck :)" -50 20.6 -78
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cUse Next to refresh all resources" -50 20.3 -78

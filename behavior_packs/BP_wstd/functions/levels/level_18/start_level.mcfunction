@@ -25,4 +25,5 @@ function system/enable_timeline
 # 初始化（玩家在未掉下去的时候是0）
 scoreboard players set @e[name=counter] backend 0
 # 生成展示文本
-summon wstd:text_display "提示：你有饱和效果哦~" -26 21 85
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "提示：你有饱和效果哦~" -26 21 85
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "You are getting saturation effect~" -26 21 85
