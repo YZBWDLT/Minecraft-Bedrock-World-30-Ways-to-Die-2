@@ -4,6 +4,7 @@ execute @e[name=speedrunMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"t
 # 重置记分板显示
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/display_scoreboards/reset_difficulty
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set "§l难度 §r§c困难" display 4
+execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set "§lDiff §r§cHard" display1 4
 
 # 设置难度后台设定
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=hintEnabled] settings 0
