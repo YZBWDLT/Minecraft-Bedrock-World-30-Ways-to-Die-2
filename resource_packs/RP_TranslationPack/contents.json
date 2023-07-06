@@ -1,32 +1,22 @@
 {
-   "content" : [
-      {
-         "path" : "manifest.json"
-      },
-      {
-         "path" : "loading_messages.json"
-      },
-      {
-         "path" : "splashes.json"
-      },
-      {
-         "path" : "contents.json"
-      },
-      {
-         "path" : "texts/languages.json"
-      },
-      {
-         "path" : "pack_icon.png"
-      },
-      {
-         "path" : "LICENSE"
-      },
-      {
-         "path" : "texts/zh_CN.lang"
-      },
-      {
-         "path" : "README.md"
-      }
-   ],
-   "version" : 1
+    "content": [
+        {
+            "path": "loading_messages.json"
+        },
+        {
+            "path": "splashes.json"
+        },
+        {
+            "path": "manifest.json"
+        },
+        {
+            "path": "pack_icon.png"
+        },
+        {
+            "path": "texts/zh_CN.lang"
+        },
+        {
+            "path": "texts/languages.json"
+        }
+    ]
 }
