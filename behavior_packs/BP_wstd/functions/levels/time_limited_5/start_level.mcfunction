@@ -30,10 +30,15 @@ tp @a -11 22 -104 facing -19 22 -96
 function system/enable_timeline_without_flowing
 
 # 展示文本
-summon wstd:text_display "§b§l游戏规则" -18.9 22.7 -100
-summon wstd:text_display "§a复制建筑！用所给材料把左侧的建筑在右侧" -18.9 22.4 -100
-summon wstd:text_display "§a原模原样复制出来即可！" -18.9 22.1 -100
-summon wstd:text_display "§a复制出5个建筑即可获胜，祝你好运b（￣▽￣）d" -18.9 21.8 -100
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b§l游戏规则" -18.9 22.7 -100
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a复制建筑！用所给材料把左侧的建筑在右侧" -18.9 22.4 -100
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a原模原样复制出来即可！" -18.9 22.1 -100
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a复制出5个建筑即可获胜，祝你好运b（￣▽￣）d" -18.9 21.8 -100
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§b§lRULES" -18.9 22.7 -100
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aCopy buildings! Use the provided materials to recreate the" -18.9 22.4 -100
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§abuilding on the right to match the one on the left!" -18.9 22.1 -100
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aRecreate 5 buildings to win. Good luck! b(￣▽￣)d" -18.9 21.8 -100
 
 # 红石灯重置
 fill -21 23 -98 -21 23 -102 air

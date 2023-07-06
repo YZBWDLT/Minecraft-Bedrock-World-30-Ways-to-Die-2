@@ -34,12 +34,21 @@ function system/enable_timeline_without_flowing
 
 
 # 展示文本
-summon wstd:text_display "§b§l游戏规则" -49 33.0 -101.9
-summon wstd:text_display "§a把猪钓进去，钓进5只即可获胜！" -49 32.7 -101.9
-summon wstd:text_display "§c不要钓错了！猪灵和僵尸猪灵会害了你" -49 32.4 -101.9
-summon wstd:text_display "§a在游戏时使用下一步以刷新生物" -49 32.1 -101.9
-summon wstd:text_display "§a刷新生物更有可能出现猪，但如果出现了其他东西，只能算你倒霉咯..." -49 31.8 -101.9
-summon wstd:text_display "§d游戏开始前使用下一步以开始游戏，祝你好运！" -49 31.5 -101.9
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b§l游戏规则" -49 33.0 -101.9
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a把猪钓进去，钓进5只即可获胜！" -49 32.7 -101.9
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§c不要钓错了！猪灵和僵尸猪灵会害了你" -49 32.4 -101.9
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a在游戏时使用下一步以刷新生物" -49 32.1 -101.9
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a刷新生物更有可能出现猪，但如果出现了其他东西，只能算你倒霉咯..." -49 31.8 -101.9
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§d游戏开始前使用下一步以开始游戏，祝你好运！" -49 31.5 -101.9
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§b§lRULES" -49 33.0 -101.9
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aHook the pigs for a win! Catch 5 to triumph!" -49 32.7 -101.9
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cBeware! Piglins and Zombie Piglins may harm you" -49 32.4 -101.9
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aUse \"Next\" to refresh the creatures in-game." -49 32.1 -101.9
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aRefreshing is more likely to have pigs," -49 31.8 -101.9
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§abut beware of other surprises..." -49 31.5 -101.9
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§dUse \"Next\" to start out-of-game. Good luck!" -49 31.2 -101.9
+
 fill -52 31 -103 -46 33 -103 quartz_block
 
 # 生成点
