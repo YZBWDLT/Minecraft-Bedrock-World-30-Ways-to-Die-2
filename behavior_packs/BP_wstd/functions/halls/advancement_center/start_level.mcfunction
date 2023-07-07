@@ -7,7 +7,7 @@ scoreboard players set @e[name=level] backend -12
 function halls/start_hall_level
 
 # ===== 传送玩家到大厅 =====
-tp @a -98 19 15 facing -120 19 15
+tp @a -97 20 16 facing -120 20 16
 
 # ===== 标题 =====
 titleraw @a times 0 60 0
