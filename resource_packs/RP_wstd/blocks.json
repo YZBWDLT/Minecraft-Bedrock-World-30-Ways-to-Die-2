@@ -6,5 +6,125 @@
            "side" : "fake_quartz_pillar_side",
            "up" : "fake_quartz_pillar_top"
         }
-     }
+    },
+    "wstd:quartz_block_with_line_0": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_0",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_1": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_1",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_2": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_2",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_3": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_3",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_4": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_4",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_5": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_5",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_6": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_6",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_7": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_7",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_8": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_8",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_9": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_9",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_10": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_10",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_11": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_11",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_12": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_12",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_13": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_13",
+            "up" : "quartz_block_top1"
+        }
+    },
+    "wstd:quartz_block_with_line_14": {
+        "sound": "stone",
+        "textures": {
+            "down" : "quartz_block_bottom1",
+            "side" : "quartz_block_with_line_14",
+            "up" : "quartz_block_top1"
+        }
+    }
 }

@@ -4,14 +4,34 @@
     "resource_pack_name" : "vanilla",
     "texture_name" : "atlas.terrain",
     "texture_data": {
-        "fake_quartz_pillar_bottom": {
-            "textures": [ "textures/blocks/quartz_block_lines_top" ]
+        "fake_quartz_pillar_bottom": { "textures": [ "textures/blocks/quartz_block_lines_top" ] },
+        "fake_quartz_pillar_side": { "textures": [ "textures/blocks/quartz_block_lines" ] },
+        "fake_quartz_pillar_top": { "textures": [ "textures/blocks/quartz_block_lines_top" ] },
+        "quartz_block_with_line_0": { "textures": [ "textures/new_blocks/quartz_block_with_line/0" ] },
+        "quartz_block_with_line_1": { "textures": [ "textures/new_blocks/quartz_block_with_line/1" ] },
+        "quartz_block_with_line_2": { "textures": [ "textures/new_blocks/quartz_block_with_line/2" ] },
+        "quartz_block_with_line_3": { "textures": [ "textures/new_blocks/quartz_block_with_line/3" ] },
+        "quartz_block_with_line_4": { "textures": [ "textures/new_blocks/quartz_block_with_line/4" ] },
+        "quartz_block_with_line_5": { "textures": [ "textures/new_blocks/quartz_block_with_line/5" ] },
+        "quartz_block_with_line_6": { "textures": [ "textures/new_blocks/quartz_block_with_line/6" ] },
+        "quartz_block_with_line_7": { "textures": [ "textures/new_blocks/quartz_block_with_line/7" ] },
+        "quartz_block_with_line_8": { "textures": [ "textures/new_blocks/quartz_block_with_line/8" ] },
+        "quartz_block_with_line_9": { "textures": [ "textures/new_blocks/quartz_block_with_line/9" ] },
+        "quartz_block_with_line_10": { "textures": [ "textures/new_blocks/quartz_block_with_line/10" ] },
+        "quartz_block_with_line_11": { "textures": [ "textures/new_blocks/quartz_block_with_line/11" ] },
+        "quartz_block_with_line_12": { "textures": [ "textures/new_blocks/quartz_block_with_line/12" ] },
+        "quartz_block_with_line_13": { "textures": [ "textures/new_blocks/quartz_block_with_line/13" ] },
+        "quartz_block_with_line_14": { "textures": [ "textures/new_blocks/quartz_block_with_line/14" ] },
+
+        "quartz_block_bottom1" : {
+            "textures" : [
+                "textures/blocks/quartz_block_top"
+            ]
         },
-        "fake_quartz_pillar_side": {
-            "textures": [ "textures/blocks/quartz_block_lines" ]
-        },
-        "fake_quartz_pillar_top": {
-            "textures": [ "textures/blocks/quartz_block_lines_top" ]
+        "quartz_block_top1" : {
+            "textures" : [
+                "textures/blocks/quartz_block_top"
+            ]
         }
     }
 }

@@ -1,0 +1,16 @@
+{
+    "format_version": "1.18.30",
+    "minecraft:block": {
+        "description": {
+            "identifier": "wstd:quartz_block_with_line_10"
+        },
+        "components": {
+            "minecraft:display_name": "wstd:quartz_block_with_line_10",
+            "minecraft:block_light_emission": 0,
+            "minecraft:block_light_filter": 0,
+            "minecraft:destroy_time": 0.8,
+            "minecraft:explosion_resistance": 0.8,
+            "minecraft:map_color": "#eeeae6"
+        }
+    }
+}
