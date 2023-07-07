@@ -30,6 +30,21 @@ entity.flower_solder.name=智慧的卖花商人
 
 ## 新方块翻译
 tile.wstd:fake_quartz_pillar.name=伪石英柱
+tile.wstd:quartz_block_with_line_0.name=画线石英块 (0)
+tile.wstd:quartz_block_with_line_1.name=画线石英块 (1)
+tile.wstd:quartz_block_with_line_2.name=画线石英块 (2)
+tile.wstd:quartz_block_with_line_3.name=画线石英块 (3)
+tile.wstd:quartz_block_with_line_4.name=画线石英块 (4)
+tile.wstd:quartz_block_with_line_5.name=画线石英块 (5)
+tile.wstd:quartz_block_with_line_6.name=画线石英块 (6)
+tile.wstd:quartz_block_with_line_7.name=画线石英块 (7)
+tile.wstd:quartz_block_with_line_8.name=画线石英块 (8)
+tile.wstd:quartz_block_with_line_9.name=画线石英块 (9)
+tile.wstd:quartz_block_with_line_10.name=画线石英块 (10)
+tile.wstd:quartz_block_with_line_11.name=画线石英块 (11)
+tile.wstd:quartz_block_with_line_12.name=画线石英块 (12)
+tile.wstd:quartz_block_with_line_13.name=画线石英块 (13)
+tile.wstd:quartz_block_with_line_14.name=画线石英块 (14)
 
 ## ===== 原始JSON文本翻译 =====
 
@@ -879,7 +894,7 @@ feedback.developer.structure_query.line23=
 feedback.developer.structure_query.line24=hided_1 隐藏第1关 | hided_2 隐藏第2关（大迷宫） | hided_3 隐藏第3关（死法1第30关）
 feedback.developer.structure_query.line25= 
 feedback.developer.structure_query.line26=logo 地图原始logo | logo_completed 地图通关logo | ban 禁止展示框 | tutorial_cb 教程关卡命令方块 | tutorial_chest 教程关卡箱子
-feedback.developer.structure_query.line27= 
+feedback.developer.structure_query.line27=advancement_wall 进度中心空墙
 feedback.developer.structure_query.line28=level_zx1 原支线第1关 | level_zx2 原支线第2关 | level_zx3 原支线第3关 | level_zx4 原支线第4关 | level_zx5 原支线第5关
 
 feedback.level_unlocked=已解锁所有主线关卡
