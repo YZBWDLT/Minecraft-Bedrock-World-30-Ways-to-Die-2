@@ -8,3 +8,5 @@ diagnostic.disable.behaviorpack.block.states.invalid=true
 diagnostic.disable.minecraft.commands.fill.syntax=true
 diagnostic.disable.behaviorpack.block.missing=true
 diagnostic.disable.minecraft.language.duplicate=true
+diagnostic.disable.=true
+diagnostic.disable.behaviorpack.block.components.deprecated=true
