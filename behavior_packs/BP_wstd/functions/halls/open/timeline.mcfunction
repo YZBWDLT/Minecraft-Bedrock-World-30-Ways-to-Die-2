@@ -8,7 +8,7 @@ execute @e[name=timeline,scores={time=120}] ~~~ titleraw @a subtitle { "rawtext"
 execute @e[name=timeline,scores={time=120}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
 execute @e[name=timeline,scores={time=200}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_2" } ] }
-execute @e[name=timeline,scores={time=200}] ~~~ title @a subtitle { "rawtext": [ { "translate": "subtitle.open_2" } ] }
+execute @e[name=timeline,scores={time=200}] ~~~ titleraw @a subtitle { "rawtext": [ { "translate": "subtitle.open_2" } ] }
 execute @e[name=timeline,scores={time=200}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
 execute @e[name=timeline,scores={time=280}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_2" } ] }
