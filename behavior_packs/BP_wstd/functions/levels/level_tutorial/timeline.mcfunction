@@ -1,5 +1,12 @@
 # 教程关卡
 
+## 跳过教程设置
+execute @e[name=counter,scores={backend=1..}] ~~~ execute @e[name=timeline,scores={time=0..1715}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ particle wstd:red 49 20 -29
+execute @e[name=counter,scores={backend=1..}] ~~~ execute @a[x=49,y=21,z=-29,r=0.75,c=1] ~~~ scoreboard players set @e[name=timeline] time 1714
+execute @e[name=counter,scores={backend=1..}] ~~~ execute @a[x=49,y=21,z=-29,r=0.75,c=1] ~~~ scoreboard players set @e[name=timeline] active 1
+execute @e[name=counter,scores={backend=1..}] ~~~ execute @a[x=49,y=21,z=-29,r=0.75,c=1] ~~~ scoreboard players set @e[name=soundPlayer] active 11
+execute @e[name=counter,scores={backend=1..}] ~~~ execute @a[x=49,y=21,z=-29,r=0.75,c=1] ~~~ tp @a[x=49,y=21,z=-29,r=0.75] 45 22 -25
+
 ## 第一阶段
 execute @e[name=timeline,scores={time=1}] ~~~ fill 41 21 -21 49 25 -29 air
 execute @e[name=timeline,scores={time=1}] ~~~ tp @a 45 22 -25
@@ -7,6 +14,9 @@ execute @e[name=timeline,scores={time=1}] ~~~ spawnpoint @a 45 22 -25
 execute @e[name=timeline,scores={time=1}] ~~~ fill 41 21 -25 41 22 -25 air
 execute @e[name=timeline,scores={time=1}] ~~~ structure load level_0 40 20 -30
 execute @e[name=timeline,scores={time=1}] ~~~ structure load tutorial_cb 44 21 -29
+execute @e[name=timeline,scores={time=1}] ~~~ scoreboard players operation @e[name=counter] backend = mapCompletedTimes record
+execute @e[name=timeline,scores={time=1}] ~~~ execute @e[name=counter,scores={backend=1..}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§c跳过教程" 49 22 -29
+execute @e[name=timeline,scores={time=1}] ~~~ execute @e[name=counter,scores={backend=1..}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cSkip the tutorial" 49 22 -29
 
 execute @e[name=timeline,scores={time=40}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.level_tutorial.line1","with":{"rawtext":[{"selector":"@s"}]}}]}
 execute @e[name=timeline,scores={time=40}] ~~~ execute @a ~~~ playsound random.pop @s
@@ -91,6 +101,8 @@ execute @e[name=timeline,scores={time=1560..1563}] ~~~ execute @a ~~~ playsound 
 
 execute @e[name=timeline,scores={time=1640}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.level_tutorial.line20"}]}
 execute @e[name=timeline,scores={time=1640}] ~~~ execute @a ~~~ playsound random.pop @s
+
+execute @e[name=timeline,scores={time=1715}] ~~~ kill @e[type=wstd:text_display]
 
 ## 时间轴结束，终止该进程，进入下一进程
 execute @e[name=timeline,scores={time=1720}] ~~~ scoreboard players set @s active 0
