@@ -123,9 +123,9 @@ execute @e[name=timeline,scores={time=321,active=3}] ~~~ structure load logo_com
 
 ### === 其他测试员 ===
 #### 进度房间 巴豆
-execute @e[name=timeline,scores={time=400,active=3}] ~~~ summon wstd:creator -107 18 17 become_bd
-execute @e[name=timeline,scores={time=400,active=3}] ~~~ summon je:marker "rotater" -107 18 17
-execute @e[name=timeline,scores={time=400,active=3}] ~~~ tp @e[name=rotater] -107 18 17 facing -102 18 12
+execute @e[name=timeline,scores={time=400,active=3}] ~~~ summon wstd:creator -106 19 18 become_bd
+execute @e[name=timeline,scores={time=400,active=3}] ~~~ summon je:marker "rotater" -106 19 18
+execute @e[name=timeline,scores={time=400,active=3}] ~~~ tp @e[name=rotater] -106 19 18 facing -101 19 13
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_4"}]}
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_4"}]}
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
