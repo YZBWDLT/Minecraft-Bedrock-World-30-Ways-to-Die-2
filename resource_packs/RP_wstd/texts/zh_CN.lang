@@ -456,6 +456,8 @@ title.diy_7=§l§bDIY关卡§f - 第§a7§f关§r
 title.diy_8=§l§bDIY关卡§f - 第§a8§f关§r
 title.diy_9=§l§bDIY关卡§f - 第§a9§f关§r
 title.diy_10=§l§bDIY关卡§f - 第§a10§f关§r
+title.open_1=§c§l30种死法 §6§l2
+title.open_2=§f
 title.end_1=§l
 title.end_2=§c§l30种死法 §62
 title.end_3=§b§l30种死法 §e2
@@ -526,6 +528,8 @@ subtitle.time_limited_5=人形打印机
 subtitle.hided_1=作者合影
 subtitle.hided_2=真正的Maze Means Amazing！
 subtitle.hided_3=最终gu...等等，我穿越了？
+subtitle.open_1=§e一只卑微的量筒 §f制作
+subtitle.open_2=§b极筑工坊 §f出品
 subtitle.end_1=§l作 者§r§f | §e一只卑微的量筒
 subtitle.end_2=§c§l30 Ways to Die §62
 subtitle.end_3=§b§l30 Ways to Die §e2
@@ -584,6 +588,12 @@ actionbar.questions_and_answers=§l§b地图规则与玩法，常见问题§r
 actionbar.difficulty_and_language=§l§b地图难度与语言设定§r
 actionbar.firework_settings=§l§b结束特效的烟花设定§r
 actionbar.advanced_settings=§l§b权限等级设定与高级功能§r
+actionbar.open_1====请稍候，我们正在进行地图初始化... 目前任务:[§e§l更改游戏模式§r]===
+actionbar.open_2====请稍候，我们正在进行地图初始化... 目前任务:[§e§l清除物品§r]===
+actionbar.open_3====请稍候，我们正在进行地图初始化... 目前任务:[§e§l调整游戏难度§r]===
+actionbar.open_4====请稍候，我们正在进行地图初始化... 目前任务:[§e§l调整时间§r]===
+actionbar.open_5====请稍候，我们正在进行地图初始化... 目前任务:[§e§l调整gamerule§r]===
+actionbar.open_6====§b初始化完成！正在进入教程关卡...§f===
 actionbar.end_1=§b结束特效加载中...请不要退出游戏哦~
 actionbar.end_2=§b使用返回以结束烟花秀~
 

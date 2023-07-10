@@ -456,6 +456,8 @@ title.diy_7=§l§bDIY Level§f - Level §a7§r
 title.diy_8=§l§bDIY Level§f - Level §a8§r
 title.diy_9=§l§bDIY Level§f - Level §a9§r
 title.diy_10=§l§bDIY Level§f - Level §a10§r
+title.open_1=§c§l30 Ways to Die §6§l2
+title.open_2=§f
 title.end_1=§l
 title.end_2=§c§l30 Ways to Die §62
 title.end_3=§b§l30 Ways to Die §e2
@@ -526,6 +528,8 @@ subtitle.time_limited_5=Humanoid Printer
 subtitle.hided_1=Author's Photo
 subtitle.hided_2=The Real Maze Means Amazing!
 subtitle.hided_3=Final lev... wait, I crossed?
+subtitle.open_1=§fMade by §eYZBWDLT
+subtitle.open_2=§eAcme Building Workshop §fPresent
 subtitle.end_1=§lAUTHOR§r§f | §eYZBWDLT
 subtitle.end_2=§c§l
 subtitle.end_3=§b§l
@@ -584,6 +588,12 @@ actionbar.questions_and_answers=§l§bRule, play and Q&A of the map§r
 actionbar.difficulty_and_language=§l§bDifficulty and Language Settings§r
 actionbar.firework_settings=§l§bFirework settings for end effect§r
 actionbar.advanced_settings=§l§bPermission Level Setting and Advanced Setting§r
+actionbar.open_1====Please wait... We're initializing the map... Now: [§e§lChanging Gamemode§r]===
+actionbar.open_2====Please wait... We're initializing the map... Now: [§e§lClearing Items§r]===
+actionbar.open_3====Please wait... We're initializing the map... Now: [§e§lChanging Difficulty§r]===
+actionbar.open_4====Please wait... We're initializing the map... Now: [§e§lChanging Time§r]===
+actionbar.open_5====Please wait... We're initializing the map... Now: [§e§lChanging Gamerule§r]===
+actionbar.open_6====§bInitialize completed! Starting the tutorial...§f===
 actionbar.end_1=§bEnd effect is loading ... please don't quit the game~
 actionbar.end_2=§bUse Back to end the firework show~
 
