@@ -693,6 +693,8 @@ settings.reset_settings=§bSuccessfully reset the dialogue of Level 30, the game
 settings.oplevel=Setting your permission level to %s
 settings.speedrun_mode.enabled=§aSpeedrun Mode has been enabled. Time limit music will play, time display will show game tick, difficulty has been locked to Hard, and the dialogue of Level 30 has been disabled.
 settings.speedrun_mode.disabled=§cSpeedrun Mode has been disabled
+settings.is_netease.international=§bManually changed to International adaptation mode
+settings.is_netease.netease=§bManually changed to Netease adaptation mode
 
 op.end.line1=§bSetup is complete! Have a good game ~ ヾ(•ω•`)o
 op.end.line2=§7If you want to reset the difficulty, you can go to the Setting Center - Difficulty and Language Settings to reset!

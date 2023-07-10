@@ -10,5 +10,6 @@ execute @e[name=developerMode,scores={settings=0}] ~~~ particle wstd:green -108 
 execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:red -108 18 49
 
 particle wstd:light_blue -98 18 43
+particle wstd:light_blue -100 18 43
 
 particle wstd:orange -108 18 43

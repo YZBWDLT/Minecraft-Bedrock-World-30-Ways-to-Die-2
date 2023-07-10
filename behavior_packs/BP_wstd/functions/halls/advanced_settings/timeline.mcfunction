@@ -29,6 +29,11 @@ execute @a[x=-108,y=19,z=49,r=1] ~~~ function halls/advanced_settings/text_displ
 execute @a[x=-108,y=19,z=49,r=1] ~~~ scoreboard players set @e[name=soundPlayer] active 11
 execute @a[x=-108,y=19,z=49,r=1] ~~~ tp @s -108 19 46
 
+## === 手动更改适配模式 ===
+execute @a[x=-100,y=19,z=43,r=1] ~~~ function settings/is_netease
+execute @a[x=-100,y=19,z=43,r=1] ~~~ function halls/advanced_settings/text_display
+execute @a[x=-100,y=19,z=43,r=1] ~~~ tp @s -100 19 46
+
 ## === 解锁主线 ===
 execute @a[x=-98,y=19,z=43,r=1] ~~~ function developer/unlock_mainline
 execute @a[x=-98,y=19,z=43,r=1] ~~~ scoreboard players set @e[name=soundPlayer] active 11

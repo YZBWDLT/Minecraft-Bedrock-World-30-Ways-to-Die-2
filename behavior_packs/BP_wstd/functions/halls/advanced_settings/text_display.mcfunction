@@ -6,6 +6,10 @@ execute @e[name=language,scores={settings=0}] ~~~ execute @a[scores={oplevel=0}]
 execute @e[name=language,scores={settings=0}] ~~~ execute @a[scores={oplevel=1}] ~~~ summon wstd:text_display "§b当前：1" -98 19.9 49
 execute @e[name=language,scores={settings=0}] ~~~ execute @a[scores={oplevel=2}] ~~~ summon wstd:text_display "§b当前：2" -98 19.9 49
 
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b适配模式设置" -100 20.2 43
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§b当前：国际版" -100 19.9 43
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§b当前：Netease" -100 19.9 43
+
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b更改游戏模式" -102 20.2 49
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§c创造模式" -102 19.9 49
 
@@ -25,6 +29,10 @@ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bP
 execute @e[name=language,scores={settings=1}] ~~~ execute @a[scores={oplevel=0}] ~~~ summon wstd:text_display "§bNow: 0" -98 19.9 49
 execute @e[name=language,scores={settings=1}] ~~~ execute @a[scores={oplevel=1}] ~~~ summon wstd:text_display "§bNow: 1" -98 19.9 49
 execute @e[name=language,scores={settings=1}] ~~~ execute @a[scores={oplevel=2}] ~~~ summon wstd:text_display "§bNow: 2" -98 19.9 49
+
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bAdaption Mode" -100 20.2 43
+execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§bNow: International" -100 19.9 43
+execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§bNow: Netease" -100 19.9 43
 
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bChange gamemode" -102 20.2 49
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cCreative" -102 19.9 49
