@@ -7,6 +7,7 @@ execute @e[name=developerMode,scores={settings=0}] ~~~ tp @a -37 9 27 facing -37
 execute @e[name=timeline,scores={time=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.level_30.dialogue.line1"}]}
 execute @e[name=timeline,scores={time=1}] ~~~ execute @a ~~~ playsound random.orb @s
 execute @e[name=timeline,scores={time=1}] ~~~ summon wstd:creator -37 9 25 "become_lt"
+execute @e[name=timeline,scores={time=1}] ~~~ effect @a invisibility 999 0 true
 
 execute @e[name=timeline,scores={time=80}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.level_30.dialogue.line2","with":{"rawtext":[{"selector":"@s"}]}}]}
 execute @e[name=timeline,scores={time=80}] ~~~ execute @a ~~~ playsound random.pop @s
