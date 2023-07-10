@@ -178,7 +178,7 @@ chat.end.dialogue.line11=<YZBWDLT> Finally, I really appreciate you playing here
 chat.end.dialogue.line12=<YZBWDLT> This map has cost me a lot of energy since the first edition, but it is also my favorite map so far.O(∩_∩)O
 chat.end.dialogue.line13=<YZBWDLT> Back and forth, this map has undergone four major updates, with a time span of several years.
 chat.end.dialogue.line14=<YZBWDLT> Exhausted efforts, and ultimately only hope that you have fun, I wonder if you are satisfied with this map?
-chat.end.dialogue.line15=<YZBWDLT> If you don't feel satisfied, you can start the whole map again and try a quick pass of the whole map! ヾ(≧▽≦*)o
+chat.end.dialogue.line15=<YZBWDLT> If you don't feel satisfied, you can start the whole map again and try to speedrun the whole map! ヾ(≧▽≦*)o
 chat.end.dialogue.line16=<YZBWDLT> My speedrun grade is 38:46. I wonder if you can surpass me?
 chat.end.dialogue.line17=<YZBWDLT> Well, that's it. Thank you again for your visit! If you like, you can share it with others, or help me put forward suggestions for improvement in the comments section!
 chat.end.dialogue.line18=<YZBWDLT> Finally, remind me again that this is just a game, please love your life and cherish your life! Then I'll see you on the next map. Bye!ヾ(•ω•`)o
@@ -542,7 +542,7 @@ subtitle.end_9=§lOne More Thing... §cis §dFIREWORK §eSHOW §f!!!
 subtitle.end_10=§lTHANKS FOR YOUR PLAYING!!
 
 actionbar.starting_room=§bPress button to start the game§r
-actionbar.tutorial_level=§b§lTuturial Level
+actionbar.tutorial_level=§b§lTutorial Level
 actionbar.read_rules=§aPlease review the map rules first, and then use Next to continue.
 actionbar.set_difficulty_line1=Choose the difficulty that suits you, step into the particle to start the game§r
 actionbar.set_difficulty_line2=§bVery Easy§7 - Enable all auxiliary functions§r | §aEasy§7 - Disable Strategy
