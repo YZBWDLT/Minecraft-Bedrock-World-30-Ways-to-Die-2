@@ -17,6 +17,3 @@ stopsound @a
 ## 重置地图数据
 function init/structures
 function init/data_init
-
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6更改语言" 24 10.2 30
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6Change language" 24 9.9 30

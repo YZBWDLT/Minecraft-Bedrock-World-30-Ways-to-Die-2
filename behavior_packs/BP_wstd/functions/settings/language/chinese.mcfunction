@@ -3,4 +3,4 @@ tellraw @a {"rawtext":[{"text":"§b游戏已设置成中文，请将您的游戏
 scoreboard players set @e[name=soundPlayer] active 1
 
 # 记分板同步
-scoreboard objectives setdisplay sidebar display ascending
+execute @e[name=level,scores={backend=!-20..-16}] ~~~ scoreboard objectives setdisplay sidebar display ascending
