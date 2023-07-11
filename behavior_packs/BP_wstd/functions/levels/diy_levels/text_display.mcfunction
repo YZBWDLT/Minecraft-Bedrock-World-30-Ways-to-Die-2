@@ -204,51 +204,6 @@ execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§binvolved can double the fun!" -109.9 4.0 -16
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bHave fun~" -109.9 3.5 -16
 
-## ===== 命令方块注释 =====
-## 启动与重启命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b启动与重" -103 1.9 -12
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b启命令组" -103 1.6 -12
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a所有关卡" -104 2.9 -12
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a通用函数" -104 2.6 -12
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a标题命令" -105 2.6 -12
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a传送玩家" -106 2.6 -12
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a限时设定" -107 2.6 -12
-
-## 退出功能命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b退出功能" -103 1.9 -13
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b命令组" -103 1.6 -13
-
-## 提示命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b提示" -103 1.9 -14
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b命令组" -103 1.6 -14
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a提示文本" -104 2.6 -14
-
-## 攻略命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b攻略" -103 1.9 -15
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b命令组" -103 1.6 -15
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a攻略文本" -104 2.6 -15
-
-## 跳过命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b跳过" -103 1.9 -16
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b命令组" -103 1.6 -16
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a跳过命令" -104 2.6 -16
-
-## 关卡结束命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b关卡结束" -103 1.9 -17
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b命令组" -103 1.6 -17
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a死亡消息" -104 2.6 -17
-
-## 快捷栏标题命令组
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b快捷栏标" -103 1.9 -18
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b题命令组" -103 1.6 -18
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a快捷栏标题" -104 2.6 -18
-
-## 标题命令
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a标题命令" -103 1.9 -20
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a标题时间" -104 2.6 -20
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a主标题" -105 2.6 -20
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a副标题" -106 2.6 -20
-
 ## --- English ---
 
 ## 启动与重启命令组
