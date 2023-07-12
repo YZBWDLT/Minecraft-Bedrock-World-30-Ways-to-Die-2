@@ -155,4 +155,4 @@ scoreboard players set @e[name=advLetMeSee] stats 0
 scoreboard players set @e[name=advTheRealEnd] stats 0
 
 ### === 物品使用类 ===
-scoreboard players set @a itemUsed 0
+scoreboard players set @a itemUsed -1
