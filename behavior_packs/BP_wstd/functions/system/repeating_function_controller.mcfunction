@@ -32,6 +32,8 @@ execute @a[x=3,y=8,z=6,dx=2,dy=2,dz=2] ~~~ function init/data_init
 execute @a[x=3,y=8,z=6,dx=2,dy=2,dz=2] ~~~ tp @a 31 10 27 facing 23 10 27
 ## 网易音乐播放控制器
 execute @e[name=level,scores={backend=!-20..-19}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ function system/music/netease_music_controller
+## 物品使用控制器
+execute @a[scores={itemUsed=!-1}] ~~~ function system/item_used_controller
 
 # === 设置类 ===
 ## 游戏规则设定，每1秒设定1次

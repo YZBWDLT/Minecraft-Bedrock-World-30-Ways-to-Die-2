@@ -13,7 +13,7 @@
         },
         "events": {
             "trigger_function": {
-                "run_command": { "command": [ "function items/quit" ] }
+                "run_command": { "command": [ "scoreboard players set @s itemUsed 11" ] }
             }
         }
     }

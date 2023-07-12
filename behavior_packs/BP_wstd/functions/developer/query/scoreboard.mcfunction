@@ -29,6 +29,7 @@ tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"backend.skipUsed = %%s 
 ## === display & oplevel ===
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"dimension.@s = %%s §7# 记录维度信息","with":{"rawtext":[{"score":{"objective":"dimension","name":"@s"}}]}}]}
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"display §7# 显示记分板"}]}
+tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"itemUsed.@s = %%s §7# 记录物品使用信息","with":{"rawtext":[{"score":{"objective":"itemUsed","name":"@s"}}]}}]}
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"oplevel.@s = %%s §7# 记录玩家权限等级","with":{"rawtext":[{"score":{"objective":"oplevel","name":"@s"}}]}}]}
 
 ## === 记录类 record ===

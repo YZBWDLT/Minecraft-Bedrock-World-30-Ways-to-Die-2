@@ -12,7 +12,7 @@
         },
         "events": {
             "trigger_function": {
-                "run_command": { "command": [ "function items/played_time" ] }
+                "run_command": { "command": [ "scoreboard players set @s itemUsed 10" ] }
             }
         }
     }

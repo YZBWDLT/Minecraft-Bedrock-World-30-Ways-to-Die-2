@@ -18,6 +18,7 @@ scoreboard objectives add settings dummy "设置数据"
 scoreboard objectives add active dummy "激活数据"
 scoreboard objectives add dimension dummy "维度数据"
 scoreboard objectives add record dummy "记录数据"
+scoreboard objectives add itemUsed dummy "物品使用数据"
 
 scoreboard players add @a oplevel 0
 scoreboard players set @a dimension 0
@@ -152,3 +153,6 @@ scoreboard players set @e[name=advGetStarted] stats 0
 scoreboard players set @e[name=advEasterEggFound] stats 0
 scoreboard players set @e[name=advLetMeSee] stats 0
 scoreboard players set @e[name=advTheRealEnd] stats 0
+
+### === 物品使用类 ===
+scoreboard players set @a itemUsed 0

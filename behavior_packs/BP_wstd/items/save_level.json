@@ -12,7 +12,7 @@
         },
         "events": {
             "trigger_function": {
-                "run_command": { "command": [ "function items/save_level" ] }
+                "run_command": { "command": [ "scoreboard players set @s itemUsed 14" ] }
             }
         }
     }
