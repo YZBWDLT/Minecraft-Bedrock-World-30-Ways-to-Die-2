@@ -2,7 +2,7 @@
 # 上游进度：让我康康 miscellaneous/let_me_see
 
 ## ===== 音效 =====
-scoreboard players set @e[name=soundPlayer] active 8
+execute @a ~~~ playsound random.levelup @s ~~~ 1 2
 
 ## ===== 添加进度分数并同步记分板 =====
 scoreboard players add @e[name=advancement] stats 1
