@@ -12,7 +12,6 @@ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§e�
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b难度设置" -104 20.2 49
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§c困难" -104 19.9 49
 
-
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b辅助物品启用设置" -100 20.2 43
 execute @e[name=hintEnabled,scores={settings=1}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a提示 | §a当前：开" -100 19.9 43
 execute @e[name=hintEnabled,scores={settings=0}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a提示 | §c当前：关" -100 19.9 43

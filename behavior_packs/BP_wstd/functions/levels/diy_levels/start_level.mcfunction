@@ -5,7 +5,6 @@
 ## 启用时间线
 function system/enable_timeline_without_flowing
 
-
 ## 移除其他物品
 execute @e[name=developerMode,scores={settings=0}] ~~~ clear @a
 

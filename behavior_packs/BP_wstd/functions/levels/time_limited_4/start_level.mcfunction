@@ -32,7 +32,6 @@ give @a wstd:next_step 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 # 启动时间线
 function system/enable_timeline_without_flowing
 
-
 # 展示文本
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b§l游戏规则" -49 33.0 -101.9
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a把猪钓进去，钓进5只即可获胜！" -49 32.7 -101.9

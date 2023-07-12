@@ -19,7 +19,6 @@ kill @e[type=!player,family=!marker,type=!ender_dragon]
 # ===== 启动时间线 =====
 function system/enable_timeline_without_flowing
 
-
 # ===== 设置为冒险模式 =====
 execute @e[name=developerMode,scores={settings=0}] ~~~ gamemode adventure @a
 

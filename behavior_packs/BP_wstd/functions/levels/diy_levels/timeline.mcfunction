@@ -72,7 +72,6 @@ execute @e[name=diyIsLoading,scores={backend=..0}] ~~~ execute @e[name=diyEditMo
 execute @e[name=diyIsLoading,scores={backend=..0}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ execute @e[name=remainingTime,scores={time=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.time_limited_levels.out_of_time"}]}
 execute @e[name=diyIsLoading,scores={backend=..0}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ execute @e[name=remainingTime,scores={time=0}] ~~~ function items/quit
 
-
 # ===== 编辑模式 =====
 
 ## 将出界的玩家传送回来

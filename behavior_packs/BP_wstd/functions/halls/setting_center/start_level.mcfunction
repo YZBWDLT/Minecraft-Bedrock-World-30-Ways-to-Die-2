@@ -20,6 +20,5 @@ function halls/setting_center/text_display
 # ===== 启用时间线 =====
 function system/enable_timeline_without_flowing
 
-
 # ===== 复制展示框 =====
 clone -98 16 49 -109 16 43 -109 21 43

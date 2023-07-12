@@ -14,5 +14,4 @@ execute @e[name=easterEggAdvancement,scores={stats=40}] ~~~ scoreboard players s
 # 关卡结束通用函数
 function levels/all_levels/level_completed
 
-
 function system/disable_timeline

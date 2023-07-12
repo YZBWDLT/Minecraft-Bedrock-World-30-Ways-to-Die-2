@@ -117,7 +117,6 @@ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a�
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a主标题" -105 2.6 -20
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a副标题" -106 2.6 -20
 
-
 ## ===== 自定义关卡向导 =====
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§b§lWelcome to the DIY Levels!" -109.9 5.5 -16
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§bThis is a guide for the DIY Levels!" -109.9 4.9 -16

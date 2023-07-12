@@ -15,7 +15,6 @@ kill @e[type=!player,family=!marker,type=!ender_dragon]
 # ===== 启动时间线 =====
 function system/enable_timeline_without_flowing
 
-
 # ===== 生成作者 =====
 summon wstd:creator -46 9 27 become_lt
 tellraw @a { "rawtext": [ { "translate": "chat.level_30.dialogue.line1" } ] }
