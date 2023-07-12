@@ -192,16 +192,12 @@ chat.mainline_completed.line6=§b完成所有30个进度，再来这个地方，
 
 ## {"translate":"chat.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}}]}}
 chat.played_time.time=§b你的游玩时间 | §a%s : %s§r
-## {"translate":"chat.played_time.time.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
-chat.played_time.time.speedrun_mode=§b你的游玩时间 | §a%s : %s . %s§r
-## {"translate":"chat.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}}]}}
-chat.played_time.end_time=§b全地图通关！通关时间 | §a%s : %s§r
-## {"translate":"chat.played_time.end_time.speedrun_mode","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}},{"score":{"objective":"stats","name":"@e[name=endTimeTick]"}}]}}
-chat.played_time.end_time.speedrun_mode=§b全地图通关！通关时间 | §a%s : %s . %s§r
-## {"translate":"chat.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"@e[name=recordMinute]"}},{"score":{"objective":"record","name":"@e[name=recordSecond]"}}]}}
-chat.played_time.record=§b最佳纪录 | §a%s : %s§r
-## {"translate":"chat.played_time.record.speedrun_mode","with":{"rawtext":[{"score":{"objective":"record","name":"@e[name=recordMinute]"}},{"score":{"objective":"record","name":"@e[name=recordSecond]"}},{"score":{"objective":"record","name":"@e[name=recordTick]"}}]}}
-chat.played_time.record.speedrun_mode=§b最佳纪录 | §a%s : %s . %s§r
+## {"translate":"chat.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
+chat.played_time.time.completed=§b你的游玩时间 | §a%s : %s . %s§r
+## {"translate":"chat.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}},{"score":{"objective":"stats","name":"@e[name=endTimeTick]"}}]}}
+chat.played_time.end_time=§b全地图通关！通关时间 | §a%s : %s . %s§r
+## {"translate":"chat.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"recordMinute"}},{"score":{"objective":"record","name":"recordSecond"}},{"score":{"objective":"record","name":"recordTick"}}]}}
+chat.played_time.record=§b最佳纪录 | §a%s : %s . %s§r
 ## {"translate":"chat.played_time.map_completed_times","with":{"rawtext":[{"score":{"objective":"record","name":"mapCompletedTimes"}}]}}
 chat.played_time.map_completed_times=§b通关次数 | §a%s§r
 chat.played_time.evaluate1=§c你甚至连主线都没有完成！怎么拿到的这个物品？(╯‵□′)╯︵┻━┻
