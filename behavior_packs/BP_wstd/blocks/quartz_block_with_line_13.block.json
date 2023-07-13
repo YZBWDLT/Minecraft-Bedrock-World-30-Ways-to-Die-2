@@ -1,5 +1,5 @@
 {
-    "format_version": "1.18.30",
+    "format_version": "1.18.0",
     "minecraft:block": {
         "description": {
             "identifier": "wstd:quartz_block_with_line_13"
