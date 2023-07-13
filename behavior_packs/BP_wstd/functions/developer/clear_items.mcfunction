@@ -1,4 +1,5 @@
 # 开发者模式下可以清除的物品
+execute @e[name=developerMode,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.not_developer_mode"}]}
 
 execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:hint
 execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:skip
