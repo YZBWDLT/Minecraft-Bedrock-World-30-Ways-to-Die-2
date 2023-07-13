@@ -1,38 +1,30 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:item": {
-    "description": {
-      "identifier": "wstd:hunger_potion",
-      "category": "Equipment"
-    },
-    
-    "components": {
-      "minecraft:use_duration": 1.6,
-      "minecraft:max_stack_size": 16,
-      "minecraft:food": {
-        "nutrition": 0,
-        "can_always_eat": true,
-        "saturation_modifier": "poor",
-        "using_converts_to": "glass_bottle",
-        "on_consume": {
-          "event": "hunger_effect"
-        }
-      },
-      "minecraft:display_name": {
-        "value": "item.wstd:hunger_potion.name"
-      },
-      "minecraft:icon": {
-        "texture": "hunger_potion"
-      },
-      "minecraft:use_animation": "drink"
-    },
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wstd:hunger_potion",
+            "category": "Equipment"
+        },
+        
+        "components": {
+            "minecraft:use_duration": 1.6,
+            "minecraft:max_stack_size": 16,
+            "minecraft:food": {
+                "nutrition": 0,
+                "can_always_eat": true,
+                "saturation_modifier": "poor",
+                "using_converts_to": "glass_bottle",
+                "on_consume": { "event": "hunger_effect" }
+            },
+            "minecraft:display_name": { "value": "item.wstd:hunger_potion.name" },
+            "minecraft:icon": { "texture": "hunger_potion" },
+            "minecraft:use_animation": "drink"
+        },
 
-    "events": {
-      "hunger_effect":{
-        "run_command": {
-          "command": ["effect @s hunger 5 255 true"]
+        "events": {
+            "hunger_effect":{
+                "run_command": { "command": ["effect @s hunger 5 255 true"] }
+            }
         }
-      }
     }
-  }
 }
