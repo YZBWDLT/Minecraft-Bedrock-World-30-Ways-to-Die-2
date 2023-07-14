@@ -42,5 +42,8 @@ execute @e[name=levelCompleteDelay,scores={settings=-5..-1}] ~~~ function system
 # ===== 给予物品 =====
 function system/functionality_items_controller
 
+# ===== 停止时间线 =====
+function system/disable_timeline
+
 # ===== 提醒玩家开发者模式下部分命令执行失败 =====
 execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.developer_mode.run_command_failed"}]}
