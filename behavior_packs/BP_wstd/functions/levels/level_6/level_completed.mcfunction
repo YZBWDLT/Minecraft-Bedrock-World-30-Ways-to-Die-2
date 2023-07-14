@@ -1,8 +1,8 @@
 # 第6关结束
 
 # 自定义死亡信息
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_6.line1","with":{"rawtext":[{"selector":"@s"}]}}]}
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_6.line2"}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_6.line1","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_6.line2"}]}
 
 # 传送到下一关入口
 tp @a -5 10 27 facing -5 10 30

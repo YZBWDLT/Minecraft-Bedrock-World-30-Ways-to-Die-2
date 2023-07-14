@@ -1,7 +1,7 @@
 # 第17关结束
 
 # 自定义死亡信息
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_17","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_17","with":{"rawtext":[{"selector":"@s"}]}}]}
 
 # 结束时间线
 function system/disable_timeline

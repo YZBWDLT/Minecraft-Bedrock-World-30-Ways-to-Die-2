@@ -1,7 +1,7 @@
 # 第5关结束
 
 # 自定义死亡信息
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_5","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_5","with":{"rawtext":[{"selector":"@s"}]}}]}
 
 # 传送到下一关入口
 tp @a -1 10 27 facing -1 10 30

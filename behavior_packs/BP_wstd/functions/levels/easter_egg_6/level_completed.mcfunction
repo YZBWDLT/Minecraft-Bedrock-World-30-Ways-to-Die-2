@@ -1,7 +1,7 @@
 # 关卡完成
 
 # 自定义死亡信息
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.easter_egg_6","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.easter_egg_6","with":{"rawtext":[{"selector":"@s"}]}}]}
 
 # 传送到下一关入口
 tp @a -26 10 5 facing -26 10 2

@@ -1,8 +1,8 @@
 # 关卡完成
 
 # 自定义死亡信息
-execute @e[name=skipUsed,scores={backend=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_13","with":{"rawtext":[{"selector":"@s"}]}}]}
-execute @e[name=skipUsed,scores={backend=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_13.skip_used","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=skipUsed,scores={backend=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_13","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=skipUsed,scores={backend=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_13.skip_used","with":{"rawtext":[{"selector":"@s"}]}}]}
 
 # 传送到下一关入口
 tp @a -33 10 27 facing -33 10 30

@@ -1,7 +1,7 @@
 # 第8关结束
 
 # 自定义死亡信息
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_8","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_8","with":{"rawtext":[{"selector":"@s"}]}}]}
 
 # 传送到下一关入口
 tp @a -13 10 27 facing -13 10 30

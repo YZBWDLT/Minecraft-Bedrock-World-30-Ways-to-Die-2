@@ -1,8 +1,8 @@
 # 关卡完成
 
 # 自定义死亡信息
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_28.line1","with":{"rawtext":[{"selector":"@s"}]}}]}
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_28.line2"}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_28.line1","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_28.line2"}]}
 
 # 传送到下一关入口
 tp @a -33 10 27 facing -33 10 24

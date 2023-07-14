@@ -25,7 +25,7 @@ kill @e[name=diedInOverworld]
 summon je:marker "diedInOverworld" 0 3 0
 
 # 启动时间线
-function system/enable_timeline
+function system/enable_timeline_without_flowing
 
 # 启用通关延迟
 function system/enable_level_complete_delay

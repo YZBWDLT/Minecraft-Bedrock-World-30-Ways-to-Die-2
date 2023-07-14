@@ -1,8 +1,8 @@
 # 第18关结束
 
 # 自定义死亡信息
-execute @e[name=counter,scores={backend=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_18.blow_up","with":{"rawtext":[{"selector":"@s"}]}}]}
-execute @e[name=counter,scores={backend=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.level_18.void","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=counter,scores={backend=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_18.blow_up","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=counter,scores={backend=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_18.void","with":{"rawtext":[{"selector":"@s"}]}}]}
 
 # 结束时间线
 function system/disable_timeline
