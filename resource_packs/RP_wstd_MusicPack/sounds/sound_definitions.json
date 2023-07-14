@@ -8,7 +8,7 @@
          ]
       },
       "smelly" : {
-         "category" : "ambient",
+         "category" : "ui",
          "sounds" : [
             "sounds/sound/smelly"
          ]
