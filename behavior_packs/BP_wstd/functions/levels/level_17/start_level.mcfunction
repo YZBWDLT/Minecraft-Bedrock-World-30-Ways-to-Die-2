@@ -11,7 +11,8 @@ titleraw @a title {"rawtext":[{"translate":"title.level_17"}]}
 titleraw @a subtitle {"rawtext":[{"translate":"subtitle.level_17"}]}
 
 # 复制房间
-structure load level_17 -2 20 80
+execute @e[name=language,scores={settings=0}] ~~~ structure load level_17 -2 20 80
+execute @e[name=language,scores={settings=1}] ~~~ structure load level_17_en -2 20 80
 
 # 传送玩家
 tp @a 6 22 88 facing -1 22 81

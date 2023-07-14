@@ -11,7 +11,8 @@ titleraw @a title {"rawtext":[{"translate":"title.easter_egg_9"}]}
 titleraw @a subtitle {"rawtext":[{"translate":"subtitle.easter_egg_9"}]}
 
 # 复制房间
-structure load easter_egg_9 20 20 -70
+execute @e[name=language,scores={settings=0}] ~~~ structure load easter_egg_9 20 20 -70
+execute @e[name=language,scores={settings=1}] ~~~ structure load easter_egg_9_en 20 20 -70
 
 # 传送玩家
 tp @a 28 22 -62 facing 21 22 -69

@@ -23,7 +23,7 @@ execute @e[name=skipEnabled,scores={settings=1}] ~~~ give @a wstd:skip 1 0 {"ite
 effect @a fire_resistance 100000 0 true
 
 # 启用时间线
-function system/enable_timeline
+function system/enable_timeline_without_flowing
 
 # 启用通关延迟
 function system/enable_level_complete_delay

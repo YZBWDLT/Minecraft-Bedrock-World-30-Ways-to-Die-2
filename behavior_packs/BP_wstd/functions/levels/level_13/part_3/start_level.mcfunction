@@ -20,7 +20,7 @@ tp @a -46 22 63 facing -53 22 59
 execute @e[name=skipEnabled,scores={settings=1}] ~~~ give @a wstd:skip 1 0 {"item_lock": {"mode":"lock_in_inventory"}}
 
 # 启动时间线
-function system/enable_timeline
+function system/enable_timeline_without_flowing
 
 # 启用通关延迟
 function system/enable_level_complete_delay
