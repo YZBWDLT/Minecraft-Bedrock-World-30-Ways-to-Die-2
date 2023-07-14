@@ -7,4 +7,4 @@ execute @e[name=levelAdvancement,scores={stats=28}] ~~~ scoreboard players set @
 function system/display_scoreboards/strategy
 
 # 攻略内容
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"strategy.level_29"}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.strategy.level_29"}]}

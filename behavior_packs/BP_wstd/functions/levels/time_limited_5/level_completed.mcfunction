@@ -20,4 +20,4 @@ fill 13 5 7 13 5 12 air
 
 # 信标与结束语
 execute @e[name=timeLimitedAdvancement,scores={stats=40}] ~~~ detect -45 9 28 glass -1 setblock -45 9 28 beacon
-execute @e[name=timeLimitedAdvancement,scores={stats=40}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.time_limited_levels.completed"}]}
+execute @e[name=timeLimitedAdvancement,scores={stats=40}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.completed.time_limited_levels"}]}

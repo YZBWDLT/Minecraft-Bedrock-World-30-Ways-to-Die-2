@@ -9,4 +9,4 @@ execute @e[name=entityAmount,scores={backend=..8}] ~~~ execute @e[name=entitySum
 execute @e[name=entityAmount,scores={backend=..8}] ~~~ execute @e[name=entitySummoner,scores={backend=66..90}] ~~~ summon piglin ~~~
 execute @e[name=entityAmount,scores={backend=..8}] ~~~ execute @e[name=entitySummoner,scores={backend=91..100}] ~~~ summon zombie_pigman ~~~
 
-execute @e[name=entityAmount,scores={backend=9..}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.time_limited_4.too_many_entities"}]}
+execute @e[name=entityAmount,scores={backend=9..}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.time_limited_4.too_many_entities"}]}

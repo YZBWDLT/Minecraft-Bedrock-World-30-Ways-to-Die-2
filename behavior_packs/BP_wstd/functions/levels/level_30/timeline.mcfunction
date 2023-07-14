@@ -24,7 +24,7 @@ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter
 execute @e[name=level30Dialogue,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:creator -125 65 77 become_xs_tradable
 
 ### --- 检测下界传送门，检测到后立马销毁 ---
-execute @a ~~~ detect ~~~ portal -1 tellraw @a {"rawtext":[{"translate":"chat.level_30.portal"}]}
+execute @a ~~~ detect ~~~ portal -1 tellraw @a {"rawtext":[{"translate":"chat.level.level_30.portal"}]}
 execute @a ~~~ detect ~~~ portal -1 fill ~-2~-2~-2~2~2~2 air [] replace portal
 
 ### --- 检测玩家手持下界合金镐，检测到后清除基岩 ---

@@ -10,4 +10,4 @@ function system/display_scoreboards/skip
 kill @a
 
 ## 提示
-execute @a ~~~ tellraw @a {"rawtext":[{"translate":"chat.level_21.skip_used"}]}
+execute @a ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.level_21.skip_used"}]}

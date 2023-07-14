@@ -17,4 +17,4 @@ structure load hided_2 -61 20 105
 tp @a -42 22 124
 
 # 提醒玩家
-tellraw @a {"rawtext":[{"translate":"chat.hided_2"}]}
+tellraw @a {"rawtext":[{"translate":"chat.level.hided_2"}]}

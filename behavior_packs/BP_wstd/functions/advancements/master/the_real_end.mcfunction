@@ -12,7 +12,7 @@ function system/display_scoreboards/advancement
 scoreboard players set @e[name=advTheRealEnd] stats 1
 
 ## ===== 提示玩家进度已完成 =====
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.legend","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.master.the_real_end"}]}}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.legendary","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.master.the_real_end"}]}}]}}]}
 
 ## ===== 记录游玩时间 =====
 scoreboard players operation @e[name=endTimeMinute] stats = @e[name=playedMinute] time

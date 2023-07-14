@@ -32,31 +32,31 @@ execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -47 8 27 diamon
 execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -46 8 26 diamond_block
 execute @e[name=timeline,scores={time=18,active=1}] ~~~ setblock -45 8 27 diamond_block
 
-execute @e[name=timeline,scores={time=80,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line1"}]}
+execute @e[name=timeline,scores={time=80,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line1"}]}
 execute @e[name=timeline,scores={time=80,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=160,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line2"}]}
+execute @e[name=timeline,scores={time=160,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line2"}]}
 execute @e[name=timeline,scores={time=160,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=240,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line3"}]}
+execute @e[name=timeline,scores={time=240,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line3"}]}
 execute @e[name=timeline,scores={time=240,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=320,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line4","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=timeline,scores={time=320,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line4","with":{"rawtext":[{"selector":"@s"}]}}]}
 execute @e[name=timeline,scores={time=320,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=400,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line5"}]}
+execute @e[name=timeline,scores={time=400,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line5"}]}
 execute @e[name=timeline,scores={time=400,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=480,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line6"}]}
+execute @e[name=timeline,scores={time=480,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line6"}]}
 execute @e[name=timeline,scores={time=480,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=560,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line7"}]}
+execute @e[name=timeline,scores={time=560,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line7"}]}
 execute @e[name=timeline,scores={time=560,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=640,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line8","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=timeline,scores={time=640,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line8","with":{"rawtext":[{"selector":"@s"}]}}]}
 execute @e[name=timeline,scores={time=640,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=720,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line9"}]}
+execute @e[name=timeline,scores={time=720,active=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line9"}]}
 execute @e[name=timeline,scores={time=720,active=1}] ~~~ execute @a ~~~ playsound random.pop @s
 
 ## 转到timeline的active=3，同时清空时间线
@@ -185,34 +185,34 @@ execute @e[name=timeline,scores={time=1,active=4}] ~~~ time set 6000
 execute @e[name=timeline,scores={time=1,active=4}] ~~~ function system/music/play_end
 execute @e[name=timeline,scores={time=2,active=4}] ~~~ function system/music/queue_maingame
 
-execute @e[name=timeline,scores={time=80,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line10"}]}
+execute @e[name=timeline,scores={time=80,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line10"}]}
 execute @e[name=timeline,scores={time=80,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=160,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line11"}]}
+execute @e[name=timeline,scores={time=160,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line11"}]}
 execute @e[name=timeline,scores={time=160,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=240,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line12"}]}
+execute @e[name=timeline,scores={time=240,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line12"}]}
 execute @e[name=timeline,scores={time=240,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=320,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line13"}]}
+execute @e[name=timeline,scores={time=320,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line13"}]}
 execute @e[name=timeline,scores={time=320,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=400,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line14"}]}
+execute @e[name=timeline,scores={time=400,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line14"}]}
 execute @e[name=timeline,scores={time=400,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=480,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line15"}]}
+execute @e[name=timeline,scores={time=480,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line15"}]}
 execute @e[name=timeline,scores={time=480,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=560,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line16"}]}
+execute @e[name=timeline,scores={time=560,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line16"}]}
 execute @e[name=timeline,scores={time=560,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=640,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line17"}]}
+execute @e[name=timeline,scores={time=640,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line17"}]}
 execute @e[name=timeline,scores={time=640,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=720,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.dialogue.line18"}]}
+execute @e[name=timeline,scores={time=720,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.end.advancements_completed.line18"}]}
 execute @e[name=timeline,scores={time=720,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=800,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.level_30.dialogue.line8"}]}
+execute @e[name=timeline,scores={time=800,active=4}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.author_left_game"}]}
 execute @e[name=timeline,scores={time=800,active=4}] ~~~ execute @a ~~~ playsound random.pop @s
 execute @e[name=timeline,scores={time=800,active=4}] ~~~ tp @e[x=-46,y=9,z=27,r=2,type=wstd:creator] 5 5 5
 

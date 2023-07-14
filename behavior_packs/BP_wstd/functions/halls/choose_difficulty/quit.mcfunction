@@ -13,7 +13,7 @@ scoreboard players set @e[name=lvl1Strategy] stats 0
 scoreboard players set @e[name=advancement] stats 0
 
 # ===== tellraw提示 =====
-tellraw @a {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"op.end.line1"},{"translate":"op.end.line2"}]}}]}
+tellraw @a {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.open.end.line1"},{"translate":"chat.open.end.line2"}]}}]}
 
 # ===== 播放音效 =====
 scoreboard players set @e[name=soundPlayer] active 8

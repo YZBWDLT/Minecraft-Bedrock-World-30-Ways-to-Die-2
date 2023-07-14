@@ -1,2 +1,2 @@
 # 攻略内容
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"strategy.easter_egg_9"}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.strategy.easter_egg_9"}]}

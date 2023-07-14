@@ -24,7 +24,7 @@ execute @e[name=ticker,scores={time=0}] ~~~ effect @a resistance 30 5 true
 ## ===== 当玩家达成目标时，给予跳过 =====
 ### active.soundPlayer将播放mob.villager.yes
 execute @e[name=counter,scores={backend=6}] ~~~ execute @e[name=remainingTime,scores={time=1..}] ~~~ execute @a[hasitem={item=wstd:skip,quantity=0}] ~~~ scoreboard players set @e[name=soundPlayer] active 3
-execute @e[name=counter,scores={backend=6}] ~~~ execute @e[name=remainingTime,scores={time=1..}] ~~~ tellraw @a[hasitem={item=wstd:skip,quantity=0}] {"rawtext":[{"translate":"chat.time_limited_4.succeed"}]}
+execute @e[name=counter,scores={backend=6}] ~~~ execute @e[name=remainingTime,scores={time=1..}] ~~~ tellraw @a[hasitem={item=wstd:skip,quantity=0}] {"rawtext":[{"translate":"chat.level.time_limited_4.succeed"}]}
 execute @e[name=counter,scores={backend=6}] ~~~ execute @e[name=remainingTime,scores={time=1..}] ~~~ give @a[hasitem={item=wstd:skip,quantity=0}] wstd:skip 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
 
 ## ===== 红石灯同步 =====

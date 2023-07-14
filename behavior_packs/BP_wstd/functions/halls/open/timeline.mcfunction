@@ -12,8 +12,8 @@ execute @e[name=timeline,scores={time=200}] ~~~ titleraw @a subtitle { "rawtext"
 execute @e[name=timeline,scores={time=200}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
 execute @e[name=timeline,scores={time=280}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_2" } ] }
-execute @e[name=timeline,scores={time=280}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"subtitle.open.music.on"}]}
-execute @e[name=timeline,scores={time=280}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"subtitle.open.music.off"}]}
+execute @e[name=timeline,scores={time=280}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.open.music.on"}]}
+execute @e[name=timeline,scores={time=280}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.open.music.off"}]}
 execute @e[name=timeline,scores={time=280}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
 execute @e[name=timeline,scores={time=300}] ~~~ titleraw @a actionbar { "rawtext": [ { "translate": "actionbar.open_1" } ] }

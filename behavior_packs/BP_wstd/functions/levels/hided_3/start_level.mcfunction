@@ -17,7 +17,7 @@ structure load hided_3 -91 20 105
 tp @a -75 22 122
 
 # 提醒玩家
-tellraw @a {"rawtext":[{"translate":"chat.hided_3"}]}
+tellraw @a {"rawtext":[{"translate":"chat.level.hided_3"}]}
 
 # 展示文本
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display ":( 我渴了" -89 23 107

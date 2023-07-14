@@ -17,7 +17,7 @@ function system/enable_timeline_without_flowing
 
 # ===== 生成作者 =====
 summon wstd:creator -46 9 27 become_lt
-tellraw @a { "rawtext": [ { "translate": "chat.level_30.dialogue.line1" } ] }
+tellraw @a { "rawtext": [ { "translate": "chat.author_joined_game" } ] }
 
 # ===== 复原地板 =====
 fill -44 8 29 -48 8 25 iron_block

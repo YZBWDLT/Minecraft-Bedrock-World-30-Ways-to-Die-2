@@ -33,22 +33,22 @@ execute @e[name=timeline,scores={time=161..170}] ~~~ execute @a[x=-43,y=9,z=27,r
 execute @e[name=timeline,scores={time=161..170}] ~~~ execute @a[x=-43,y=9,z=27,r=3] ~~~ scoreboard players set @e[name=timeline] time 200
 
 ## 时间线进程
-execute @e[name=timeline,scores={time=280}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.mainline_completed.line1"}]}
+execute @e[name=timeline,scores={time=280}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.end.mainline_completed.line1"}]}
 execute @e[name=timeline,scores={time=280}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=360}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.mainline_completed.line2"}]}
+execute @e[name=timeline,scores={time=360}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.end.mainline_completed.line2"}]}
 execute @e[name=timeline,scores={time=360}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=440}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.mainline_completed.line3"}]}
+execute @e[name=timeline,scores={time=440}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.end.mainline_completed.line3"}]}
 execute @e[name=timeline,scores={time=440}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=520}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.mainline_completed.line4"}]}
+execute @e[name=timeline,scores={time=520}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.end.mainline_completed.line4"}]}
 execute @e[name=timeline,scores={time=520}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=600}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.mainline_completed.line5","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=advancement]"}}]}}]}
+execute @e[name=timeline,scores={time=600}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.end.mainline_completed.line5","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=advancement]"}}]}}]}
 execute @e[name=timeline,scores={time=600}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=680}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.mainline_completed.line6"}]}
+execute @e[name=timeline,scores={time=680}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.end.mainline_completed.line6"}]}
 execute @e[name=timeline,scores={time=680}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
 execute @e[name=timeline,scores={time=759}] ~~~ kill @e[name=rotater]

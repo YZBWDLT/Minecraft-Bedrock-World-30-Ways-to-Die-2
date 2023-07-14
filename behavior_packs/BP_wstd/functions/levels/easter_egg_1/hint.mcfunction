@@ -1,2 +1,2 @@
 # 提示内容
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"hint.easter_egg_1"}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.hint.easter_egg_1"}]}

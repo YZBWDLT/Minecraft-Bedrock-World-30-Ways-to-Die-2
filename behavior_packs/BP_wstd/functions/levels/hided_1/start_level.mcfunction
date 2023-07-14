@@ -30,4 +30,4 @@ summon wstd:creator -60 21 70 become_ly "GreeLeaf"
 summon wstd:creator -64 21 74 become_jd "MildTurt"
 
 # 提醒玩家
-tellraw @a {"rawtext":[{"translate":"chat.hided_1"}]}
+tellraw @a {"rawtext":[{"translate":"chat.level.hided_1"}]}

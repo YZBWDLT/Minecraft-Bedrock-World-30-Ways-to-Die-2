@@ -7,13 +7,13 @@ execute @a ~~~ detect -35 23 -25 air 0 scoreboard players set @e[name=timeline] 
 execute @a ~~~ detect -35 24 -25 air 0 scoreboard players set @e[name=timeline] active 1
 
 ## 对话
-execute @e[name=timeline,scores={time=20}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.easter_egg_1.dialogue.line1"}]}
+execute @e[name=timeline,scores={time=20}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_1.dialogue.line1"}]}
 execute @e[name=timeline,scores={time=20}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=100}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.easter_egg_1.dialogue.line2"}]}
+execute @e[name=timeline,scores={time=100}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_1.dialogue.line2"}]}
 execute @e[name=timeline,scores={time=100}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 
-execute @e[name=timeline,scores={time=180}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.easter_egg_1.dialogue.line3"}]}
+execute @e[name=timeline,scores={time=180}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_1.dialogue.line3"}]}
 execute @e[name=timeline,scores={time=180}] ~~~ execute @a ~~~ playsound random.pop @s ~~~
 execute @e[name=timeline,scores={time=180}] ~~~ execute @a ~~~ playsound smelly @s ~~~ 0.15
 

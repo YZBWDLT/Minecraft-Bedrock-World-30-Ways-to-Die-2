@@ -12,4 +12,4 @@ function system/display_scoreboards/advancement
 scoreboard players set @e[name=advIronman] stats 1
 
 ## ===== 提示玩家进度已完成 =====
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.legend","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.easter_egg.ironman"}]}}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.legendary","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.easter_egg.ironman"}]}}]}}]}

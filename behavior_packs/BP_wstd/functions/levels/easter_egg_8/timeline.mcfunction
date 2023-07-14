@@ -6,6 +6,6 @@ execute @e[name=timeline,scores={time=20..}] ~~~ scoreboard players remove @e[na
 ## 1s循环一次
 scoreboard players remove @e[name=timeline,scores={time=20..}] time 20
 ## 计时为0时自动停止并退出
-execute @e[name=remainingTime,scores={time=..0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.time_limited_levels.out_of_time"}]}
+execute @e[name=remainingTime,scores={time=..0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.out_of_time"}]}
 execute @e[name=remainingTime,scores={time=..0}] ~~~ scoreboard players set @e[name=soundPlayer] active 4
 execute @e[name=remainingTime,scores={time=..0}] ~~~ function levels/easter_egg_8/quit_level

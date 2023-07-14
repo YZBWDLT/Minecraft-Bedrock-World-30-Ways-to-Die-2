@@ -61,9 +61,9 @@ execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,
 execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=32}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ function levels/level_13/part_3/level_completed
 
 ## 33~35 | 隐藏关卡 | 死亡后回到大厅
-execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=33}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.hided_1","with":{"rawtext":[{"selector":"@s"}]}}]}
-execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=34}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.hided_2","with":{"rawtext":[{"selector":"@s"}]}}]}
-execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=35}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"deathmessage.hided_3","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=33}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.hided_1","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=34}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.hided_2","with":{"rawtext":[{"selector":"@s"}]}}]}
+execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=35}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.hided_3","with":{"rawtext":[{"selector":"@s"}]}}]}
 execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=33..35}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ function halls/main_hall/start_level
 
 ## 36~40 | 限时关卡 | 死亡后触发通关函数

@@ -7,4 +7,4 @@ execute @e[name=levelAdvancement,scores={stats=32}] ~~~ scoreboard players set @
 function system/display_scoreboards/hint
 
 # 提示内容
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"hint.level_14"}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.hint.level_14"}]}

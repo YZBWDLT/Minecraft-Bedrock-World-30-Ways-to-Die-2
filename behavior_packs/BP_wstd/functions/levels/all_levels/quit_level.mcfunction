@@ -4,7 +4,7 @@
 
 # ===== 提醒玩家超时 =====
 ## 从限时关卡返回
-execute @e[name=level,scores={backend=36..40}] ~~~ execute @e[name=remainingTime,scores={time=..0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.time_limited_levels.out_of_time"}]}
+execute @e[name=level,scores={backend=36..40}] ~~~ execute @e[name=remainingTime,scores={time=..0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.out_of_time"}]}
 execute @e[name=level,scores={backend=36..40}] ~~~ execute @e[name=remainingTime,scores={time=..0}] ~~~ scoreboard players set @e[name=soundPlayer] active 4
 
 # ===== 播放音乐 =====
