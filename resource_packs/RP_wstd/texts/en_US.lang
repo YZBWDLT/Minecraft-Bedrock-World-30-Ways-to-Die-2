@@ -463,7 +463,7 @@ chat.strategy.easter_egg_7=§lStrategy for Easter Egg Level 7>>§r§6Step on the
 chat.strategy.easter_egg_8=§lStrategy for Easter Egg Level 8>>§r§6(Maybe the quickest way to pass this level) Make a sword and a pickaxe, dig up the emerald block, and then destroy the web with the sword.
 chat.strategy.easter_egg_9=§lStrategy for Easter Egg Level 9>>§r§6Taking potions.
 chat.strategy.easter_egg_10=§lStrategy for Easter Egg Level 10>>§r§6The author thinks you don't need a strategy.
-chat.strategy.time_limited_1=§lStrategy for Time Limited Level 1>>§r§6(1) Cutting wood, craft a wooden pickaxe, break stones and craft a stone pickaxe, break iron ore and then craft a iron pickaxe. (2) Use your pickaxe and other tools to get all the resources. ③ Using rabbit skin to craft some leather, and then using leather to craft a leather horse armor. (4) reset the resources several times until you get 6 bamboos and craft scaffolding with string (which can be obtained by breaking webs with swords). ⑤ Craft the other three items through other crafting recipe tables. (If you don't know the crafting recipe, please be sure to open the recipe book!)
+chat.strategy.time_limited_1=§lStrategy for Time Limited Level 1>>§r§6(1) Cutting wood, craft a wooden pickaxe, break stones and craft a stone pickaxe, break iron ore and then craft a iron pickaxe. (2) Use your pickaxe and other tools to get all the resources. ③ Using rabbit skin to craft some leather, and then using leather to craft a leather horse armor. (4) reset the resources several times until you get 6 bamboos and craft scaffolding with string (which can be obtained by breaking webs with swords). ⑤ Craft the other three items through other crafting recipe tables. (If you don't know the crafting recipe, please be sure to open the recipe book! Be sure to craft these 5 things into a skip, it's not the end when you just made these 5 things! )
 chat.strategy.time_limited_2=§lStrategy for Time Limited Level 2>>§r§6Why do you think a parkour would have a strategy?
 chat.strategy.time_limited_3=§lStrategy for Time Limited Level 3>>§r§6Holding wheat seeds in your hand, then summon chickens and led them through the maze. It is best to summon more chickens to prevent them from not stepping on the pressure plate.
 chat.strategy.time_limited_4=§lStrategy for Time Limited Level 4>>§r§6Tip: Bows and arrows can also be used to drive pigs into holes.
@@ -602,7 +602,7 @@ chat.how_to_play.line31=That's it! I might have said too much... but have fun pl
 #### Map Rule
 chat.map_rule.line1=§bRule of the Map
 chat.map_rule.line2=§lDisclaimer
-chat.map_rule.line3=§7When you play this map, you will agree to the precautions specified in this rule by default. The team is not responsible for all the consequences caused by violating the rules.
+chat.map_rule.line3=§7When you play this map, you will agree to the precautions specified in this rule by default. We, the AB Workshop, are not responsible for all the consequences caused by violating the rules.
 chat.map_rule.line4=§lVersion requirement
 chat.map_rule.line5=§7Please use at least the §fbedrock version 1.18.30 or the latest China version§7 for a complete experience.
 chat.map_rule.line6=§lGame mode requirement
