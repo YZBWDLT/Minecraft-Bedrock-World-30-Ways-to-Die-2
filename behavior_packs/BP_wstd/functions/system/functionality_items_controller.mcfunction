@@ -15,8 +15,9 @@ execute @e[name=level,scores={backend=-9..-4}] ~~~ give @a[hasitem={item=wstd:ba
 execute @e[name=level,scores={backend=-5}] ~~~ give @a[hasitem={item=wstd:next_step,quantity=0}] wstd:next_step 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
 execute @e[name=level,scores={backend=-5}] ~~~ give @a[hasitem={item=wstd:reset,quantity=0}] wstd:reset 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
 
-# -3~-1 | 三大子大厅 | 必要物品：返回
+# -3~-1 | 三大子大厅 | 必要物品：返回、播放音乐
 execute @e[name=level,scores={backend=-3..-1}] ~~~ give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
+execute @e[name=level,scores={backend=-3..-1}] ~~~ give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
 
 # -1 | DIY关卡大厅 | 必要物品：返回（已在上面给予）、下一步
 execute @e[name=level,scores={backend=-1}] ~~~ give @a[hasitem={item=wstd:next_step,quantity=0}] wstd:next_step 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
@@ -63,3 +64,6 @@ execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,s
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ execute @e[name=diyIsLoading,scores={backend=..0}] ~~~ execute @e[name=hintEnabled,scores={settings=1}] ~~~ give @a[hasitem={item=wstd:hint,quantity=0}] wstd:hint 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ execute @e[name=diyIsLoading,scores={backend=..0}] ~~~ execute @e[name=strategyEnabled,scores={settings=1}] ~~~ give @a[hasitem={item=wstd:strategy,quantity=0}] wstd:strategy 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ execute @e[name=diyIsLoading,scores={backend=..0}] ~~~ execute @e[name=skipEnabled,scores={settings=1}] ~~~ give @a[hasitem={item=wstd:skip,quantity=0}] wstd:skip 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
+
+# 所有关卡（除-20~-16，-13，-3~0外） | 给予播放音乐（物品栏第8位）
+execute @e[name=level,scores={backend=!-20..-16,backend=!-13,backend=!-3..0}] ~~~ replaceitem entity @a[hasitem={item=wstd:play_music,quantity=0}] slot.inventory 8 wstd:play_music 1 0 {"item_lock":{"mode":"lock_in_inventory"}}
