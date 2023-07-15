@@ -6,5 +6,5 @@ execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[scores={dimens
 execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[scores={dimension=0},c=1] ~~~ tellraw @a {"rawtext":[{"translate":"chat.develoepr.dimension_marker.overworld"}]}
 
 execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[scores={dimension=1},c=1] ~~~ kill @e[name=nether]
-execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[scores={dimension=1},c=1] ~~~ summon je:marker -2 12 -5 as_nether_point "nether"execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.developer.clear_items"}]}
+execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[scores={dimension=1},c=1] ~~~ summon je:marker -2 12 -5 as_nether_point "nether"
 execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[scores={dimension=1},c=1] ~~~ tellraw @a {"rawtext":[{"translate":"chat.develoepr.dimension_marker.nether"}]}

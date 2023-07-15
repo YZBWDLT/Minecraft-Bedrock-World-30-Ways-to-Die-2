@@ -15,4 +15,6 @@ function halls/advanced_settings/text_display
 # ===== 复制展示框 =====
 clone -98 12 49 -109 12 43 -109 21 43
 
-scoreboard players set @e[name=counter] backend -1
+scoreboard players set @e[name=itemTester1] active -1
+scoreboard players set @e[name=itemTester2] active -1
+scoreboard players set @e[name=itemTester3] active -1

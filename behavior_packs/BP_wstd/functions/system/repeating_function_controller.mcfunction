@@ -15,8 +15,9 @@ function system/level_unlocker
 # === 后台类 ===
 ## 杂项后台
 function system/backends
-## 反作弊系统 | 不为开发者模式时运行
+## 反作弊系统 | 不为开发者模式时运行 | 开发者模式下记通关时间为-1
 execute @e[name=developerMode,scores={settings=0}] ~~~ function system/anti_cheating
+execute @e[name=developerMode,scores={settings=1}] ~~~ scoreboard players set @e[name=endTimeTick] stats -1
 ## 关卡ID校正
 function system/level_id_tester
 ## 音效播放器 | 为了解决函数瞬时传送导致的音效无法听到的问题

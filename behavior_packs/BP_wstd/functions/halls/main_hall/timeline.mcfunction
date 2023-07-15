@@ -16,7 +16,7 @@ execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-50,y=9,z=24,r=1
 ## 重置地图
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-46,y=9,z=27,r=1] ~~~ execute @e[name=remainingTime,scores={time=0..9}] ~~~ function settings/reset_map
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-46,y=9,z=27,r=1] ~~~ execute @e[name=remainingTime,scores={time=10}] ~~~ scoreboard players set @e[name=soundPlayer] active 12
-execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-46,y=9,z=27,r=1] ~~~ execute @e[name=remainingTime,scores={time=10}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.reset_map.warning"}]}
+execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-46,y=9,z=27,r=1] ~~~ execute @e[name=remainingTime,scores={time=10}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.reset_map.warning"}]}
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-46,y=9,z=27,r=1] ~~~ execute @e[name=remainingTime,scores={time=10}] ~~~ scoreboard players set @s time 9
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-46,y=9,z=27,r=1] ~~~ tp @s -43 9 27
 

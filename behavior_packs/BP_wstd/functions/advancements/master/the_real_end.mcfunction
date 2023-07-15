@@ -15,10 +15,10 @@ scoreboard players set @e[name=advTheRealEnd] stats 1
 execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.legendary","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.master.the_real_end"}]}}]}}]}
 
 ## ===== 记录游玩时间 =====
-scoreboard players operation @e[name=endTimeMinute] stats = @e[name=playedMinute] time
-scoreboard players operation @e[name=endTimeSecond] stats = @e[name=playedSecond] time
-scoreboard players operation @e[name=endTimeTick] stats = @e[name=ticker] time
-function system/record_calculator
+execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ scoreboard players operation @e[name=endTimeMinute] stats = @e[name=playedMinute] time
+execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ scoreboard players operation @e[name=endTimeSecond] stats = @e[name=playedSecond] time
+execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ scoreboard players operation @e[name=endTimeTick] stats = @e[name=ticker] time
+execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ function system/record_calculator
 
 ## ===== 替换信标 =====
 setblock -45 9 26 beacon
