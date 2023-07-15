@@ -12,5 +12,5 @@ execute @e[name=easterEggAdvancement,scores={stats=47}] ~~~ scoreboard players s
 # 关卡结束通用函数
 function levels/all_levels/level_completed
 
-function system/music/play_maingame
+execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/music/play_maingame
 function system/disable_timeline

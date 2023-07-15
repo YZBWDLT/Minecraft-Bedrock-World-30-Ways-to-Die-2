@@ -9,9 +9,9 @@ execute @e[name=level,scores={backend=36..40}] ~~~ execute @e[name=remainingTime
 
 # ===== 播放音乐 =====
 ## 从限时关卡返回
-execute @e[name=level,scores={backend=36..40}] ~~~ function system/music/play_maingame
+execute @e[name=level,scores={backend=36..40}] ~~~ execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/music/play_maingame
 ## 从DIY关卡返回
-execute @e[name=level,scores={backend=51..60}] ~~~ function system/music/play_maingame
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/music/play_maingame
 
 # ===== 停止运行命令系统 =====
 ## 从DIY关卡返回
