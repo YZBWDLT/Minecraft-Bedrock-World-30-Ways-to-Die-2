@@ -7,7 +7,7 @@ scoreboard players set @e[name=level] backend -17
 clear @a
 
 ## 给予规则和下一步
-function settings/map_rule
+execute @a ~~~ function settings/map_rule
 replaceitem entity @a slot.hotbar 4 wstd:next_step 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
 
 ## 清空房间
