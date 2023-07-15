@@ -4,6 +4,11 @@ execute @e[name=ticker,scores={time=0..1}] ~~~ function halls/main_hall/particle
 # 关卡进入检测
 function halls/main_hall/into_level_tester
 
+# ===== 地图玩法 =====
+execute @a[x=24,y=9,z=30,r=0.75] ~~~ function settings/how_to_play
+execute @a[x=24,y=9,z=30,r=0.75] ~~~ scoreboard players set @e[name=soundPlayer] active 11
+execute @a[x=24,y=9,z=30,r=0.75] ~~~ tp @s 28 9 30
+
 # ===== 结束屋功能 =====
 ## 重置地图确认倒计时
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ scoreboard players remove @e[name=remainingTime,scores={time=..9}] time 1

@@ -1,5 +1,8 @@
 # 大厅粒子特效
 
+## ===== 地图玩法粒子特效 =====
+execute @e[name=levelAdvancement,scores={stats=3..}] ~~~ particle wstd:light_blue 24 8 30
+
 ## ===== 结束屋粒子特效 =====
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ particle wstd:orange -50 8 30
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ particle wstd:orange -50 8 24

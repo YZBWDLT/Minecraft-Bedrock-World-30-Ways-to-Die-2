@@ -1,5 +1,9 @@
 kill @e[type=wstd:text_display]
 
+## ===== 地图玩法 =====
+execute @e[name=levelAdvancement,scores={stats=3..}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b地图玩法" 24 10 30
+execute @e[name=levelAdvancement,scores={stats=3..}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bHow to play" 24 10 30
+
 ## ===== 未完成主线时 =====
 execute @e[name=levelAdvancement,scores={stats=!30}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§cOops..." -38.9 9.2 27
 execute @e[name=levelAdvancement,scores={stats=!30}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6完成所有30个关卡，开启结束屋！" -38.9 8.9 27

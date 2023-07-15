@@ -776,6 +776,7 @@ chat.error.diy_levels.edit_mode=§cFailed to use this function while in diy leve
 chat.error.level_unlocked=§cFailed to unlock levels while all levels are unlocked
 chat.error.request_out_of_time=§cThe request has timed out
 chat.error.change_difficulty.in_speedrun_mode=§cChanging difficulty in speedrun mode isn't allowed
+chat.error.is_netease_version=§cFailed to change to English while in Netease adaption mode
 
 ### ----- Titles（title.xxx） -----
 

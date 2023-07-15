@@ -776,6 +776,7 @@ chat.error.diy_levels.edit_mode=§c无法在编辑模式下的自定义关卡使
 chat.error.level_unlocked=§c无法在所有关卡已解锁的情况下解锁关卡
 chat.error.request_out_of_time=§c请求已超时
 chat.error.change_difficulty.in_speedrun_mode=§c无法在速通模式下更改游戏难度
+chat.error.is_netease_version=§c无法在Netease适配模式下更改为英文
 
 ### ----- 标题类（title.xxx） -----
 
@@ -966,3 +967,5 @@ subtitle.random_potion.33=§b获得状态效果 §a凋零 10000秒§b ！
 subtitle.random_potion.34=§c永别了这个世界！
 
 subtitle.mainline_completed=§a结束屋已开放
+
+## ===== 网易适配专栏 =====
