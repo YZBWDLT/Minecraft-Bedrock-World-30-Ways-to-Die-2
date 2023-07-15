@@ -24,7 +24,7 @@ scoreboard players set @e[name=soundPlayer] active 2
 # 标题时间预设
 titleraw @a times 0 60 0
 # 提醒玩家开发者模式下部分命令执行失败
-execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.developer_mode.run_command_failed"}]}
+execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.developer_mode.run_command_failed"}]}
 
 ## 传送到下界
 tp @a[scores={dimension=0}] @e[family=marker,family=nether]

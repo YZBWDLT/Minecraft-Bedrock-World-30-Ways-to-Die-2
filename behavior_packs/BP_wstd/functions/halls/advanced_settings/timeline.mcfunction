@@ -4,7 +4,7 @@ execute @e[name=ticker,scores={time=0}] ~~~ function halls/advanced_settings/par
 # 确认倒计时
 execute @e[name=ticker,scores={time=0}] ~~~ scoreboard players add @e[name=counter,scores={backend=0..}] backend 1
 ## 重置地图失效
-execute @e[name=counter,scores={backend=10..}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.request_out_of_time"}]}
+execute @e[name=counter,scores={backend=10..}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.request_out_of_time"}]}
 scoreboard players set @e[name=counter,scores={backend=10..}] backend -1
 
 ## === 调整权限等级 ===

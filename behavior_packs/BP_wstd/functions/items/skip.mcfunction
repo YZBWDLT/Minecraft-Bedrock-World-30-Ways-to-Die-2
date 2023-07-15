@@ -14,4 +14,4 @@ execute @e[name=level,scores={backend=39..40}] ~~~ kill @a
 
 # 51~60 | 自定义关卡 - 游戏模式
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -16 redstone_block
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.diy_levels.edit_mode"}]}
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.diy_levels.edit_mode"}]}

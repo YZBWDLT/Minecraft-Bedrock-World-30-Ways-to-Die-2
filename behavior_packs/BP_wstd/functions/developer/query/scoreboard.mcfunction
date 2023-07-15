@@ -1,8 +1,8 @@
 # 当权限等级不为2时，执行失败
-tellraw @s[scores={oplevel=!2}] {"rawtext":[{"translate":"feedback.error.oplevel_too_low"}]}
+tellraw @s[scores={oplevel=!2}] {"rawtext":[{"translate":"chat.error.oplevel_too_low"}]}
 
 # 当权限等级为2时，反馈
-tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"feedback.developer.scoreboard_query.line1"}]}
+tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"chat.developer.query.scoreboard.line1"}]}
 
 ## === 激活类 active ===
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"active.itemTester1 = %%s §7# 物品1检测","with":{"rawtext":[{"score":{"objective":"active","name":"@e[name=itemTester1]"}}]}}]}
@@ -40,7 +40,7 @@ tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"record.recordTick = %%s
 
 ## === 设置类 settings ===
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"settings.developerMode = %%s §7# 记录开发者模式开启状态，0=关闭，1=开启","with":{"rawtext":[{"score":{"objective":"settings","name":"@e[name=developerMode]"}}]}}]}
-tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"settings.gameruleLocker = %%s §7# 判断是否锁定游戏规则，0=不锁定，1=锁定","with":{"rawtext":[{"score":{"objective":"settings","name":"@e[name=gameruleLocker]"}}]}}]}
+tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"chat.settings.gameruleLocker = %%s §7# 判断是否锁定游戏规则，0=不锁定，1=锁定","with":{"rawtext":[{"score":{"objective":"settings","name":"@e[name=gameruleLocker]"}}]}}]}
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"settings.hintEnabled = %%s §7# 控制是否启用提示，0=关闭提示，1=开启提示","with":{"rawtext":[{"score":{"objective":"settings","name":"@e[name=hintEnabled]"}}]}}]}
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"settings.isNetease = %%s §7# 判断是否为Netease Version，0=否，1=是","with":{"rawtext":[{"score":{"objective":"settings","name":"@e[name=isNetease]"}}]}}]}
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"settings.language = %%s §7# 语言信息，0=中文，1=English","with":{"rawtext":[{"score":{"objective":"settings","name":"@e[name=language]"}}]}}]}

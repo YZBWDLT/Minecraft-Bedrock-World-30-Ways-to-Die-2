@@ -14,6 +14,6 @@ execute @e[name=scoreboardDisplay,scores={settings=1}] ~~~ function system/displ
 execute @e[name=scoreboardDisplay,scores={settings=0}] ~~~ scoreboard objectives setdisplay sidebar
 
 # 提示
-execute @e[name=scoreboardDisplay,scores={settings=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"settings.scoreboard_display.none"}]}
-execute @e[name=scoreboardDisplay,scores={settings=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"settings.scoreboard_display.part"}]}
-execute @e[name=scoreboardDisplay,scores={settings=2}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"settings.scoreboard_display.full"}]}
+execute @e[name=scoreboardDisplay,scores={settings=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.scoreboard_display.none"}]}
+execute @e[name=scoreboardDisplay,scores={settings=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.scoreboard_display.part"}]}
+execute @e[name=scoreboardDisplay,scores={settings=2}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.scoreboard_display.full"}]}

@@ -105,15 +105,15 @@ execute @e[name=timeline,scores={time=1,active=3}] ~~~ titleraw @a actionbar {"r
 
 ### === 大厅“月步” ===
 execute @e[name=timeline,scores={time=120,active=3}] ~~~ tp @a -39 9 27
-execute @e[name=timeline,scores={time=120,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_1"}]}
+execute @e[name=timeline,scores={time=120,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=120,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_1"}]}
 execute @e[name=timeline,scores={time=120,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 
-execute @e[name=timeline,scores={time=220,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_2"}]}
+execute @e[name=timeline,scores={time=220,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.map_name"}]}
 execute @e[name=timeline,scores={time=220,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_2"}]}
 execute @e[name=timeline,scores={time=220,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 
-execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_3"}]}
+execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.map_name.completed"}]}
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_3"}]}
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ execute @a ~~~ playsound random.levelup @s ~~~ 1 0.75
 #### 替换logo
@@ -126,13 +126,13 @@ execute @e[name=timeline,scores={time=321,active=3}] ~~~ structure load logo_com
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ summon wstd:creator -106 19 18 become_bd
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ summon je:marker "rotater" -106 19 18
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ tp @e[name=rotater] -106 19 18 facing -101 19 13
-execute @e[name=timeline,scores={time=400,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_4"}]}
+execute @e[name=timeline,scores={time=400,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_4"}]}
 execute @e[name=timeline,scores={time=400,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 #### 彩蛋3 南瓜汁
 execute @e[name=timeline,scores={time=540,active=3}] ~~~ summon wstd:creator -34 23 -88 become_ngz
 execute @e[name=timeline,scores={time=540,active=3}] ~~~ tp @e[name=rotater] -34 23 -88 facing -34 23 -81
-execute @e[name=timeline,scores={time=540,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_5"}]}
+execute @e[name=timeline,scores={time=540,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=540,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_5"}]}
 execute @e[name=timeline,scores={time=540,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 #### 作者平台 祉语
@@ -140,20 +140,20 @@ execute @e[name=timeline,scores={time=680,active=3}] ~~~ fill -35 21 -25 -35 22 
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ setblock -34 22 -21 lantern
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ summon wstd:creator -35 21 -25 become_zy
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ tp @e[name=rotater] -35 21 -25 facing -31 21 -29
-execute @e[name=timeline,scores={time=680,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_6"}]}
+execute @e[name=timeline,scores={time=680,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_6"}]}
 execute @e[name=timeline,scores={time=680,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 #### 全图 游玩时间
 execute @e[name=timeline,scores={time=820,active=3}] ~~~ tp @e[name=rotater] -8 29 27 facing 0 5 0
-execute @e[name=timeline,scores={time=820,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_7"}]}
+execute @e[name=timeline,scores={time=820,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=820,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_7","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}}]}}]}
 execute @e[name=timeline,scores={time=820,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 #### 文字 此外还有
-execute @e[name=timeline,scores={time=1020,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_8"}]}
+execute @e[name=timeline,scores={time=1020,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=1020,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_8"}]}
 execute @e[name=timeline,scores={time=1020,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 #### 烟花秀
-execute @e[name=timeline,scores={time=1070,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.end_9"}]}
+execute @e[name=timeline,scores={time=1070,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute @e[name=timeline,scores={time=1070,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_9"}]}
 execute @e[name=timeline,scores={time=1070,active=3}] ~~~ execute @a ~~~ playsound random.levelup @s ~~~ 1 0.7
 

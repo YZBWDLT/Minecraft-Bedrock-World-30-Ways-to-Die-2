@@ -18,7 +18,7 @@ execute @e[name=level,scores={backend=10}] ~~~ execute @a[x=7,y=7,z=2,dx=3,dy=3,
 execute @e[name=level,scores={backend=!7,backend=!10}] ~~~ execute @a[x=7,y=7,z=2,dx=3,dy=3,dz=3,scores={dimension=0}] ~~~ function levels/all_levels/quit_level
 
 ## 异常程序（可能出了点问题，先注释掉）
-# execute @e[name=developerMode,scores={settings=0}] ~~~ execute @e[name=level,scores={backend=!0,backend=!7,backend=!10,backend=!-15}] ~~~ execute @a[scores={dimension=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.invalid_level_id.nether","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}]}
+# execute @e[name=developerMode,scores={settings=0}] ~~~ execute @e[name=level,scores={backend=!0,backend=!7,backend=!10,backend=!-15}] ~~~ execute @a[scores={dimension=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.invalid_level_id.nether","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}]}
 # execute @e[name=developerMode,scores={settings=0}] ~~~ execute @e[name=level,scores={backend=!0,backend=!7,backend=!10,backend=!-15}] ~~~ execute @a[scores={dimension=1}] ~~~ give @s wstd:next_step
 # execute @e[name=developerMode,scores={settings=0}] ~~~ execute @e[name=level,scores={backend=!0,backend=!7,backend=!10,backend=!-15}] ~~~ execute @a[scores={dimension=1}] ~~~ tp @s -2 12 -5
 # execute @e[name=developerMode,scores={settings=0}] ~~~ execute @e[name=level,scores={backend=!0,backend=!7,backend=!10,backend=!-15}] ~~~ execute @a[scores={dimension=1}] ~~~ scoreboard players set @e[name=level] backend -15

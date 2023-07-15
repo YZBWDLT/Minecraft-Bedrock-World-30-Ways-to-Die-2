@@ -2,7 +2,7 @@
 
 # -5 | 烟花秀设置 | 重置发射器
 execute @e[name=level,scores={backend=-5}] ~~~ clone 8 5 7 8 5 7 10 22 -25
-execute @e[name=level,scores={backend=-5}] ~~~ tellraw @a {"rawtext":[{"translate":"settings.firework_settings.reset"}]}
+execute @e[name=level,scores={backend=-5}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.firework_settings.reset"}]}
 
 # 1~32 | 主线关卡
 execute @e[name=level,scores={backend=1}] ~~~ function levels/level_1/start_level
@@ -74,4 +74,4 @@ execute @e[name=level,scores={backend=58}] ~~~ execute @e[name=diyEditMode,score
 execute @e[name=level,scores={backend=59}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ function levels/diy_levels/start_diy_9
 execute @e[name=level,scores={backend=60}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ function levels/diy_levels/start_diy_10
 
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.diy_levels.edit_mode"}]}
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.diy_levels.edit_mode"}]}

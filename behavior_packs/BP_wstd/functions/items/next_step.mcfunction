@@ -12,7 +12,7 @@ execute @e[name=level,scores={backend=-14}] ~~~ function halls/firework_tutorial
 
 ## -5 | 烟花秀设置 | 使用下一步时，保存结构并返回到大厅
 execute @e[name=level,scores={backend=-5}] ~~~ structure save firework_dispenser 10 22 -25 10 22 -25 disk
-execute @e[name=level,scores={backend=-5}] ~~~ tellraw @a {"rawtext":[{"translate":"settings.firework_settings.saved"}]}
+execute @e[name=level,scores={backend=-5}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.firework_settings.saved"}]}
 execute @e[name=level,scores={backend=-5}] ~~~ function halls/setting_center/start_level
 
 ## -1 | DIY关卡大厅 | 使用下一步时，在游戏模式与编辑模式之间切换

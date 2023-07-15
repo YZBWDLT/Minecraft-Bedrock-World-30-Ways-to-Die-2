@@ -17,4 +17,4 @@ scoreboard players set @e[name=speedrunMode] settings 0
 
 # 音效与反馈
 scoreboard players set @e[name=soundPlayer] active 3
-tellraw @a {"rawtext":[{"translate":"settings.reset_settings"}]} 
+tellraw @a {"rawtext":[{"translate":"chat.settings.reset_settings"}]} 

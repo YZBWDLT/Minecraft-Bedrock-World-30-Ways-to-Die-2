@@ -24,4 +24,4 @@ execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,s
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=1}] ~~~ function levels/diy_levels/text_display
 
 ## 其余情况 | 报错
-execute @e[name=level,scores={backend=!-14..0,backend=!51..60}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.invalid_level_id.not_expected","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}]}
+execute @e[name=level,scores={backend=!-14..0,backend=!51..60}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.invalid_level_id.not_expected","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}]}

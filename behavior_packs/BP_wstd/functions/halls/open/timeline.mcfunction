@@ -1,17 +1,17 @@
 # 地图开幕
 
-execute @e[name=timeline,scores={time=40}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_1" } ] }
+execute @e[name=timeline,scores={time=40}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.map_name" } ] }
 execute @e[name=timeline,scores={time=40}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
-execute @e[name=timeline,scores={time=120}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_2" } ] }
+execute @e[name=timeline,scores={time=120}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.empty" } ] }
 execute @e[name=timeline,scores={time=120}] ~~~ titleraw @a subtitle { "rawtext": [ { "translate": "subtitle.open_1" } ] }
 execute @e[name=timeline,scores={time=120}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
-execute @e[name=timeline,scores={time=200}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_2" } ] }
+execute @e[name=timeline,scores={time=200}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.empty" } ] }
 execute @e[name=timeline,scores={time=200}] ~~~ titleraw @a subtitle { "rawtext": [ { "translate": "subtitle.open_2" } ] }
 execute @e[name=timeline,scores={time=200}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
 
-execute @e[name=timeline,scores={time=280}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.open_2" } ] }
+execute @e[name=timeline,scores={time=280}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.empty" } ] }
 execute @e[name=timeline,scores={time=280}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.open.music.on"}]}
 execute @e[name=timeline,scores={time=280}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.open.music.off"}]}
 execute @e[name=timeline,scores={time=280}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2

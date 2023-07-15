@@ -8,7 +8,7 @@ function halls/main_hall/into_level_tester
 ## 重置地图确认倒计时
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ scoreboard players remove @e[name=remainingTime,scores={time=..9}] time 1
 ## 重置地图失效
-execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @e[name=remainingTime,scores={time=..-1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.request_out_of_time"}]}
+execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @e[name=remainingTime,scores={time=..-1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.request_out_of_time"}]}
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ scoreboard players set @e[name=remainingTime,scores={time=..-1}] time 10
 
 execute @e[name=mapCompleted,scores={stats=2}] ~~~ execute @a[x=-50,y=9,z=30,r=1] ~~~ function halls/main_hall/play_end_music

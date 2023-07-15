@@ -2,10 +2,10 @@
 
 # ===== 防止调模式 =====
 # 对权限等级为0的玩家，在非冒险模式的情况下改为冒险模式，在DIY关卡的编辑模式不予限制
-execute @e[name=level,scores={backend=!51..60}] ~~~ tellraw @a[scores={oplevel=0},m=!adventure] {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"feedback.error.cheating.line1"},{"translate":"feedback.error.cheating.line2"}]}}]}
+execute @e[name=level,scores={backend=!51..60}] ~~~ tellraw @a[scores={oplevel=0},m=!adventure] {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.error.cheating.line1"},{"translate":"chat.error.cheating.line2"}]}}]}
 execute @e[name=level,scores={backend=!51..60}] ~~~ gamemode adventure @a[scores={oplevel=0},m=!adventure]
 
-execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=!1}] ~~~ tellraw @a[scores={oplevel=0},m=!adventure] {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"feedback.error.cheating.line1"},{"translate":"feedback.error.cheating.line2"}]}}]}
+execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=!1}] ~~~ tellraw @a[scores={oplevel=0},m=!adventure] {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.error.cheating.line1"},{"translate":"chat.error.cheating.line2"}]}}]}
 execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,scores={backend=!1}] ~~~ gamemode adventure @a[scores={oplevel=0},m=!adventure]
 
 # ===== 防止利用特性卡bug =====

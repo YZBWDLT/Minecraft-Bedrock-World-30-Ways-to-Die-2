@@ -21,7 +21,7 @@ execute @e[name=developerMode,scores={settings=0}] ~~~ effect @a clear
 function system/stop_item_test
 
 # ===== 提醒玩家开发者模式下部分命令执行失败 =====
-execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"feedback.error.developer_mode.run_command_failed"}]}
+execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.developer_mode.run_command_failed"}]}
 
 # ---------- ID相关项 ----------
 
