@@ -29,6 +29,7 @@ execute @a[scores={itemUsed=16}] ~~~ function items/skip
 execute @a[scores={itemUsed=17}] ~~~ function items/stats_center
 execute @a[scores={itemUsed=18}] ~~~ function items/strategy
 execute @a[scores={itemUsed=19}] ~~~ function items/time_limited_hall
+execute @a[scores={itemUsed=20}] ~~~ function items/random_potion
 
 # 归零
 scoreboard players set @a[scores={itemUsed=!-1}] itemUsed -1

@@ -1,178 +1,26 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:item": {
-    "description": {
-      "identifier": "wstd:random_potion",
-      "category": "Equipment"
-    },
-    
-    "components": {
-      "minecraft:display_name": {
-        "value": "item.wstd:random_potion.name"
-      },
-      "minecraft:food": {
-        "can_always_eat": true,
-        "nutrition": 0,
-        "saturation_modifier": "poor",
-        "using_converts_to": "glass_bottle",
-        "on_consume": {
-          "target": "self",
-          "event": "on_drink"
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wstd:random_potion",
+            "category": "Equipment"
+        },
+        "components": {
+            "minecraft:display_name": { "value": "item.wstd:random_potion.name" },
+            "minecraft:food": {
+                "can_always_eat": true,
+                "nutrition": 0,
+                "saturation_modifier": "poor",
+                "using_converts_to": "glass_bottle",
+                "on_consume": { "target": "self", "event": "on_drink" }
+            },
+            "minecraft:icon": { "texture": "random_potion" },
+            "minecraft:use_animation": "drink",
+            "minecraft:use_duration": 1.6,
+            "minecraft:max_stack_size": 16
+        },
+        "events": {
+            "on_drink":{ "run_command": { "command": [ "scoreboard players set @s itemUsed 20" ] } }
         }
-      },
-      "minecraft:icon": {
-        "texture": "random_potion"
-      },
-      "minecraft:use_animation": "drink",
-      "minecraft:use_duration": 1.6,
-      "minecraft:max_stack_size": 16,
-      "minecraft:foil":true
-    },
-    "events": {
-      "on_drink":{
-        "randomize": [
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s absorption 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a伤害吸收 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s bad_omen 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a不祥之兆 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s blindness 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a失明 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s clear","title @s title §1","title @s subtitle §b已清除所有状态效果！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s conduit_power","title @s title §1","title @s subtitle §b获得状态效果 §a潮涌核心 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s fatal_poison 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a中毒（可致命） 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s fire_resistance 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a防火 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s haste 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a急迫 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s health_boost 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a生命提升 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s hunger 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a饥饿 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s instant_damage 1 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a瞬间伤害§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s instant_health 1 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a瞬间治疗§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s invisibility 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a隐身 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s jump_boost 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a跳跃提升 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s levitation 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a漂浮 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s mining_fatigue 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a挖掘疲劳 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s nausea 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a反胃 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s night_vision 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a夜视 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s poison 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a中毒 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s regeneration 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a生命恢复 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s resistance 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a抗性提升 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s saturation 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a饱和§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s slow_falling 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a缓降 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s slowness 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a缓慢 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s speed 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a速度 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s strength 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a力量 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s village_hero 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a村庄英雄 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s water_breathing 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a水下呼吸 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s weakness 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a虚弱 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s wither 30 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a凋零 0:30§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s health_boost 10000 255 true","title @s title §1","title @s subtitle §b获得状态效果 §a生命提升256 10000秒§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s resistance 10000 255 true","title @s title §1","title @s subtitle §b获得状态效果 §a抗性提升256 10000秒§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s instant_health 1 255 true","title @s title §1","title @s subtitle §b立即回满血！好耶！（bushi"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["effect @s wither 10000 0 true","title @s title §1","title @s subtitle §b获得状态效果 §a凋零 10000秒§b ！"]}
-          },
-          {
-            "weight": 1,
-            "run_command": {"command": ["kill @s","title @s title §1","title @s subtitle §c永别了这个世界！"]}
-          }
-        ]
-      }
     }
-  }
 }
