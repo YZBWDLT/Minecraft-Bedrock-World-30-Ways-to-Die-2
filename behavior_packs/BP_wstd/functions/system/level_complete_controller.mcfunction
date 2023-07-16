@@ -87,4 +87,3 @@ execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,
 
 ## 51~60 | 自定义关卡 | 死亡后触发命令方块
 execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=51..60}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ setblock -103 2 -17 redstone_block
-execute @e[name=levelCompleteDelay,scores={time=..0}] ~~~ execute @e[name=level,scores={backend=51..60}] ~~~ execute @a[x=11,y=8,z=2,dx=2,dy=2,dz=2,c=1] ~~~ function levels/all_levels/level_completed
