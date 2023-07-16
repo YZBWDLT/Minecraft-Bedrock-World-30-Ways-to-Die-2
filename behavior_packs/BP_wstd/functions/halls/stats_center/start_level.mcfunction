@@ -12,7 +12,8 @@ tp @a -100 20 30 facing -95 20 30
 # ===== 标题 =====
 titleraw @a times 0 60 0
 titleraw @a title {"rawtext":[{"translate":"title.stats_center"}]}
-titleraw @a subtitle {"rawtext":[{"translate":"subtitle.stats_center"}]}
+execute @e[name=isNetease,scores={settings=0}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.stats_center"}]}
+execute @e[name=isNetease,scores={settings=1}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"netease.subtitle.stats_center"}]}
 
 # ===== 显示大厅显示文本 =====
 function halls/stats_center/text_display

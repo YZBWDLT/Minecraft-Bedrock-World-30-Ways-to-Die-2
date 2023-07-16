@@ -109,6 +109,8 @@ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a�
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b关卡结束" -103 1.9 -17
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b命令组" -103 1.6 -17
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a死亡消息" -104 2.6 -17
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a所有关卡" -105 2.9 -17
+execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a通用函数" -105 2.6 -17
 
 ## 快捷栏标题命令组
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b快捷栏标" -103 1.9 -18
@@ -241,6 +243,8 @@ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aS
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bLvl complete" -103 1.9 -17
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bCommands" -103 1.6 -17
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aDeath message" -104 2.6 -17
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aAll levels" -105 2.9 -17
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aCommon Func" -105 2.6 -17
 
 ## 快捷栏标题命令组
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bActionbar Title" -103 1.9 -18

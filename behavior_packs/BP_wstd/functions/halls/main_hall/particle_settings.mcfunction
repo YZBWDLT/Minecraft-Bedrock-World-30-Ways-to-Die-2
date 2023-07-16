@@ -97,6 +97,7 @@ particle wstd:one 19.3 11.2 31.9
 
 particle wstd:zero 15.7 11.2 31.9
 execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two 15.3 11.2 31.9
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease 15.3 11.2 31.9
 
 particle wstd:zero 11.7 11.2 31.9
 particle wstd:three 11.3 11.2 31.9

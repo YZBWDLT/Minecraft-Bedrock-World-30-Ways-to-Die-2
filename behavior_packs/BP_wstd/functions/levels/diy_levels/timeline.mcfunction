@@ -58,7 +58,7 @@ execute @e[name=diyIsSaving,scores={backend=102}] ~~~ tellraw @a {"rawtext":[{"t
 ## 保存结构 | 编辑模式
 execute @e[name=diyIsSaving,scores={backend=100}] ~~~ function levels/diy_levels/save_level
 ## 保存完成后的倒计时提醒 | 编辑模式
-execute @e[name=diyIsSaving,scores={backend=1}] ~~~ tellraw @a[x=3,y=8,z=2,dx=2,dy=2,dz=2] {"rawtext":[{"translate":"chat.item.save_level.complete"}]}
+execute @e[name=diyIsSaving,scores={backend=1}] ~~~ tellraw @a[x=3,y=8,z=2,dx=2,dy=2,dz=2] {"rawtext":[{"translate":"chat.item.save_level.completed"}]}
 ## 保存完成后将玩家传送回自定义关卡区域 | 编辑模式
 execute @e[name=diyIsSaving,scores={backend=0}] ~~~ function levels/diy_levels/back_to_diy_area
 

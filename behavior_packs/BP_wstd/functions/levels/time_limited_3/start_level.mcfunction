@@ -11,7 +11,8 @@ scoreboard players set @e[name=remainingTime] time 60
 
 # 标题&音效
 titleraw @a title {"rawtext":[{"translate":"title.time_limited_3"}]}
-titleraw @a subtitle {"rawtext":[{"translate":"subtitle.time_limited_3"}]}
+execute @e[name=isNetease,scores={settings=0}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.time_limited_3"}]}
+execute @e[name=isNetease,scores={settings=1}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"netease.subtitle.time_limited_3"}]}
 
 # 复制房间
 structure load time_limited_3 5 20 -100
