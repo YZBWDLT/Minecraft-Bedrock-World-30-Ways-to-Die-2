@@ -48,10 +48,11 @@ execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ summon wstd:text_display "§b然后将§e烟火之星§b、§e纸§b和§e火药§b放在一起合成就OK啦！" 10 22.3 -28.9
 
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b你也可以给烟花许多奇怪的§e图案§b！" 10 23.8 -28.9
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b合成§e烟火之星§b时，只需要再加一些§e特定的材料§b就可以合成特定形状的烟花了！" 10 23.5 -28.9
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b合成§e烟火之星§b时，只需再加一些§e特定的材料§b就可以合成特定形状的烟花了！" 10 23.5 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b这些§e特定的材料§b我姑且先叫成§e图案材料§b吧！它们包括：" 10 23.2 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§a火焰弹：大型球状 | 羽毛：爆裂状 | 金粒：星状" 10 22.9 -28.9
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§a头颅（任意头颅）：苦力怕形状 | 什么都不加：小型球状" 10 22.6 -28.9
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§a头颅（任意头颅）：苦力怕形状 | 什么都不加：小型球状" 10 22.6 -28.9
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§a头颅（任意头颅）：苦力怕形状 | 什么都不加：Small Ball" 10 22.6 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b然后利用这样的烟火之星做出来的烟花就有特定形状啦！但是注意：" 10 22.3 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§c* 各种形状之间是§e互斥§c的！" 10 22.0 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§c* 一旦放入了图案材料，就意味着你的烟花可用颜色就少了一种" 10 21.7 -28.9
@@ -64,7 +65,8 @@ execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§b而且特效与§e特效和图案§b之间都是§e完全可以共存§b的哦！" 10 22.5 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§c注意： 如果是§e连续发射§c烟花，§e不推荐§c做带有§e踪迹§c的烟花！" 10 22.2 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§c因为烟花的§e粒子数限制和踪迹效果的§e粒子增加效果§c会导致十分" 10 21.9 -28.9
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§c严重的吞粒子现象！（§c别问我是怎么知道的QAQ§c）" 10 21.6 -28.9
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§c严重的吞粒子现象！（§c别问我是怎么知道的QAQ§c）" 10 21.6 -28.9
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§c严重的吞粒子现象！（§c别问我是怎么知道的§c）" 10 21.6 -28.9
 
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=6}] ~~~ summon wstd:text_display "§b烟花还还还可以设置爆炸后的§e渐变色§b！" 10 23.5 -28.9
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=6}] ~~~ summon wstd:text_display "§b将§e烟火之星§b和§e染料§b放在一起合成..." 10 23.2 -28.9

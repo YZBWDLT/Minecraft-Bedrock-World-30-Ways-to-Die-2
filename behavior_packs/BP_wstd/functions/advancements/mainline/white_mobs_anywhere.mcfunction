@@ -14,8 +14,8 @@ scoreboard players set @e[name=advWhiteMobsAnywhere] stats 1
 summon je:marker "advBug" 0 3 0
 scoreboard players set @e[name=advBug] stats 0
 ### 开放幸运儿
-summon je:marker "advLuckyDog" 0 3 0
-scoreboard players set @e[name=advLuckyDog] stats 0
+summon je:marker "advLuckyGuy" 0 3 0
+scoreboard players set @e[name=advLuckyGuy] stats 0
 
 ## ===== 提示玩家进度已完成 =====
 execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.normal","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.mainline.white_mobs_anywhere"}]}},{"translate":"chat.advancement.new_advancement_unlocked"}]}}]}

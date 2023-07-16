@@ -10,7 +10,8 @@ scoreboard players set @e[name=soundPlayer] active 11
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§b§l欢迎来到自定义关卡！" -109.9 5.5 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§b这是一个自定义关卡的向导！" -109.9 4.9 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§b本向导将引导你逐渐学会制作属于你自己的关卡~" -109.9 4.6 -16
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§a使用§e下一步§a以查看下面的步骤" -109.9 4.3 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§a使用§e下一步§a以查看下面的步骤" -109.9 4.3 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§a使用§e下一步§a以查看以下的步骤" -109.9 4.3 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§a使用§e返回§a以查看前面的步骤" -109.9 4.0 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ summon wstd:text_display "§a使用§e退出关卡§a以返回到大厅" -109.9 3.7 -16
 
@@ -19,7 +20,7 @@ execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=2}] ~~~ summon wstd:text_display "§b那些是§e边界方块§b，它会§e阻止非创造模式的玩家从其上方或下方越过§b！" -109.9 4.6 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=2}] ~~~ summon wstd:text_display "§b不过为了限制创造模式的你到处乱跑，本地图也设置了一些限制..." -109.9 4.3 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=2}] ~~~ summon wstd:text_display "§b就是在§e边界方块之内的这一大片区域§b！" -109.9 4.0 -16
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=2}] ~~~ summon wstd:text_display "§b此外还有，§e高度上也设置了限制§b，会有隐形方块（屏障）阻挡你" -109.9 3.7 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=2}] ~~~ summon wstd:text_display "§b此外还有，§e高度上也设置了限制§b，会有屏障阻挡你" -109.9 3.7 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=2}] ~~~ summon wstd:text_display "§b这就是你的活动范围（32*32*32）了，切记不要离开哦，会把你§e自动传送回来§b的！" -109.9 3.4 -16
 
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ summon wstd:text_display "§b§l创立一个新的空房间" -109.9 5.5 -16
@@ -27,7 +28,8 @@ execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ summon wstd:text_display "§b使用§e\"更改房间大小\"§b物品§e可以清空你当前的房间并且应用新的房间大小§b！" -109.9 4.6 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ summon wstd:text_display "§b我们为你预设了§e3档房间大小§b，视你的需要选择合适的大小哦~" -109.9 4.3 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ summon wstd:text_display "§b如果你对这些房间都不满意，§e可以在我们限定的范围内自行建立房间§b！" -109.9 4.0 -16
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ summon wstd:text_display "§b可能自己建立房间会累一些，不过有时候也是值得的~awa" -109.9 3.7 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§b可能自己建立房间会累一些，不过有时候也是值得的~awa" -109.9 3.7 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=3}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§b可能自己建立房间会累一些，不过有时候也是值得的~" -109.9 3.7 -16
 
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b§l布置场景" -109.9 5.5 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=4}] ~~~ summon wstd:text_display "§b也许你已经想好了许多激动人心的玩法了，又或者可能也在踌躇不前？" -109.9 4.9 -16
@@ -43,9 +45,11 @@ execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§b使用§e\"保存关卡\"§b物品§e可以将你创造的关卡保存下来§b！" -109.9 4.6 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§b每一次当你进入这个关卡时，都会加载上一次你保存的关卡哦~" -109.9 4.3 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§b所以不用担心重做之类的事情啦~ヽ(✿ﾟ▽ﾟ)ノ" -109.9 4.0 -16
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§b要想§e玩你自己的关卡§b，可以§e退出本关并切换为游戏模式§b！" -109.9 3.7 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§b要想§e玩你自己的关卡§b，可以§e退出本关并切换为游戏模式§b！" -109.9 3.7 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§b要想§e体验你自己的关卡§b，可以§e退出本关并切换为游戏模式§b！" -109.9 3.7 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§b在游戏模式下进入本关，就能§e以玩家身份进入本关游玩§b啦，很简单吧~" -109.9 3.4 -16
-execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§a基础的操作就是这些啦！下面我们会带你从更高级的角度制作一个DIY关卡~" -109.9 3.1 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§a基础的操作就是这些啦！下面我们会带你从更高级的角度制作一个DIY关卡~" -109.9 3.1 -16
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§a基础的操作就是这些啦！以下我们会带你从更高级的角度制作一个DIY关卡~" -109.9 3.1 -16
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=5}] ~~~ summon wstd:text_display "§c请注意，退出关卡不会保存你自定义的关卡！退出之前请务必保存！" -109.9 2.8 -16
 
 execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=counter,scores={backend=6}] ~~~ summon wstd:text_display "§b§l使用限时关卡" -109.9 5.5 -16

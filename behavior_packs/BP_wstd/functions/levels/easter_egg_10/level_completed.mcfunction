@@ -14,4 +14,5 @@ function levels/all_levels/level_completed
 function system/disable_timeline
 
 execute @e[name=easterEggAdvancement,scores={stats=50}] ~~~ detect -47 9 26 glass -1 setblock -47 9 26 beacon
-execute @e[name=easterEggAdvancement,scores={stats=50}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.completed.easter_egg_levels"}]}
+execute @e[name=easterEggAdvancement,scores={stats=50}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.completed.easter_egg_levels"}]}
+execute @e[name=easterEggAdvancement,scores={stats=50}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.easter_egg_levels_completed"}]}

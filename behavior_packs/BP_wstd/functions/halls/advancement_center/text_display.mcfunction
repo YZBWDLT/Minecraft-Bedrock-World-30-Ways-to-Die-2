@@ -6,7 +6,8 @@ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b�
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b不是所有的进度都有明显提示" -109.0 20.5 18
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b有的进度只有暗示" -109.0 20.2 18
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b进度图例如右图所示" -109.0 19.9 18
-execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b加油完成所有进度吧！=w=" -109.0 19.6 18
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ summon wstd:text_display "§b加油完成所有进度吧！=w=" -109.0 19.6 18
+execute @e[name=language,scores={settings=0}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ summon wstd:text_display "§b加油完成所有进度吧！" -109.0 19.6 18
 
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§6§l4分支" -109.0 21.8 17.2
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§a主线" -109.0 22.1 16

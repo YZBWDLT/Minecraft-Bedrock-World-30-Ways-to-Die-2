@@ -39,8 +39,8 @@ scoreboard players operation @e[name=advancement] backend = @e[name=advBug] stat
 tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"chat.developer.query.advancement.line10"},{"translate":" | stats.advBug = %%s","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=advancement]"}}]}}]}
 
 scoreboard players set @e[name=advancement] backend -1
-scoreboard players operation @e[name=advancement] backend = @e[name=advLuckyDog] stats
-tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"chat.developer.query.advancement.line11"},{"translate":" | stats.advLuckyDog = %%s","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=advancement]"}}]}}]}
+scoreboard players operation @e[name=advancement] backend = @e[name=advLuckyGuy] stats
+tellraw @s[scores={oplevel=2}] {"rawtext":[{"translate":"chat.developer.query.advancement.line11"},{"translate":" | stats.advLuckyGuy = %%s","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=advancement]"}}]}}]}
 
 scoreboard players set @e[name=advancement] backend -1
 scoreboard players operation @e[name=advancement] backend = @e[name=advNoDolls] stats

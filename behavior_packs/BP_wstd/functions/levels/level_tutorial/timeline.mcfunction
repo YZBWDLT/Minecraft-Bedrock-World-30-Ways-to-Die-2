@@ -45,7 +45,8 @@ execute @e[name=timeline,scores={time=341}] ~~~ scoreboard players set @s active
 execute @e[name=timeline,scores={time=440}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.open.tutorial.line6"}]}
 execute @e[name=timeline,scores={time=440}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=520}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.open.tutorial.line7"}]}
+execute @e[name=timeline,scores={time=520}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.open.tutorial.line7"}]}
+execute @e[name=timeline,scores={time=520}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"netease.chat.open.tutorial.line7"}]}
 execute @e[name=timeline,scores={time=520}] ~~~ execute @a ~~~ playsound random.pop @s
 
 execute @e[name=timeline,scores={time=600}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.open.tutorial.line8"}]}

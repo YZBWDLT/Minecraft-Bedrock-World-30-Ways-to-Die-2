@@ -23,7 +23,8 @@ particle wstd:zero -21.3 11.2 -5.1
 particle wstd:one -21.7 11.2 -5.1
 
 particle wstd:zero -25.3 11.2 -5.1
-particle wstd:two -25.7 11.2 -5.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -25.7 11.2 -5.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -25.7 11.2 -5.1
 
 particle wstd:zero -29.3 11.2 -5.1
 particle wstd:three -29.7 11.2 -5.1

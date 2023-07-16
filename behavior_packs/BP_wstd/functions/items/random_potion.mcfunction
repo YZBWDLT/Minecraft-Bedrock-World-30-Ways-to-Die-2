@@ -46,7 +46,8 @@ execute @e[name=randomNumber,scores={backend=10}] ~~~ titleraw @a[scores={itemUs
 
 execute @e[name=randomNumber,scores={backend=11}] ~~~ effect @a[scores={itemUsed=20}] instant_health 1 0 true
 execute @e[name=randomNumber,scores={backend=11}] ~~~ titleraw @a[scores={itemUsed=20}] title {"rawtext":[{"translate":"title.empty"}]}
-execute @e[name=randomNumber,scores={backend=11}] ~~~ titleraw @a[scores={itemUsed=20}] subtitle {"rawtext":[{"translate":"subtitle.random_potion.11"}]}
+execute @e[name=randomNumber,scores={backend=11}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ titleraw @a[scores={itemUsed=20}] subtitle {"rawtext":[{"translate":"subtitle.random_potion.11"}]}
+execute @e[name=randomNumber,scores={backend=11}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ titleraw @a[scores={itemUsed=20}] subtitle {"rawtext":[{"translate":"netease.subtitle.random_potion.11"}]}
 
 execute @e[name=randomNumber,scores={backend=12}] ~~~ effect @a[scores={itemUsed=20}] invisibility 30 0 true
 execute @e[name=randomNumber,scores={backend=12}] ~~~ titleraw @a[scores={itemUsed=20}] title {"rawtext":[{"translate":"title.empty"}]}

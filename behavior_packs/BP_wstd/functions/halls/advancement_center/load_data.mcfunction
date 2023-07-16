@@ -2,10 +2,14 @@
 
 # ===== 初始化 =====
 ## 将所有进度的背景墙均改为石英块
-structure load advancement_wall -101 19 20 0_degrees none
-structure load advancement_wall -108 19 20 0_degrees none
-structure load advancement_wall -101 19 11 0_degrees x
-structure load advancement_wall -108 19 11 0_degrees x
+execute @e[name=isNetease,scores={settings=0}] ~~~ structure load advancement_wall -101 19 20 0_degrees none
+execute @e[name=isNetease,scores={settings=0}] ~~~ structure load advancement_wall -108 19 20 0_degrees none
+execute @e[name=isNetease,scores={settings=0}] ~~~ structure load advancement_wall -101 19 11 0_degrees x
+execute @e[name=isNetease,scores={settings=0}] ~~~ structure load advancement_wall -108 19 11 0_degrees x
+execute @e[name=isNetease,scores={settings=1}] ~~~ structure load advancement_wall_netease -101 19 20 0_degrees none
+execute @e[name=isNetease,scores={settings=1}] ~~~ structure load advancement_wall_netease -108 19 20 0_degrees none
+execute @e[name=isNetease,scores={settings=1}] ~~~ structure load advancement_wall_netease -101 19 11 0_degrees x
+execute @e[name=isNetease,scores={settings=1}] ~~~ structure load advancement_wall_netease -108 19 11 0_degrees x
 
 ## 4个分支主进度的展示框和背景墙
 ### 主线
@@ -138,13 +142,13 @@ execute @e[name=advBug,scores={stats=1}] ~~~ setblock -99 20 21 wstd:quartz_bloc
 
 ## --- 主线 | 幸运儿 ---
 ### 未获取时
-execute @e[name=advLuckyDog,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ clone -105 17 20 -105 17 20 -101 20 20
-execute @e[name=advLuckyDog,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ clone -105 16 20 -105 16 20 -101 20 20
-execute @e[name=advLuckyDog,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ setblock -101 20 21 wstd:quartz_block_with_line_0
+execute @e[name=advLuckyGuy,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ clone -105 17 20 -105 17 20 -101 20 20
+execute @e[name=advLuckyGuy,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ clone -105 16 20 -105 16 20 -101 20 20
+execute @e[name=advLuckyGuy,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ setblock -101 20 21 wstd:quartz_block_with_line_0
 ### 已获取时
-execute @e[name=advLuckyDog,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ clone -105 11 20 -105 11 20 -101 20 20
-execute @e[name=advLuckyDog,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ clone -105 10 20 -105 10 20 -101 20 20
-execute @e[name=advLuckyDog,scores={stats=1}] ~~~ setblock -101 20 21 wstd:quartz_block_with_line_0
+execute @e[name=advLuckyGuy,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ clone -105 11 20 -105 11 20 -101 20 20
+execute @e[name=advLuckyGuy,scores={stats=1}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ clone -105 10 20 -105 10 20 -101 20 20
+execute @e[name=advLuckyGuy,scores={stats=1}] ~~~ setblock -101 20 21 wstd:quartz_block_with_line_0
 
 ## --- 主线 | 禁止套娃 ---
 ### 未获取时

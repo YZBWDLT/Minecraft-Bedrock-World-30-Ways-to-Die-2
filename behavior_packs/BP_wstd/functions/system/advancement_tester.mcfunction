@@ -19,7 +19,7 @@ execute @e[name=advWhiteMobsAnywhere,scores={stats=0}] ~~~ execute @e[name=advHa
 ### BUG！ | 在第18关卡进虚空 | 上游：满地的白色生物
 execute @e[name=advBug,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=level,scores={backend=18}] ~~~ execute @e[name=counter,scores={backend=1}] ~~~ function advancements/mainline/bug
 ### 幸运儿 | 钓到弓 | 上游：满地的白色生物
-execute @e[name=advLuckyDog,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=level,scores={backend=24}] ~~~ execute @a[hasitem={item=bow},c=1] ~~~ function advancements/mainline/lucky_dog
+execute @e[name=advLuckyGuy,scores={stats=0}] ~~~ execute @e[name=advWhiteMobsAnywhere,scores={stats=1}] ~~~ execute @e[name=level,scores={backend=24}] ~~~ execute @a[hasitem={item=bow},c=1] ~~~ function advancements/mainline/lucky_guy
 ### 禁止套娃 | 打开箱子下的木桶 | 上游：结束了！...吗？
 execute @e[name=advNoDolls,scores={stats=0}] ~~~ execute @e[name=advTheEnd,scores={stats=1}] ~~~ execute @e[name=level,scores={backend=30}] ~~~ detect -129 64 74 barrel 8 function advancements/mainline/no_dolls
 

@@ -48,6 +48,7 @@ execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-23,r=1]
 execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-23,r=1] ~~~ scoreboard players set @e[name=soundPlayer] active 3
 execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-23,r=1] ~~~ kill @a
 execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-23,r=1] ~~~ tp @a -62 21 -25
-execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-27,r=1] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_2.question_5.wrong"}]}
+execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-27,r=1] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_2.question_5.wrong"}]}
+execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-27,r=1] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.level.easter_egg_2.question_5.wrong"}]}
 execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-23,r=1] ~~~ scoreboard players set @e[name=soundPlayer] active 4
 execute @e[name=counter,scores={backend=5}] ~~~ execute @a[x=-68,y=21,z=-27,r=1] ~~~ function levels/easter_egg_2/quit_level

@@ -171,7 +171,7 @@ advancement.mainline.another_way=Forge a New Path
 advancement.mainline.why_place_iron_like_this=Why Place Iron Like This?
 advancement.mainline.white_mobs_anywhere=White Mobs Anywhere
 advancement.mainline.bug=BUG!
-advancement.mainline.lucky_dog=Lucky Dog
+advancement.mainline.lucky_guy=Lucky Dog
 advancement.mainline.no_dolls=No Nesting Dolls
 advancement.easter_egg.easter_egg_found=Hidden Deep Enough!
 advancement.easter_egg.yes=Good Yeah!
@@ -475,9 +475,9 @@ chat.item.change_room_size.middle=§bSwitching to a middle empty room.
 chat.item.change_room_size.large=§bSwitching to a large empty room.
 chat.item.reset_command_system=§bReloaded command system.
 chat.item.load_level.start_loading=§bLoading the structure. Please wait...
-chat.item.load_level.complete=§bLoading complete!
+chat.item.load_level.completed=§bLoading complete!
 chat.item.save_level.start_saving=§bSaving the structure. Please wait...
-chat.item.save_level.complete=§bSaving Complete!
+chat.item.save_level.completed=§bSaving Complete!
 chat.item.played_time.time=§bYour play time | §a%s : %s§r	## {"translate":"chat.item.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}}]}}
 chat.item.played_time.time.completed=§bYour play time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
 chat.item.played_time.end_time=§bMAP COMPLETED! Completed time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}},{"score":{"objective":"stats","name":"@e[name=endTimeTick]"}}]}}
@@ -648,7 +648,6 @@ chat.help.line30=Q14: Does the author have any other maps? Can I try them out?
 chat.help.line31=§7A: Of course! Join the QQ group: 673941729 to experience my latest maps!
 chat.help.line32=Q15: Are you planning to release the map on NetEase?
 chat.help.line33=§7A: By the time you see this, I've already detected through special means that you're using the international version awa. As for the NetEase version, I've updated this version to support it as well. NetEase players should see different content. Indeed, it wasn't easy. I moved almost all of my commands to function packs to prevent them from being blocked... QAQ
-chat.help.line33.netease=§7A: By the time you see this, I've already detected through special means that you're using the NetEase version awa. I can only say that the blocked words are indeed a bit... annoying. It took a lot of effort to adapt to the Chinese version, and it wasn't easy!
 chat.help.line34=Q16: How can I contact the author?
 chat.help.line35=§7A: [QQ]1543585291 | [QQ Test Group]673941729 | [Bilibili]@一只卑微的量筒 | [Bilibili | Workshop]@极筑工坊 | [Netease Version | Workshop]@极筑工坊 | [Netease Version]@YZBWDLT, @我是一只小量筒 | [International Version]@YZBWDLT | Serious inquiries only, please~ It's recommended to contact through the QQ test group.
 chat.help.line36=Q17: There's a bug in the map! I'm stuck QAQ

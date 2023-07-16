@@ -15,7 +15,8 @@ execute @e[name=timeline,scores={time=40}] ~~~ execute @a ~~~ playsound random.p
 execute @e[name=timeline,scores={time=120}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_4.dislike.line2"}]}
 execute @e[name=timeline,scores={time=120}] ~~~ execute @a ~~~ playsound random.pop @s
 
-execute @e[name=timeline,scores={time=200}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_4.dislike.line3"}]}
+execute @e[name=timeline,scores={time=200}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.level.easter_egg_4.dislike.line3"}]}
+execute @e[name=timeline,scores={time=200}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.level.easter_egg_4.dislike.line3"}]}
 execute @e[name=timeline,scores={time=200}] ~~~ execute @a ~~~ playsound random.pop @s
 
 execute @e[name=timeline,scores={time=280..}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @a ~~~ summon lightning_bolt

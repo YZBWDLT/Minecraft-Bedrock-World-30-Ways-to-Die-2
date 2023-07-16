@@ -9,7 +9,7 @@ scoreboard players add @e[name=advancement] stats 1
 function system/display_scoreboards/advancement
 
 ## ===== 记录此进度已完成并开放下面的进度 =====
-scoreboard players set @e[name=advLuckyDog] stats 1
+scoreboard players set @e[name=advLuckyGuy] stats 1
 
 ## ===== 提示玩家进度已完成 =====
-execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.rare","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.mainline.lucky_dog"}]}}]}}]}
+execute @a ~~~ tellraw @s {"rawtext":[{"translate":"%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.rare","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.mainline.lucky_guy"}]}}]}}]}

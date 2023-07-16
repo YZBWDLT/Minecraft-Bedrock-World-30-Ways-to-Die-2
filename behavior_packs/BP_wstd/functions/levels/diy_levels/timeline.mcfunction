@@ -31,7 +31,8 @@ execute @e[name=diyIsLoading,scores={backend=100}] ~~~ function levels/diy_level
 ## 加载完成后激活命令系统区域的启动游戏 | 游戏模式
 execute @e[name=diyIsLoading,scores={backend=5}] ~~~ execute @e[name=diyEditMode,scores={backend=0}] ~~~ setblock -103 2 -12 redstone_block
 ## 加载完成后的倒计时提醒 | 编辑模式&游戏模式
-execute @e[name=diyIsLoading,scores={backend=1}] ~~~ tellraw @a[x=3,y=8,z=2,dx=2,dy=2,dz=2] {"rawtext":[{"translate":"chat.item.load_level.complete"}]}
+execute @e[name=diyIsLoading,scores={backend=1}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a[x=3,y=8,z=2,dx=2,dy=2,dz=2] {"rawtext":[{"translate":"chat.item.load_level.completed"}]}
+execute @e[name=diyIsLoading,scores={backend=1}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a[x=3,y=8,z=2,dx=2,dy=2,dz=2] {"rawtext":[{"translate":"netease.chat.item.load_level_completed"}]}
 ## 加载完成后将玩家传送回自定义关卡区域 | 编辑模式&游戏模式
 execute @e[name=diyIsLoading,scores={backend=0}] ~~~ function levels/diy_levels/back_to_diy_area
 

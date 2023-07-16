@@ -96,7 +96,7 @@ particle wstd:zero 19.7 11.2 31.9
 particle wstd:one 19.3 11.2 31.9
 
 particle wstd:zero 15.7 11.2 31.9
-particle wstd:two 15.3 11.2 31.9
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two 15.3 11.2 31.9
 
 particle wstd:zero 11.7 11.2 31.9
 particle wstd:three 11.3 11.2 31.9
@@ -126,7 +126,8 @@ particle wstd:one -20.3 11.2 31.9
 particle wstd:one -20.7 11.2 31.9
 
 particle wstd:one -24.3 11.2 31.9
-particle wstd:two -24.7 11.2 31.9
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -24.7 11.2 31.9
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -25.7 11.2 9.9
 
 particle wstd:one -28.3 11.2 31.9
 particle wstd:three -28.7 11.2 31.9
@@ -150,34 +151,45 @@ particle wstd:eight 11.7 11.2 23.1
 particle wstd:one 7.3 11.2 23.1
 particle wstd:nine 7.7 11.2 23.1
 
-particle wstd:two 3.3 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two 3.3 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease 3.3 11.2 23.1
 particle wstd:zero 3.7 11.2 23.1
 
-particle wstd:two -0.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -0.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -0.7 11.2 23.1
 particle wstd:one -0.3 11.2 23.1
 
-particle wstd:two -4.7 11.2 23.1
-particle wstd:two -4.3 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -4.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -4.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -4.3 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -4.3 11.2 23.1
 
-particle wstd:two -8.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -8.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -8.7 11.2 23.1
 particle wstd:three -8.3 11.2 23.1
 
-particle wstd:two -12.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -12.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -12.7 11.2 23.1
 particle wstd:four -12.3 11.2 23.1
 
-particle wstd:two -16.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -16.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -16.7 11.2 23.1
 particle wstd:five -16.3 11.2 23.1
 
-particle wstd:two -20.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -20.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -20.7 11.2 23.1
 particle wstd:six -20.3 11.2 23.1
 
-particle wstd:two -24.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -24.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -24.7 11.2 23.1
 particle wstd:seven -24.3 11.2 23.1
 
-particle wstd:two -28.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -28.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -28.7 11.2 23.1
 particle wstd:eight -28.3 11.2 23.1
 
-particle wstd:two -32.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=0}] ~~~ particle wstd:two -32.7 11.2 23.1
+execute @e[name=isNetease,scores={settings=1}] ~~~ particle wstd:two_netease -32.7 11.2 23.1
 particle wstd:nine -32.3 11.2 23.1
 
 particle wstd:three -36.7 11.2 23.1

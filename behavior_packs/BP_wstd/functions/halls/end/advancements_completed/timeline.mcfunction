@@ -113,7 +113,8 @@ execute @e[name=timeline,scores={time=220,active=3}] ~~~ titleraw @a title {"raw
 execute @e[name=timeline,scores={time=220,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_2"}]}
 execute @e[name=timeline,scores={time=220,active=3}] ~~~ execute @a ~~~ playsound random.orb @s ~~~
 
-execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.map_name.completed"}]}
+execute @e[name=timeline,scores={time=320,active=3}] ~~~ execute @e[name=isNetease,scores={settings=0}] ~~~ titleraw @a title {"rawtext":[{"translate":"title.map_name.completed"}]}
+execute @e[name=timeline,scores={time=320,active=3}] ~~~ execute @e[name=isNetease,scores={settings=1}] ~~~ titleraw @a title {"rawtext":[{"translate":"netease.title.map_name_completed"}]}
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_3"}]}
 execute @e[name=timeline,scores={time=320,active=3}] ~~~ execute @a ~~~ playsound random.levelup @s ~~~ 1 0.75
 #### 替换logo
