@@ -1,11 +1,6 @@
 # 速通模式下阻止执行
 execute @e[name=speedrunMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.change_difficulty.in_speedrun_mode"}]}
 
-# 重置记分板显示
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/display_scoreboards/reset_difficulty
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set "§l难度 §r§d自定义" display 4
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set "§lDiff §r§dCustom" display1 4
-
 # 设置难度后台设定
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players add @e[name=strategyEnabled] settings 1
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=strategyEnabled,scores={settings=2}] settings 0
@@ -14,6 +9,9 @@ execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ execute @e[name=strategyEnabled,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.difficulty.strategy.enabled"}]}
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ execute @e[name=strategyEnabled,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.difficulty.strategy.disabled"}]}
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=soundPlayer] active 11
+
+# 重置记分板显示
+execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/display_scoreboards/difficulty
 
 # 当符合以下情况时，改回到默认显示状态
 execute @e[name=speedrunMode,scores={settings=0}] ~~~ execute @e[name=hintEnabled,scores={settings=1}] ~~~ execute @e[name=strategyEnabled,scores={settings=1}] ~~~ execute @e[name=skipEnabled,scores={settings=1}] ~~~ function settings/difficulty/very_easy
