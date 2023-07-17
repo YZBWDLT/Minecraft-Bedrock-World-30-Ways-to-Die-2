@@ -5,9 +5,6 @@ particle wstd:light_blue -98 18 49
 execute @e[name=developerMode,scores={settings=0}] ~~~ particle wstd:green -98 18 43
 execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:red -98 18 43
 
-# 适配模式
-particle wstd:light_blue -108 18 49
-
 # 重置地图
 particle wstd:red -108 18 43
 
@@ -20,4 +17,5 @@ execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:light_blue 
 execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:light_blue -102 18 43
 execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:light_blue -104 18 43
 execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:red -106 18 43
-
+## 适配模式
+execute @e[name=developerMode,scores={settings=1}] ~~~ particle wstd:light_blue -108 18 49

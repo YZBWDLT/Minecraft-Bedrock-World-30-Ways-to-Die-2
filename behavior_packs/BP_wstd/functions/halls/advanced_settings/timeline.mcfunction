@@ -4,6 +4,8 @@ execute @e[name=ticker,scores={time=0}] ~~~ function halls/advanced_settings/par
 # ===== 若未开启开发者模式，移除展示框以作子选项隐藏 =====
 execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=developerMode,scores={settings=0}] ~~~ fill -100 21 43 -106 21 43 air
 execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=developerMode,scores={settings=1}] ~~~ clone -100 12 43 -106 12 43 -106 21 43
+execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=developerMode,scores={settings=0}] ~~~ setblock -108 21 49 air
+execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=developerMode,scores={settings=1}] ~~~ clone -108 12 49 -108 12 49 -108 21 49
 
 # ===== 若权限等级不足，则不显示更改游戏模式的选项 =====
 execute @e[name=ticker,scores={time=0}] ~~~ fill -102 21 49 -104 21 49 air
@@ -55,10 +57,10 @@ execute @a[x=-108,y=19,z=43,r=1] ~~~ execute @e[name=itemTester2,scores={active=
 execute @a[x=-108,y=19,z=43,r=1] ~~~ execute @e[name=itemTester2,scores={active=-1}] ~~~ scoreboard players set @s active 0
 execute @a[x=-108,y=19,z=43,r=1] ~~~ tp @s -108 19 46
 
-## === 手动更改适配模式 ===
-execute @a[x=-108,y=19,z=49,r=1] ~~~ function settings/is_netease
-execute @a[x=-108,y=19,z=49,r=1] ~~~ function halls/advanced_settings/text_display
-execute @a[x=-108,y=19,z=49,r=1] ~~~ tp @s -108 19 46
+## === 手动更改适配模式 | 受开发者模式控制 ===
+execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[x=-108,y=19,z=49,r=1] ~~~ function settings/is_netease
+execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[x=-108,y=19,z=49,r=1] ~~~ function halls/advanced_settings/text_display
+execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a[x=-108,y=19,z=49,r=1] ~~~ tp @s -108 19 46
 
 
 
