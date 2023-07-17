@@ -141,7 +141,7 @@ scoreboard players set @e[name=itemTester4] active 0
 scoreboard players set @e[name=itemTester5] active 0
 scoreboard players set @e[name=levelCompleteDelay] active 0
 
-function system/version_tester/netease_version_tester
+function system/netease_version_tester
 
 ### === 进度类 ===
 summon je:marker "advGetStarted" 0 3 0

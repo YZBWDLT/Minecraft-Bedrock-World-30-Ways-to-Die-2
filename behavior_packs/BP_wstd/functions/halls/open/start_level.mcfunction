@@ -1,4 +1,4 @@
-function system/version_tester/netease_version_tester
+function system/netease_version_tester
 weather clear
 execute @a ~~~ playsound random.orb @s ~~~ 1 2
 scoreboard players set @e[name=timeline] active 1

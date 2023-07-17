@@ -1,3 +1,6 @@
+## 检测是否为网易版本
+function system/netease_version_tester
+
 ## 如果为网易模式，则抛出错误
 execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.is_netease_version"}]}
 
