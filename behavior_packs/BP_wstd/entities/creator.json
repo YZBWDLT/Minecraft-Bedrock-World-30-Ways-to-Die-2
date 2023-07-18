@@ -45,7 +45,7 @@
                             { "weight": 1, "add": { "component_groups": [ "xs" ] } },
                             { "weight": 1, "add": { "component_groups": [ "gz" ] } },
                             { "weight": 1, "add": { "component_groups": [ "hws" ] } },
-                            { "weight": 1, "add": { "component_groups": [ "ly" ] } },
+                            { "weight": 1, "add": { "component_groups": [ "mdr" ] } },
                             { "weight": 1, "add": { "component_groups": [ "jd" ] } },
                             { "weight": 1, "add": { "component_groups": [ "lt_pose" ] } },
                             { "weight": 1, "add": { "component_groups": [ "bd_pose" ] } },
@@ -75,8 +75,8 @@
             "become_hws":{
                 "add": { "component_groups": [ "hws" ] }
             },
-            "become_ly":{
-                "add": { "component_groups": [ "ly" ] }
+            "become_mdr":{
+                "add": { "component_groups": [ "mdr" ] }
             },
             "become_jd":{
                 "add": { "component_groups": [ "jd" ] }
@@ -130,7 +130,7 @@
                 "minecraft:variant": { "value": 0 },
                 "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }
             },
-            "ly": {
+            "mdr": {
                 "minecraft:skin_id": { "value": 7 },
                 "minecraft:variant": { "value": 0 },
                 "minecraft:behavior.look_at_player": { "look_distance": 8, "probability": 0.65 }

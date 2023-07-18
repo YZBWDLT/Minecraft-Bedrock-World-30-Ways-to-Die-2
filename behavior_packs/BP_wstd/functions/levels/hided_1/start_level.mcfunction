@@ -26,7 +26,7 @@ summon wstd:creator -64 22 73 become_gz "PigeonKI"
 summon wstd:creator -61 22 70 become_zy "xhduoduobaby"
 summon wstd:creator -61 21 71 become_xs "xiaoshu512"
 summon wstd:creator -63 21 73 become_hws "AnimalChalk2526"
-summon wstd:creator -60 21 70 become_ly "GreeLeaf"
+summon wstd:creator -60 21 70 become_mdr "Tuffy2020China"
 summon wstd:creator -64 21 74 become_jd "MildTurt"
 
 # 提醒玩家
