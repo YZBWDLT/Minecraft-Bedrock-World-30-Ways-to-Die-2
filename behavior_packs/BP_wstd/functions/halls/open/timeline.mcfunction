@@ -1,4 +1,5 @@
 # 地图开幕
+execute @e[name=timeline,scores={time=3}] ~~~ kill @e[type=wstd:text_display]
 
 execute @e[name=timeline,scores={time=40}] ~~~ titleraw @a title { "rawtext": [ { "translate": "title.map_name" } ] }
 execute @e[name=timeline,scores={time=40}] ~~~ execute @a ~~~ playsound random.orb @s ~~~ 1 2
