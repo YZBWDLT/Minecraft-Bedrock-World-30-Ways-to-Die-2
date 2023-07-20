@@ -104,7 +104,7 @@ actionbar.description.easter_egg_2=How many do you know?
 actionbar.description.easter_egg_3=Ordinary... serious?
 actionbar.description.easter_egg_4=Please choose "great", thank you.
 actionbar.description.easter_egg_5=It's just a joke, no cliff here :)
-actionbar.description.easter_egg_6=You can stand under my unbrella~~ella~ella~
+actionbar.description.easter_egg_6=You can stand under my umbrella~~ella~ella~
 actionbar.description.easter_egg_7=抟扶摇而上者九万里, 去以六月息者也...(From Xiaoyaoyou)
 actionbar.description.easter_egg_8=Dream: LET'S GOOOOO!!!!
 actionbar.description.easter_egg_9=It's time to spell character!!!
@@ -114,7 +114,7 @@ actionbar.description.time_limited_2=Well... just let the stupid author say what
 actionbar.description.time_limited_3=鸡你太美~(A meme from China)
 actionbar.description.time_limited_4=You never know how happy fishermen are ... ah, not fishing fishes?
 actionbar.description.time_limited_5=I have a bad feeling...
-actionbar.description.hided_1=Take a group photo! 1... 2... 3... Goo goo~!
+actionbar.description.hided_1=Take a group photo! 1... 2... 3... Coo Coo~!
 actionbar.description.hided_2=Speaking of the old version, this level makes ZiMin's mentality explode!
 actionbar.description.hided_3=reminiscence.jpg
 #### Hall random hints
@@ -131,12 +131,12 @@ actionbar.random_hint10=§a== Stuck on a level? Use hints! ==§r
 actionbar.random_hint11=§a== Silently chant "author handsome = success" =) ==§r
 actionbar.random_hint12=§a== In this map, luck is very important! ==§r
 actionbar.random_hint13=§a== V2.3! Functionalization! YEAH!!! ==§r
-actionbar.random_hint14=§a== goo goo goo ==§r
+actionbar.random_hint14=§a== Coo coo coo ==§r
 actionbar.random_hint15=§a== Can't find easter egg? Rub map in hall! ==§r
 actionbar.random_hint16.easter_egg_not_found=§a== Easter Egg here! Search hall carefully! ==§r
 actionbar.random_hint16.easter_egg_found=§a== Found Easter Egg level! Fun? OwO ==§r
 actionbar.random_hint17=§a== No more strict anti-cheating anymore!! ==§r
-actionbar.random_hint18=§a== Chest under chest? Notice advancement! ==§r
+actionbar.random_hint18=§a== Chest under chest? Notice when it appeared! ==§r
 actionbar.random_hint19=§a== Can you believe it? ZiMin recorded this map! Hooray!!! ==§r
 actionbar.random_hint20=§a== Pass level once = Auxiliary Functions FREE! ==§r
 actionbar.random_hint21=§a== No record for Time Limited & Easter Egg levels' aux functions. ==§r
@@ -216,7 +216,7 @@ chat.item_tester.placeable_block=§bYou can place %s now! §7Please check the sp
 chat.item_tester.destroyable_tool=§bYou can use %s now! §7Please check the specific places what blocks items can destory in the inventory~
 chat.completed.easter_egg_levels=§bCongratulations on completing all the Easter Egg Levels! You are now one step closer to completing the actual map!
 chat.completed.time_limited_levels=§bCongratulations on completing all the Time-Limited Levels! You're doing an amazing job! Now, let's continue towards the goal of achieving all 30 advancements! Let's go! ヽ(✿ﾟ▽ﾟ)ノ
-chat.unlocked.easter_egg_levels=§bCongratulations on finding the Easter egg level! Right-click (long-press for mobile players) to use the Easter egg item and enter the Easter Egg Level lobby. Have fun and enjoy your time!ヾ(^▽^*)
+chat.unlocked.easter_egg_levels=§bCongratulations on finding the Easter egg level! Right-click (long-press for mobile players) to use the Easter egg item and enter the Easter Egg Level hall. Have fun and enjoy your time!ヾ(^▽^*)
 chat.unlocked.time_limited_levels=§bTime-limited challenge unlocked! Don't forget to take a look~ヾ(^▽^*)
 chat.diy_hall.gaming_mode=§bSwitch to game mode, and start the level directly after entering.
 chat.diy_hall.edit_mode=§bSwitch to edit mode, edit the level after entering.
@@ -245,7 +245,7 @@ chat.open.tutorial.line13=§bAs for those §echallenging levels§b, hehe, I can 
 chat.open.tutorial.line14=§bGive it a try! §r
 chat.open.tutorial.line15=§bAwesome! (•ω•)§r
 chat.open.tutorial.line16=§bIn addition, I will also introduce two things, one of which is a Reset that can be used to restart the level! §r
-chat.open.tutorial.line17=§bThe other thing is a Quit, which allows you to return to the lobby directly when you don't want to play that level. (´∀｀)§r
+chat.open.tutorial.line17=§bThe other thing is a Quit, which allows you to return to the hall directly when you don't want to play that level. (´∀｀)§r
 chat.open.tutorial.line18=§bJust a heads up, please be mindful not to abuse the Skip, Strategy and Hint. The map logs the usage of these three functions._(:з」∠)_§r
 chat.open.tutorial.line19=§cFurthermore, it is important to pay attention that this is only a game, so please don't imitate it in real life! (っ °Д °;)っ§r
 chat.open.tutorial.line20=§bThat's it! Now all you need to do is make a few simple configurations, and you'll be ready to start the game! Have fun and enjoy your gaming experience! ٩(๑•̀ω•́๑)۶§r
@@ -257,7 +257,7 @@ chat.end.mainline_completed.line3=§bBut if you like this map, ...
 chat.end.mainline_completed.line4=§bIn fact, this map is far from the end~ ヾ(^▽^*)
 chat.end.mainline_completed.line5=§bLook at the scoreboard on the right. You have completed %s advancements so far.( •̀ ω •́ )✧
 chat.end.mainline_completed.line6=§bComplete all 30 advancements, come to this place again, there will be surprises!
-chat.end.advancements_completed.line1=<YZBWDLT> Hi, hello! We meet again! (￣▽￣)
+chat.end.advancements_completed.line1=<YZBWDLT> Hi! We meet again! (￣▽￣)
 chat.end.advancements_completed.line2=<YZBWDLT> I'm glad to know that you completed all 30 advancements, which has touched me so deeply...
 chat.end.advancements_completed.line3=<YZBWDLT> ...QAQ
 chat.end.advancements_completed.line4=<%s> (＃°Д°)??? 
@@ -273,8 +273,8 @@ chat.end.advancements_completed.line13=<YZBWDLT> Back and forth, this map has un
 chat.end.advancements_completed.line14=<YZBWDLT> Exhausted efforts, and ultimately only hope that you have fun, I wonder if you are satisfied with this map?
 chat.end.advancements_completed.line15=<YZBWDLT> If you don't feel satisfied, you can start the whole map again and try to speedrun the whole map! ヾ(≧▽≦*)o
 chat.end.advancements_completed.line16=<YZBWDLT> My speedrun grade is 27:41. I wonder if you can surpass me?
-chat.end.advancements_completed.line17=<YZBWDLT> Well, that's it. Thank you again for your visit! If you like, you can share it with others, or help me put forward suggestions for improvement in the comments section!
-chat.end.advancements_completed.line18=<YZBWDLT> Finally, remind me again that this is just a game, please love your life and cherish your life! Then I'll see you on the next map. Bye!ヾ(•ω•`)o
+chat.end.advancements_completed.line17=<YZBWDLT> Well, that's it. Thank you again for your playing! If you like, you can share it with others, or help me put forward suggestions for improvement in the comments section!
+chat.end.advancements_completed.line18=<YZBWDLT> Finally, remind you again that this is just a game, please love your life and cherish your life! Then I'll see you on the next map. Bye!ヾ(•ω•`)o
 
 #### Death Messages
 chat.deathmessage.tutorial_level=%s died because he was too curious about a button
@@ -283,7 +283,7 @@ chat.deathmessage.level_2=%s found this hot water as hot as lava
 chat.deathmessage.level_3=%s tried to hug the cactus warmly
 chat.deathmessage.level_4=%s found that the oxygen content in the sand was low
 chat.deathmessage.level_5=%s succeeded in becoming a two-dimensional creature
-chat.deathmessage.level_6.line1=%s is a drowning now, not a human being
+chat.deathmessage.level_6.line1=%s is a drowned now, not a human being
 chat.deathmessage.level_6.line2=§bSo never go swimming by rivers and puddles!
 chat.deathmessage.level_7=%s CHEATED!!! Σ(っ °Д °;)っ
 chat.deathmessage.level_8=%s found out that the Ender Dragon didn't welcome him
@@ -305,7 +305,7 @@ chat.deathmessage.level_21=%s was killed by parkour
 chat.deathmessage.level_22=%s forgot the lesson of the Tutorial Level
 chat.deathmessage.level_23=%s went off with a bang
 chat.deathmessage.level_24=%s understood the significance of strict food handling
-chat.deathmessage.level_25=%s %s shines on the stage, with a boom that engages
+chat.deathmessage.level_25=%s shines on the stage, with a boom that engages
 chat.deathmessage.level_26.line1=%s didn't encounter a bug and passed away smoothly
 chat.deathmessage.level_26.line2=§c(Because @ZiMin encountered a bug while playing this level before)
 chat.deathmessage.level_27=%s didn't notice the height limit of two blocks
@@ -337,6 +337,7 @@ chat.deathmessage.hided_3=%s had a dream of going back in time
 chat.level.level_13.ender_pearl_used=§bYou can't use Ender Pearls in this level! (@_@;) Here, I'll give you back the Ender Pearl you threw!§r
 chat.level.level_13.void=§cΣ(っ °Д °;)っ Don't get stuck in bugs anymore!§r
 chat.level.level_21.skip_used=§bDid you end up skipping this level in the end? (￣▽￣)§r
+chat.level.level_23.end=§bGood job! And you can review how to craft fireworks after you complete these mainline levels!
 chat.level.level_30.portal=§cYou built a portal really well, so next time don't bother building a new one.(＃°Д°)§r
 chat.level.level_30.dialogue.line2=<%s> (＃°Д°)? Wait, what's going on? Isn't this a single-player map?
 chat.level.level_30.dialogue.line3=<YZBWDLT> Nice! ヽ(✿ﾟ▽ﾟ)ノ, Have you completed 29 levels already?
@@ -348,7 +349,7 @@ chat.level.level_30.dialogue.line9=<%s> This... seems to be just a program after
 chat.level.easter_egg_1.dialogue.line1=§cPlease lower the volume ahead, beware of becoming socially dead!
 chat.level.easter_egg_1.dialogue.line2=<Oak Tree> Ouch, it hurts! I've been chopped in the waist!!!
 chat.level.easter_egg_1.dialogue.line3=<Oak Tree> Hmm~ Hm hm~ Ahhhhahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahahah!
-chat.level.easter_egg_2.question_0.right=§aAlright! Please go ahead and ask your question!
+chat.level.easter_egg_2.question_0.right=§aAlright! Please go ahead and answer my question!
 chat.level.easter_egg_2.question_0.wrong=§cI've let you back in! But don't expect you to pass the challenge! (〃｀ 3′〃)
 chat.level.easter_egg_2.question_1.right=§cYou are wrong... But it's not your fault either.
 chat.level.easter_egg_2.question_1.wrong=§aYou're definitely guessing!!! Unless you are a Chinese...
@@ -572,7 +573,7 @@ chat.how_to_play.line2=§lHow to play?
 chat.how_to_play.line3=§7The rules of the game are very simple. §fUse the given items in every room to die and win! §7Try to complete 30 mainline levels,  §feven 30 advancements§7! (☆▽☆)
 chat.how_to_play.line4=§lLevels
 chat.how_to_play.line5=§7The map is divided into mainlines, easter eggs and time limited levels!
-chat.how_to_play.line6=§7These 30 levels in the lobby are the §fmainline level§7, which is plain(ﾉ*･ω･)ﾉ
+chat.how_to_play.line6=§7These 30 levels in the hall are the §fmainline level§7, which is plain(ﾉ*･ω･)ﾉ
 chat.how_to_play.line7=§7In addition, the map has §fEaster Egg Levels§7! There are 10 levels in all and very strange(awa). It's hidden somewhere in the hall. Take your time to find it.(￣y▽,￣)╭ 
 chat.how_to_play.line8=§7You can also enter §fTime Limited Levels§7 -- restricts the passage within a specified time, with a total of 5 levels!
 chat.how_to_play.line9=§7Of course, we have §fDIY Levels§7, which allow you to custom the scenery, design and even commands! Of course... to unlock it, you should complete mainline levels first ╰(￣ω￣ｏ)
@@ -918,7 +919,7 @@ subtitle.hided_3=Final lev... wait, I crossed?
 
 subtitle.open_1=§eYZBWDLT §fMade
 subtitle.open_2=§eAcme Building Workshop §fPresent
-subtitle.end_=§lAUTHOR§r§f | §eYZBWDLT
+subtitle.end_1=§lAUTHOR§r§f | §eYZBWDLT
 subtitle.end_2=§c§l
 subtitle.end_3=§b§l
 subtitle.end_4=§lCO-AUTHOR§r§f | §eAndy7343
@@ -927,7 +928,7 @@ subtitle.end_6=§lSPECIAL THANKS§r§f | §exhduoduobaby
 subtitle.end_7=§lTime Taken to complete the map§r§f | §a%s : %s
 subtitle.end_8=§lOne More Thing...
 subtitle.end_9=§lOne More Thing... §cis §dFIREWORK §eSHOW §f!!!
-subtitle.end_0=§lTHANKS FOR YOUR PLAYING!!
+subtitle.end_10=§lTHANKS FOR YOUR PLAYING!!
 
 subtitle.random_potion.0=§bYou got effect §aAbsorption for 30 seconds§b ! 
 subtitle.random_potion.1=§bYou got effect §aBad Omen for 30 seconds§b ! 

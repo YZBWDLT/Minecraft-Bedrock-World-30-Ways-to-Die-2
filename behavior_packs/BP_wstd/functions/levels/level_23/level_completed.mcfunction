@@ -2,6 +2,7 @@
 
 # 自定义死亡信息
 execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.deathmessage.level_23","with":{"rawtext":[{"selector":"@s"}]}}]}
+tellraw @a {"rawtext":[{"translate":"chat.level.level_23.end"}]}
 
 # 传送到下一关入口
 tp @a -13 10 27 facing -13 10 24

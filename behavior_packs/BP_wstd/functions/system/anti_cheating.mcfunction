@@ -10,8 +10,8 @@ execute @e[name=level,scores={backend=51..60}] ~~~ execute @e[name=diyEditMode,s
 
 # ===== 防止利用特性卡bug =====
 # 在非28关时清除船
-execute @e[name=level,scores={backend=!28}] ~~~ execute @e[type=boat] ~~~ tellraw @a {"rawtext":[{"translate":"chat.anti_cheating.boat_not_allowed"}]}
-execute @e[name=level,scores={backend=!28}] ~~~ execute @e[type=boat] ~~~ kill @s
+execute @e[name=level,scores={backend=!28}] ~~~ execute @e[family=boat] ~~~ tellraw @a {"rawtext":[{"translate":"chat.anti_cheating.boat_not_allowed"}]}
+execute @e[name=level,scores={backend=!28}] ~~~ execute @e[family=boat] ~~~ kill @s
 
 # 在非18关时清除末影珍珠
 execute @e[name=level,scores={backend=!31,backend=!18}] ~~~ execute @e[type=ender_pearl] ~~~ tellraw @a {"rawtext":[{"translate":"chat.anti_cheating.ender_pearl_not_allowed"}]}

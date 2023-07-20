@@ -150,7 +150,7 @@ execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bFireworks with §efirework stars§b cause §eexplosion damage§b!" 10 23.5 -28.9
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bRegular fireworks without stars don't cause explosion damage..." 10 23.2 -28.9
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bFireworks can be loaded on §ecrossbows§b for §esplash damage§b!" 10 22.9 -28.9
-execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bThey can also provide §ethrust§b while §elytra gliding§b!" 10 22.6 -28.9
+execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bThey can also provide §ethrust§b while §eelytra gliding§b!" 10 22.6 -28.9
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bBe cautious with §efirework star§b fireworks, they cause §eexplosion damage§b..." 10 22.3 -28.9
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bThat's it! We also offer preset fireworks~" 10 22.0 -28.9
 execute @e[name=language,scores={settings=1}] ~~~ execute @e[name=counter,scores={backend=8}] ~~~ summon wstd:text_display "§bHave fun! Click \"Next\" to start again!" 10 21.7 -28.9

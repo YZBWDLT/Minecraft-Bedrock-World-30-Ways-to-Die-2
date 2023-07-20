@@ -93,7 +93,7 @@ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§cR
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§3Enjoy playing!ヽ(✿ﾟ▽ﾟ)ノ" 28 9.5 23.1
 
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aApologies for the translation error, the author is from China QwQ" 28 9.0 23.1
-execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aML=mainline levels | EE=Easter Egg | TL=Time Limited" 28 8.7 23.1
+execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§aML=Mainline Levels | EE=Easter Egg | TL=Time Limited" 28 8.7 23.1
 
 execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§l§c30种死法§62 §b2.3 地图" 28 13.0 31.9
 execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§l§c30 Ways to Die§62 §b2.3 MAP" 28 13.0 31.9
