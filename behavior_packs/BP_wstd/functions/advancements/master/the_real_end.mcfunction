@@ -19,6 +19,7 @@ execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ scoreboard players operation
 execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ scoreboard players operation @e[name=endTimeSecond] stats = @e[name=playedSecond] time
 execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ scoreboard players operation @e[name=endTimeTick] stats = @e[name=ticker] time
 execute @e[name=endTimeTick,scores={stats=!-1}] ~~~ function system/record_calculator
+scoreboard players add mapCompletedTimes record 1
 
 ## ===== 替换信标 =====
 setblock -45 9 26 beacon

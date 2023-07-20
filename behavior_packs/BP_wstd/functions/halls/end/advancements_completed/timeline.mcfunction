@@ -165,7 +165,6 @@ execute @e[name=timeline,scores={time=1220,active=3}] ~~~ titleraw @a title {"ra
 execute @e[name=timeline,scores={time=1220,active=3}] ~~~ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_10"}]}
 execute @e[name=timeline,scores={time=1220,active=3}] ~~~ execute @a ~~~ playsound random.levelup @s ~~~ 1 0.7
 execute @e[name=timeline,scores={time=1220,active=3}] ~~~ scoreboard players set @e[name=mapCompleted] stats 2
-execute @e[name=timeline,scores={time=1220,active=3}] ~~~ scoreboard players add mapCompletedTimes record 1
 
 execute @e[name=timeline,scores={time=1221,active=3}] ~~~ tp @a -8 29 27
 execute @e[name=timeline,scores={time=1221,active=3}] ~~~ kill @e[name=rotater]
