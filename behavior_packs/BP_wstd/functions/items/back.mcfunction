@@ -2,6 +2,7 @@
 
 # -14 | 从烟花教程返回 | 返回到上一步
 execute @e[name=level,scores={backend=-14}] ~~~ scoreboard players add @e[name=counter] backend -1
+execute @e[name=level,scores={backend=-14}] ~~~ execute @e[name=mapTime,scores={settings=1}] ~~~ time set day
 execute @e[name=level,scores={backend=-14}] ~~~ function halls/firework_tutorial/text_display
 
 # -13 | 从结束特效返回 | 触发返回函数
