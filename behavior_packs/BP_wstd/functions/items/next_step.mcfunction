@@ -20,6 +20,7 @@ execute @e[name=level,scores={backend=-1}] ~~~ function halls/diy_hall/mode_swit
 
 ## 36 | 限时第1关 | 读取结构
 execute @e[name=level,scores={backend=36}] ~~~ structure load time_limited_1_1 -54 21 -71
+execute @e[name=level,scores={backend=36}] ~~~ scoreboard players set @e[name=soundPlayer] active 11
 
 ## 38 | 限时第3关 | 召唤鸡
 execute @e[name=level,scores={backend=38}] ~~~ summon chicken 8 21 -85
