@@ -9,8 +9,8 @@ execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores
 execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ kill @e[type=wstd:text_display]
 execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:text_display "§6更改语言" 24 10.2 30
 execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ summon wstd:text_display "§6Change language" 24 9.9 30
-execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b当前：中文" 24 9.9 30
-execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bNow: English" 24 9.9 30
+execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=language,scores={settings=0}] ~~~ summon wstd:text_display "§b当前：中文" 24 9.6 30
+execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=ticker,scores={time=0}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ summon wstd:text_display "§bNow: English" 24 9.6 30
 
 execute @e[name=isNetease,scores={settings=0}] ~~~ execute @a[x=24,y=9,z=30,r=0.75,c=1] ~~~ scoreboard players add @e[name=language] settings 1
 execute @e[name=isNetease,scores={settings=0}] ~~~ execute @a[x=24,y=9,z=30,r=0.75,c=1] ~~~ scoreboard players set @e[name=language,scores={settings=!0..1}] settings 0
