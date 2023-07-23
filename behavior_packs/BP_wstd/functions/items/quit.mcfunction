@@ -1,6 +1,7 @@
 # 退出功能控制器
 
 ## -14 | 烟花教程
+execute @e[name=level,scores={backend=-14}] ~~~ execute @e[name=mapTime,scores={settings=1}] ~~~ time set 6000
 execute @e[name=level,scores={backend=-14}] ~~~ function halls/main_hall/start_level
 
 ## 1~32 | 主线关卡
