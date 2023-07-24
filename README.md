@@ -26,4 +26,8 @@
 # 联系我
 推荐您使用 QQ 进行联系，QQ 测试群号： **673941729** 。
 
+# 地图 EOL 公告(by PumpkinJui)
+
+![地图 EOL 公告](https://s2.loli.net/2023/07/25/ACV5bM7UlScLxhB.png)
+
 最后的最后，感谢您的游玩！
