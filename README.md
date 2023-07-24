@@ -17,8 +17,10 @@
 * 本地图（至少这里发布的 3 个文件）是国际版文件，因此中国版手游是不可用的，因为中国版手游是无法打开国际版地图的。如果您希望在中国版玩到这张地图，请在资源中心搜索。我们在发布这张地图的目前暂时还没有同步到中国版，所以请您耐心等待，但我们会尽全力上传到中国版。
 * 如果您希望手动导入到国际版，我们会给出国际版的两个文件路径（Windows 端和安卓端）。请注意，在 Windows 端您可能需要开启文件资源管理器中 “隐藏的项目” 设置，而对于 Android 11 及更高版本的安卓用户来说，访问 Android/data 将会是比较复杂的，我们推荐您用 MT 文件管理器导入。
 
-[Windows 端 minecraftWorld 路径] **%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorld**
-[Android 端 minecraftWorld 路径] **/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorld**
+* Windows 端 minecraftWorld 路径：  
+%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorld
+* Android 端 minecraftWorld 路径：  
+/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorld
 
 # 版权
 本地图遵守 **CC-BY-SA-4.0** 协议，在本文件夹的 LICENSE 文件里已附上 CC-BY-SA-4.0 协议的全文。如果您要转载或者改包转载，请务必通知我。
