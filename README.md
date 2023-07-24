@@ -14,13 +14,14 @@
 * 本地图使用了实验性玩法，因此中国版端游是不可用的，因为它会自行关闭实验性玩法导致地图报废。
 * 本地图（至少这里发布的3个文件）是国际版文件，因此中国版手游是不可用的，因为中国版手游是无法打开国际版地图的。如果您希望在中国版玩到这张地图，请在资源中心搜索。我们在发布这张地图的目前暂时还没有同步到中国版，所以请您耐心等待，但我们会尽全力上传到中国版。
 * 如果您希望手动导入到国际版，我们会给出国际版的两个文件路径（Windows端和安卓端）。请注意，在Windows端您可能需要开启文件资源管理器中“隐藏的项目”设置，而对于安卓11及更高版本的安卓用户来说，访问Android/data将会是比较复杂的，我们推荐您用MT文件管理器导入。
-[Windows端minecraftWorld路径]%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorld
-[Android端minecraftWorld路径]/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorld
+
+[Windows端minecraftWorld路径] **%localappdata%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\minecraftWorld**
+[Android端minecraftWorld路径] **/Android/data/com.mojang.minecraftpe/files/games/com.mojang/minecraftWorld**
 
 # 版权
-本地图遵守CC-BY-SA-4.0协议，在本文件夹的LICENSE文件里将附上CC-BY-SA-4.0协议的全文。如果您要转载或者改包转载，请务必通知我。
+本地图遵守 **CC-BY-SA-4.0** 协议，在本文件夹的LICENSE文件里将附上CC-BY-SA-4.0协议的全文。如果您要转载或者改包转载，请务必通知我。
 
 # 联系我
-推荐您使用QQ进行联系，QQ群聊：673941729。
+推荐您使用QQ进行联系，QQ群聊： **673941729** 。
 
 最后的最后，感谢您的游玩！
