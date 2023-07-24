@@ -1,3 +1,5 @@
+[中文版](https://github.com/YZBWDLT/Minecraft-Bedrock-World-30-Ways-to-Die-2/blob/main/README.md)
+
 Thank you for downloading this map! This map is based on Minecraft Bedrock Edition 1.18.30+ requirements, so please make sure you're currently using the latest version of Minecraft, or at least higher than 1.18.30 :)
 
 # How to Download
