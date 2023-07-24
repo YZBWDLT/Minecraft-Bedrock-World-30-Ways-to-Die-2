@@ -1,3 +1,5 @@
+[English Version Here](https://github.com/YZBWDLT/Minecraft-Bedrock-World-30-Ways-to-Die-2/blob/main/README(en-US).md)
+
 感谢你下载本地图！本地图是一张基于 Minecraft 基岩版 1.18.30+ 要求的地图，所以请务必保证您现在在用最新版本的 Minecraft 或者至少高于 1.18.30 :)
 
 # 如何下载
