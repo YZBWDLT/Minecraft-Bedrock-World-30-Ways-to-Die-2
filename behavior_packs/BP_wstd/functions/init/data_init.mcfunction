@@ -76,7 +76,7 @@ scoreboard players set @e[name=levelCompleteDelay] settings 2
 scoreboard players set @e[name=mapTime] settings 1
 scoreboard players set @e[name=scoreboardDisplay] settings 2
 scoreboard players set @e[name=speedrunMode] settings 0
-scoreboard players set @e[name=language] settings 0
+scoreboard players set @e[name=language] settings 1
 
 ### === 统计数据类 stats ===
 summon je:marker "mapCompleted" 0 1 0
