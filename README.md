@@ -31,6 +31,7 @@
 - [TITAIKE](https://www.titaike.cn/3560.html)
 - [MCPEDL](https://mcpedl.com/30-ways-to-die-2/)
 - [PlanetMinecraft](https://www.planetminecraft.com/project/30-ways-to-die-2/)
+- [Minecraft Maps](https://www.minecraftmaps.com/bedrock-maps/30-ways-to-die-2)
 - [MediaFire](https://www.mediafire.com/folder/v4out7kxado7v/30_Ways_to_Die_2_%7C_Minecraft_BE_Map)
 
 # 版权
