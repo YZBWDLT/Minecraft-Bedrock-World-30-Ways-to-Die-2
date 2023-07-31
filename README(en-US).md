@@ -3,7 +3,7 @@
 Thank you for downloading this map! This map is based on Minecraft Bedrock Edition 1.18.30+ requirements, so please make sure you're currently using the latest version of Minecraft, or at least higher than 1.18.30 :)
 
 # How to Download
-You can find **30种死法2 2.3** on the **Releases** page in this repository. Once you're on this page, scroll down to the bottom and choose the version you want to download according to your needs.
+You can find **30 Ways to Die 2 2.3 - English Version** on the **Releases** page in this repository. Once you're on this page, scroll down to the bottom and choose the version you want to download according to your needs.
 
 # How to Import
 
