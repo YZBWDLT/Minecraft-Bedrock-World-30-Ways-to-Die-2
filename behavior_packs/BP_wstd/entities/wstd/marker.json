@@ -2,7 +2,7 @@
     "format_version": "1.18.0",
     "minecraft:entity": {
         "description": {
-            "identifier": "je:marker",
+            "identifier": "wstd:marker",
             "is_experimental": false,
             "is_spawnable": false,
             "is_summonable": true,
