@@ -1,22 +1,27 @@
-# 开发者模式下可以清除的物品
-execute @e[name=developerMode,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.not_developer_mode"}]}
+# ===== 清除物品 =====
+# 用于清除玩家的辅助物品
 
-execute @e[name=developerMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.developer.clear_items"}]}
+# --- 未开启开发者模式时 ---
+execute unless score developerMode settings matches 1 run tellraw @s {"rawtext":[{"translate":"chat.error.not_developer_mode"}]}
 
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:hint
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:skip
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:strategy
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:reset
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:quit
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:next_step
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:back
+# --- 开启开发者模式时 ---
 
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:easter_egg_hall
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:diy_hall
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:time_limited_hall
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:advancement_center
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:stats_center
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:played_time
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:setting_center
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:play_music
-execute @e[name=developerMode,scores={settings=1}] ~~~ clear @a wstd:firework_tutorial
+execute if score developerMode settings matches 1 run tellraw @s {"rawtext":[{"translate":"chat.developer.clear_items"}]}
+
+execute if score developerMode settings matches 1 run clear @s wstd:hint
+execute if score developerMode settings matches 1 run clear @s wstd:skip
+execute if score developerMode settings matches 1 run clear @s wstd:strategy
+execute if score developerMode settings matches 1 run clear @s wstd:reset
+execute if score developerMode settings matches 1 run clear @s wstd:quit
+execute if score developerMode settings matches 1 run clear @s wstd:next_step
+execute if score developerMode settings matches 1 run clear @s wstd:back
+
+execute if score developerMode settings matches 1 run clear @s wstd:easter_egg_hall
+execute if score developerMode settings matches 1 run clear @s wstd:diy_hall
+execute if score developerMode settings matches 1 run clear @s wstd:time_limited_hall
+execute if score developerMode settings matches 1 run clear @s wstd:advancement_center
+execute if score developerMode settings matches 1 run clear @s wstd:stats_center
+execute if score developerMode settings matches 1 run clear @s wstd:played_time
+execute if score developerMode settings matches 1 run clear @s wstd:setting_center
+execute if score developerMode settings matches 1 run clear @s wstd:play_music
+execute if score developerMode settings matches 1 run clear @s wstd:firework_tutorial
