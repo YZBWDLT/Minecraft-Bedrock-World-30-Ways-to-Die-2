@@ -1,0 +1,153 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.player.item_using_test": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        { "is_using_advancement_center": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:advancement_center') && query.is_using_item" },
+                        { "is_using_back": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:back') && query.is_using_item" },
+                        { "is_using_change_room_size": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:change_room_size') && query.is_using_item" },
+                        { "is_using_diy_hall": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:diy_hall') && query.is_using_item" },
+                        { "is_using_easter_egg_hall": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:easter_egg_hall') && query.is_using_item" },
+                        { "is_using_firework_tutorial": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:firework_tutorial') && query.is_using_item" },
+                        { "is_using_hint": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:hint') && query.is_using_item" },
+                        { "is_using_load_level": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:load_level') && query.is_using_item" },
+                        { "is_using_next_step": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:next_step') && query.is_using_item" },
+                        { "is_using_play_music": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:play_music') && query.is_using_item" },
+                        { "is_using_played_time": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:played_time') && query.is_using_item" },
+                        { "is_using_quit": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:quit') && query.is_using_item" },
+                        { "is_using_reset_command_system": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:reset_command_system') && query.is_using_item" },
+                        { "is_using_reset": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:reset') && query.is_using_item" },
+                        { "is_using_save_level": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:save_level') && query.is_using_item" },
+                        { "is_using_setting_center": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:setting_center') && query.is_using_item" },
+                        { "is_using_skip": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:skip') && query.is_using_item" },
+                        { "is_using_stats_center": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:stats_center') && query.is_using_item" },
+                        { "is_using_strategy": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:strategy') && query.is_using_item" },
+                        { "is_using_time_limited_hall": "query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:time_limited_hall') && query.is_using_item" }
+                    ]
+                },
+                "is_using_advancement_center": {
+                    "on_entry": [ "/function entities/player/using_advancement_center" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:advancement_center') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_back": {
+                    "on_entry": [ "/function entities/player/using_back" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:back') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_change_room_size": {
+                    "on_entry": [ "/function entities/player/using_change_room_size" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:change_room_size') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_diy_hall": {
+                    "on_entry": [ "/function entities/player/using_diy_hall" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:diy_hall') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_easter_egg_hall": {
+                    "on_entry": [ "/function entities/player/using_easter_egg_hall" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:easter_egg_hall') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_firework_tutorial": {
+                    "on_entry": [ "/function entities/player/using_firework_tutorial" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:firework_tutorial') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_hint": {
+                    "on_entry": [ "/function entities/player/using_hint" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:hint') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_load_level": {
+                    "on_entry": [ "/function entities/player/using_load_level" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:load_level') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_next_step": {
+                    "on_entry": [ "/function entities/player/using_next_step" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:next_step') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_play_music": {
+                    "on_entry": [ "/function entities/player/using_play_music" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:play_music') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_played_time": {
+                    "on_entry": [ "/function entities/player/using_played_time" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:played_time') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_quit": {
+                    "on_entry": [ "/function entities/player/using_quit" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:quit') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_reset_command_system": {
+                    "on_entry": [ "/function entities/player/using_reset_command_system" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:reset_command_system') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_reset": {
+                    "on_entry": [ "/function entities/player/using_reset" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:reset') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_save_level": {
+                    "on_entry": [ "/function entities/player/using_save_level" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:save_level') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_setting_center": {
+                    "on_entry": [ "/function entities/player/using_setting_center" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:setting_center') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_skip": {
+                    "on_entry": [ "/function entities/player/using_skip" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:skip') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_stats_center": {
+                    "on_entry": [ "/function entities/player/using_stats_center" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:stats_center') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_strategy": {
+                    "on_entry": [ "/function entities/player/using_strategy" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:strategy') || !query.is_using_item" }
+                    ]
+                },
+                "is_using_time_limited_hall": {
+                    "on_entry": [ "/function entities/player/using_time_limited_hall" ],
+                    "transitions": [
+                        { "default": "!query.is_item_name_any('slot.weapon.mainhand', 0, 'wstd:time_limited_hall') || !query.is_using_item" }
+                    ]
+                }
+            }
+        }
+    }
+}

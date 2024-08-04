@@ -1,0 +1,12 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "identifier": "wstd:reset_command_system"
+        },
+        "components": {
+            "minecraft:icon": "reset_command_system"
+        }
+    }
+}

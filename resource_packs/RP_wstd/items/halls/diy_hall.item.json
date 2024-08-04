@@ -1,0 +1,12 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "identifier": "wstd:diy_hall"
+        },
+        "components": {
+            "minecraft:icon": "diy_hall"
+        }
+    }
+}
