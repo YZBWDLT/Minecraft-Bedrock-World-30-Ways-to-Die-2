@@ -1,3 +1,159 @@
+## ===== 2.4版本的翻译内容 =====
+
+item.wstd:change_to_creative=改为创造模式
+item.wstd:change_to_survival=改为生存模式
+item.wstd:change_to_adventure=改为冒险模式
+item.wstd:change_to_spectator=改为旁观模式
+item.wstd:language_test.name=语言测试
+item.wstd:random_potion_used.name=随机药水使用标记
+
+functions.general.error.not_normal_levels=§c无法在非普通关卡下使用此功能
+functions.general.need_developer_mode=§c该功能仅限在开发者模式下使用
+functions.general.not_available_in_this_level=§c无法在关卡未开放此功能的情况下使用此功能
+functions.general.used_hint=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔提示使用记录了！ψ(｀∇´)ψ
+functions.general.used_strategy=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔攻略使用记录了！ψ(｀∇´)ψ
+functions.general.used_skip=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔跳过使用记录了！ψ(｀∇´)ψ
+
+functions.developer.query.variables.succeed.line1=格式：<记分项>.<名称>=<值>
+functions.developer.query.variables.succeed.line2=§e黄色：使用标记实体存储的数据
+functions.developer.query.variables.succeed.line3=§b青色：玩家数据
+functions.developer.query.variables.succeed.line4=§c红色：关卡独有变量
+functions.developer.query.variables.succeed.player_data=§l===== 玩家数据 =====
+functions.developer.query.variables.succeed.dimension.@s=§bdimension.@s = §a%s §7| 玩家所处维度 | 0：主世界，1：下界，2：末地
+functions.developer.query.variables.succeed.isOnline.@s=§bisOnline.@s = §a%s §7| 玩家是否在线 | 0：刚进入游戏，1：在线
+functions.developer.query.variables.succeed.active=§l===== active记分板 =====
+functions.developer.query.variables.succeed.active.dialogue=active.dialogue = §a%s §7| 剧情线是否启用 | 0：禁用，1-5：启用且时间流逝，6-10：启用、时间流逝且锁定视角，9-：启用
+functions.developer.query.variables.succeed.active.easterEgg5.itemTestDiamondPickaxe=§cactive.easterEgg5.itemTestDiamondPickaxe = §a%s §7| §o（彩蛋第5关独占）§r§7物品 钻石镐 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.easterEgg5.itemTestIronPickaxe=§cactive.easterEgg5.itemTestIronPickaxe = §a%s §7| §o（彩蛋第5关独占）§r§7物品 铁镐 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.easterEgg7.itemTestLever=§cactive.easterEgg7.itemTestLever = §a%s §7| §o（彩蛋第7关独占）§r§7物品 拉杆 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.hided3.itemTestBrewingStand=§cactive.hided3.itemTestBrewingStand = §a%s §7| §o（隐藏第3关独占）§r§7物品 酿造台 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.hided3.itemTestCraftingTable=§cactive.hided3.itemTestCraftingTable = §a%s §7| §o（隐藏第3关独占）§r§7物品 工作台 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.hided3.itemTestFurnace=§cactive.hided3.itemTestFurnace = §a%s §7| §o（隐藏第3关独占）§r§7物品 熔炉 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.hided3.itemTestWoodenPickaxe=§cactive.hided3.itemTestWoodenPickaxe = §a%s §7| §o（隐藏第3关独占）§r§7物品 木镐 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.hided3.itemTestStonePickaxe=§cactive.hided3.itemTestStonePickaxe = §a%s §7| §o（隐藏第3关独占）§r§7物品 石镐 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level9.itemTestCraftingTable=§cactive.level9.itemTestCraftingTable = §a%s §7| §o（第9关独占）§r§7物品 工作台 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level10.itemTestBlackBed=§cactive.level10.itemTestBlackBed = §a%s §7| §o（第10关独占）§r§7物品 黑色床 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level10.itemTestBrownBed=§cactive.level10.itemTestBrownBed = §a%s §7| §o（第10关独占）§r§7物品 棕色床 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level10.itemTestGrayBed=§cactive.level10.itemTestGrayBed = §a%s §7| §o（第10关独占）§r§7物品 灰色床 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level10.itemTestLightGrayBed=§cactive.level10.itemTestLightGrayBed = §a%s §7| §o（第10关独占）§r§7物品 淡灰色床 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level10.itemTestPinkBed=§cactive.level10.itemTestPinkBed = §a%s §7| §o（第10关独占）§r§7物品 粉色床 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level10.itemTestWhiteBed=§cactive.level10.itemTestWhiteBed = §a%s §7| §o（第10关独占）§r§7物品 白色床 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level13.itemTestRedstoneRepeater=§cactive.level13.itemTestRedstoneRepeater = §a%s §7| §o（第13关独占）§r§7物品 红石中继器 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level20.itemTestBrewingStand=§cactive.level20.itemTestBrewingStand = §a%s §7| §o（第20关独占）§r§7物品 酿造台 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level20.itemTestCraftingTable=§cactive.level20.itemTestCraftingTable = §a%s §7| §o（第20关独占）§r§7物品 工作台 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level20.itemTestWaterBucket=§cactive.level20.itemTestWaterBucket = §a%s §7| §o（第20关独占）§r§7物品 水桶 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.level26.itemTestDispenser=§cactive.level26.itemTestDispenser = §a%s §7| §o（第26关独占）§r§7物品 发射器 的检测状态，检测成功后给予玩家可用物品并提示 | 0：停止检测，1：正在检测
+functions.developer.query.variables.succeed.active.levelCompleteDelay=active.levelCompleteDelay = §a%s §7| 当前的关卡延迟启用状态，关卡完成后会导致延迟一段时间再判定为完成 | 0：禁用，1：延迟0.25秒，2：延迟0.50秒，3：延迟0.75秒，4：延迟1.00秒，5：延迟1.25秒
+functions.developer.query.variables.succeed.active.mainHall.resetMapWarningCountdown=§cactive.mainHall.resetMapWarningCountdown = §a%s §7| §o（关卡大厅独占）§r§7重置地图警告倒计时是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.active.settingCenter.developerModeWarningCountdown=§cactive.settingCenter.developerModeWarningCountdown = §a%s §7| §o（设置中心独占）§r§7开发者模式警告倒计时是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.active.settingCenter.resetMapWarningCountdown=§cactive.settingCenter.resetMapWarningCountdown = §a%s §7| §o（设置中心独占）§r§7重置地图警告倒计时是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.active.settingCenter.resetRecordWarningCountdown=§cactive.settingCenter.resetRecordWarningCountdown = §a%s §7| §o（设置中心独占）§r§7重置记录警告倒计时是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.active.sound=active.sound = §a%s §7| 音效播放器类型，按不同值播放不同的音效 | 0：禁用，1-：启用
+functions.developer.query.variables.succeed.active.timeline=active.timeline = §a%s §7| 时间线是否启用 | 0：禁用，1-5：启用且时间流逝，5-：启用
+functions.developer.query.variables.succeed.data=§l===== data记分板 =====
+functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
+functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
+functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
+functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o（彩蛋第1关独占）§r§7树干是否已被破坏 | 0：未被破坏，1：已被破坏
+functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o（彩蛋第2关独占）§r§7玩家回答正确的题目数
+functions.developer.query.variables.succeed.data.easterEgg3.finishedParkour=§cdata.easterEgg3.finishedParkour = §a%s §7| §o（彩蛋第3关独占）§r§7玩家是否完成了跑酷 | 0：未完成，1：已完成
+functions.developer.query.variables.succeed.data.easterEgg4.likedTimes=§cdata.easterEgg4.likedTimes = §a%s §7| §o（彩蛋第4关独占）§r§7玩家选择好评的次数
+functions.developer.query.variables.succeed.data.easterEgg6.playerInLava=§cdata.easterEgg6.playerInLava = §a%s §7| §o（彩蛋第6关独占）§r§7玩家是否处于岩浆中 | 0：未处于，1：正处于
+functions.developer.query.variables.succeed.data.endStage2.fireworkLauncher=§cdata.endStage2.fireworkLauncher = §a%s §7| §o（最终结束特效独占）§r§7当前正在发射的烟花发射器ID，同时前一个发射器移除红石块，后一个发射器重置结构准备发射
+functions.developer.query.variables.succeed.data.hided2.endBlockBroken=§cdata.hided2.endBlockBroken = §a%s §7| §o（隐藏第2关独占）§r§7最后的方块是否已被挖开 | 0：未被挖开，1：已被挖开
+functions.developer.query.variables.succeed.data.hintUsed=data.hintUsed = §a%s §7| 当前关卡下是否使用了提示 | 0：已使用，1：未使用
+functions.developer.query.variables.succeed.data.isNetease=data.isNetease = §a%s §7| 当前是否为中国版 | 0：国际版，1：中国版
+functions.developer.query.variables.succeed.data.level=data.level = §a%s §7| 当前所处的关卡ID，您可以使用/function developer/query/level_id查询关卡ID表进行对比
+functions.developer.query.variables.succeed.data.level7.enteredNether=§cdata.level7.enteredNether = §a%s §7| §o（第7关独占）§r§7玩家是否进入过下界 | 0：未进入过，1：进入过
+functions.developer.query.variables.succeed.data.level13.redstoneActivatedTimes=§cdata.level13.redstoneActivatedTimes = §a%s §7| §o（第13关独占）§r§7第3部分中红石激活的次数
+functions.developer.query.variables.succeed.data.level18.playerFellIntoVoid=§cdata.level18.playerFellIntoVoid = §a%s §7| §o（第18关独占）§r§7玩家是否跌入虚空
+functions.developer.query.variables.succeed.data.level22.endBlockBroken=§cdata.level22.endBlockBroken = §a%s §7| §o（第22关独占）§r§7最后的方块是否已被挖开 | 0：未被挖开，1：已被挖开
+functions.developer.query.variables.succeed.data.levelCompleted=data.levelCompleted = §a%s §7| 当前关卡是否已完成 | 0：未完成，1：已完成
+functions.developer.query.variables.succeed.data.mainHall.actionbarTitleRandom=§cdata.mainHall.actionbarTitleRandom = §a%s §7| §o（关卡大厅独占）§r§7当前正在播放的随机快捷栏标题
+functions.developer.query.variables.succeed.data.pigAmount=data.pigAmount = §a%s §7| 猪类数目（包括猪、猪灵、僵尸猪灵），使用/function lib/get_data/amount_pig以获取
+functions.developer.query.variables.succeed.data.playerAmount=data.playerAmount = §a%s §7| 总玩家人数，使用/function lib/get_data/amount_player以获取
+functions.developer.query.variables.succeed.data.settingCenter.creditsViewed=§cdata.settingCenter.creditsViewed = §a%s §7| §o（设置中心独占）§r§7玩家是否已看过制作人列表 | 0：未看过，1：已看过
+functions.developer.query.variables.succeed.data.skipUsed=data.skipUsed = §a%s §7| 当前关卡下是否使用了跳过 | 0：已使用，1：未使用
+functions.developer.query.variables.succeed.data.strategyUsed=data.strategyUsed = §a%s §7| 当前关卡下是否使用了攻略 | 0：已使用，1：未使用
+functions.developer.query.variables.succeed.data.timeLimited4.totalScore=§cdata.timeLimited4.totalScore = §a%s §7| §o（限时第4关独占）§r§7玩家钓入猪的数目，钓入猪加1分，钓入猪灵减1分
+functions.developer.query.variables.succeed.data.timeLimited5.totalScore=§cdata.timeLimited5.totalScore = §a%s §7| §o（限时第5关独占）§r§7完成的建筑数
+functions.developer.query.variables.succeed.record=§l===== record记分板 =====
+functions.developer.query.variables.succeed.record.bestTime.minute=record.bestTime.minute = §a%s §7| 最佳时间记录 | 单位：分钟
+functions.developer.query.variables.succeed.record.bestTime.second=record.bestTime.second = §a%s §7| 最佳时间记录 | 单位：秒
+functions.developer.query.variables.succeed.record.bestTime.tick=record.bestTime.tick = §a%s §7| 最佳时间记录 | 单位：游戏刻
+functions.developer.query.variables.succeed.record.endTime.minute=record.endTime.minute = §a%s §7| 本次完成全进度时的时间记录 | 单位：分钟
+functions.developer.query.variables.succeed.record.endTime.second=record.endTime.second = §a%s §7| 本次完成全进度时的时间记录 | 单位：秒
+functions.developer.query.variables.succeed.record.endTime.tick=record.endTime.tick = §a%s §7| 本次完成全进度时的时间记录 | 单位：游戏刻
+functions.developer.query.variables.succeed.record.hintUsed=record.hintUsed = §a%s §7| 使用过的提示总数
+functions.developer.query.variables.succeed.record.mapCompletedTimes=record.mapCompletedTimes = §a%s §7| 地图通关次数
+functions.developer.query.variables.succeed.record.progress.advancement=record.progress.advancement = §a%s §7| 进度完成数
+functions.developer.query.variables.succeed.record.progress.easterEgg=record.progress.easterEgg = §a%s §7| 彩蛋关卡完成数 | -1：未解锁彩蛋
+functions.developer.query.variables.succeed.record.progress.level=record.progress.level = §a%s §7| 主线关卡完成数
+functions.developer.query.variables.succeed.record.progress.mapStage=record.progress.mapStage = §a%s §7| 地图完成阶段 | 0：完成主线前，1：完成主线但未完成全进度，2：完成全进度（已通关）
+functions.developer.query.variables.succeed.record.progress.timeLimited=record.progress.timeLimited = §a%s §7| 限时关卡完成数 | -1：未解锁限时关卡
+functions.developer.query.variables.succeed.record.skipUsed=record.skipUsed = §a%s §7| 使用过的跳过总数
+functions.developer.query.variables.succeed.record.strategyUsed=record.strategyUsed = §a%s §7| 使用过的攻略总数
+functions.developer.query.variables.succeed.settings=§l===== settings记分板 =====
+functions.developer.query.variables.succeed.settings.developerMode=settings.developerMode = §a%s §7| 开发者模式是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.settings.gameruleLock=settings.gameruleLock = §a%s §7| 游戏规则是否锁定 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.settings.hintEnabled=settings.hintEnabled = §a%s §7| 提示是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.settings.language=settings.language = §a%s §7| 当前使用的语言 | 0：中文，1：英文
+functions.developer.query.variables.succeed.settings.levelCompleteDelay=settings.levelCompleteDelay = §a%s §7| 当前的关卡延迟设置 | 0：禁用，1：部分0.25秒，2：部分0.50秒，3：部分0.75秒，4：部分1.00秒，5：部分1.25秒，6：全部0.25秒，7：全部0.50秒，8：全部0.75秒，9：全部1.00秒，10：全部1.25秒
+functions.developer.query.variables.succeed.settings.level30Dialogue=settings.level30Dialogue = §a%s §7| 第30关对话是否启用 | 0：禁用，1：启用，2：启用并在第30关解锁后播放音效
+functions.developer.query.variables.succeed.settings.mapTime=settings.mapTime = §a%s §7| 地图时间 | 0：终为白日，1：仅在烟花教程切换黑夜，2：终为黑夜，3：时间流逝
+functions.developer.query.variables.succeed.settings.oplevel=settings.oplevel = §a%s §7| 地图权限等级
+functions.developer.query.variables.succeed.settings.scoreboardDisplay=settings.scoreboardDisplay = §a%s §7| 记分板显示状态 | 0：不显示，1：显示部分信息，2：显示完整信息
+functions.developer.query.variables.succeed.settings.speedrunMode=settings.speedrunMode = §a%s §7| 速通模式是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.settings.skipEnabled=settings.skipEnabled = §a%s §7| 跳过是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.settings.strategyEnabled=settings.strategyEnabled = §a%s §7| 攻略是否启用 | 0：禁用，1：启用
+functions.developer.query.variables.succeed.time=§l===== time记分板 =====
+functions.developer.query.variables.succeed.time.currentMinute=time.currentMinute = §a%s §7| 当前已游玩时间 | 单位：分钟
+functions.developer.query.variables.succeed.time.currentSecond=time.currentSecond = §a%s §7| 当前已游玩时间 | 单位：秒
+functions.developer.query.variables.succeed.time.dialogue=time.dialogue = §a%s §7| 剧情线，到达特定值后触发对话 | 单位：游戏刻
+functions.developer.query.variables.succeed.time.endStage2.fireworkTimer=§ctime.endStage2.fireworkTimer = §a%s §7| §o（最终结束特效独占）§r§7烟花发射计时器，为4时发射，在0~4循环 | 单位：游戏刻
+functions.developer.query.variables.succeed.time.levelCompleteDelay=time.levelCompleteDelay = §a%s §7| 关卡延迟完成，为0时为关卡完成的条件之一 | 单位：游戏刻
+functions.developer.query.variables.succeed.time.mainHall.actionbarTitleSecond=§ctime.mainHall.actionbarTitleSecond = §a%s §7| §o（关卡大厅独占）§r§7大厅随机快捷栏标题计时，在0~1循环 | 单位：秒
+functions.developer.query.variables.succeed.time.mainHall.resetMapWarningCountdown=§ctime.mainHall.resetMapWarningCountdown = §a%s §7| §o（关卡大厅独占）§r§7重置地图警告倒计时 | 单位：秒
+functions.developer.query.variables.succeed.time.remainingTime=time.remainingTime = §a%s §7| 当前关卡剩余时间 | 单位：秒
+functions.developer.query.variables.succeed.time.settingCenter.developerModeWarningCountdown=§ctime.settingCenter.developerModeWarningCountdown = §a%s §7| §o（设置中心独占）§r§7开发者模式警告倒计时 | 单位：秒
+functions.developer.query.variables.succeed.time.settingCenter.resetMapWarningCountdown=§ctime.settingCenter.resetMapWarningCountdown = §a%s §7| §o（设置中心独占）§r§7重置地图警告倒计时 | 单位：秒
+functions.developer.query.variables.succeed.time.settingCenter.resetRecordWarningCountdown=§ctime.settingCenter.resetRecordWarningCountdown = §a%s §7| §o（设置中心独占）§r§7重置记录警告倒计时 | 单位：秒
+functions.developer.query.variables.succeed.time.sound=time.sound = §a%s §7| 音效播放器，为0时触发特定音效 | 单位：游戏刻
+functions.developer.query.variables.succeed.time.tick=time.tick = §a%s §7| 每刻增加1分，每秒重置1次 | 单位：游戏刻
+functions.developer.query.variables.succeed.time.timeline=time.timeline = §a%s §7| 时间线，到达特定值后触发命令或函数 | 单位：游戏刻
+functions.developer.query.variables.succeed.tags=§l===== 标签型变量 =====
+functions.developer.query.variables.succeed.tags.isAlive_get=isAlive = §atrue §7| 玩家是否存活
+functions.developer.query.variables.succeed.tags.isAlive_not_get=isAlive = §efalse §7| 玩家是否存活
+
+functions.entities.player.using_play_music=§b已为你播放新的音乐~
+
+functions.halls.settings.explore_map.subtitle=§l§b浏览全地图
+functions.halls.settings.explore_map.actionbar_title=§l§b浏览全地图§r§f | 抬头以回到设置中心
+functions.halls.settings.explore_map.events.tp_player_back=§c亲，别走太远了哦~ =w=
+
+functions.levels.hided.level_2.complete.let_level_22_completed=§b既然这么难的关你都过了，那我就让你跳过第22关吧！(～￣▽￣)～ 
+functions.levels.mainline.level_10.dialogue.line1=§b等下！！！
+functions.levels.mainline.level_10.dialogue.line2=§b你刚刚合成出了个什么东西？？
+functions.levels.mainline.level_10.dialogue.line3=§b一张粉床？！！
+functions.levels.mainline.level_10.dialogue.line4=§b啊？？？你运气也太好了叭！o(≧口≦)o
+functions.levels.mainline.level_10.dialogue.line5=§b要知道，生成一只粉色羊的概率仅仅只有0.1558%%！	## %%是为了显示出一个%
+functions.levels.mainline.level_10.dialogue.line6=§b而在这基础上还要再有1/3的概率剪出3个羊毛......┌(。Д。)┐
+functions.levels.mainline.level_10.dialogue.line7=§b快告诉我你家地址，我要去偷走你的运气！OwO
+
+functions.lib.modify_data.developer_gamemode.change_to_creative.succeed=你已被调整为创造模式
+functions.lib.modify_data.developer_gamemode.change_to_creative.fail.already_in_mode=§c你已为创造模式，无法做出更改
+functions.lib.modify_data.developer_gamemode.change_to_survival.succeed=你已被调整为生存模式
+functions.lib.modify_data.developer_gamemode.change_to_survival.fail.already_in_mode=§c你已为生存模式，无法做出更改
+functions.lib.modify_data.developer_gamemode.change_to_adventure.succeed=你已被调整为冒险模式
+functions.lib.modify_data.developer_gamemode.change_to_adventure.fail.already_in_mode=§c你已为冒险模式，无法做出更改
+functions.lib.modify_data.developer_gamemode.change_to_spectator.succeed=你已被调整为旁观模式，抬头调整回创造模式
+functions.lib.modify_data.developer_gamemode.change_to_spectator.fail.already_in_mode=§c你已为旁观模式，无法做出更改
+
+functions.settings.developer_mode.disabled=开发者模式已禁用
+functions.settings.developer_mode.enabled=开发者模式已启用
+
+## ===== 2.3版本的翻译内容 =====
+
 ## 新物品翻译
 item.spawn_egg.entity.wstd:creator.name=作者&测试员 刷怪蛋
 item.wstd:hunger_potion.name=饥饿药水
@@ -25,7 +181,7 @@ item.wstd:reset_command_system.name=§b重置命令系统
 
 ## 新实体翻译
 entity.flower_solder.name=智慧的卖花商人
-entity.je:marker.name=标记
+entity.wstd:marker.name=标记
 entity.wstd:creator.name=作者&测试员
 
 ## 新方块翻译
@@ -151,15 +307,15 @@ actionbar.tutorial_level=§l§b教程关卡§r
 #### 开发者模式
 actionbar.developer.oplevel=§b权限等级 §6%s§r	## {"translate":"actionbar.developer.oplevel","with":{"rawtext":[{"score":{"objective":"oplevel","name":"@s"}}]}}
 actionbar.developer.level_id=§b关卡ID §6%s§r	## {"translate":"actionbar.developer.level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
-actionbar.developer.time_played=§b游玩时间 §6%s：%s§r	## {"translate":"actionbar.developer.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"name":"@e[name=playedSecond]","objective":"time"}}]}}
+actionbar.developer.time_played=§b游玩时间 §6%s：%s§r	## {"translate":"actionbar.developer.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"name":"currentSecond","objective":"time"}}]}}
 actionbar.developer.timeline=§b时间线状态与值 §6%s/%s§r	## {"translate":"actionbar.developer.timeline","with":{"rawtext":[{"score":{"objective":"active","name":"@e[name=timeline]"}},{"score":{"name":"@e[name=timeline]","objective":"time"}}]}}
 #### 其他
 actionbar.firework_tutorial.step=§7当前步骤 §a%s §7/ 8	## {"translate":"actionbar.firework_tutorial.step","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=counter]"}}]}}
 actionbar.level_loading=§b关卡正在加载，稍稍等一小会儿吧~
-actionbar.nether_error=§c呃哦！似乎出错了，请使用下一步以继续！
+actionbar.dimension_error=§c呃哦！似乎出错了，请使用下一步以继续！
 actionbar.remaining_time=§b距离本关结束剩余§6 %s §b秒！§r	## {"translate":"actionbar.remaining_time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=remainingTime]"}}]}}
-actionbar.time_played=你的游玩时间：§6 %s §f分钟§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}}]}}
-actionbar.time_played.speedrun_mode=你的游玩时间：§6 %s：%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
+actionbar.time_played=你的游玩时间：§6 %s §f分钟§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}}]}}
+actionbar.time_played.speedrun_mode=你的游玩时间：§6 %s：%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}},{"score":{"objective":"time","name":"tick"}}]}}
 actionbar.use_next_to_start=§c使用下一步以开始游戏！
 
 ### ----- 进度名翻译（advancement.xxx） ----- | 按照主线 -> 彩蛋 -> 大师 -> 杂项的进度顺序排列
@@ -479,10 +635,10 @@ chat.item.load_level.start_loading=§b正在加载结构，请稍等...
 chat.item.load_level.completed=§b加载完成！
 chat.item.save_level.start_saving=§b正在保存结构，请稍等...
 chat.item.save_level.completed=§b保存完成！
-chat.item.played_time.time=§b你的游玩时间 | §a%s : %s§r		## {"translate":"chat.item.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}}]}}
-chat.item.played_time.time.completed=§b你的游玩时间 | §a%s : %s . %s§r		## {"translate":"chat.item.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
-chat.item.played_time.end_time=§b全地图通关！通关时间 | §a%s : %s . %s§r		## {"translate":"chat.item.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}},{"score":{"objective":"stats","name":"@e[name=endTimeTick]"}}]}}
-chat.item.played_time.record=§b最佳纪录 | §a%s : %s . %s§r		## {"translate":"chat.item.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"recordMinute"}},{"score":{"objective":"record","name":"recordSecond"}},{"score":{"objective":"record","name":"recordTick"}}]}}
+chat.item.played_time.time=§b你的游玩时间 | §a%s : %s§r		## {"translate":"chat.item.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}}]}}
+chat.item.played_time.time.completed=§b你的游玩时间 | §a%s : %s . %s§r		## {"translate":"chat.item.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}},{"score":{"objective":"time","name":"tick"}}]}}
+chat.item.played_time.end_time=§b全地图通关！通关时间 | §a%s : %s . %s§r		## {"translate":"chat.item.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTime.minute]"}},{"score":{"objective":"stats","name":"@e[name=endTime.second]"}},{"score":{"objective":"stats","name":"@e[name=endTime.tick]"}}]}}
+chat.item.played_time.record=§b最佳纪录 | §a%s : %s . %s§r		## {"translate":"chat.item.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"bestTime.minute"}},{"score":{"objective":"record","name":"bestTime.second"}},{"score":{"objective":"record","name":"bestTime.tick"}}]}}
 chat.item.played_time.map_completed_times=§b通关次数 | §a%s§r		## {"translate":"chat.item.played_time.map_completed_times","with":{"rawtext":[{"score":{"objective":"record","name":"mapCompletedTimes"}}]}}
 chat.item.played_time.evaluate1=§c你甚至连主线都没有完成！怎么拿到的这个物品？(╯‵□′)╯︵┻━┻
 chat.item.played_time.evaluate2=§b尚未完成地图，向着30个进度进发吧！
@@ -555,9 +711,9 @@ chat.credits.line11=§l感谢全体测试群成员和你的支持，同时感谢
 
 #### 地图信息
 chat.map_information.line1=§b地图信息
-chat.map_information.line2=§l地图版本 §r| §72.3 - 国际版平台
+chat.map_information.line2=§l地图版本 §r| §72.4 - 国际版平台
 chat.map_information.line3=§l发布平台 §r| §7MCBBS（我的世界中文论坛），KLPBBS（苦力怕论坛），MineBBS，MCBEBBS，MCPEDL，TITAIKE
-chat.map_information.line4=§lMC需求版本 §r| §7基岩版 1.18.30
+chat.map_information.line4=§lMC需求版本 §r| §7基岩版 1.20.10
 chat.map_information.line5=§l售价 §r| §7免费
 
 #### 更新日志
@@ -605,7 +761,7 @@ chat.map_rule.line1=§b地图规则
 chat.map_rule.line2=§l免责声明
 chat.map_rule.line3=§7当您游玩本地图时，将默认您同意本规则中所明确的注意事项。违反规则而造成的一切后果，本团队概不负责。
 chat.map_rule.line4=§l版本需求
-chat.map_rule.line5=§7请至少使用§f基岩版1.18.30或最新中国版§7以获得完整体验。
+chat.map_rule.line5=§7请至少使用§f基岩版1.20.10或最新中国版§7以获得完整体验。
 chat.map_rule.line6=§l游戏模式需求
 chat.map_rule.line7=§f默认且锁定冒险模式§7，您可以解除这锁定，但就像部分安卓手机ROOT后不予保修一样，由更改游戏模式引发的问题我们也不会负责。
 chat.map_rule.line8=§l命令需求
@@ -664,8 +820,8 @@ chat.help.line45=§7A：当然有考虑啦！但是一直不知道哪家更好�
 
 ## 开发者模式命令反馈
 chat.developer.clear_items=已成功清除物品
-chat.develoepr.dimension_marker.overworld=已重置在主世界下的维度标记实体
-chat.develoepr.dimension_marker.nether=已重置在下界下的维度标记实体
+chat.developer.dimension_marker.overworld=已重置在主世界下的维度标记实体
+chat.developer.dimension_marker.nether=已重置在下界下的维度标记实体
 chat.developer.gamemode_switcher=在旁观模式下抬头变为创造模式
 chat.developer.get_items=已成功给予物品
 chat.developer.mainline_level_unlocked=已解锁所有主线关卡
@@ -732,33 +888,33 @@ chat.developer.query.advancement.line34=DIY | 进入DIY关卡 | 上游：是谁�
 chat.developer.query.advancement.line35=欣赏，观望 | 旁观地图 | 上游：DIY
 
 chat.developer.query.structure.line1=§b结构表 | §7带*的为非行为包结构
-chat.developer.query.structure.line2=level_1 第1关 | level_2 第2关 | level_3 第3关 | level_4 第4关 | level_5 第5关
-chat.developer.query.structure.line3=level_6 第6关 | level_7 第7关 | level_7_nether 第7关 - 下界部分 | level_8 第8关 | level_9 第9关
-chat.developer.query.structure.line4=level_10 第10关 | level_11 第11关 | level_12 第12关 | level_13_1 第13关第1部分 | level_13_2 第13关第2部分
-chat.developer.query.structure.line5=level_13_3 第13关第3部分 | level_14 第14关 | level_15 第15关 | level_16 第16关 | level_17 第17关
-chat.developer.query.structure.line6=level_18 第18关 | level_19 第19关 | level_20 第20关 | level_21 第21关 | level_22 第22关
-chat.developer.query.structure.line7=level_23 第23关 | level_24 第24关 | level_25 第25关 | level_26 第26关 | level_27 第27关
-chat.developer.query.structure.line8=level_28 第28关 | level_29 第29关 | level_30 第30关 | level_0 教程关卡 | level_11_en 第11关（EN）
-chat.developer.query.structure.line9=level_14_en 第14关（EN） | level_16_en 第16关（EN） | level_17_en 第17关（EN） | level_22_en 第22关（EN） | level_30_en_patch 第30关（EN告示牌）
-chat.developer.query.structure.line10=easter_egg_1 彩蛋第1关 | easter_egg_2 彩蛋第2关 | easter_egg_3 彩蛋第3关 - 起始屋 | easter_egg_3_1 彩蛋第3关 - 跑酷部分 | easter_egg_4 彩蛋第4关
-chat.developer.query.structure.line11=easter_egg_5 彩蛋第5关 | easter_egg_6 彩蛋第6关 | easter_egg_7 彩蛋第7关 | easter_egg_8 彩蛋第8关 | easter_egg_8_1 彩蛋第8关 - 绿宝石块陷阱
-chat.developer.query.structure.line12=easter_egg_9 彩蛋第9关 | easter_egg_10 彩蛋第10关 | easter_egg_10_1 彩蛋第10关 - 岩立方部分 | easter_egg_7_en 彩蛋第7关（EN） | easter_egg_9_en 彩蛋第9关（EN）
+chat.developer.query.structure.line2=mainline:level_1 第1关 | mainline:level_2 第2关 | mainline:level_3 第3关 | mainline:level_4 第4关 | mainline:level_5 第5关
+chat.developer.query.structure.line3=mainline:level_6 第6关 | mainline:level_7 第7关 | mainline:level_7_nether 第7关 - 下界部分 | mainline:level_8 第8关 | mainline:level_9 第9关
+chat.developer.query.structure.line4=mainline:level_10 第10关 | mainline:level_11 第11关 | mainline:level_12 第12关 | mainline:level_13_1 第13关第1部分 | mainline:level_13_2 第13关第2部分
+chat.developer.query.structure.line5=mainline:level_13_3 第13关第3部分 | mainline:level_14 第14关 | mainline:level_15 第15关 | mainline:level_16 第16关 | mainline:level_17 第17关
+chat.developer.query.structure.line6=mainline:level_18 第18关 | mainline:level_19 第19关 | mainline:level_20 第20关 | mainline:level_21 第21关 | mainline:level_22 第22关
+chat.developer.query.structure.line7=mainline:level_23 第23关 | mainline:level_24 第24关 | mainline:level_25 第25关 | mainline:level_26 第26关 | mainline:level_27 第27关
+chat.developer.query.structure.line8=mainline:level_28 第28关 | mainline:level_29 第29关 | mainline:level_30 第30关 | mainline:level_0 教程关卡 | mainline:level_11_en 第11关（EN）
+chat.developer.query.structure.line9=mainline:level_14_en 第14关（EN） | mainline:level_16_en 第16关（EN） | mainline:level_17_en 第17关（EN） | mainline:level_22_en 第22关（EN） | mainline:level_30_en_patch 第30关（EN告示牌）
+chat.developer.query.structure.line10=easter_egg:level_1 彩蛋第1关 | easter_egg:level_2 彩蛋第2关 | easter_egg:level_3 彩蛋第3关 - 起始屋 | easter_egg:level_3_1 彩蛋第3关 - 跑酷部分 | easter_egg:level_4 彩蛋第4关
+chat.developer.query.structure.line11=easter_egg:level_5 彩蛋第5关 | easter_egg:level_6 彩蛋第6关 | easter_egg:level_7 彩蛋第7关 | easter_egg:level_8 彩蛋第8关 | easter_egg:level_8_1 彩蛋第8关 - 绿宝石块陷阱
+chat.developer.query.structure.line12=easter_egg:level_9 彩蛋第9关 | easter_egg:level_10 彩蛋第10关 | easter_egg:level_10_1 彩蛋第10关 - 岩立方部分 | easter_egg:level_7_en 彩蛋第7关（EN） | easter_egg:level_9_en 彩蛋第9关（EN）
 chat.developer.query.structure.line13= 
-chat.developer.query.structure.line14=time_limited_1 限时第1关 | time_limited_2 限时第2关 | time_limited_3 限时第3关 | time_limited_4 限时第4关 | time_limited_5 限时第5关
-chat.developer.query.structure.line15=time_limited_5_1 限时第5关 - 第1个建筑 | time_limited_5_2 限时第5关 - 第2个建筑 | time_limited_5_3 限时第5关 - 第3个建筑 | time_limited_5_4 限时第5关 - 第4个建筑 | time_limited_5_5 限时第5关 - 第5个建筑
-chat.developer.query.structure.line16=time_limited_1_1 限时第1关 - 资源
+chat.developer.query.structure.line14=time_limited:level_1 限时第1关 | time_limited:level_2 限时第2关 | time_limited:level_3 限时第3关 | time_limited:level_4 限时第4关 | time_limited:level_5 限时第5关
+chat.developer.query.structure.line15=time_limited:level_5_1 限时第5关 - 第1个建筑 | time_limited:level_5_2 限时第5关 - 第2个建筑 | time_limited:level_5_3 限时第5关 - 第3个建筑 | time_limited:level_5_4 限时第5关 - 第4个建筑 | time_limited:level_5_5 限时第5关 - 第5个建筑
+chat.developer.query.structure.line16=time_limited:level_1_1 限时第1关 - 资源
 chat.developer.query.structure.line17=diy_1 *DIY第1关 | diy_2 *DIY第2关 | diy_3 *DIY第3关 | diy_4 *DIY第4关 | diy_5 *DIY第5关
 chat.developer.query.structure.line18=diy_6 *DIY第6关 | diy_7 *DIY第7关 | diy_8 *DIY第8关 | diy_9 *DIY第9关 | diy_10 *DIY第10关
-chat.developer.query.structure.line19=diy_command_system 自定义关卡预设命令系统 | small_room 小房间预设 | middle_room 中房间预设 | large_room 大房间预设
+chat.developer.query.structure.line19=diy_levels:command_system 自定义关卡预设命令系统 | diy_levels:small_room 小房间预设 | diy_levels:middle_room 中房间预设 | diy_levels:large_room 大房间预设
 chat.developer.query.structure.line20= 
-chat.developer.query.structure.line21=firework_tutorial_1 烟花教程第1步 | firework_tutorial_2 烟花教程第2步 | firework_tutorial_3 烟花教程第3步 | firework_tutorial_4 烟花教程第4步 | firework_tutorial_5 烟花教程第5步
-chat.developer.query.structure.line22=firework_tutorial_6 烟花教程第6步 | firework_tutorial_7 烟花教程第7步 | firework_tutorial_8 烟花教程第8步 | firework_settings 烟花秀设置房间 | firework_dispenser *烟花秀发射器
+chat.developer.query.structure.line21=firework:tutorial_1 烟花教程第1步 | firework:tutorial_2 烟花教程第2步 | firework:tutorial_3 烟花教程第3步 | firework:tutorial_4 烟花教程第4步 | firework:tutorial_5 烟花教程第5步
+chat.developer.query.structure.line22=firework:tutorial_6 烟花教程第6步 | firework:tutorial_7 烟花教程第7步 | firework:tutorial_8 烟花教程第8步 | firework:settings 烟花秀设置房间 | firework_dispenser *烟花秀发射器
 chat.developer.query.structure.line23= 
-chat.developer.query.structure.line24=hided_1 隐藏第1关 | hided_2 隐藏第2关（大迷宫） | hided_3 隐藏第3关（死法1第30关）
+chat.developer.query.structure.line24=hided:level_1 隐藏第1关 | hided:level_2 隐藏第2关（大迷宫） | hided:level_3 隐藏第3关（死法1第30关）
 chat.developer.query.structure.line25= 
-chat.developer.query.structure.line26=logo 地图原始logo | logo_completed 地图通关logo | ban 禁止展示框 | tutorial_cb 教程关卡命令方块 | tutorial_chest 教程关卡箱子
-chat.developer.query.structure.line27=advancement_wall 进度中心空墙
-chat.developer.query.structure.line28=level_zx1 原支线第1关 | level_zx2 原支线第2关 | level_zx3 原支线第3关 | level_zx4 原支线第4关 | level_zx5 原支线第5关
+chat.developer.query.structure.line26=system:logo 地图原始logo | system:logo_completed 地图通关logo | system:ban 禁止展示框 | system:tutorial_cb 教程关卡命令方块 | system:tutorial_chest 教程关卡箱子
+chat.developer.query.structure.line27=system:advancement_wall 进度中心空墙
+chat.developer.query.structure.line28=hided:branch_1 原支线第1关 | hided:branch_2 原支线第2关 | hided:branch_3 原支线第3关 | hided:branch_4 原支线第4关 | hided:branch_5 原支线第5关
 
 #### 错误信息
 chat.error.invalid_level_id=§c关卡ID %s 无效	## {"translate":"chat.error.invalid_level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}

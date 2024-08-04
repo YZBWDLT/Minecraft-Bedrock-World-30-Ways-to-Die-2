@@ -1,3 +1,160 @@
+## ===== Translations in version 2.4 =====
+
+item.wstd:change_to_creative=Change To Creative Mode
+item.wstd:change_to_survival=Change To Survival Mode
+item.wstd:change_to_adventure=Change To Adventure Mode
+item.wstd:change_to_spectator=Change To Spectator Mode
+item.wstd:language_test.name=Language Test
+item.wstd:random_potion_used.name=Random Potion Used
+
+functions.general.error.not_normal_levels=§cFailed to use this function while not in normal levels
+functions.general.need_developer_mode=§cThis function is only available in developer mode
+functions.general.not_available_in_this_level=§cFailed to use this function while this function is not turned on at this level
+functions.general.used_hint=§cOops...this is the first time you play this level, it seems that I have to record this use of the hint! ψ(｀∇´)ψ
+functions.general.used_strategy=§cOops...this is the first time you play this level, it seems that I have to record this use of the strategy! ψ(｀∇´)ψ
+functions.general.used_skip=§cOops...this is the first time you play this level, it seems that I have to record this use of the skip! ψ(｀∇´)ψ
+
+functions.developer.query.variables.succeed.line1=Format: <Objective>.<Name>=<Value>.
+functions.developer.query.variables.succeed.line2=§eYellow: Used <Marker> entity to store data
+functions.developer.query.variables.succeed.line3=§bAqua: Player data
+functions.developer.query.variables.succeed.line4=§cRed: Level unique variables
+functions.developer.query.variables.succeed.player_data=§l===== Player Data =====
+functions.developer.query.variables.succeed.dimension.@s=§bdimension.@s = §a%s §7| Player dimension | 0: Overworld, 1: Nether, 2: The end
+functions.developer.query.variables.succeed.isOnline.@s=§bisOnline.@s = §a%s §7| Whether the player is online | 0: Just entered the game, 1: Is online
+functions.developer.query.variables.succeed.active=§l===== active =====
+functions.developer.query.variables.succeed.active.dialogue=active.dialogue = §a%s §7| Whether the dialogue is enabled | 0: disabled, 1-5: enabled and time passed, 6-10: enabled, time passed and locked the camera, 9-: enabled
+functions.developer.query.variables.succeed.active.easterEgg5.itemTestDiamondPickaxe=§cactive.easterEgg5.itemTestDiamondPickaxe = §a%s §7| §o(Easter Egg Level 5 only) §r§7The test state of item §oDiamond Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.easterEgg5.itemTestIronPickaxe=§cactive.easterEgg5.itemTestIronPickaxe = §a%s §7| §o(Easter Egg Level 5 only) §r§7The test state of item §oIron Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.easterEgg7.itemTestLever=§cactive.easterEgg7.itemTestLever = §a%s §7| §o(Easter Egg Level 7 only) §r§7The test state of item §oLever§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestBrewingStand=§cactive.hided3.itemTestBrewingStand = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oBrewing Stand§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestCraftingTable=§cactive.hided3.itemTestCraftingTable = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestFurnace=§cactive.hided3.itemTestFurnace = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oFurnace§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestWoodenPickaxe=§cactive.hided3.itemTestWoodenPickaxe = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oWooden Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestStonePickaxe=§cactive.hided3.itemTestStonePickaxe = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oStone Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level9.itemTestCraftingTable=§cactive.level9.itemTestCraftingTable = §a%s §7| §o(Level 9 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestBlackBed=§cactive.level10.itemTestBlackBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oBlack Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestBrownBed=§cactive.level10.itemTestBrownBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oBrown Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestGrayBed=§cactive.level10.itemTestGrayBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oGray Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestLightGrayBed=§cactive.level10.itemTestLightGrayBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oLight Gray Bed§r§7, give player the usable item and the hint when test passed示 | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestPinkBed=§cactive.level10.itemTestPinkBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oPink Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestWhiteBed=§cactive.level10.itemTestWhiteBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oWhite Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level13.itemTestRedstoneRepeater=§cactive.level13.itemTestRedstoneRepeater = §a%s §7| §o(Level 13 only) §r§7The test state of item §oRedstone Repeater§r§7, give player the usable item and the hint when test passed提示 | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level20.itemTestBrewingStand=§cactive.level20.itemTestBrewingStand = §a%s §7| §o(Level 20 only) §r§7The test state of item §oBrewing Stand§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level20.itemTestCraftingTable=§cactive.level20.itemTestCraftingTable = §a%s §7| §o(Level 20 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level20.itemTestWaterBucket=§cactive.level20.itemTestWaterBucket = §a%s §7| §o(Level 20 only) §r§7The test state of item §oWater Bucket§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level26.itemTestDispenser=§cactive.level26.itemTestDispenser = §a%s §7| §o(Level 26 only) §r§7The test state of item §oDispenser§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.levelCompleteDelay=active.levelCompleteDelay = §a%s §7| 当前的关卡延迟启用状态, 关卡完成后会导致延迟一段时间再判定为完成 | 0: 禁用, 1: 延迟0.25秒, 2: 延迟0.50秒, 3: 延迟0.75秒, 4: 延迟1.00秒, 5: 延迟1.25秒
+functions.developer.query.variables.succeed.active.mainHall.resetMapWarningCountdown=§cactive.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7重置地图警告倒计时是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.active.settingCenter.developerModeWarningCountdown=§cactive.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7开发者模式警告倒计时是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.active.settingCenter.resetMapWarningCountdown=§cactive.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置地图警告倒计时是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.active.settingCenter.resetRecordWarningCountdown=§cactive.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置记录警告倒计时是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.active.sound=active.sound = §a%s §7| Type of sound player, playing different sound effects according to different values | 0: disabled, 1-: enabled
+functions.developer.query.variables.succeed.active.timeline=active.timeline = §a%s §7| Whether the timeline is enabled | 0: disabled, 1-5: enabled and time passed, 5-: enabled
+functions.developer.query.variables.succeed.data=§l===== data =====
+functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o(DIY Level only) §r§7是否处于Edit mode | 0: Game mode, 1: Edit mode
+functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o(DIY Level only) §r§7是否处于Edit mode | 0: Game mode, 1: Edit mode
+functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o(DIY Level only) §r§7是否处于Edit mode | 0: Game mode, 1: Edit mode
+functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o(Easter Egg Level 1 only) §r§7树干是否已被破坏 | 0: 未被破坏, 1: 已被破坏
+functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o(Easter Egg Level 2 only) §r§7玩家回答正确的题目数
+functions.developer.query.variables.succeed.data.easterEgg3.finishedParkour=§cdata.easterEgg3.finishedParkour = §a%s §7| §o(Easter Egg Level 3 only) §r§7玩家是否完成了跑酷 | 0: 未完成, 1: 已完成
+functions.developer.query.variables.succeed.data.easterEgg4.likedTimes=§cdata.easterEgg4.likedTimes = §a%s §7| §o(Easter Egg Level 4 only) §r§7玩家选择好评的次数
+functions.developer.query.variables.succeed.data.easterEgg6.playerInLava=§cdata.easterEgg6.playerInLava = §a%s §7| §o(Easter Egg Level 6 only) §r§7玩家是否处于岩浆中 | 0: 未处于, 1: 正处于
+functions.developer.query.variables.succeed.data.endStage2.fireworkLauncher=§cdata.endStage2.fireworkLauncher = §a%s §7| §o(Final End Effect only) §r§7当前正在发射的烟花发射器ID, 同时前一个发射器移除红石块, 后一个发射器重置结构准备发射
+functions.developer.query.variables.succeed.data.hided2.endBlockBroken=§cdata.hided2.endBlockBroken = §a%s §7| §o(Hided Level 2 only) §r§7最后的方块是否已被挖开 | 0: 未被挖开, 1: 已被挖开
+functions.developer.query.variables.succeed.data.hintUsed=data.hintUsed = §a%s §7| 当前关卡下是否使用了提示 | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.isNetease=data.isNetease = §a%s §7| Whether the client is Netease version | 0: International version, 1: China Version
+functions.developer.query.variables.succeed.data.level=data.level = §a%s §7| 当前所处的关卡ID, use command §o/function developer/query/level_id§r§7 to query level ID table to compare
+functions.developer.query.variables.succeed.data.level7.enteredNether=§cdata.level7.enteredNether = §a%s §7| §o(Level 7 only) §r§7玩家是否进入过下界 | 0: 未进入过, 1: 进入过
+functions.developer.query.variables.succeed.data.level13.redstoneActivatedTimes=§cdata.level13.redstoneActivatedTimes = §a%s §7| §o(Level 13 only) §r§7第3部分中红石激活的次数
+functions.developer.query.variables.succeed.data.level18.playerFellIntoVoid=§cdata.level18.playerFellIntoVoid = §a%s §7| §o(Level 18 only) §r§7玩家是否跌入虚空
+functions.developer.query.variables.succeed.data.level22.endBlockBroken=§cdata.level22.endBlockBroken = §a%s §7| §o(Level 22 only) §r§7最后的方块是否已被挖开 | 0: 未被挖开, 1: 已被挖开
+functions.developer.query.variables.succeed.data.levelCompleted=data.levelCompleted = §a%s §7| 当前关卡是否已完成 | 0: 未完成, 1: 已完成
+functions.developer.query.variables.succeed.data.mainHall.actionbarTitleRandom=§cdata.mainHall.actionbarTitleRandom = §a%s §7| §o(Mainhall only) §r§7当前正在播放的随机快捷栏标题
+functions.developer.query.variables.succeed.data.pigAmount=data.pigAmount = §a%s §7| 猪类数目(pig, piglin, zombified piglin included), use command §o/function lib/get_data/amount_pig§r§7 to get data
+functions.developer.query.variables.succeed.data.playerAmount=data.playerAmount = §a%s §7| Total number of players, use command §o/function lib/get_data/amount_player§r§7 to get data
+functions.developer.query.variables.succeed.data.settingCenter.creditsViewed=§cdata.settingCenter.creditsViewed = §a%s §7| §o(Setting Center only) §r§7玩家是否已看过制作人列表 | 0: 未看过, 1: 已看过
+functions.developer.query.variables.succeed.data.skipUsed=data.skipUsed = §a%s §7| 当前关卡下是否使用了跳过 | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.strategyUsed=data.strategyUsed = §a%s §7| 当前关卡下是否使用了攻略 | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.timeLimited4.totalScore=§cdata.timeLimited4.totalScore = §a%s §7| §o(Time Limited Level 4 only) §r§7玩家钓入猪的数目, 钓入猪加1分, 钓入猪灵减1分
+functions.developer.query.variables.succeed.data.timeLimited5.totalScore=§cdata.timeLimited5.totalScore = §a%s §7| §o(Time Limited Level 5 only) §r§7完成的建筑数
+functions.developer.query.variables.succeed.record=§l===== record记分板 =====
+functions.developer.query.variables.succeed.record.bestTime.minute=record.bestTime.minute = §a%s §7| 最佳时间记录 | 单位: 分钟
+functions.developer.query.variables.succeed.record.bestTime.second=record.bestTime.second = §a%s §7| 最佳时间记录 | 单位: 秒
+functions.developer.query.variables.succeed.record.bestTime.tick=record.bestTime.tick = §a%s §7| 最佳时间记录 | 单位: 游戏刻
+functions.developer.query.variables.succeed.record.endTime.minute=record.endTime.minute = §a%s §7| 本次完成全进度时的时间记录 | 单位: 分钟
+functions.developer.query.variables.succeed.record.endTime.second=record.endTime.second = §a%s §7| 本次完成全进度时的时间记录 | 单位: 秒
+functions.developer.query.variables.succeed.record.endTime.tick=record.endTime.tick = §a%s §7| 本次完成全进度时的时间记录 | 单位: 游戏刻
+functions.developer.query.variables.succeed.record.hintUsed=record.hintUsed = §a%s §7| 使用过的提示总数
+functions.developer.query.variables.succeed.record.mapCompletedTimes=record.mapCompletedTimes = §a%s §7| 地图通关次数
+functions.developer.query.variables.succeed.record.progress.advancement=record.progress.advancement = §a%s §7| 进度完成数
+functions.developer.query.variables.succeed.record.progress.easterEgg=record.progress.easterEgg = §a%s §7| Easter Egg 关卡完成数 | -1: 未解锁Easter Egg 
+functions.developer.query.variables.succeed.record.progress.level=record.progress.level = §a%s §7| 主线关卡完成数
+functions.developer.query.variables.succeed.record.progress.mapStage=record.progress.mapStage = §a%s §7| 地图完成阶段 | 0: 完成主线前, 1: 完成主线但未完成全进度, 2: 完成全进度(已通关) 
+functions.developer.query.variables.succeed.record.progress.timeLimited=record.progress.timeLimited = §a%s §7| Time Limited 关卡完成数 | -1: 未解锁Time Limited 关卡
+functions.developer.query.variables.succeed.record.skipUsed=record.skipUsed = §a%s §7| 使用过的跳过总数
+functions.developer.query.variables.succeed.record.strategyUsed=record.strategyUsed = §a%s §7| 使用过的攻略总数
+functions.developer.query.variables.succeed.settings=§l===== settings =====
+functions.developer.query.variables.succeed.settings.developerMode=settings.developerMode = §a%s §7| Whether developer mode is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.settings.gameruleLock=settings.gameruleLock = §a%s §7| 游戏规则是否锁定 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.settings.hintEnabled=settings.hintEnabled = §a%s §7| 提示是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.settings.language=settings.language = §a%s §7| 当前使用的语言 | 0: 中文, 1: 英文
+functions.developer.query.variables.succeed.settings.levelCompleteDelay=settings.levelCompleteDelay = §a%s §7| 当前的关卡延迟设置 | 0: 禁用, 1: 部分0.25秒, 2: 部分0.50秒, 3: 部分0.75秒, 4: 部分1.00秒, 5: 部分1.25秒, 6: 全部0.25秒, 7: 全部0.50秒, 8: 全部0.75秒, 9: 全部1.00秒, 10: 全部1.25秒
+functions.developer.query.variables.succeed.settings.level30Dialogue=settings.level30Dialogue = §a%s §7| 第30关对话是否启用 | 0: 禁用, 1: 启用, 2: 启用并在第30关解锁后播放音效
+functions.developer.query.variables.succeed.settings.mapTime=settings.mapTime = §a%s §7| 地图时间 | 0: 终为白日, 1: 仅在烟花教程切换黑夜, 2: 终为黑夜, 3: 时间流逝
+functions.developer.query.variables.succeed.settings.oplevel=settings.oplevel = §a%s §7| 地图权限等级
+functions.developer.query.variables.succeed.settings.scoreboardDisplay=settings.scoreboardDisplay = §a%s §7| 记分板显示状态 | 0: 不显示, 1: 显示部分信息, 2: 显示完整信息
+functions.developer.query.variables.succeed.settings.speedrunMode=settings.speedrunMode = §a%s §7| 速通模式是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.settings.skipEnabled=settings.skipEnabled = §a%s §7| 跳过是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.settings.strategyEnabled=settings.strategyEnabled = §a%s §7| 攻略是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.time=§l===== time =====
+functions.developer.query.variables.succeed.time.currentMinute=time.currentMinute = §a%s §7| 当前已游玩时间 | 单位: 分钟
+functions.developer.query.variables.succeed.time.currentSecond=time.currentSecond = §a%s §7| 当前已游玩时间 | 单位: 秒
+functions.developer.query.variables.succeed.time.dialogue=time.dialogue = §a%s §7| Dialogue time, trigger a conversation after reaching a certain value | Unit: tick
+functions.developer.query.variables.succeed.time.endStage2.fireworkTimer=§ctime.endStage2.fireworkTimer = §a%s §7| §o(Final End Effect only) §r§7烟花发射计时器, 为4时发射, 在0~4循环 | 单位: 游戏刻
+functions.developer.query.variables.succeed.time.levelCompleteDelay=time.levelCompleteDelay = §a%s §7| 关卡延迟完成, 为0时为关卡完成的条件之一 | 单位: 游戏刻
+functions.developer.query.variables.succeed.time.mainHall.actionbarTitleSecond=§ctime.mainHall.actionbarTitleSecond = §a%s §7| §o(Mainhall only) §r§7大厅随机快捷栏标题计时, 在0~1循环 | 单位: 秒
+functions.developer.query.variables.succeed.time.mainHall.resetMapWarningCountdown=§ctime.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7重置地图警告倒计时 | 单位: 秒
+functions.developer.query.variables.succeed.time.remainingTime=time.remainingTime = §a%s §7| 当前关卡剩余时间 | 单位: 秒
+functions.developer.query.variables.succeed.time.settingCenter.developerModeWarningCountdown=§ctime.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7开发者模式警告倒计时 | 单位: 秒
+functions.developer.query.variables.succeed.time.settingCenter.resetMapWarningCountdown=§ctime.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置地图警告倒计时 | 单位: 秒
+functions.developer.query.variables.succeed.time.settingCenter.resetRecordWarningCountdown=§ctime.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置记录警告倒计时 | 单位: 秒
+functions.developer.query.variables.succeed.time.sound=time.sound = §a%s §7| Sound player, which triggers a specific sound when it's 0 | Unit: tick
+functions.developer.query.variables.succeed.time.tick=time.tick = §a%s §7| Add one point every tick, and cycle once every second | Unit: tick
+functions.developer.query.variables.succeed.time.timeline=time.timeline = §a%s §7| Timeline time, trigger commands or functions after reaching a certain value | Unit: tick
+functions.developer.query.variables.succeed.tags=§l===== Tags =====
+functions.developer.query.variables.succeed.tags.isAlive_get=isAlive = §atrue §7| Whether the player is alive
+functions.developer.query.variables.succeed.tags.isAlive_not_get=isAlive = §efalse §7| Whether the player is alive
+
+functions.entities.player.using_play_music=§bNew music has been played for you ~
+
+functions.halls.settings.explore_map.subtitle=§l§bPreview map
+functions.halls.settings.explore_map.actionbar_title=§l§bPreview map§r§f | Head up to back to setting center
+functions.halls.settings.explore_map.events.tp_player_back=§cHi, don't go too far please~ =w=
+
+functions.levels.hided.level_2.complete.let_level_22_completed=§bSince you have passed such a difficult level, well, I'll let you pass level 22 directly too! (～￣▽￣)～ 
+functions.levels.mainline.level_10.dialogue.line1=§bWAIT!!!
+functions.levels.mainline.level_10.dialogue.line2=§bWhat have you just crafted??
+functions.levels.mainline.level_10.dialogue.line3=§bA PINK BED?!!
+functions.levels.mainline.level_10.dialogue.line4=§bWHAT?!! YOU ARE SO LUCKY!! o(≧口≦)o
+functions.levels.mainline.level_10.dialogue.line5=§bYou have to know that the probability of spawning a pink sheep is ONLY 0.1558%%! 	## %%是为了显示出一个%
+functions.levels.mainline.level_10.dialogue.line6=§bAnd based on that, there will be another 1/3 chance to get 3 wools...... ┌(。Д。)┐
+functions.levels.mainline.level_10.dialogue.line7=§bGive me your address, I'm gonna steal your luck! OwO
+
+functions.lib.modify_data.developer_gamemode.change_to_creative.succeed=Your game mode has been changed to creative
+functions.lib.modify_data.developer_gamemode.change_to_creative.fail.already_in_mode=§cYou're already in creative mode, and you can't change it any more
+functions.lib.modify_data.developer_gamemode.change_to_survival.succeed=Your game mode has been changed to survival
+functions.lib.modify_data.developer_gamemode.change_to_survival.fail.already_in_mode=§cYou're already in survival mode, and you can't change it any more
+functions.lib.modify_data.developer_gamemode.change_to_adventure.succeed=Your game mode has been changed to adventure
+functions.lib.modify_data.developer_gamemode.change_to_adventure.fail.already_in_mode=§cYou're already in adventure mode, and you can't change it any more
+functions.lib.modify_data.developer_gamemode.change_to_spectator.succeed=Your game mode has been changed to spectator, look up to change to creative mode
+functions.lib.modify_data.developer_gamemode.change_to_spectator.fail.already_in_mode=§cYou're already in spectator mode, and you can't change it any more
+
+functions.settings.developer_mode.disabled=Developer mode is disabled
+functions.settings.developer_mode.enabled=Developer mode is enabled
+
+
+## ===== Translations in version 2.3 =====
+
 ## New Items Translations
 item.spawn_egg.entity.wstd:creator.name=Author & Tester Egg
 item.wstd:hunger_potion.name=Hunger Potion
@@ -25,7 +182,7 @@ item.wstd:reset_command_system.name=§bReset Command System
 
 ## New Entities Translations
 entity.wstd:creator.name=Author & Tester
-entity.je:marker.name=Marker
+entity.wstd:marker.name=Marker
 entity.flower_solder.name=Wise Flower Merchant
 
 ## New Blocks Translations
@@ -51,7 +208,7 @@ tile.lit_redstone_ore.name=Lit Redstone Ore
 
 ## ===== Rawtext JSON Translation =====
 
-### ----- Actionbar Titles（actionbar.xxx） -----
+### ----- Actionbar Titles(actionbar.xxx)  -----
 #### The end
 actionbar.end_1=§bEnd effect is loading ... please don't quit the game~
 actionbar.end_2=§bUse Back to end the firework show~
@@ -151,18 +308,18 @@ actionbar.tutorial_level=§b§lTutorial Level
 #### Developer Mode
 actionbar.developer.oplevel=§bPermission Level §6%s§r	## {"translate":"actionbar.developer.oplevel","with":{"rawtext":[{"score":{"objective":"oplevel","name":"@s"}}]}}
 actionbar.developer.level_id=§bLevel ID §6%s§r	## {"translate":"actionbar.developer.level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
-actionbar.developer.time_played=§bPlayed §6%s: %s§r	## {"translate":"actionbar.developer.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"name":"@e[name=playedSecond]","objective":"time"}}]}}
+actionbar.developer.time_played=§bPlayed §6%s: %s§r	## {"translate":"actionbar.developer.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"name":"currentSecond","objective":"time"}}]}}
 actionbar.developer.timeline=§bTimeline status & value §6%s/%s§r	## {"translate":"actionbar.developer.timeline","with":{"rawtext":[{"score":{"objective":"active","name":"@e[name=timeline]"}},{"score":{"name":"@e[name=timeline]","objective":"time"}}]}}
 #### Others
 actionbar.firework_tutorial.step=§7Step §a%s §7/ 8	## {"translate":"actionbar.firework_tutorial.step","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=counter]"}}]}}
 actionbar.level_loading=§bThe level is loading, just wait a second~
-actionbar.nether_error=§cOops... There seems to be an error. Please use Next to continue
+actionbar.dimension_error=§cOops... There seems to be an error. Please use Next to continue
 actionbar.remaining_time=§bTime remaining: §6 %s §bseconds§r	## {"translate":"actionbar.remaining_time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=remainingTime]"}}]}}
-actionbar.time_played=Played:§6 %s §fminutes§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}}]}}
-actionbar.time_played.speedrun_mode=Played:§6 %s:%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
+actionbar.time_played=Played:§6 %s §fminutes§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}}]}}
+actionbar.time_played.speedrun_mode=Played:§6 %s:%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}},{"score":{"objective":"time","name":"tick"}}]}}
 actionbar.use_next_to_start=§cUse Next to start the game!
 
-### ----- Advancements（advancement.xxx） ----- | From Mainline -> Easter Egg -> Master -> Miscellaneous
+### ----- Advancements(advancement.xxx)  ----- | From Mainline -> Easter Egg -> Master -> Miscellaneous
 advancement.mainline.get_started=Newcomer
 advancement.mainline.more_skilled=More Skilled
 advancement.mainline.half_way=Halfway Journey
@@ -194,7 +351,7 @@ advancement.miscellaneous.who=Who?
 advancement.miscellaneous.appreciate_and_watch=Appreciation, Observation
 advancement.miscellaneous.diy=DIY! 
 
-### ----- Authors（author.xxx） -----
+### ----- Authors(author.xxx)  -----
 author.yzbwdlt=YZBWDLT
 author.pigeonki=PigeonKI
 author.pumpkinjui=PumpkinJui
@@ -202,7 +359,7 @@ author.andy7343=Andy7343
 author.greeleaf=GreeLeaf
 author.xiaoshu512=xiaoshu512
 
-### ----- Chats（chat.xxx） -----
+### ----- Chats(chat.xxx)  -----
 chat.advancement.get=§a§lAdvancement Made!§r
 chat.advancement.get.normal=%s has made the advancement §a[%s]§r
 chat.advancement.get.rare=%s has made the rare advancement §d[%s]§r
@@ -313,7 +470,7 @@ chat.deathmessage.level_28.line1=%s found that he shouldn't drive fast
 chat.deathmessage.level_28.line2=§bYZBWDLT reminds you: Roads are countless, safety is foremost
 chat.deathmessage.level_29=%s experienced kinetic energy
 chat.deathmessage.level_30=%s succeeded in living to death
-chat.deathmessage.easter_egg_1=%s was blown up by a Oak Tree
+chat.deathmessage.easter_egg_1=%s was blown up by an Oak Tree
 chat.deathmessage.easter_egg_1.tree=The Oak Tree was blown up by biogas
 chat.deathmessage.easter_egg_2=%s was awarded the death by the author because he passed the test(wait what?)
 chat.deathmessage.easter_egg_3=%s found that there was no need to parkour at all
@@ -479,10 +636,10 @@ chat.item.load_level.start_loading=§bLoading the structure. Please wait...
 chat.item.load_level.completed=§bLoading complete!
 chat.item.save_level.start_saving=§bSaving the structure. Please wait...
 chat.item.save_level.completed=§bSaving Complete!
-chat.item.played_time.time=§bYour play time | §a%s : %s§r	## {"translate":"chat.item.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}}]}}
-chat.item.played_time.time.completed=§bYour play time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
-chat.item.played_time.end_time=§bMAP COMPLETED! Completed time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}},{"score":{"objective":"stats","name":"@e[name=endTimeTick]"}}]}}
-chat.item.played_time.record=§bBest record | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"@e[name=recordMinute]"}},{"score":{"objective":"record","name":"@e[name=recordSecond]"}},{"score":{"objective":"record","name":"@e[name=recordTick]"}}]}}
+chat.item.played_time.time=§bYour play time | §a%s : %s§r	## {"translate":"chat.item.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}}]}}
+chat.item.played_time.time.completed=§bYour play time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}},{"score":{"objective":"time","name":"tick"}}]}}
+chat.item.played_time.end_time=§bMAP COMPLETED! Completed time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTime.minute]"}},{"score":{"objective":"stats","name":"@e[name=endTime.second]"}},{"score":{"objective":"stats","name":"@e[name=endTime.tick]"}}]}}
+chat.item.played_time.record=§bBest record | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"@e[name=bestTime.minute]"}},{"score":{"objective":"record","name":"@e[name=bestTime.second]"}},{"score":{"objective":"record","name":"@e[name=bestTime.tick]"}}]}}
 chat.item.played_time.map_completed_times=§bMap completed times | §a%s§r	## {"translate":"chat.item.played_time.map_completed_times","with":{"rawtext":[{"score":{"objective":"record","name":"mapCompletedTimes"}}]}}
 chat.item.played_time.evaluate1=§cYou didn't even finish the mainline! How did you get this item?(╯‵□′)╯︵┻━┻
 chat.item.played_time.evaluate2=§bThe map has not been completed yet, so move towards 30 advancements!
@@ -550,14 +707,14 @@ chat.credits.line6=§lBuildings §r| §7YZBWDLT, Andy7343(DIY Preset Level 8-9),
 chat.credits.line7=§lFirst Edition Test §r| §7YZBWDLT, PigeonKI, 地雷, PumpkinJui, 梦影, tianqi, 小启OwO, 小嗨黑, 可爱的犀犀利, 樱花可可, MCPE星际
 chat.credits.line8=§lVersion 2.2 Test §r| §7YZBWDLT, PumpkinJui, Andy7343, 残梦, huijinya520
 chat.credits.line9=§lVersion 2.3 Test §r| §7YZBWDLT, PigeonKI, PumpkinJui, Andy7343, xiaoshu512, xhduoduobaby, huijinya520, Tuffy2020China, AnimalChalk2526, MildTurt
-chat.credits.line10=§lSpecial Thanks §r| §7xhduoduobaby(Thanks for providing server! ), ZiMin(Really really really thank you for recording my map! ), PumpkinJui(Super serious tester), 晨风(Thanks for your help to let more people know my map~), ProjectXero（Thanks for Xero for helping me find these damn shielding words awa）
+chat.credits.line10=§lSpecial Thanks §r| §7xhduoduobaby(Thanks for providing server! ), ZiMin(Really really really thank you for recording my map! ), PumpkinJui(Super serious tester), 晨风(Thanks for your help to let more people know my map~), ProjectXero(Thanks for Xero for helping me find these damn shielding words awa) 
 chat.credits.line11=§lThanks to all the members of the test group and your support, and thanks for your playing!
 
 #### Map Information
 chat.map_information.line1=§bMap Information
-chat.map_information.line2=§lMap Version §r| §72.3 - International Version Platform
+chat.map_information.line2=§lMap Version §r| §72.4 - International Version Platform
 chat.map_information.line3=§lReleased Platforms §r| §7MCBBS, KLPBBS, MineBBS, MCBEBBS, MCPEDL, TITAIKE
-chat.map_information.line4=§lMC Requirement Version §r| §7Minecraft Bedrock Edition 1.18.30
+chat.map_information.line4=§lMC Requirement Version §r| §7Minecraft Bedrock Edition 1.20.10
 chat.map_information.line5=§lPrice §r| §7FREE
 
 #### Update Log
@@ -605,7 +762,7 @@ chat.map_rule.line1=§bRule of the Map
 chat.map_rule.line2=§lDisclaimer
 chat.map_rule.line3=§7When you play this map, you will agree to the precautions specified in this rule by default. We, the AB Workshop, are not responsible for all the consequences caused by violating the rules.
 chat.map_rule.line4=§lVersion requirement
-chat.map_rule.line5=§7Please use at least the §fbedrock version 1.18.30 or the latest China version§7 for a complete experience.
+chat.map_rule.line5=§7Please use at least the §fbedrock version 1.20.10 or the latest China version§7 for a complete experience.
 chat.map_rule.line6=§lGame mode requirement
 chat.map_rule.line7=§fDefault and lock to adventure mode§7, You can unlock this lock, but just like some Android phones are not guaranteed after ROOT, we will not be responsible for the problems caused by changing the game mode.
 chat.map_rule.line8=§lCommand requirement
@@ -664,8 +821,8 @@ chat.help.line45=§7A: Of course, I have considered it! But I've always been uns
 
 ## Command Feedback of Developer Mode
 chat.developer.clear_items=Items have been cleared successfully
-chat.develoepr.dimension_marker.overworld=The Dimension Marker entity in overworld has been reset
-chat.develoepr.dimension_marker.nether=The Dimension Marker entity in nether has been reset
+chat.developer.dimension_marker.overworld=The Dimension Marker entity in overworld has been reset
+chat.developer.dimension_marker.nether=The Dimension Marker entity in nether has been reset
 chat.developer.gamemode_switcher=Looking up in spectator mode to turn into creative mode
 chat.developer.get_items=Items have been given successfully
 chat.developer.mainline_level_unlocked=All mainline levels have been unlocked
@@ -732,33 +889,33 @@ chat.developer.query.advancement.line34=DIY | Enter DIY Levels hall | Upstream: 
 chat.developer.query.advancement.line35=Appreciation, Observation | Spectate the map | Upstream: DIY
 
 chat.developer.query.structure.line1=§bStructure Table | §7Non-behavior pack structure with *
-chat.developer.query.structure.line2=level_1 Level 1 | level_2 Level 2 | level_3 Level 3 | level_4 Level 4 | level_5 Level 5
-chat.developer.query.structure.line3=level_6 Level 6 | level_7 Level 7 | level_7_nether Level 7 - Part Nether | level_8 Level 8 | level_9 Level 9
-chat.developer.query.structure.line4=level_10 Level 10 | level_11 Level 11 | level_12 Level 12 | level_13_1 Level 13 - Part 1 | level_13_2 Level 13 - Part 2
-chat.developer.query.structure.line5=level_13_3 Level 13 - Part 3 | level_14 Level 14 | level_15 Level 15 | level_16 Level 16 | level_17 Level 17
-chat.developer.query.structure.line6=level_18 Level 18 | level_19 Level 19 | level_20 Level 20 | level_21 Level 21 | level_22 Level 22
-chat.developer.query.structure.line7=level_23 Level 23 | level_24 Level 24 | level_25 Level 25 | level_26 Level 26 | level_27 Level 27
-chat.developer.query.structure.line8=level_28 Level 28 | level_29 Level 29 | level_30 Level 30 | level_0 Tutorial Level | level_11_en Level 11(English)
-chat.developer.query.structure.line9=level_14_en Level 14(English) | level_16_en Level 16(English) | level_17_en Level 17(English) | level_22_en Level 22(English) | level_30_en_patch Level 30(English Sign)
-chat.developer.query.structure.line10=easter_egg_1 Easter Egg Level 1 | easter_egg_2 Easter Egg Level 2 | easter_egg_3 Easter Egg Level 3 - Start Room | easter_egg_3_1 Easter Egg Level 3 - Parkour Room | easter_egg_4 Easter Egg Level 4
-chat.developer.query.structure.line11=easter_egg_5 Easter Egg Level 5 | easter_egg_6 Easter Egg Level 6 | easter_egg_7 Easter Egg Level 7 | easter_egg_8 Easter Egg Level 8 | easter_egg_8_1 Easter Egg Level 8 - Emerald Block Trap
-chat.developer.query.structure.line12=easter_egg_9 Easter Egg Level 9 | easter_egg_10 Easter Egg Level 10 | easter_egg_10_1 Easter Egg Level 10 - Main Room | easter_egg_7_en Easter Egg Level 7(English) | easter_egg_9_en Easter Egg Level 9(English)
+chat.developer.query.structure.line2=mainline:level_1 Level 1 | mainline:level_2 Level 2 | mainline:level_3 Level 3 | mainline:level_4 Level 4 | mainline:level_5 Level 5
+chat.developer.query.structure.line3=mainline:level_6 Level 6 | mainline:level_7 Level 7 | mainline:level_7_nether Level 7 - Part Nether | mainline:level_8 Level 8 | mainline:level_9 Level 9
+chat.developer.query.structure.line4=mainline:level_10 Level 10 | mainline:level_11 Level 11 | mainline:level_12 Level 12 | mainline:level_13_1 Level 13 - Part 1 | mainline:level_13_2 Level 13 - Part 2
+chat.developer.query.structure.line5=mainline:level_13_3 Level 13 - Part 3 | mainline:level_14 Level 14 | mainline:level_15 Level 15 | mainline:level_16 Level 16 | mainline:level_17 Level 17
+chat.developer.query.structure.line6=mainline:level_18 Level 18 | mainline:level_19 Level 19 | mainline:level_20 Level 20 | mainline:level_21 Level 21 | mainline:level_22 Level 22
+chat.developer.query.structure.line7=mainline:level_23 Level 23 | mainline:level_24 Level 24 | mainline:level_25 Level 25 | mainline:level_26 Level 26 | mainline:level_27 Level 27
+chat.developer.query.structure.line8=mainline:level_28 Level 28 | mainline:level_29 Level 29 | mainline:level_30 Level 30 | mainline:level_0 Tutorial Level | mainline:level_11_en Level 11(English)
+chat.developer.query.structure.line9=mainline:level_14_en Level 14(English) | mainline:level_16_en Level 16(English) | mainline:level_17_en Level 17(English) | mainline:level_22_en Level 22(English) | mainline:level_30_en_patch Level 30(English Sign)
+chat.developer.query.structure.line10=easter_egg:level_1 Easter Egg Level 1 | easter_egg:level_2 Easter Egg Level 2 | easter_egg:level_3 Easter Egg Level 3 - Start Room | easter_egg:level_3_1 Easter Egg Level 3 - Parkour Room | easter_egg:level_4 Easter Egg Level 4
+chat.developer.query.structure.line11=easter_egg:level_5 Easter Egg Level 5 | easter_egg:level_6 Easter Egg Level 6 | easter_egg:level_7 Easter Egg Level 7 | easter_egg:level_8 Easter Egg Level 8 | easter_egg:level_8_1 Easter Egg Level 8 - Emerald Block Trap
+chat.developer.query.structure.line12=easter_egg:level_9 Easter Egg Level 9 | easter_egg:level_10 Easter Egg Level 10 | easter_egg:level_10_1 Easter Egg Level 10 - Main Room | easter_egg:level_7_en Easter Egg Level 7(English) | easter_egg:level_9_en Easter Egg Level 9(English)
 chat.developer.query.structure.line13= 
-chat.developer.query.structure.line14=time_limited_1 Time Limited Level 1 | time_limited_2 Time Limited Level 2 | time_limited_3 Time Limited Level 3 | time_limited_4 Time Limited Level 4 | time_limited_5 Time Limited Level 5
-chat.developer.query.structure.line15=time_limited_5_1 Time Limited Level 5 - Building 1 | time_limited_5_2 Time Limited Level 5 - Building 2 | time_limited_5_3 Time Limited Level 5 - Building 3 | time_limited_5_4 Time Limited Level 5 - Building 4 | time_limited_5_5 Time Limited Level 5 - Building 5
-chat.developer.query.structure.line16=time_limited_1_1 Time Limited Level 1 - Resources
+chat.developer.query.structure.line14=time_limited:level_1 Time Limited Level 1 | time_limited:level_2 Time Limited Level 2 | time_limited:level_3 Time Limited Level 3 | time_limited:level_4 Time Limited Level 4 | time_limited:level_5 Time Limited Level 5
+chat.developer.query.structure.line15=time_limited:level_5_1 Time Limited Level 5 - Building 1 | time_limited:level_5_2 Time Limited Level 5 - Building 2 | time_limited:level_5_3 Time Limited Level 5 - Building 3 | time_limited:level_5_4 Time Limited Level 5 - Building 4 | time_limited:level_5_5 Time Limited Level 5 - Building 5
+chat.developer.query.structure.line16=time_limited:level_1_1 Time Limited Level 1 - Resources
 chat.developer.query.structure.line17=diy_1 *DIY Level 1 | diy_2 *DIY Level 2 | diy_3 *DIY Level 3 | diy_4 *DIY Level 4 | diy_5 *DIY Level 5
 chat.developer.query.structure.line18=diy_6 *DIY Level 6 | diy_7 *DIY Level 7 | diy_8 *DIY Level 8 | diy_9 *DIY Level 9 | diy_10 *DIY Level 10
-chat.developer.query.structure.line19=diy_command_system Preset Command System in DIY Levels | small_room Small Room Preset | middle_room Middle Room Preset | large_room Large Room Preset
+chat.developer.query.structure.line19=diy_levels:command_system Preset Command System in DIY Levels | diy_levels:small_room Small Room Preset | diy_levels:middle_room Middle Room Preset | diy_levels:large_room Large Room Preset
 chat.developer.query.structure.line20= 
-chat.developer.query.structure.line21=firework_tutorial_1 Firework Tutorial Step 1 | firework_tutorial_2 Firework Tutorial Step 2 | firework_tutorial_3 Firework Tutorial Step 3 | firework_tutorial_4 Firework Tutorial Step 4 | firework_tutorial_5 Firework Tutorial Step 5
-chat.developer.query.structure.line22=firework_tutorial_6 Firework Tutorial Step 6 | firework_tutorial_7 Firework Tutorial Step 7 | firework_tutorial_8 Firework Tutorial Step 8 | firework_settings Setting Room for Firework Show | firework_dispenser *Firework Dispenser for Firework Show
+chat.developer.query.structure.line21=firework:tutorial_1 Firework Tutorial Step 1 | firework:tutorial_2 Firework Tutorial Step 2 | firework:tutorial_3 Firework Tutorial Step 3 | firework:tutorial_4 Firework Tutorial Step 4 | firework:tutorial_5 Firework Tutorial Step 5
+chat.developer.query.structure.line22=firework:tutorial_6 Firework Tutorial Step 6 | firework:tutorial_7 Firework Tutorial Step 7 | firework:tutorial_8 Firework Tutorial Step 8 | firework:settings Setting Room for Firework Show | firework_dispenser *Firework Dispenser for Firework Show
 chat.developer.query.structure.line23= 
-chat.developer.query.structure.line24=hided_1 Hided Level 1 | hided_2 Hided Level 2 | hided_3 Hided Level 3
+chat.developer.query.structure.line24=hided:level_1 Hided Level 1 | hided:level_2 Hided Level 2 | hided:level_3 Hided Level 3
 chat.developer.query.structure.line25= 
-chat.developer.query.structure.line26=logo Origin Logo of the Map | logo_completed Completed Logo of the Map | ban Ban Item Frame | tutorial_cb Command Block of Tutorial Level | tutorial_chest Chest of Tutorial Level
-chat.developer.query.structure.line27=advancement_wall Empty Wall in Advancement Center
-chat.developer.query.structure.line28=level_zx1 Branch Line Level 1 | level_zx2 Branch Line Level 2 | level_zx3 Branch Line Level 3 | level_zx4 Branch Line Level 4 | level_zx5 Branch Line Level 5
+chat.developer.query.structure.line26=system:logo Origin Logo of the Map | system:logo_completed Completed Logo of the Map | system:ban Ban Item Frame | system:tutorial_cb Command Block of Tutorial Level | system:tutorial_chest Chest of Tutorial Level
+chat.developer.query.structure.line27=system:advancement_wall Empty Wall in Advancement Center
+chat.developer.query.structure.line28=hided:branch_1 Branch Line Level 1 | hided:branch_2 Branch Line Level 2 | hided:branch_3 Branch Line Level 3 | hided:branch_4 Branch Line Level 4 | hided:branch_5 Branch Line Level 5
 
 #### Error Information
 chat.error.invalid_level_id=§cLevel ID %s is invalid	## {"translate":"chat.error.invalid_level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
@@ -778,7 +935,7 @@ chat.error.request_out_of_time=§cThe request has timed out
 chat.error.change_difficulty.in_speedrun_mode=§cChanging difficulty in speedrun mode isn't allowed
 chat.error.is_netease_version=§cFailed to change to English while in Netease adaption mode
 
-### ----- Titles（title.xxx） -----
+### ----- Titles(title.xxx)  -----
 
 title.hall=§l§bHall§r
 title.easter_egg_hall=§l§bEaster Egg Levels§r
@@ -858,7 +1015,7 @@ title.map_name.completed=§b§l30 Ways to Die §e2
 title.empty=§f
 title.mainline_completed=§l§bMainline Completed! 
 
-### ----- 副标题类（subtitle.xxx） -----
+### ----- 副标题类(subtitle.xxx)  -----
 subtitle.hall=Select a level
 subtitle.easter_egg_hall=STRANGE, ANGESTR, ANSTGER, GERANST
 subtitle.time_limited_hall=Time limit! Can you complete these levels?
