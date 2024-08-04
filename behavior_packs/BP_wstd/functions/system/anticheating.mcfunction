@@ -7,14 +7,14 @@
 ## 如果地图权限等级不为0，关闭游戏模式的限制。
 
 ### 在浏览地图时 | 改为强制旁观模式
-execute if score oplevel settings matches 0 if score level data matches -9 as @a[m=!spectator] run tellraw @s {"rawtext":[{"translate":"chat.error.cheating.line1"},{"text":"\n"},{"translate":"chat.error.cheating.line2"}]}
-execute if score oplevel settings matches 0 if score level data matches -9 as @a[m=!spectator] run gamemode spectator @s
+execute if score oplevel settings matches 0 if score level data matches -8 as @a[m=!spectator] run tellraw @s {"rawtext":[{"translate":"chat.error.cheating.line1"},{"text":"\n"},{"translate":"chat.error.cheating.line2"}]}
+execute if score oplevel settings matches 0 if score level data matches -8 as @a[m=!spectator] run gamemode spectator @s
 ### 未在浏览地图时 | 改为强制冒险模式
 ### 判断玩家是否处于DIY的编辑模式，如果不是则强制改模式
-execute if score oplevel settings matches 0 unless score level data matches -9 run scoreboard players set anticheating.isdiyLevels.isEditMode data 0
-execute if score oplevel settings matches 0 unless score level data matches -9 if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 run scoreboard players set anticheating.isdiyLevels.isEditMode data 1
-execute if score oplevel settings matches 0 unless score level data matches -9 if score anticheating.isdiyLevels.isEditMode data matches 0 as @a[m=!adventure] run tellraw @s {"rawtext":[{"translate":"chat.error.cheating.line1"},{"text":"\n"},{"translate":"chat.error.cheating.line2"}]}
-execute if score oplevel settings matches 0 unless score level data matches -9 if score anticheating.isdiyLevels.isEditMode data matches 0 as @a[m=!adventure] run gamemode adventure @s
+execute if score oplevel settings matches 0 unless score level data matches -8 run scoreboard players set anticheating.isdiyLevels.isEditMode data 0
+execute if score oplevel settings matches 0 unless score level data matches -8 if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 run scoreboard players set anticheating.isdiyLevels.isEditMode data 1
+execute if score oplevel settings matches 0 unless score level data matches -8 if score anticheating.isdiyLevels.isEditMode data matches 0 as @a[m=!adventure] run tellraw @s {"rawtext":[{"translate":"chat.error.cheating.line1"},{"text":"\n"},{"translate":"chat.error.cheating.line2"}]}
+execute if score oplevel settings matches 0 unless score level data matches -8 if score anticheating.isdiyLevels.isEditMode data matches 0 as @a[m=!adventure] run gamemode adventure @s
 
 ## ~ 防特性 ~
 ## 如果不是第28关（该关卡就是用船过的），则清除船
