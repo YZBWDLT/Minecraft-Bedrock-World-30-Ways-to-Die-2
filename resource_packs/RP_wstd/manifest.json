@@ -4,21 +4,14 @@
         "description": "§l§c30种死法§6 2 §r§3专用资源包",
         "name": "§l§c30种死法§6 2",
         "uuid": "7bebe33f-d7b2-4835-89bd-ce18798d203d",
-        "version": [2, 3, 0],
-        "min_engine_version": [ 1, 16, 0 ]
+        "version": [2, 4, 0],
+        "min_engine_version": [ 1, 20, 10 ]
     },
     "modules": [
         {
-            "description": "§e一只卑微的量筒",
             "type": "resources",
             "uuid": "7bebe33f-c6d2-455d-af38-6c8c82fa1f34",
             "version": [2, 0, 0]
-        }
-    ],
-    "dependencies": [
-        {
-            "uuid": "7bebe33f-6bb8-4d50-9456-96d5b5677d5d",
-            "version": [2, 3, 0]
         }
     ]
 }
