@@ -312,7 +312,7 @@ actionbar.developer.timeline=§b时间线状态与值 §6%s/%s§r	## {"translate
 #### 其他
 actionbar.firework_tutorial.step=§7当前步骤 §a%s §7/ 8	## {"translate":"actionbar.firework_tutorial.step","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=counter]"}}]}}
 actionbar.level_loading=§b关卡正在加载，稍稍等一小会儿吧~
-actionbar.dimension_error=§c呃哦！似乎出错了，请使用下一步以继续！
+actionbar.dimension_error=§c啊？你怎么到这儿来了......(＃°Д°) 为防止地图出错，使用下一步回到大厅吧！
 actionbar.remaining_time=§b距离本关结束剩余§6 %s §b秒！§r	## {"translate":"actionbar.remaining_time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=remainingTime]"}}]}}
 actionbar.time_played=你的游玩时间：§6 %s §f分钟§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}}]}}
 actionbar.time_played.speedrun_mode=你的游玩时间：§6 %s：%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}},{"score":{"objective":"time","name":"tick"}}]}}

@@ -29,6 +29,11 @@
         "load_level": { "textures": "textures/items/new_items/load_level" },
         "reset_command_system": { "textures": "textures/items/new_items/reset_command_system" },
 
-        "random_potion_used": { "textures": "textures/items/new_items/random_potion_used" }
+        "random_potion_used": { "textures": "textures/items/new_items/random_potion_used" },
+
+        "change_to_creative": { "textures":"textures/items/apple_golden" },
+        "change_to_survival": { "textures":"textures/items/iron_sword" },
+        "change_to_adventure": { "textures": "textures/items/map_empty" },
+        "change_to_spectator": { "textures": "textures/items/ender_eye" }
     }
 }

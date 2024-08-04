@@ -313,7 +313,7 @@ actionbar.developer.timeline=§bTimeline status & value §6%s/%s§r	## {"transla
 #### Others
 actionbar.firework_tutorial.step=§7Step §a%s §7/ 8	## {"translate":"actionbar.firework_tutorial.step","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=counter]"}}]}}
 actionbar.level_loading=§bThe level is loading, just wait a second~
-actionbar.dimension_error=§cOops... There seems to be an error. Please use Next to continue
+actionbar.dimension_error=§cWait! How did you get here?? (＃°Д°) Use Next to back to Hall to prevent errors occur! 
 actionbar.remaining_time=§bTime remaining: §6 %s §bseconds§r	## {"translate":"actionbar.remaining_time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=remainingTime]"}}]}}
 actionbar.time_played=Played:§6 %s §fminutes§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}}]}}
 actionbar.time_played.speedrun_mode=Played:§6 %s:%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"currentMinute"}},{"score":{"objective":"time","name":"currentSecond"}},{"score":{"objective":"time","name":"tick"}}]}}
