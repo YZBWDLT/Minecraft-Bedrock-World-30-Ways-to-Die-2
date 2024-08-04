@@ -24,3 +24,8 @@ execute if score mainHall.resetMapWarningCountdown active matches 1 run function
 # 仅当玩家第一次解锁第30关时才播放（record.progress.level=29 && settings.level30Dialogue=2，播放后自动调整为1）
 execute if score progress.level record matches 29 if score level30Dialogue settings matches 2 run function lib/modify_states/sound/random_anvil_break
 execute if score progress.level record matches 29 if score level30Dialogue settings matches 2 run scoreboard players set level30Dialogue settings 1
+
+# --- 限时关卡的信标 ---
+# 因为可能出现完成全部限时关卡后未完成[神速]进度的情况，不能完全依托[这也能速通？]进度来放置信标。强制进行检测。
+# 当5个限时关卡已完成后且仍为玻璃的情况下，放置信标
+execute if score progress.timeLimited record matches 5 positioned -45 9 28 if block ~~~ glass run setblock ~~~ beacon
