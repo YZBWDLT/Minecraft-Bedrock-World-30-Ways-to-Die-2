@@ -1,3 +1,7 @@
+# ===== 地图规则 =====
+
+# --- 正文 ---
+
 tellraw @a {"rawtext":[{"translate":"chat.map_rule.line1"}]}
 tellraw @a {"rawtext":[{"translate":"chat.map_rule.line2"}]}
 tellraw @a {"rawtext":[{"translate":"chat.map_rule.line3"}]}
@@ -10,7 +14,8 @@ tellraw @a {"rawtext":[{"translate":"chat.map_rule.line9"}]}
 tellraw @a {"rawtext":[{"translate":"chat.map_rule.line10"}]}
 tellraw @a {"rawtext":[{"translate":"chat.map_rule.line11"}]}
 tellraw @a {"rawtext":[{"translate":"chat.map_rule.line12"}]}
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.map_rule.line13"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.map_rule.line13"}]}
+execute if score isNetease data matches 0 as @a run tellraw @s {"rawtext":[{"translate":"chat.map_rule.line13"}]}
+execute if score isNetease data matches 1 as @a run tellraw @s {"rawtext":[{"translate":"netease.chat.map_rule.line13"}]}
 
-scoreboard players set @e[name=soundPlayer] active 3
+# --- 音效 ---
+function lib/modify_states/sound/mob_villager_yes

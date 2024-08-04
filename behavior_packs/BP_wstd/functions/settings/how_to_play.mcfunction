@@ -1,3 +1,7 @@
+# ===== 如何游玩 =====
+
+# --- 正文 ---
+
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line1"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line2"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line3"}]}
@@ -13,17 +17,17 @@ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line12"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line13"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line14"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line15"}]}
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line16"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line16"}]}
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line16"}]}
+execute if score isNetease data matches 1 run tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line16"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line17"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line18"}]}
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line19"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line19"}]}
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line19"}]}
+execute if score isNetease data matches 1 run tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line19"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line20"}]}
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line21"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line21"}]}
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line22"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line22"}]}
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line21"}]}
+execute if score isNetease data matches 1 run tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line21"}]}
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line22"}]}
+execute if score isNetease data matches 1 run tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line22"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line23"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line24"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line25"}]}
@@ -32,7 +36,8 @@ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line27"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line28"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line29"}]}
 tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line30"}]}
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line31"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line31"}]}
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"translate":"chat.how_to_play.line31"}]}
+execute if score isNetease data matches 1 run tellraw @a {"rawtext":[{"translate":"netease.chat.how_to_play.line31"}]}
 
-scoreboard players set @e[name=soundPlayer] active 3
+# --- 音效提示 ---
+function lib/modify_states/sound/mob_villager_yes

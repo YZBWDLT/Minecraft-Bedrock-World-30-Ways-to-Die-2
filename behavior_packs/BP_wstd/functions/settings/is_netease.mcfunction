@@ -1,14 +1,22 @@
-# 解除或锁定 游戏规则限制
-scoreboard players add @e[name=isNetease] settings 1
-scoreboard players set @e[name=isNetease,scores={settings=!0..1}] settings 0
+# ===== 网易版设置 =====
 
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.adaptive_mode.international"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.adaptive_mode.netease"}]}
+# --- 设置状态 ---
 
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.open.music.on"}]}
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.open.music.off"}]}
+scoreboard players add isNetease data 1
+execute if score isNetease data matches !0..1 run scoreboard players set isNetease data 0
 
-# 当调整为网易模式后，禁止玩家使用英语
-execute @e[name=isNetease,scores={settings=1}] ~~~ execute @e[name=language,scores={settings=1}] ~~~ function settings/language/chinese
+# --- 提示 ---
 
-scoreboard players set @e[name=soundPlayer] active 11
+## 若为国际版
+execute if score isNetease data matches 0 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.adaptive_mode.international"}]}
+
+## 若为网易版
+execute if score isNetease data matches 1 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.adaptive_mode.netease"}]}
+
+## 音效
+function lib/modify_states/sound/random_pop
+
+# --- 禁止英语 ---
+# 仅当为网易版时执行
+
+execute if score isNetease data matches 1 if score language settings matches 1 run function settings/language/chinese

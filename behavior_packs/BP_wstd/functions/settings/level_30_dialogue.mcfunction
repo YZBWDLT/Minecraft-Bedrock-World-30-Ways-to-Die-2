@@ -1,19 +1,30 @@
-# 控制第30关对话是否开启
+# ===== 第30关对话 =====
 
-## 第29关结束前，在0和2之间切换
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ scoreboard players add @e[name=level30Dialogue] settings 2
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ scoreboard players set @e[name=level30Dialogue,scores={settings=!0,settings=!2}] settings 0
+# --- 第29关结束前 ---
+# 为播放第30关的启用音效，因此在0和2之间进行切换
 
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.disabled"}]}
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=2}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.enabled"}]}
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ scoreboard players set @e[name=soundPlayer] active 4
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=2}] ~~~ scoreboard players set @e[name=soundPlayer] active 3
+## 状态调整
+execute unless score progress.level record matches 29..30 run scoreboard players add level30Dialogue settings 2
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches !0..2 run scoreboard players set level30Dialogue settings 0
 
-## 第29关结束后，在0和1之间切换
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ scoreboard players add @e[name=level30Dialogue] settings 1
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ scoreboard players set @e[name=level30Dialogue,scores={settings=!0..1}] settings 0
+## 启用后提示 | 聊天栏&音效提示
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.disabled"}]}
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run function lib/modify_states/sound/mob_villager_no
 
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.disabled"}]}
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.enabled"}]}
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=0}] ~~~ scoreboard players set @e[name=soundPlayer] active 4
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ execute @e[name=level30Dialogue,scores={settings=1}] ~~~ scoreboard players set @e[name=soundPlayer] active 3
+## 禁用后提示 | 聊天栏&音效提示
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 2 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.enabled"}]}
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 2 run function lib/modify_states/sound/mob_villager_yes
+
+# --- 第29关结束后 ---
+
+## 状态调整
+execute if score progress.level record matches 29..30 run scoreboard players add level30Dialogue settings 1
+execute if score progress.level record matches 29..30 if score level30Dialogue settings matches !0..1 run scoreboard players set level30Dialogue settings 0
+
+## 启用后提示 | 聊天栏&音效提示
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.disabled"}]}
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run function lib/modify_states/sound/mob_villager_no
+
+## 禁用后提示 | 聊天栏&音效提示
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 1 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.enabled"}]}
+execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 1 run function lib/modify_states/sound/mob_villager_yes

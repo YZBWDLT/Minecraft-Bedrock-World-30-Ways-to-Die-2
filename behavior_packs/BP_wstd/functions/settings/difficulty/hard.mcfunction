@@ -1,14 +1,22 @@
-# 速通模式下阻止执行
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.change_difficulty.in_speedrun_mode"}]}
+# ===== 困难难度 =====
 
-# 设置难度后台设定
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=hintEnabled] settings 0
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=strategyEnabled] settings 0
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=skipEnabled] settings 0
+# --- 速通模式 ---
+# 阻止其运行
 
-# 重置记分板显示
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ function system/display_scoreboards/difficulty
+execute if score speedrunMode settings matches 1 as @a run tellraw @s {"rawtext":[{"translate":"chat.error.change_difficulty.in_speedrun_mode"}]}
 
-# tellraw与音效
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.difficulty.hard"}]}
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ scoreboard players set @e[name=soundPlayer] active 11
+# --- 非速通模式 ---
+
+## 设置提示、攻略与跳过启用状态
+execute if score speedrunMode settings matches 0 run scoreboard players set hintEnabled settings 0
+execute if score speedrunMode settings matches 0 run scoreboard players set strategyEnabled settings 0
+execute if score speedrunMode settings matches 0 run scoreboard players set skipEnabled settings 0
+
+## 音效
+execute if score speedrunMode settings matches 0 run function lib/modify_states/sound/random_pop
+
+## 记分板重置
+execute if score speedrunMode settings matches 0 run function lib/scoreboard/difficulty
+
+## 提示
+execute if score speedrunMode settings matches 0 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.difficulty.hard"}]}

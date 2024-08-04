@@ -1,3 +1,6 @@
+# ===== 制作人表 =====
+
+# --- 正文 ---
 tellraw @s {"rawtext":[{"translate":"chat.credits.line1"}]}
 tellraw @s {"rawtext":[{"translate":"chat.credits.line2"}]}
 tellraw @s {"rawtext":[{"translate":"chat.credits.line3"}]}
@@ -10,4 +13,5 @@ tellraw @s {"rawtext":[{"translate":"chat.credits.line9"}]}
 tellraw @s {"rawtext":[{"translate":"chat.credits.line10"}]}
 tellraw @s {"rawtext":[{"translate":"chat.credits.line11"}]}
 
-scoreboard players set @e[name=soundPlayer] active 3
+# --- 音效 ---
+function lib/modify_states/sound/mob_villager_yes

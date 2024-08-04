@@ -1,13 +1,18 @@
-## 检测是否为网易版本
-function system/netease_version_tester
+# ===== 语言：英文 =====
 
-## 如果为网易模式，则抛出错误
-execute @e[name=isNetease,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.error.is_netease_version"}]}
+# --- 检测玩家客户端 ---
+function lib/get_data/client
 
-execute @e[name=isNetease,scores={settings=0}] ~~~ scoreboard players set @e[name=language] settings 1
-execute @e[name=isNetease,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"text":"§bThe game has been set to English. Please switch your game language to English to prevent a mixture of Chinese and English."}]}
+# --- 如果是网易版本，阻止之 ---
+execute if score isNetease data matches 1 as @a run tellraw @s {"rawtext":[{"translate":"chat.error.is_netease_version"}]}
 
-# 记分板同步
-execute @e[name=isNetease,scores={settings=0}] ~~~ execute @e[name=level,scores={backend=!-20..-16}] ~~~ scoreboard objectives setdisplay sidebar display1 ascending
+# --- 如果不是网易版本，设置语言状态并提示 ---
 
-scoreboard players set @e[name=soundPlayer] active 1
+## 设置语言状态
+execute if score isNetease data matches 0 run scoreboard players set language settings 1
+
+## 聊天栏
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"text":"§bThe game has been set to English. Please switch your game language to English to prevent a mixture of Chinese and English."}]}
+
+## 音效
+execute if score isNetease data matches 0 run function lib/modify_states/sound/random_orb_1

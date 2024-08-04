@@ -1,17 +1,31 @@
-# 解除或锁定 游戏规则限制
-scoreboard players add @e[name=speedrunMode] settings 1
-scoreboard players set @e[name=speedrunMode,scores={settings=!0..1}] settings 0
+# ===== 速通模式 =====
 
-execute @e[name=speedrunMode,scores={settings=0}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.speedrun_mode.disabled"}]}
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ tellraw @a {"rawtext":[{"translate":"chat.settings.speedrun_mode.enabled"}]}
+# --- 设置状态 ---
 
-scoreboard players set @e[name=soundPlayer] active 11
+scoreboard players add speedrunMode settings 1
+execute if score speedrunMode settings matches !0..1 run scoreboard players set speedrunMode settings 0
 
-# 速通模式锁定困难
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ scoreboard players set @e[name=hintEnabled] settings 0
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ scoreboard players set @e[name=strategyEnabled] settings 0
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ scoreboard players set @e[name=skipEnabled] settings 0
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ function system/display_scoreboards/difficulty
-execute @e[name=speedrunMode,scores={settings=1}] ~~~ scoreboard players set @e[name=level30Dialogue] settings 0
+# --- 提示 ---
 
-function system/music/play_maingame
+## 聊天栏
+execute if score speedrunMode settings matches 0 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.speedrun_mode.disabled"}]}
+execute if score speedrunMode settings matches 1 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.speedrun_mode.enabled"}]}
+
+## 音效
+function lib/modify_states/sound/random_pop
+
+## 音乐
+function lib/modify_states/music/maingame
+
+# --- 速通模式下，锁定困难 ---
+
+## 更新提示、攻略、跳过启用状态
+execute if score speedrunMode settings matches 1 run scoreboard players set hintEnabled settings 0
+execute if score speedrunMode settings matches 1 run scoreboard players set strategyEnabled settings 0
+execute if score speedrunMode settings matches 1 run scoreboard players set skipEnabled settings 0
+
+## 更新记分板为困难难度
+execute if score speedrunMode settings matches 1 run function lib/scoreboard/difficulty
+
+## 关闭第30关对话
+execute if score speedrunMode settings matches 1 run scoreboard players set level30Dialogue settings 0

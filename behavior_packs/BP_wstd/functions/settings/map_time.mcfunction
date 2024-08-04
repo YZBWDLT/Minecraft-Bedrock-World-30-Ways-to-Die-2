@@ -1,12 +1,16 @@
-# 切换地图时间
-scoreboard players add @e[name=mapTime] settings 1
-scoreboard players set @e[name=mapTime,scores={settings=!0..3}] settings 0
+# ===== 地图时间设置 =====
 
-# 音效
-scoreboard players set @e[name=soundPlayer] active 1
+# --- 设置状态 ---
 
-# 提示
-execute @e[name=mapTime,scores={settings=0}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.always_day"}]}
-execute @e[name=mapTime,scores={settings=1}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.night_in_firework_tutorial"}]}
-execute @e[name=mapTime,scores={settings=2}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.always_night"}]}
-execute @e[name=mapTime,scores={settings=3}] ~~~ execute @a ~~~ tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.time_flows"}]}
+scoreboard players add mapTime settings 1
+execute if score mapTime settings matches !0..3 run scoreboard players set mapTime settings 0
+
+# --- 提示 ---
+
+## 聊天栏
+execute if score mapTime settings matches 0 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.always_day"}]}
+execute if score mapTime settings matches 1 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.night_in_firework_tutorial"}]}
+execute if score mapTime settings matches 2 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.always_night"}]}
+execute if score mapTime settings matches 3 as @a run tellraw @s {"rawtext":[{"translate":"chat.settings.map_time.time_flows"}]}
+## 音效
+function lib/modify_states/sound/random_orb_1
