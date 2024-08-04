@@ -20,4 +20,5 @@ inputpermission set @a movement disabled
 
 # --- 多人下，将玩家改为隐身 ---
 # 防止玩家模型重叠
+function lib/get_data/amount_player
 execute if score playerAmount data matches 2.. run effect @a invisibility 36000 0 true
