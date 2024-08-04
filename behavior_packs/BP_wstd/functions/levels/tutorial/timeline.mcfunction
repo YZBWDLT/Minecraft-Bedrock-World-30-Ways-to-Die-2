@@ -18,17 +18,16 @@ spawnpoint @a 45 22 -25
 # 执行时间：从开始 ~ 玩家按下按钮
 # 0~281：开始 ~ 玩家拿出按钮前 | 282~283：玩家拿出按钮后 ~ 玩家按下按钮
 
-## 当对话运行到第200刻后，展示箱子和粒子
+## [200] 展示箱子和粒子
 execute if score timeline active matches 1 if score timeline time matches 200 run structure load tutorial:chest 41 21 -25
 execute if score timeline active matches 1 if score timeline time matches 200 run particle wstd:chest_appear 41 21 -25
 
-## 当对话运行到第281刻后，停止时间线流逝 | 此处留值，因为此处是等待玩家拿出按钮
+## [281] 停止时间线流逝 | 此处留值，因为此处是等待玩家拿出按钮
 execute if score timeline active matches 1 if score timeline time matches 281 run function lib/modify_states/timeline/enable_6_keep
-## 若玩家已拿出按钮，重启对话提示玩家放下按钮 | 此处留值
-execute if score timeline active matches 6 if score timeline time matches 200..281 if entity @a[hasitem={item=stone_button}] run function lib/modify_states/dialogue/enable_1_keep
-execute if score timeline active matches 6 if score timeline time matches 200..281 if entity @a[hasitem={item=stone_button}] run function lib/modify_states/timeline/enable_pass_1_keep
-
-## 当对话运行到第283刻后，停止时间线流逝 | 此处留值，因为此处是等待玩家按下按钮
+## [200~281] 若玩家已拿出按钮，重启对话提示玩家放下按钮 | 此处留值
+execute if score timeline active matches 1 if score timeline time matches 200..281 if entity @a[hasitem={item=stone_button}] run function levels/tutorial/events/restart_dialogue
+execute if score timeline active matches 6 if score timeline time matches 200..281 if entity @a[hasitem={item=stone_button}] run function levels/tutorial/events/restart_dialogue
+## [283] 停止时间线流逝 | 此处留值，因为此处是等待玩家按下按钮
 execute if score timeline active matches 1 if score timeline time matches 283 run function lib/modify_states/timeline/enable_6_keep
 ## 若玩家已按下按钮，跳转到第二阶段
 execute if score timeline active matches 6 if score timeline time matches 283 if block 45 22 -28 stone_button ["facing_direction"=3,"button_pressed_bit"=true] run function levels/tutorial/events/button_pressed

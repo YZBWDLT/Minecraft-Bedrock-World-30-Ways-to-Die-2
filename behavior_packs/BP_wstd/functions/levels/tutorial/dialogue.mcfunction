@@ -19,8 +19,8 @@ execute if score dialogue active matches 1 if score dialogue time matches 280 ru
 
 execute if score dialogue active matches 1 if score dialogue time matches 281 run function lib/modify_states/dialogue/disable_keep
 
-execute if score dialogue active matches 1 if score dialogue time matches 282 as @a run tellraw @s {"rawtext":[{"translate":"chat.open.tutorial.line5"}]}
-execute if score dialogue active matches 1 if score dialogue time matches 282 run function lib/modify_states/sound/random_pop
+execute if score dialogue active matches 1 if score dialogue time matches 283 as @a run tellraw @s {"rawtext":[{"translate":"chat.open.tutorial.line5"}]}
+execute if score dialogue active matches 1 if score dialogue time matches 283 run function lib/modify_states/sound/random_pop
 
 execute if score dialogue active matches 1 if score dialogue time matches 283 run function lib/modify_states/dialogue/disable
 
