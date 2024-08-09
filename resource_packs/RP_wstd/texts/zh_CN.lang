@@ -14,6 +14,19 @@ functions.general.used_hint=§c啊哦......这是你第一次玩这关，看来�
 functions.general.used_strategy=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔攻略使用记录了！ψ(｀∇´)ψ
 functions.general.used_skip=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔跳过使用记录了！ψ(｀∇´)ψ
 
+functions.developer.query.stats.succeed.line1=§a0：未使用 §a1：已使用
+functions.developer.query.stats.succeed.hint=§l===== 提示 =====
+functions.developer.query.stats.succeed.strategy=§l===== 攻略 =====
+functions.developer.query.stats.succeed.general_line1=第1关 §a%s §f| 第2关 §a%s §f| 第3关 §a%s §f| 第4关 §a%s §f| 第5关 §a%s
+functions.developer.query.stats.succeed.general_line2=第6关 §a%s §f| 第7关 §a%s §f| 第8关 §a%s §f| 第9关 §a%s §f| 第10关 §a%s
+functions.developer.query.stats.succeed.general_line3=第11关 §a%s §f| 第12关 §a%s §f| 第13关第1部分 §a%s §f| 第14关 §a%s §f| 第15关 §a%s
+functions.developer.query.stats.succeed.general_line4=第16关 §a%s §f| 第17关 §a%s §f| 第18关 §a%s §f| 第19关 §a%s §f| 第23关 §a%s
+functions.developer.query.stats.succeed.general_line5=第24关 §a%s §f| 第25关 §a%s §f| 第26关 §a%s §f| 第27关 §a%s §f| 第28关 §a%s
+functions.developer.query.stats.succeed.general_line6=第29关 §a%s
+functions.developer.query.stats.succeed.skip=§l===== 跳过 =====
+functions.developer.query.stats.succeed.skip_line1=第13关第1部分 §a%s §f| 第13关第2部分 §a%s §f| 第13关第3部分 §a%s §f| 第20关 §a%s §f| 第21关 §a%s
+functions.developer.query.stats.succeed.skip_line2=第22关 §a%s §f| 第30关 §a%s
+
 functions.developer.query.variables.succeed.line1=格式：<记分项>.<名称>=<值>
 functions.developer.query.variables.succeed.line2=§e黄色：使用标记实体存储的数据
 functions.developer.query.variables.succeed.line3=§b青色：玩家数据

@@ -14,6 +14,19 @@ functions.general.used_hint=§cOops...this is the first time you play this level
 functions.general.used_strategy=§cOops...this is the first time you play this level, it seems that I have to record this use of the strategy! ψ(｀∇´)ψ
 functions.general.used_skip=§cOops...this is the first time you play this level, it seems that I have to record this use of the skip! ψ(｀∇´)ψ
 
+functions.developer.query.stats.succeed.line1=§a0：Unused §a1：Used
+functions.developer.query.stats.succeed.hint=§l===== 提示 =====
+functions.developer.query.stats.succeed.strategy=§l===== 攻略 =====
+functions.developer.query.stats.succeed.general_line1=Level 1 §a%s §f| Level 2 §a%s §f| Level 3 §a%s §f| Level 4 §a%s §f| Level 5 §a%s
+functions.developer.query.stats.succeed.general_line2=Level 6 §a%s §f| Level 7 §a%s §f| Level 8 §a%s §f| Level 9 §a%s §f| Level 10 §a%s
+functions.developer.query.stats.succeed.general_line3=Level 11 §a%s §f| Level 12 §a%s §f| Level 13Part 1 §a%s §f| Level 14 §a%s §f| Level 15 §a%s
+functions.developer.query.stats.succeed.general_line4=Level 16 §a%s §f| Level 17 §a%s §f| Level 18 §a%s §f| Level 19 §a%s §f| Level 23 §a%s
+functions.developer.query.stats.succeed.general_line5=Level 24 §a%s §f| Level 25 §a%s §f| Level 26 §a%s §f| Level 27 §a%s §f| Level 28 §a%s
+functions.developer.query.stats.succeed.general_line6=Level 29 §a%s
+functions.developer.query.stats.succeed.skip=§l===== 跳过 =====
+functions.developer.query.stats.succeed.skip_line1=Level 13Part 1 §a%s §f| Level 13Part 2 §a%s §f| Level 13Part 3 §a%s §f| Level 20 §a%s §f| Level 21 §a%s
+functions.developer.query.stats.succeed.skip_line2=Level 22 §a%s §f| Level 30 §a%s
+
 functions.developer.query.variables.succeed.line1=Format: <Objective>.<Name>=<Value>.
 functions.developer.query.variables.succeed.line2=§eYellow: Used <Marker> entity to store data
 functions.developer.query.variables.succeed.line3=§bAqua: Player data
