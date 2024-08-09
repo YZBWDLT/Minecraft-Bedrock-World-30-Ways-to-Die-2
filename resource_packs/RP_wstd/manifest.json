@@ -4,7 +4,7 @@
         "description": "§l§c30种死法§6 2 §r§3专用资源包",
         "name": "§l§c30种死法§6 2",
         "uuid": "7bebe33f-d7b2-4835-89bd-ce18798d203d",
-        "version": [2, 4, 0],
+        "version": [2, 4, 1],
         "min_engine_version": [ 1, 20, 10 ]
     },
     "modules": [
