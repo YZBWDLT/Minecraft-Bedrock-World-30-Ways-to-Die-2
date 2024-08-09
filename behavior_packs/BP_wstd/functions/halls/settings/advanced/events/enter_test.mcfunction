@@ -20,9 +20,8 @@ execute if score developerMode settings matches 1 as @a[x=-104,y=19,z=43,r=1] ru
 # 仅限开发者模式启用后执行
 execute if score developerMode settings matches 1 as @a[x=-106,y=19,z=43,r=1] run function halls/settings/advanced/functions/reset_record
 
-# --- 适配模式设置 ---
-# 仅限开发者模式启用后执行
-execute if score developerMode settings matches 1 as @a[x=-108,y=19,z=49,r=1] run function halls/settings/advanced/functions/is_netease
+# --- 语言与版本检测 ---
+execute as @a[x=-108,y=19,z=49,r=1] run function halls/settings/advanced/functions/lang_and_ver_test
 
 # --- 更改游戏模式 ---
 # 仅限权限等级大于等于1时执行

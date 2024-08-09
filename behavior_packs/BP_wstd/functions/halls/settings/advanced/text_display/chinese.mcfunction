@@ -33,12 +33,11 @@ execute if score developerMode settings matches 1 run summon wstd:text_display "
 
 execute if score developerMode settings matches 1 run summon wstd:text_display "§c重置地图记录" -106 20.2 43
 
-# --- 适配模式设置 ---
-# 仅限开发者模式启用后出现
+# --- 语言与版本检测 ---
 
-execute if score developerMode settings matches 1 run summon wstd:text_display "§b适配模式设置" -108 20.2 49
-execute if score developerMode settings matches 1 if score isNetease data matches 0 run summon wstd:text_display "§b当前：国际版" -108 19.9 49
-execute if score developerMode settings matches 1 if score isNetease data matches 1 run summon wstd:text_display "§b当前：Netease" -108 19.9 49
+summon wstd:text_display "§b语言与版本检测" -108 20.2 49
+execute if score isNetease data matches 0 run summon wstd:text_display "§b当前：中文国际版" -108 19.9 49
+execute if score isNetease data matches 1 run summon wstd:text_display "§b当前：中文Netease版" -108 19.9 49
 
 # --- 更改游戏模式 ---
 # 仅限权限等级大于等于1时出现

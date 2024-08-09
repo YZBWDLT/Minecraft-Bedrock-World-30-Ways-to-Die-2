@@ -27,10 +27,9 @@ execute if score developerMode settings matches 1 run particle wstd:light_blue -
 
 execute if score developerMode settings matches 1 run particle wstd:red -106 18 43
 
-# --- 适配模式设置 ---
-# 仅限开发者模式启用后出现
+# --- 语言与版本检测 ---
 
-execute if score developerMode settings matches 1 run particle wstd:light_blue -108 18 49
+particle wstd:light_blue -108 18 49
 
 # --- 更改游戏模式 ---
 # 仅限权限等级大于等于1时出现

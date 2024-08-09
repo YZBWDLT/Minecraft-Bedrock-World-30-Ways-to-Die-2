@@ -30,10 +30,3 @@ execute if score strategyEnabled settings matches 0 run summon wstd:text_display
 summon wstd:text_display "§bAux Func settings" -104 20.2 43
 execute if score skipEnabled settings matches 1 run summon wstd:text_display "§cSkip | §aNow: On" -104 19.9 43
 execute if score skipEnabled settings matches 0 run summon wstd:text_display "§cSkip | §cNow: Off" -104 19.9 43
-
-# --- 语言设定 ---
-summon wstd:text_display "§b语言设置" -108 20.2 49
-summon wstd:text_display "§b中文" -108 19.9 49
-
-summon wstd:text_display "§bLanguage Settings" -108 20.2 43
-summon wstd:text_display "§bEnglish" -108 19.9 43

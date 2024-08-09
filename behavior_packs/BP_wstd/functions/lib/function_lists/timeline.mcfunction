@@ -36,7 +36,7 @@ execute if score level data matches -8 run function halls/settings/explore_map/t
 execute if score level data matches -7 run function halls/settings/question_and_answer/timeline
 
 ## -6 | 难度与语言设置相关时间线
-execute if score level data matches -6 run function halls/settings/diff_and_lang/timeline
+execute if score level data matches -6 run function halls/settings/difficulty/timeline
 
 ## -5 | 烟花秀设置相关时间线
 execute if score level data matches -5 run function halls/settings/firework/timeline

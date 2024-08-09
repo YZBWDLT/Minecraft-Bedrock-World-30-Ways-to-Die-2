@@ -3,8 +3,8 @@
 
 # --- 粒子设定 ---
 # 每秒执行1次
-execute if score tick time matches 0 run function halls/settings/diff_and_lang/events/particles
+execute if score tick time matches 0 run function halls/settings/difficulty/events/particles
 
 # --- 玩家进入检测 ---
 # 用于判断玩家是否走进粒子光束中
-function halls/settings/diff_and_lang/events/enter_test
+function halls/settings/difficulty/events/enter_test

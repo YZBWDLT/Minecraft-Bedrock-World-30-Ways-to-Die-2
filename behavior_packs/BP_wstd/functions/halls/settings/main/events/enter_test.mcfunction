@@ -4,8 +4,8 @@
 # --- 地图规则与玩法 Q&A ---
 execute as @a[x=-98,y=19,z=49,r=1] run function halls/settings/question_and_answer/start
 
-# --- 地图难度与语言设定 ---
-execute as @a[x=-100,y=19,z=49,r=1] run function halls/settings/diff_and_lang/start
+# --- 地图难度设定 ---
+execute as @a[x=-100,y=19,z=49,r=1] run function halls/settings/difficulty/start
 
 # --- 第30关对话设定 ---
 execute as @a[x=-102,y=19,z=49,r=1] run function halls/settings/main/functions/level_30_dialogue

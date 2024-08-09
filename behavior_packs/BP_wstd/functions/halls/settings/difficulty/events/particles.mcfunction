@@ -22,11 +22,3 @@ execute if score strategyEnabled settings matches 1 run particle wstd:green -102
 
 execute if score skipEnabled settings matches 0 run particle wstd:red -104 18 43
 execute if score skipEnabled settings matches 1 run particle wstd:green -104 18 43
-
-# --- 语言设定 ---
-
-## 中文
-particle wstd:light_blue -108 18 49
-
-## English
-particle wstd:light_blue -108 18 43

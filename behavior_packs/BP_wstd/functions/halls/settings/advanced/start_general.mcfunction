@@ -28,3 +28,5 @@ scoreboard players set settingCenter.developerModeWarningCountdown time 10
 scoreboard players set settingCenter.developerModeWarningCountdown active 0
 scoreboard players set settingCenter.resetRecordWarningCountdown time 10
 scoreboard players set settingCenter.resetRecordWarningCountdown active 0
+
+execute if score developerMode settings matches 1 run scoreboard players set settingCenter.developerModeWarningCountdown active 2

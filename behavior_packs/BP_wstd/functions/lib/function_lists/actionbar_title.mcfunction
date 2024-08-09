@@ -39,7 +39,7 @@ execute if score level data matches -8 run function halls/settings/explore_map/a
 execute if score level data matches -7 run function halls/settings/question_and_answer/actionbar_title
 
 ## -6 | 难度与语言设置
-execute if score level data matches -6 run function halls/settings/diff_and_lang/actionbar_title
+execute if score level data matches -6 run function halls/settings/difficulty/actionbar_title
 
 ## -5 | 烟花秀设置
 execute if score level data matches -5 run function halls/settings/firework/actionbar_title

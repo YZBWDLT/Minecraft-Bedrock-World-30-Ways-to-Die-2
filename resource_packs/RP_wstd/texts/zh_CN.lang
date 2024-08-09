@@ -299,7 +299,7 @@ actionbar.random_hint21=§l§a== 限时关卡和彩蛋关卡的提示攻略跳�
 #### 房间名称 | 设置中心子设置项、教程关卡
 actionbar.setting_center.about=§l§b关于本地图§r
 actionbar.setting_center.advanced_settings=§l§b权限等级设定与高级功能§r
-actionbar.setting_center.difficulty_and_language=§l§b地图难度与语言设定§r
+actionbar.setting_center.difficulty_and_language=§l§b地图难度设定§r
 actionbar.setting_center.firework_settings=§l§b结束特效的烟花设定§r
 actionbar.setting_center.explore_map=§l§b预览全地图§r | 使用返回回到设置中心 | 不用怕掉下去，有屏障和保护机制~
 actionbar.setting_center.questions_and_answers=§l§b地图规则与玩法，常见问题§r
@@ -406,7 +406,7 @@ chat.open.tutorial.line18=§b要注意哦，提示攻略跳过不要滥用，§e
 chat.open.tutorial.line19=§c此外一定要注意这只是游戏，现实千万别模仿啊！(っ °Д °;)っ§r
 chat.open.tutorial.line20=§b就是这些啦，接下来只需要进行一些简单的配置就可开始游戏啦！祝游戏愉快！٩(๑•̀ω•́๑)۶§r
 chat.open.end.line1=§b设置完成！祝游戏愉快~ ヾ(•ω•`)o
-chat.open.end.line2=§7若想重新设置难度，可以前往设置中心 - 地图难度与语言设定重新设置哦！
+chat.open.end.line2=§7若想重新设置难度，可以前往设置中心 - 地图难度设定重新设置哦！
 chat.end.mainline_completed.line1=§b恭喜你完成了这个地图的主线关卡！ヾ(≧▽≦*)o
 chat.end.mainline_completed.line2=§b如果你想的话，事实上到这儿确实就可以算是终点了(～￣▽￣)～
 chat.end.mainline_completed.line3=§b但如果你喜欢这个地图的话...
@@ -835,7 +835,7 @@ chat.developer.query.scoreboard.line1=§b记分板及变量表 | 下文反馈格
 chat.developer.query.level_id.line1=§b关卡ID表
 chat.developer.query.level_id.line2=-20 开始屋 | -19 开幕时 | -18 教程关卡 | -17 查看规则 | -16 选择难度
 chat.developer.query.level_id.line3=-15 下界异常情况 | -14 烟花教程 | -13 结束屋 | -12 进度中心 | -11 统计中心
-chat.developer.query.level_id.line4=-10 设置中心 | -9 制作人 | -8 旁观地图 | -7 Q&A | -6 难度与语言设定
+chat.developer.query.level_id.line4=-10 设置中心 | -9 制作人 | -8 旁观地图 | -7 Q&A | -6 地图难度设定
 chat.developer.query.level_id.line5=-5 烟花秀设置 | -4 高级设置 | -3 限时关卡大厅 | -2 彩蛋大厅 | -1 DIY关卡大厅
 chat.developer.query.level_id.line6=0 主大厅 | 1 主线第1关 | 2 主线第2关 | 3 主线第3关 | 4 主线第4关
 chat.developer.query.level_id.line7=5 主线第5关 | 6 主线第6关 | 7 主线第7关 | 8 主线第8关 | 9 主线第9关

@@ -20,7 +20,7 @@ execute if score level data matches -12..-10 run function halls/hub/main/start
 execute if score level data matches -9 run function halls/settings/about/quit
 execute if score level data matches -8 run function halls/settings/explore_map/quit
 execute if score level data matches -7 run function halls/settings/question_and_answer/quit
-execute if score level data matches -6 run function halls/settings/diff_and_lang/quit
+execute if score level data matches -6 run function halls/settings/difficulty/quit
 execute if score level data matches -5 run function halls/settings/firework/quit
 execute if score level data matches -4 run function halls/settings/advanced/quit
 

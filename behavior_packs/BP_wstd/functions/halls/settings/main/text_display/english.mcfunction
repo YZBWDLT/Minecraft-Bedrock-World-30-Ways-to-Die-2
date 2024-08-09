@@ -10,9 +10,8 @@ kill @e[type=wstd:text_display]
 summon wstd:text_display "§6Rule, play and" -98 20.2 49
 summon wstd:text_display "§6Q&A of the map" -98 19.9 49
 
-## 地图难度与语言设定
-summon wstd:text_display "§6Difficulty and" -100 20.2 49
-summon wstd:text_display "§6Language Settings" -100 19.9 49
+## 地图难度设定
+summon wstd:text_display "§6Difficulty Settings" -100 20.2 49
 
 ## 第30关对话设定
 summon wstd:text_display "§bLevel 30 Dialogue" -102 20.2 49
