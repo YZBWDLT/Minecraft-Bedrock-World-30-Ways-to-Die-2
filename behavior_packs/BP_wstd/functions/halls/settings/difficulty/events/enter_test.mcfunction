@@ -4,13 +4,13 @@
 # --- 难度设置 ---
 
 ## 非常简单
-execute as @a[x=-98,y=19,z=49,r=1] run function halls/settings/difficulty/functions/diff_very_easy
+execute as @a[x=-98,y=19,z=49,r=1] run function halls/settings/difficulty/functions/very_easy
 ## 简单
-execute as @a[x=-100,y=19,z=49,r=1] run function halls/settings/difficulty/functions/diff_easy
+execute as @a[x=-100,y=19,z=49,r=1] run function halls/settings/difficulty/functions/easy
 ## 普通
-execute as @a[x=-102,y=19,z=49,r=1] run function halls/settings/difficulty/functions/diff_normal
+execute as @a[x=-102,y=19,z=49,r=1] run function halls/settings/difficulty/functions/normal
 ## 困难
-execute as @a[x=-104,y=19,z=49,r=1] run function halls/settings/difficulty/functions/diff_hard
+execute as @a[x=-104,y=19,z=49,r=1] run function halls/settings/difficulty/functions/hard
 
 # --- 提示、攻略、跳过单项设置 ---
 
