@@ -33,3 +33,9 @@ scoreboard players set level18.playerFellIntoVoid data 0
 ## 展示文本
 execute if score language settings matches 0 run function levels/mainline/level_18/text_display/chinese
 execute if score language settings matches 1 run function levels/mainline/level_18/text_display/english
+## 放置边界方块与结构空位 | 以防止玩家在外部放置玻璃等方块
+fill -29 19 79 -17 27 91 structure_void outline
+fill -16 28 78 -16 28 92 border_block
+fill -16 28 78 -30 28 78 border_block
+fill -30 28 92 -16 28 92 border_block
+fill -30 28 92 -30 28 78 border_block
