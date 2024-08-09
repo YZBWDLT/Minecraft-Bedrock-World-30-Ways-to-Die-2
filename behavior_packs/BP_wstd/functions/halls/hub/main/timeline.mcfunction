@@ -28,4 +28,4 @@ execute if score progress.level record matches 29 if score level30Dialogue setti
 # --- 限时关卡的信标 ---
 # 因为可能出现完成全部限时关卡后未完成[神速]进度的情况，不能完全依托[这也能速通？]进度来放置信标。强制进行检测。
 # 当5个限时关卡已完成后且仍为玻璃的情况下，放置信标
-execute if score progress.timeLimited record matches 5 positioned -45 9 28 if block ~~~ glass run setblock ~~~ beacon
+execute if score tick time matches 5 if score progress.timeLimited record matches 5 positioned -45 9 28 if block ~~~ glass run setblock ~~~ beacon
