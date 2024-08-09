@@ -13,10 +13,10 @@ execute if score level data matches 3 run function levels/mainline/level_3/start
 execute if score level data matches 4 run function levels/mainline/level_4/start
 execute if score level data matches 5 run function levels/mainline/level_5/start
 execute if score level data matches 6 run function levels/mainline/level_6/start
-execute if score level data matches 7 run function levels/mainline/level_7/start
-execute if score level data matches 8 run function levels/mainline/level_8/start
+execute if score level data matches 7 in overworld run function levels/mainline/level_7/start
+execute if score level data matches 8 in overworld run function levels/mainline/level_8/start
 execute if score level data matches 9 run function levels/mainline/level_9/start
-execute if score level data matches 10 if score @s dimension matches 1 run function levels/mainline/level_10/start
+execute if score level data matches 10 in nether run function levels/mainline/level_10/start
 execute if score level data matches 11 run function levels/mainline/level_11/start
 execute if score level data matches 12 run function levels/mainline/level_12/start
 execute if score level data matches 13 run function levels/mainline/level_13/part_1/start

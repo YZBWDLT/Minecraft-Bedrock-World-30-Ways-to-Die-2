@@ -28,11 +28,11 @@ execute as @a[x=-1,y=9,z=31,r=1] if score progress.level record matches 5..32 ru
 execute as @a[x=-1,y=9,z=31,r=1] at @s if score progress.level record matches -1..4 run function halls/hub/main/events/level_locked
 
 ## 第7关
-execute as @a[x=-5,y=9,z=31,r=1] if score progress.level record matches 6..32 run function levels/mainline/level_7/start
+execute as @a[x=-5,y=9,z=31,r=1] if score progress.level record matches 6..32 in overworld run function levels/mainline/level_7/start
 execute as @a[x=-5,y=9,z=31,r=1] at @s if score progress.level record matches -1..5 run function halls/hub/main/events/level_locked
 
 ## 第8关
-execute as @a[x=-9,y=9,z=31,r=1] if score progress.level record matches 7..32 run function levels/mainline/level_8/start
+execute as @a[x=-9,y=9,z=31,r=1] if score progress.level record matches 7..32 in overworld run function levels/mainline/level_8/start
 execute as @a[x=-9,y=9,z=31,r=1] at @s if score progress.level record matches -1..6 run function halls/hub/main/events/level_locked
 
 ## 第9关

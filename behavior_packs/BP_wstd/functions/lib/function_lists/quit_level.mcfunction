@@ -12,10 +12,10 @@ execute if score level data matches 3 run function levels/mainline/level_3/quit
 execute if score level data matches 4 run function levels/mainline/level_4/quit
 execute if score level data matches 5 run function levels/mainline/level_5/quit
 execute if score level data matches 6 run function levels/mainline/level_6/quit
-execute if score level data matches 7 run function levels/mainline/level_7/quit
-execute if score level data matches 8 run function levels/mainline/level_8/quit
+execute if score level data matches 7 in overworld run function levels/mainline/level_7/quit
+execute if score level data matches 8 in overworld run function levels/mainline/level_8/quit
 execute if score level data matches 9 run function levels/mainline/level_9/quit
-execute if score level data matches 10 run function levels/mainline/level_10/quit
+execute if score level data matches 10 in overworld run function levels/mainline/level_10/quit
 execute if score level data matches 11 run function levels/mainline/level_11/quit
 execute if score level data matches 12 run function levels/mainline/level_12/quit
 execute if score level data matches 13 run function levels/mainline/level_13/part_1/quit

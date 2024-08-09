@@ -8,7 +8,7 @@ function lib/modify_states/dialogue/disable
 function lib/modify_states/level_complete_delay/disable
 
 ## 调用通用函数
-execute in overworld run function lib/modify_data/level/quit
+function lib/modify_data/level/quit
 
 # --- 特殊内容 ---
 
