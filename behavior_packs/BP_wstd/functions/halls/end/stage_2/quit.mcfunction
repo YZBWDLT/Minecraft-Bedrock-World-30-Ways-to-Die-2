@@ -31,3 +31,6 @@ execute if score scoreboardDisplay settings matches 0 run scoreboard objectives 
 ## 停用特殊分值
 scoreboard players reset endStage2.fireworkTimer time
 scoreboard players reset endStage2.fireworkLauncher data
+
+## 重新放一次logo | 可能会受到timeline中的destroy模式的填充影响，导致旗帜显示出错
+structure load system:logo_completed 47 6 21
