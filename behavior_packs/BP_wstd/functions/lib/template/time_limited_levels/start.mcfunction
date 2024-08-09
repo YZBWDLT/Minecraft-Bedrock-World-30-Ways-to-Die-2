@@ -40,8 +40,8 @@ function lib/modify_data/level/start
 ## 物品检测
 ## (是否启用物品检测？举例：scoreboard players set level9.itemTestCraftingTable active 1
 ## 展示文本
-## (是否启用中文展示文本？举例：execute if score language settings matches 0 run function levels/.../text_display/chinese
-## (是否启用英文展示文本？举例：execute if score language settings matches 1 run function levels/.../text_display/english
+## (是否启用中文展示文本？举例：execute if score language data matches 0 run function levels/.../text_display/chinese
+## (是否启用英文展示文本？举例：execute if score language data matches 1 run function levels/.../text_display/english
 
 # --- 限时关卡 ---
 

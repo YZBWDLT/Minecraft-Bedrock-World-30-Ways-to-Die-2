@@ -12,7 +12,7 @@ summon wstd:creator -125 65 77 90 0 become_xs_tradable
 
 # --- 结构 ---
 ## 英文补丁
-execute if score language settings matches 1 run structure load mainline:level_30_en_patch -123 66 77
+execute if score language data matches 1 run structure load mainline:level_30_en_patch -123 66 77
 
 # --- 成就要求 ---
 

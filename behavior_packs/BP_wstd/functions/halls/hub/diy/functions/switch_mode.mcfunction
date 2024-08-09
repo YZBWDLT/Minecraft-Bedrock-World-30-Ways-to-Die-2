@@ -15,5 +15,5 @@ execute if score diyLevels.isEditMode data matches 1 as @a run tellraw @s {"rawt
 ## 音效提示
 function lib/modify_states/sound/random_pop
 ## 重新显示展示文本
-execute if score language settings matches 0 run function halls/hub/diy/text_display/chinese
-execute if score language settings matches 1 run function halls/hub/diy/text_display/english
+execute if score language data matches 0 run function halls/hub/diy/text_display/chinese
+execute if score language data matches 1 run function halls/hub/diy/text_display/english

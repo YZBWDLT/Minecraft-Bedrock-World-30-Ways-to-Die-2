@@ -9,8 +9,8 @@ scoreboard players set level data 16
 function lib/modify_data/level/start
 
 ## 重置关卡房间
-execute if score language settings matches 0 run structure load mainline:level_16 25 20 80
-execute if score language settings matches 1 run structure load mainline:level_16_en 25 20 80
+execute if score language data matches 0 run structure load mainline:level_16 25 20 80
+execute if score language data matches 1 run structure load mainline:level_16_en 25 20 80
 
 ## 给予玩家辅助功能物品
 execute as @a run function lib/modify_data/item/aux_functions

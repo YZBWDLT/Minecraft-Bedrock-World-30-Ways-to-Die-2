@@ -9,8 +9,8 @@ execute if score easterEgg2.totalScore data matches 5.. run kill @p
 
 # --- 重置展示文本 ---
 
-execute if score language settings matches 0 run function levels/easter_egg/level_2/text_display/chinese
-execute if score language settings matches 1 run function levels/easter_egg/level_2/text_display/english
+execute if score language data matches 0 run function levels/easter_egg/level_2/text_display/chinese
+execute if score language data matches 1 run function levels/easter_egg/level_2/text_display/english
 
 # --- 传送玩家 ---
 tp @a -62 22 -25 facing -69 22 -25

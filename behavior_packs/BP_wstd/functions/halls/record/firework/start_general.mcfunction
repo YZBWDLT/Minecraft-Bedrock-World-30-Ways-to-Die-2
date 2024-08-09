@@ -19,5 +19,5 @@ function lib/modify_states/timeline/enable_6
 scoreboard players set fireworkTutorial.step data 1
 
 ## 显示展示文本 | 因必须存在独有变量才能显示文本，故需写在分值检测后面
-execute if score language settings matches 0 run function halls/record/firework/text_display/chinese
-execute if score language settings matches 1 run function halls/record/firework/text_display/english
+execute if score language data matches 0 run function halls/record/firework/text_display/chinese
+execute if score language data matches 1 run function halls/record/firework/text_display/english

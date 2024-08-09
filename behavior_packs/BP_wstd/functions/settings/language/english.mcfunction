@@ -9,7 +9,7 @@ execute if score isNetease data matches 1 as @a run tellraw @s {"rawtext":[{"tra
 # --- 如果不是网易版本，设置语言状态并提示 ---
 
 ## 设置语言状态
-execute if score isNetease data matches 0 run scoreboard players set language settings 1
+execute if score isNetease data matches 0 run scoreboard players set language data 1
 
 ## 聊天栏
 execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"text":"§bThe game has been set to English. Please switch your game language to English to prevent a mixture of Chinese and English."}]}

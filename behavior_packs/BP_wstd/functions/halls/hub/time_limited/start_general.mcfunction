@@ -14,8 +14,8 @@ function lib/modify_data/hall_start
 function lib/modify_states/timeline/enable_6
 
 ## 显示展示文本
-execute if score language settings matches 0 run function halls/hub/time_limited/text_display/chinese
-execute if score language settings matches 1 run function halls/hub/time_limited/text_display/english
+execute if score language data matches 0 run function halls/hub/time_limited/text_display/chinese
+execute if score language data matches 1 run function halls/hub/time_limited/text_display/english
 
 ## 刷新记分板
 function lib/scoreboard/time_limited_levels

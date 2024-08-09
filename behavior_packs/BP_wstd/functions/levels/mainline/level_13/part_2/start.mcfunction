@@ -34,5 +34,5 @@ kill @e[type=item]
 ## 物品检测
 scoreboard players set level13.itemTestRedstoneRepeater active 1
 ## 展示文本
-execute if score language settings matches 0 run function levels/mainline/level_13/part_2/text_display/chinese
-execute if score language settings matches 1 run function levels/mainline/level_13/part_2/text_display/english
+execute if score language data matches 0 run function levels/mainline/level_13/part_2/text_display/chinese
+execute if score language data matches 1 run function levels/mainline/level_13/part_2/text_display/english

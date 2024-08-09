@@ -31,5 +31,5 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.easter_egg_7"}]}
 ## 物品检测
 scoreboard players set easterEgg7.itemTestLever active 1
 ## 箱子的纸条显示
-execute if score language settings matches 0 run function levels/easter_egg/level_7/events/set_paper_zh
-execute if score language settings matches 1 run function levels/easter_egg/level_7/events/set_paper_en
+execute if score language data matches 0 run function levels/easter_egg/level_7/events/set_paper_zh
+execute if score language data matches 1 run function levels/easter_egg/level_7/events/set_paper_en

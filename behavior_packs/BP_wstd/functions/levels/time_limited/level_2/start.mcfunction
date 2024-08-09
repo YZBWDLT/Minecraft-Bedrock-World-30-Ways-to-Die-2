@@ -29,8 +29,8 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.time_limited_2"}]}
 # --- 特殊内容 ---
 
 ## 展示文本
-execute if score language settings matches 0 run function levels/time_limited/level_2/text_display/chinese
-execute if score language settings matches 1 run function levels/time_limited/level_2/text_display/english
+execute if score language data matches 0 run function levels/time_limited/level_2/text_display/chinese
+execute if score language data matches 1 run function levels/time_limited/level_2/text_display/english
 
 # --- 限时关卡 ---
 

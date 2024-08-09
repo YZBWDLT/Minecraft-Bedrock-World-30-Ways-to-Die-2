@@ -1,7 +1,7 @@
 # ===== 语言：中文 =====
 
 # --- 设置语言状态 ---
-scoreboard players set language settings 0
+scoreboard players set language data 0
 
 # --- 提示 ---
 

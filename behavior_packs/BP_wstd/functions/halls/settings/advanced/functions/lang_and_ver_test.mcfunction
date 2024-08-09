@@ -6,8 +6,8 @@ function lib/get_data/client
 function lib/get_data/language
 
 # --- 重新处理展示文本 ---
-execute if score language settings matches 0 run function halls/settings/advanced/text_display/chinese
-execute if score language settings matches 1 run function halls/settings/advanced/text_display/english
+execute if score language data matches 0 run function halls/settings/advanced/text_display/chinese
+execute if score language data matches 1 run function halls/settings/advanced/text_display/english
 
 # --- 音效 ---
 

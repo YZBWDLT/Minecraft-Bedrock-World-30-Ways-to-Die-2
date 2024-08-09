@@ -28,5 +28,5 @@ execute as @a run tellraw @s {"rawtext":[{"translate":"%%s\n%%s\n%%s","with":{"r
 # --- 特殊内容 ---
 
 ## 刷新展示框 | 因该进度为玩家进入进度中心时获取，因此需要刷新展示框使玩家能看到
-execute if score language settings matches 0 run function halls/record/advancement/events/load_data_chinese
-execute if score language settings matches 1 run function halls/record/advancement/events/load_data_english
+execute if score language data matches 0 run function halls/record/advancement/events/load_data_chinese
+execute if score language data matches 1 run function halls/record/advancement/events/load_data_english

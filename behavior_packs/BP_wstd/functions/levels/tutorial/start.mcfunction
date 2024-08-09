@@ -23,5 +23,5 @@ tp @a 45 22 -25 180 0
 ## 开始播放音乐
 function lib/modify_states/music/maingame
 ## 展示文本
-execute if score language settings matches 0 run function levels/tutorial/text_display/chinese
-execute if score language settings matches 1 run function levels/tutorial/text_display/english
+execute if score language data matches 0 run function levels/tutorial/text_display/chinese
+execute if score language data matches 1 run function levels/tutorial/text_display/english

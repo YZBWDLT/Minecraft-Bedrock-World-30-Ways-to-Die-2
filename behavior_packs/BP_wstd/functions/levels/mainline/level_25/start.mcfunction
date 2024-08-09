@@ -29,5 +29,5 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.level_25"}]}
 # --- 特殊内容 ---
 
 ## 展示文本
-execute if score language settings matches 0 run function levels/mainline/level_25/text_display/chinese
-execute if score language settings matches 1 run function levels/mainline/level_25/text_display/english
+execute if score language data matches 0 run function levels/mainline/level_25/text_display/chinese
+execute if score language data matches 1 run function levels/mainline/level_25/text_display/english

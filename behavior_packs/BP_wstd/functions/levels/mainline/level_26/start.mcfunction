@@ -31,5 +31,5 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.level_26"}]}
 ## 物品检测
 scoreboard players set level26.itemTestDispenser active 1
 ## 展示文本
-execute if score language settings matches 0 run function levels/mainline/level_26/text_display/chinese
-execute if score language settings matches 1 run function levels/mainline/level_26/text_display/english
+execute if score language data matches 0 run function levels/mainline/level_26/text_display/chinese
+execute if score language data matches 1 run function levels/mainline/level_26/text_display/english

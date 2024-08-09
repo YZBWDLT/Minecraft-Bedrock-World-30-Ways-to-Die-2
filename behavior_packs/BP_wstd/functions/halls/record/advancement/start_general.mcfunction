@@ -14,8 +14,8 @@ function lib/modify_data/hall_start
 function lib/modify_states/timeline/disable
 
 ## 显示展示文本
-execute if score language settings matches 0 run function halls/record/advancement/text_display/chinese
-execute if score language settings matches 1 run function halls/record/advancement/text_display/english
+execute if score language data matches 0 run function halls/record/advancement/text_display/chinese
+execute if score language data matches 1 run function halls/record/advancement/text_display/english
 
 ## 刷新记分板
 function lib/scoreboard/advancement
@@ -23,5 +23,5 @@ function lib/scoreboard/advancement
 # --- 特殊内容 ---
 
 ## 加载展示框
-execute if score language settings matches 0 run function halls/record/advancement/events/load_data_chinese
-execute if score language settings matches 1 run function halls/record/advancement/events/load_data_english
+execute if score language data matches 0 run function halls/record/advancement/events/load_data_chinese
+execute if score language data matches 1 run function halls/record/advancement/events/load_data_english

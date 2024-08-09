@@ -5,8 +5,8 @@ scoreboard players add fireworkTutorial.step data 1
 execute if score fireworkTutorial.step data matches !1..8 run scoreboard players set fireworkTutorial.step data 1
 
 # --- 按步骤展示展示文本 ---
-execute if score language settings matches 0 run function halls/record/firework/text_display/chinese
-execute if score language settings matches 1 run function halls/record/firework/text_display/english
+execute if score language data matches 0 run function halls/record/firework/text_display/chinese
+execute if score language data matches 1 run function halls/record/firework/text_display/english
 
 # --- 播放音效 ---
 function lib/modify_states/sound/random_pop

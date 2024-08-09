@@ -97,7 +97,7 @@ functions.developer.query.variables.succeed.settings=§l===== settings =====
 functions.developer.query.variables.succeed.settings.developerMode=settings.developerMode = §a%s §7| Whether developer mode is enabled | 0: disabled, 1: enabled
 functions.developer.query.variables.succeed.settings.gameruleLock=settings.gameruleLock = §a%s §7| 游戏规则是否锁定 | 0: 禁用, 1: 启用
 functions.developer.query.variables.succeed.settings.hintEnabled=settings.hintEnabled = §a%s §7| 提示是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.settings.language=settings.language = §a%s §7| 当前使用的语言 | 0: 中文, 1: 英文
+functions.developer.query.variables.succeed.data.language=data.language = §a%s §7| 当前使用的语言 | 0: 中文, 1: 英文
 functions.developer.query.variables.succeed.settings.levelCompleteDelay=settings.levelCompleteDelay = §a%s §7| 当前的关卡延迟设置 | 0: 禁用, 1: 部分0.25秒, 2: 部分0.50秒, 3: 部分0.75秒, 4: 部分1.00秒, 5: 部分1.25秒, 6: 全部0.25秒, 7: 全部0.50秒, 8: 全部0.75秒, 9: 全部1.00秒, 10: 全部1.25秒
 functions.developer.query.variables.succeed.settings.level30Dialogue=settings.level30Dialogue = §a%s §7| 第30关对话是否启用 | 0: 禁用, 1: 启用, 2: 启用并在第30关解锁后播放音效
 functions.developer.query.variables.succeed.settings.mapTime=settings.mapTime = §a%s §7| 地图时间 | 0: 终为白日, 1: 仅在烟花教程切换黑夜, 2: 终为黑夜, 3: 时间流逝

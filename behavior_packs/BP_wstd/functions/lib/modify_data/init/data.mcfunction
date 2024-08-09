@@ -59,7 +59,7 @@ scoreboard players set speedrunMode settings 0
 scoreboard players set oplevel settings 0
 scoreboard players set gameruleLock settings 0
 scoreboard players set scoreboardDisplay settings 2
-scoreboard players set language settings 0
+scoreboard players set language data 0
 scoreboard players set mapTime settings 1
 
 ## 控制器（时间线、剧情线、音效、关卡延迟完成）

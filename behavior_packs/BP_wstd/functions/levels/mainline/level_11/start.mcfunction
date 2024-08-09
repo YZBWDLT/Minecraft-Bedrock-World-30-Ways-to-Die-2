@@ -12,8 +12,8 @@ function lib/modify_data/level/start
 function lib/modify_states/timeline/enable_6
 
 ## 重置关卡房间
-execute if score language settings matches 0 run structure load mainline:level_11 51 20 55
-execute if score language settings matches 1 run structure load mainline:level_11_en 51 20 55
+execute if score language data matches 0 run structure load mainline:level_11 51 20 55
+execute if score language data matches 1 run structure load mainline:level_11_en 51 20 55
 
 ## 给予玩家辅助功能物品
 execute as @a run function lib/modify_data/item/aux_functions

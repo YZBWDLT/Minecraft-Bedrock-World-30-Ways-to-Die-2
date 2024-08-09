@@ -33,7 +33,7 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.level_30"}]}
 ## 给予药效
 effect @a resistance 36000 9 true
 ## 展示文本
-execute if score language settings matches 0 run function levels/mainline/level_30/text_display/chinese
-execute if score language settings matches 1 run function levels/mainline/level_30/text_display/english
+execute if score language data matches 0 run function levels/mainline/level_30/text_display/chinese
+execute if score language data matches 1 run function levels/mainline/level_30/text_display/english
 ## 关闭第30关对话 | 仅当第30关对话开启时关闭，防止玩家第二次进入第30关仍然有对话
 execute if score level30Dialogue settings matches 1 run scoreboard players set level30Dialogue settings 0

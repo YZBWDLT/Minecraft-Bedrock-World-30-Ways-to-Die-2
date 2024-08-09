@@ -27,5 +27,5 @@ scoreboard players set "§l   Statistics" display1 11
 
 # --- 显示记分板出来 ---
 # 根据语言的不同而显示不同内容
-execute if score language settings matches 0 run scoreboard objectives setdisplay sidebar display ascending
-execute if score language settings matches 1 run scoreboard objectives setdisplay sidebar display1 ascending
+execute if score language data matches 0 run scoreboard objectives setdisplay sidebar display ascending
+execute if score language data matches 1 run scoreboard objectives setdisplay sidebar display1 ascending

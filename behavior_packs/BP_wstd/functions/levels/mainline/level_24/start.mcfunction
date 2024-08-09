@@ -37,5 +37,5 @@ effect @a saturation 1 255 true
 ## 设置难度为简单 | 防止玩家饿死
 difficulty easy
 ## 展示文本
-execute if score language settings matches 0 run function levels/mainline/level_24/text_display/chinese
-execute if score language settings matches 1 run function levels/mainline/level_24/text_display/english
+execute if score language data matches 0 run function levels/mainline/level_24/text_display/chinese
+execute if score language data matches 1 run function levels/mainline/level_24/text_display/english

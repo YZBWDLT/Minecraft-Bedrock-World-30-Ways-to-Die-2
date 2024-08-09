@@ -14,5 +14,5 @@ execute if score tick time matches 2 run function lib/get_data/client
 execute if score tick time matches 2 run function lib/get_data/language
 
 # --- 悬浮文本 ---
-execute if score tick time matches 3 if score language settings matches 0 run function halls/open/stage_1/text_display/chinese
-execute if score tick time matches 3 if score language settings matches 1 run function halls/open/stage_1/text_display/english
+execute if score tick time matches 3 if score language data matches 0 run function halls/open/stage_1/text_display/chinese
+execute if score tick time matches 3 if score language data matches 1 run function halls/open/stage_1/text_display/english

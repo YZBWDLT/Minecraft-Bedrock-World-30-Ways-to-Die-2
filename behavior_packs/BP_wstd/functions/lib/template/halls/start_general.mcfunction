@@ -14,8 +14,8 @@ function lib/modify_data/hall_start
 ## (是否启用时间线？举例：function lib/modify_states/timeline/enable_6
 
 ## 显示展示文本
-## (是否启用中文展示文本？举例：execute if score language settings matches 0 run function halls/.../text_display/chinese
-## (是否启用英文展示文本？举例：execute if score language settings matches 1 run function halls/.../text_display/english
+## (是否启用中文展示文本？举例：execute if score language data matches 0 run function halls/.../text_display/chinese
+## (是否启用英文展示文本？举例：execute if score language data matches 1 run function halls/.../text_display/english
 
 ## 刷新记分板
 ## (设置要刷新的记分板，举例：function lib/scoreboard/mainline_levels

@@ -31,5 +31,5 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.easter_egg_2"}]}
 ## 特殊分值检测
 scoreboard players set easterEgg2.totalScore data -1
 ## 展示文本
-execute if score language settings matches 0 run function levels/easter_egg/level_2/text_display/chinese
-execute if score language settings matches 1 run function levels/easter_egg/level_2/text_display/english
+execute if score language data matches 0 run function levels/easter_egg/level_2/text_display/chinese
+execute if score language data matches 1 run function levels/easter_egg/level_2/text_display/english
