@@ -6,7 +6,7 @@ tp @e[name=playerPosition] -41 9 27
 
 # --- 状态（时间线&剧情线） ---
 function lib/modify_states/timeline/enable_pass_2
-function lib/modify_states/dialogue/enable_lock_7
+function lib/modify_states/dialogue/enable_2
 
 # --- 隐藏记分板 ---
 scoreboard objectives setdisplay sidebar

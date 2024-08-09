@@ -2,6 +2,9 @@
 
 # --- [120~399] 大厅内移动 ---
 
+## [120] 恢复锁定视角
+execute if score dialogue time matches 120 run function lib/modify_states/dialogue/enable_lock_7_keep
+
 execute if score dialogue time matches 120 run titleraw @a title {"rawtext":[{"translate":"title.empty"}]}
 execute if score dialogue time matches 120 run titleraw @a subtitle {"rawtext":[{"translate":"subtitle.end_1"}]}
 execute if score dialogue time matches 120 as @a at @s run playsound random.orb @s
