@@ -22,9 +22,9 @@ execute if score progress.level record matches 29..30 run scoreboard players add
 execute if score progress.level record matches 29..30 if score level30Dialogue settings matches !0..1 run scoreboard players set level30Dialogue settings 0
 
 ## 启用后提示 | 聊天栏&音效提示
-execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.disabled"}]}
-execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run function lib/modify_states/sound/mob_villager_no
+execute if score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.disabled"}]}
+execute if score progress.level record matches 29..30 if score level30Dialogue settings matches 0 run function lib/modify_states/sound/mob_villager_no
 
 ## 禁用后提示 | 聊天栏&音效提示
-execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 1 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.enabled"}]}
-execute unless score progress.level record matches 29..30 if score level30Dialogue settings matches 1 run function lib/modify_states/sound/mob_villager_yes
+execute if score progress.level record matches 29..30 if score level30Dialogue settings matches 1 run tellraw @a {"rawtext":[{"translate":"chat.settings.level_30_dialogue.enabled"}]}
+execute if score progress.level record matches 29..30 if score level30Dialogue settings matches 1 run function lib/modify_states/sound/mob_villager_yes
