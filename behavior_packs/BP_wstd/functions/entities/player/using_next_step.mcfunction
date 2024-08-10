@@ -36,6 +36,6 @@ execute if score level data matches 39 run function levels/time_limited/level_4/
 execute if score level data matches 40 run function levels/time_limited/level_5/events/start_game
 
 ## 51~60 | DIY关卡 - 编辑模式 | 使用下一步时，增加步骤
-execute if score level data matches 51..60 if score diyLevel.isEditMode data matches 1 run function levels/diy_levels/functions/next_step
+execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 run function levels/diy_levels/functions/next_step
 
 # --- 对于一切可能的情况，都执行的内容 ---

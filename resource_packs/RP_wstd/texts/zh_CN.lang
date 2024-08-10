@@ -66,7 +66,7 @@ functions.developer.query.variables.succeed.active.timeline=active.timeline = §
 functions.developer.query.variables.succeed.data=§l===== data记分板 =====
 functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
 functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
-functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
+functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o（自定义关卡独占）§r§7当前的教程页数
 functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o（彩蛋第1关独占）§r§7树干是否已被破坏 | 0：未被破坏，1：已被破坏
 functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o（彩蛋第2关独占）§r§7玩家回答正确的题目数
 functions.developer.query.variables.succeed.data.easterEgg3.finishedParkour=§cdata.easterEgg3.finishedParkour = §a%s §7| §o（彩蛋第3关独占）§r§7玩家是否完成了跑酷 | 0：未完成，1：已完成

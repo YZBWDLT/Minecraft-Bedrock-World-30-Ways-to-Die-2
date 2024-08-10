@@ -13,8 +13,11 @@
 execute if score timeline time matches 1 as @a run function lib/modify_data/item/clear
 execute if score timeline time matches 1 as @a run clear @s ender_pearl
 
-## 更改玩家的游戏模式，传送玩家到等待区 | 仅限游戏模式
+## 更改玩家的游戏模式
 execute if score timeline time matches 1 if score diyLevels.isEditMode data matches 0 as @a run gamemode adventure @s
+execute if score timeline time matches 1 if score diyLevels.isEditMode data matches 1 as @a run gamemode creative @s
+
+## 传送玩家到等待区 | 仅限游戏模式
 execute if score timeline time matches 1 if score diyLevels.isEditMode data matches 0 as @a run tp @s 4 8 3
 
 ## 提示玩家
@@ -28,8 +31,8 @@ execute if score timeline time matches 2 if score diyLevels.isEditMode data matc
 execute if score timeline time matches 2 if score diyLevels.isEditMode data matches 1 run fill -101 0 -10 -132 0 -41 barrier
 
 ## 添加天花板的限制，但取消地板的限制 | 仅限游戏模式
-execute if score timeline time matches 2 if score diyLevels.isEditMode data matches 1 run fill -101 32 -10 -132 32 -41 barrier
-execute if score timeline time matches 2 if score diyLevels.isEditMode data matches 1 run fill -101 0 -10 -132 0 -41 air
+execute if score timeline time matches 2 if score diyLevels.isEditMode data matches 0 run fill -101 32 -10 -132 32 -41 barrier
+execute if score timeline time matches 2 if score diyLevels.isEditMode data matches 0 run fill -101 0 -10 -132 0 -41 air
 
 # --- [3~66] 开始加载结构（第II阶段） ---
 # 清除原结构 | 维持64刻
@@ -55,10 +58,10 @@ execute if score timeline time matches 127 run kill @e[type=item]
 ## （仅限游戏模式）触发开始游戏的命令方块 | 这组命令方块将同时获取限时时长
 execute if score timeline time matches 127 if score diyLevels.isEditMode data matches 0 run setblock -103 2 -12 redstone_block
 
-## （仅限编辑模式）执行剧情模式的通用函数
-execute if score timeline time matches 127 if score diyLevels.isEditMode data matches 0 run function levels/diy_levels/events/start_editing_general
+## （仅限编辑模式）执行编辑模式的通用函数
+execute if score timeline time matches 127 if score diyLevels.isEditMode data matches 1 run function levels/diy_levels/events/start_editing_general
 
-# --- [129] 结构加载完成（第II阶段） ---
+# --- [131] 结构加载完成（第II阶段） ---
 # （仅限游戏模式）获取到限时时长之后，执行游戏模式的通用函数
 
-execute if score timeline time matches 129 if score diyLevels.isEditMode data matches 0 run function levels/diy_levels/events/start_gaming_general
+execute if score timeline time matches 131 if score diyLevels.isEditMode data matches 0 run function levels/diy_levels/events/start_gaming_general

@@ -3,6 +3,9 @@
 
 # --- 当在编辑模式下退出时 ---
 
+## 如果不是开发者模式，则更改回冒险模式
+execute unless score developerMode settings matches 1 run gamemode adventure @a
+
 # --- 当在游戏模式下退出时 ---
 
 ## 调用玩家所指定的命令

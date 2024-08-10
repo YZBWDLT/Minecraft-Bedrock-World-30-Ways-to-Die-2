@@ -19,5 +19,6 @@ execute if score level data matches 20..22 run function lib/function_lists/skip
 execute if score level data matches 30..32 run function lib/function_lists/skip
 execute if score level data matches 36 run function lib/function_lists/skip
 execute if score level data matches 39..40 run function lib/function_lists/skip
+execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 0 run function lib/function_lists/skip
 
 # --- 对于一切可能的情况，都执行的内容 ---

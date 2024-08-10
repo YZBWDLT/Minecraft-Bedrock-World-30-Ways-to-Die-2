@@ -9,6 +9,13 @@ function lib/modify_states/timeline/enable_pass_1
 
 # --- 玩家 ---
 
+## 编辑模式的玩家进入时，直接传送到编辑区
+execute if score diyLevels.isEditMode data matches 1 run tp @a -107 2 -15
+
+## 更改游戏模式
+execute if score diyLevels.isEditMode data matches 0 run gamemode adventure @a
+execute if score diyLevels.isEditMode data matches 1 run gamemode creative @a
+
 ## 移除玩家物品
 clear @a
 

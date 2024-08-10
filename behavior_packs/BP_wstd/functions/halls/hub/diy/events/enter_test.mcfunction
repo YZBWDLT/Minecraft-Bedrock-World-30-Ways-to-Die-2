@@ -4,7 +4,7 @@
 # --- 关卡 ---
 
 ## 第1关
-execute as @a[x=-22,y=9,z=9,r=1] run function levels/diy_levels/start_gaming/level_1
+execute as @a[x=-22,y=9,z=-6,r=1] run function levels/diy_levels/start_gaming/level_1
 
 ## 第2关
 execute as @a[x=-26,y=9,z=-6,r=1] run function levels/diy_levels/start_gaming/level_2

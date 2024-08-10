@@ -61,7 +61,7 @@ execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b你是否想让你的关卡也能成为所谓的\"限时关卡\"呢？ヾ(•ω•`)o" -109.9 4.9 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b让我们来看一下你身后的§e命令系统§b..." -109.9 4.6 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b想必你应该看到了一个命令方块叫做\"限时设定\"对吧？我们点开它，它的内置命令：" -109.9 4.3 -16
-execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bscoreboard players set @e[name=remainingTime] time §e-1§b" -109.9 4.0 -16
+execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bscoreboard players set remainingTime time §e-1§b" -109.9 4.0 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b我们关注最后面的那个§e-1§b，它代表§e禁用限时关卡§b！设定任意一个负数都会禁用限时关卡(￣▽￣)" -109.9 3.7 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b把这个-1换成§e任意一个正数§b，就会设定这关的限时为这么长的时间啦！单位是秒哦ヾ(^▽^*)))" -109.9 3.4 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b启用限时关卡还会在§e进入关卡后自动播放限时关卡的音乐§b，是不是很贴心呢φ(゜▽゜*)♪" -109.9 3.1 -16

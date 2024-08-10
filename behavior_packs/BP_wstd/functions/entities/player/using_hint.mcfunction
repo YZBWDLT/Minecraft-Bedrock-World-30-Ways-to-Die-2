@@ -18,6 +18,6 @@ execute if score level data matches 51..60 if score diyLevels.isEditMode data ma
 execute if score level data matches -18 run function lib/function_lists/hint
 execute if score level data matches 0..19 run function lib/function_lists/hint
 execute if score level data matches 23..29 run function lib/function_lists/hint
-execute if score level data matches 36..50 run function lib/function_lists/hint
+execute if score level data matches 36..60 run function lib/function_lists/hint
 
 # --- 对于一切可能的情况，都执行的内容 ---

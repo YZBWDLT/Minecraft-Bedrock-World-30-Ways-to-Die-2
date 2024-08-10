@@ -9,3 +9,6 @@ execute if score diyLevels.step data matches 9.. run scoreboard players set diyL
 ## 重新显示展示文本
 execute if score language data matches 0 run function levels/diy_levels/text_display/chinese
 execute if score language data matches 1 run function levels/diy_levels/text_display/english
+
+## 音效
+function lib/modify_states/sound/random_pop

@@ -60,7 +60,7 @@ execute if score diyLevels.step data matches 6 run summon wstd:text_display "§b
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bLet's take a look at the §eCommand System§b behind you..." -109.9 5.2 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bYou should see a command block called \"Time Limit\", right?" -109.9 4.9 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bLet's open it, and here's the built-in command:" -109.9 4.6 -16
-execute if score diyLevels.step data matches 6 run summon wstd:text_display "§dscoreboard players set @e[name=remainingTime] time §e-1" -109.9 4.3 -16
+execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bscoreboard players set remainingTime time §e-1" -109.9 4.3 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bWe're interested in the last §e-1§b, which stands for §eDisabling timed" -109.9 4.0 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§elevels§b!Setting any negative number will disable time limitations (￣▽￣)" -109.9 3.7 -16
 execute if score diyLevels.step data matches 6 run summon wstd:text_display "§bChange this -1 to §eany positive number§b, and it will set the" -109.9 3.4 -16

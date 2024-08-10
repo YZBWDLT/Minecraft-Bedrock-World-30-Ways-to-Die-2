@@ -28,6 +28,6 @@ execute if score level data matches -4 run function halls/settings/advanced/quit
 execute if score level data matches -3..0 run function halls/hub/main/start
 
 ## 51~60 | DIY关卡 - 编辑模式 | 使用返回时，减少步骤
-execute if score level data matches 51..60 if score diyLevel.isEditMode data matches 1 run function levels/diy_levels/functions/previous_step
+execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 run function levels/diy_levels/functions/previous_step
 
 # --- 对于一切可能的情况，都执行的内容 ---

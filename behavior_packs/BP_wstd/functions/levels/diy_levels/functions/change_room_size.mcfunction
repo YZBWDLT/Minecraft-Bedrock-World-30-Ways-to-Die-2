@@ -9,9 +9,9 @@ scoreboard players add diyLevels.roomSize data 1
 execute unless score diyLevels.roomSize data matches 0..2 run scoreboard players set diyLevels.roomSize data 0
 
 ## 加载房间
-execute if score diyLevels.roomSize data matches 0 run structure load diy:small_room -121 15 -30
-execute if score diyLevels.roomSize data matches 1 run structure load diy:middle_room -121 15 -30
-execute if score diyLevels.roomSize data matches 2 run structure load diy:large_room -126 15 -30
+execute if score diyLevels.roomSize data matches 0 run structure load diy_levels:small_room -121 15 -30
+execute if score diyLevels.roomSize data matches 1 run structure load diy_levels:middle_room -121 15 -30
+execute if score diyLevels.roomSize data matches 2 run structure load diy_levels:large_room -126 15 -30
 
 ## 提示语
 execute if score diyLevels.roomSize data matches 0 run tellraw @s {"rawtext":[{"translate":"chat.item.change_room_size.small"}]} 
