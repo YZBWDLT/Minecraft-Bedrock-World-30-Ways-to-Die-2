@@ -6,7 +6,6 @@
         },
         "components": {
             "minecraft:collision_box": false,
-            "minecraft:display_name": "wstd:fake_quartz_pillar",
             "minecraft:destructible_by_explosion": { "explosion_resistance": 0.8 },
             "minecraft:destructible_by_mining": { "seconds_to_destroy": 0.8 }
         }
