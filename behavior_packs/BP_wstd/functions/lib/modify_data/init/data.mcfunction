@@ -8,7 +8,9 @@
 # · 重置记分板、变量和标记实体到默认值下
 
 # --- 常加载区域重置 ---
-tickingarea add 0 0 0 15 0 15 "originArea"
+execute in overworld run tickingarea add 63 0 127 -144 0 16 "overworld1"
+execute in overworld run tickingarea add 63 0 15 -144 0 -96 "overworld2"
+execute in overworld run tickingarea add 63 0 -97 -144 0 -112 "overworld3"
 execute in nether run tickingarea add 0 0 0 15 0 15 "netherArea"
 execute in the_end run tickingarea add 0 0 0 15 0 15 "theEndArea"
 
