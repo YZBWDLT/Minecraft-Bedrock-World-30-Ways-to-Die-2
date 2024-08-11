@@ -4,8 +4,7 @@
 
 ## 状态
 ### 时间线 | 普通关卡禁用。自定义关卡将启用，因本函数将会在命令方块执行 | <!>在执行该通用函数之后必须设定特定关卡的时间线
-execute unless score level data matches 51..60 run function lib/modify_states/timeline/disable
-execute if score level data matches 51..60 if score timeline active matches 0 run function lib/modify_states/timeline/enable_6
+function lib/modify_states/timeline/disable
 ### 关卡完成延迟 | 若玩家设置了始终启用关卡完成延迟，则进行相应的禁用/启用操作 | <!>在执行该通用函数之前必须先设定特定关卡的关卡完成延迟
 execute if score levelCompleteDelay settings matches 0 run function lib/modify_states/level_complete_delay/disable
 execute if score levelCompleteDelay settings matches 6..10 run function lib/modify_states/level_complete_delay/enable
@@ -43,7 +42,7 @@ execute if score developerMode settings matches 1 run tellraw @a {"rawtext":[{"t
 # --- 实体 ---
 
 ## 清除多余实体 | 禁止自定义关卡在加载后清理实体
-execute unless score level data matches 51..60 run kill @e[type=!player,family=!marker,type=!ender_dragon]
+kill @e[type=!player,family=!marker,type=!ender_dragon]
 
 # --- 世界 ---
 

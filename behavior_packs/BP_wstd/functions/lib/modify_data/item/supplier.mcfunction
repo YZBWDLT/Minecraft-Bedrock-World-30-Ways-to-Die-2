@@ -56,23 +56,5 @@ execute if score level data matches 0 if score progress.mapStage record matches 
 execute if score level data matches 1..50 run give @s[hasitem={item=wstd:reset,quantity=0}] wstd:reset 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
 execute if score level data matches 1..50 run give @s[hasitem={item=wstd:quit,quantity=0}] wstd:quit 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
 
-# 51~60 | 自定义关卡 - 编辑模式（必须在加载完后给予） | 必要物品：下一步、返回、退出关卡、更改房间大小、重置命令系统、保存关卡、加载关卡
-# 加载时，active.timeline = 1
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:next_step,quantity=0}] wstd:next_step 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:quit,quantity=0}] wstd:quit 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:change_room_size,quantity=0}] wstd:change_room_size 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:reset_command_system,quantity=0}] wstd:reset_command_system 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:save_level,quantity=0}] wstd:save_level 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 1 unless score timeline active matches 1 run give @s[hasitem={item=wstd:load_level,quantity=0}] wstd:load_level 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-
-# 51~60 | 自定义关卡 - 游戏模式（必须在加载完后给予） | 必要物品：重置、退出关卡、提示、跳过、攻略
-# 加载时，active.timeline = 1
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 0 unless score timeline active matches 1 run give @s[hasitem={item=wstd:reset,quantity=0}] wstd:reset 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 0 unless score timeline active matches 1 run give @s[hasitem={item=wstd:quit,quantity=0}] wstd:quit 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 0 unless score timeline active matches 1 if score hintEnabled settings matches 1 run give @s[hasitem={item=wstd:hint,quantity=0}] wstd:hint 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 0 unless score timeline active matches 1 if score strategyEnabled settings matches 1 run give @s[hasitem={item=wstd:strategy,quantity=0}] wstd:strategy 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-execute if score level data matches 51..60 if score diyLevels.isEditMode data matches 0 unless score timeline active matches 1 if score skipEnabled settings matches 1 run give @s[hasitem={item=wstd:skip,quantity=0}] wstd:skip 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
-
 # 所有关卡（除-20~-16，-13，-3~0外） | 给予播放音乐（物品栏第8位）
 execute unless score level data matches -20..-16 unless score level data matches -13 unless score level data matches -3..0 run replaceitem entity @s[hasitem={item=wstd:play_music,quantity=0}] slot.inventory 8 wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
