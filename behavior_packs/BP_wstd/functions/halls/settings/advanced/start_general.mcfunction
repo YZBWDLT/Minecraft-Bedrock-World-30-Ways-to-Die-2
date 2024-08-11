@@ -30,3 +30,6 @@ scoreboard players set settingCenter.resetRecordWarningCountdown time 10
 scoreboard players set settingCenter.resetRecordWarningCountdown active 0
 
 execute if score developerMode settings matches 1 run scoreboard players set settingCenter.developerModeWarningCountdown active 2
+## 给予返回物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

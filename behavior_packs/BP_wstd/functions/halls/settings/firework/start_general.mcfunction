@@ -28,3 +28,8 @@ execute if score mapTime settings matches 1..2 run setblock 7 20 -28 sea_lantern
 execute if score mapTime settings matches 1..2 run setblock 13 20 -28 sea_lantern
 execute if score mapTime settings matches 1..2 run setblock 13 20 -22 sea_lantern
 execute if score mapTime settings matches 1..2 run setblock 7 20 -22 sea_lantern
+## 给予返回、下一步和重置物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:next_step,quantity=0}] wstd:next_step 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:reset,quantity=0}] wstd:reset 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

@@ -23,6 +23,6 @@ clear @a
 ## 传送玩家
 tp @a -11 22 -100 facing -19 22 -100
 ## 重新给予物品
-execute as @a run function lib/modify_data/item/supplier
+execute as @a run function lib/modify_data/item/reset_and_quit
 ## 播放音效
 function lib/modify_states/sound/mob_villager_yes

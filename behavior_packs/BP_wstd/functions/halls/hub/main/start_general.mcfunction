@@ -29,3 +29,5 @@ scoreboard players set mainHall.actionbarTitleSecond time 0
 scoreboard players set mainHall.actionbarTitleRandom data 0
 scoreboard players set mainHall.resetMapWarningCountdown active 0
 scoreboard players set mainHall.resetMapWarningCountdown time 10
+## 给予玩家物品
+function halls/hub/main/events/item_supplier

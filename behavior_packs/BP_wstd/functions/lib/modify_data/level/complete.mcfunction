@@ -24,9 +24,6 @@ scoreboard players set skipUsed data 0
 
 # --- 物品 ---
 
-## 给予玩家物品
-execute as @a run function lib/modify_data/item/supplier
-
 # --- 玩家 ---
 
 ## 设置游戏模式 | 仅在未处于开发者状态下执行

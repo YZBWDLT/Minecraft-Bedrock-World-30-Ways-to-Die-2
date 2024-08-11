@@ -23,3 +23,6 @@ execute if score language data matches 1 run function halls/settings/about/text_
 clone -98 15 49 -109 15 43 -109 21 43
 ## 特殊分值检测
 scoreboard players set settingCenter.creditsViewed data 0
+## 给予返回物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

@@ -21,3 +21,9 @@ scoreboard players set fireworkTutorial.step data 1
 ## 显示展示文本 | 因必须存在独有变量才能显示文本，故需写在分值检测后面
 execute if score language data matches 0 run function halls/record/firework/text_display/chinese
 execute if score language data matches 1 run function halls/record/firework/text_display/english
+
+## 给予物品
+give @a[hasitem={item=wstd:next_step,quantity=0}] wstd:next_step 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:quit,quantity=0}] wstd:quit 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

@@ -19,3 +19,7 @@ execute if score language data matches 1 run function halls/hub/time_limited/tex
 
 ## 刷新记分板
 function lib/scoreboard/time_limited_levels
+
+## 给予返回和播放音乐物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

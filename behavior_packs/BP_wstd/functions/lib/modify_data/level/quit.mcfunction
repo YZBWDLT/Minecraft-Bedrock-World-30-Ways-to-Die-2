@@ -24,9 +24,6 @@ scoreboard players set skipUsed data 0
 
 # --- 物品 ---
 
-## 给予玩家物品
-execute as @a run function lib/modify_data/item/supplier
-
 # --- 玩家 ---
 
 # --- 世界 ---

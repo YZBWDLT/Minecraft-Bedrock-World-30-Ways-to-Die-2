@@ -15,4 +15,4 @@ function lib/modify_states/sound/random_levelup_1
 tellraw @a {"rawtext":[{"translate":"chat.unlocked.easter_egg_levels"}]}
 
 # --- 给予玩家物品 ---
-execute as @a run function lib/modify_data/item/supplier
+function halls/hub/main/events/item_supplier

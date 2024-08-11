@@ -26,3 +26,7 @@ tp @a -97 20 46 facing -109 20 46
 
 ## 复制展示框
 clone -98 16 49 -109 16 43 -109 21 43
+
+## 给予物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

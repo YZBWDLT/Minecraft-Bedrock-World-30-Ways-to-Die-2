@@ -21,3 +21,7 @@ execute if score language data matches 1 run function halls/record/stats/text_di
 
 ## 加载数据
 function halls/record/stats/events/load_data
+
+## 给予物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

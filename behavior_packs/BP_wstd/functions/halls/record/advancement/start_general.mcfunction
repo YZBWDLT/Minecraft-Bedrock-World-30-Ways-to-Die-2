@@ -25,3 +25,7 @@ function lib/scoreboard/advancement
 ## 加载展示框
 execute if score language data matches 0 run function halls/record/advancement/events/load_data_chinese
 execute if score language data matches 1 run function halls/record/advancement/events/load_data_english
+
+## 给予物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

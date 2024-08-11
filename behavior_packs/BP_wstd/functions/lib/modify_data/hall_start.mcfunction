@@ -11,8 +11,6 @@ function lib/modify_states/timeline/enable_6
 ## 清除物品 | 非开发者模式清除所有物品，开发者模式仅清除辅助功能物品
 execute if score developerMode settings matches 0 run clear @a
 execute if score developerMode settings matches 1 as @a run function developer/clear_items
-## 给予玩家辅助物品（重置、退出） | <!>在执行该通用函数之前必须先设定特定关卡的关卡ID
-execute as @a run function lib/modify_data/item/supplier
 
 # --- 玩家 ---
 

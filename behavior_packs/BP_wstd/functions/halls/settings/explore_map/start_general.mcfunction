@@ -17,3 +17,6 @@ function lib/modify_states/timeline/enable_6
 
 ## 调整为旁观模式
 gamemode spectator @a
+## 给予返回物品
+give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

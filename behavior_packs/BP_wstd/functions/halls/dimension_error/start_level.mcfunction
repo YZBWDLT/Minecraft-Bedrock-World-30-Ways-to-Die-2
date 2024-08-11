@@ -9,7 +9,8 @@ scoreboard players set level data -15
 ## 清除物品
 clear @s
 ## 给予物品
-give @s wstd:next_step
+give @a[hasitem={item=wstd:next_step,quantity=0}] wstd:next_step 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
+give @a[hasitem={item=wstd:play_music,quantity=0}] wstd:play_music 1 0 { "item_lock": { "mode": "lock_in_inventory" } }
 
 # --- 传送玩家 ---
 execute in nether run tp @s -2 12 -5
