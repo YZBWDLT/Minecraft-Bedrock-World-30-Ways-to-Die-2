@@ -1,10 +1,11 @@
 # ===== 第三阶段开始 =====
 
 # --- 召唤作者实体 ---
-summon wstd:creator -46 9 27 270 0 become_lt "YZBWDLT"
+execute if score language data matches 0 run summon wstd:creator -46 9 27 270 0 become_lt "一只卑微的量筒"
+execute if score language data matches 1 run summon wstd:creator -46 9 27 270 0 become_lt "YZBWDLT"
 
 # --- 面向位置标记实体与玩家位置标记实体准备 ---
-execute as @e[type=wstd:creator,name="YZBWDLT",c=1] at @s run tp @e[name=facingPosition] ~~~
+execute as @e[type=wstd:creator,x=-46,y=9,z=27,r=1,c=1] at @s run tp @e[name=facingPosition] ~~~
 tp @e[name=playerPosition] -41 9 27
 
 # --- 状态（时间线&剧情线） ---

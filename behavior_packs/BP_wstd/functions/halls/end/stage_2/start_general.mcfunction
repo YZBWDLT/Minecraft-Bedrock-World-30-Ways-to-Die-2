@@ -22,7 +22,8 @@ function lib/modify_states/sound/reset
 structure load system:logo 47 6 21
 
 ## 生成作者
-summon wstd:creator -46 9 27 270 0 become_lt "YZBWDLT"
+execute if score language data matches 0 run summon wstd:creator -46 9 27 270 0 become_lt "一只卑微的量筒"
+execute if score language data matches 1 run summon wstd:creator -46 9 27 270 0 become_lt "YZBWDLT"
 tellraw @a { "rawtext": [ { "translate": "chat.author_joined_game" } ] }
 
 ## 复原信标地板
