@@ -23,7 +23,7 @@ scoreboard players set advancement.who record 0
 ## 音效
 function lib/modify_states/sound/random_levelup_2
 ## 聊天栏
-execute as @a run tellraw @s {"rawtext":[{"translate":"%%s\n%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.normal","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.miscellaneous.let_me_see"}]}},{"translate":"chat.advancement.new_advancement_unlocked"}]}}]}
+execute as @a run tellraw @s {"rawtext":[{"translate":"%%s\n%%s\n%%s","with":{"rawtext":[{"translate":"chat.advancement.get"},{"translate":"chat.advancement.get.normal","with":{"rawtext":[{"selector":"@s"},{"translate":"advancement.miscellaneous.let_me_see"}]}},{"translate":"functions.general.new_advancements_opened"}]}}]}
 
 # --- 特殊内容 ---
 
