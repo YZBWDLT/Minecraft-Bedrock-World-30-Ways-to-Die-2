@@ -13,6 +13,9 @@ scoreboard players set progress.easterEgg record 0
 function lib/modify_states/sound/random_levelup_1
 ## 聊天栏
 tellraw @a {"rawtext":[{"translate":"chat.unlocked.easter_egg_levels"}]}
+## 文本展示实体
+execute if score language data matches 0 run function halls/hub/main/text_display/chinese
+execute if score language data matches 1 run function halls/hub/main/text_display/english
 
 # --- 给予玩家物品 ---
 function halls/hub/main/events/item_supplier
