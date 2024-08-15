@@ -14,7 +14,7 @@ execute if score level data matches -12..-10 run function halls/hub/main/start
 # -9~-4 | 从子设置项返回 | 触发返回设置中心的函数
 execute if score level data matches -9 run function halls/settings/about/quit
 execute if score level data matches -8 run function halls/settings/explore_map/quit
-execute if score level data matches -7 run function halls/settings/question_and_answer/quit
+execute if score level data matches -7 run function halls/settings/miscellaneous/quit
 execute if score level data matches -6 run function halls/settings/difficulty/quit
 execute if score level data matches -5 run function halls/settings/firework/quit
 execute if score level data matches -4 run function halls/settings/advanced/quit

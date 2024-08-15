@@ -14,3 +14,4 @@ execute if score developerMode settings matches 1 if score progress.easterEgg re
 execute if score developerMode settings matches 1 unless score progress.easterEgg record matches 10 run tellraw @a {"rawtext":[{"translate":"chat.developer.easter_egg_level_unlocked"}]}
 execute if score developerMode settings matches 1 unless score progress.easterEgg record matches 10 run function lib/modify_states/sound/mob_villager_yes
 execute if score developerMode settings matches 1 unless score progress.easterEgg record matches 10 run scoreboard players set progress.easterEgg record 10
+execute if score developerMode settings matches 1 unless score progress.easterEgg record matches 10 run function lib/scoreboard/easter_egg_levels

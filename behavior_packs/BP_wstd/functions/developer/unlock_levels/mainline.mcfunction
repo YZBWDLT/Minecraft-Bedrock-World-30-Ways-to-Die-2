@@ -14,3 +14,4 @@ execute if score developerMode settings matches 1 if score progress.level record
 execute if score developerMode settings matches 1 unless score progress.level record matches 30 run tellraw @a {"rawtext":[{"translate":"chat.developer.mainline_level_unlocked"}]}
 execute if score developerMode settings matches 1 unless score progress.level record matches 30 run function lib/modify_states/sound/mob_villager_yes
 execute if score developerMode settings matches 1 unless score progress.level record matches 30 run scoreboard players set progress.level record 30
+execute if score developerMode settings matches 1 unless score progress.level record matches 30 run function lib/scoreboard/mainline_levels

@@ -20,3 +20,6 @@ execute as @a[x=-100,y=19,z=43.5,r=1] run function halls/settings/difficulty/fun
 execute as @a[x=-102,y=19,z=43.5,r=1] run function halls/settings/difficulty/functions/strategy
 ## 跳过
 execute as @a[x=-104,y=19,z=43.5,r=1] run function halls/settings/difficulty/functions/skip
+
+# --- 速通模式设定 ---
+execute as @a[x=-108.5,y=19,z=46.5,r=1] run function halls/settings/difficulty/functions/speedrun_mode

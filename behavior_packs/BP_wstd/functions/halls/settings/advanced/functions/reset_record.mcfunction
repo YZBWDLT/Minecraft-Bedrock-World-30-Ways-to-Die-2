@@ -20,4 +20,4 @@ execute if score settingCenter.resetRecordWarningCountdown active matches 0 run 
 execute if score settingCenter.resetRecordWarningCountdown active matches !0..1 run scoreboard players set settingCenter.resetRecordWarningCountdown active 0
 
 # --- 将玩家传送出检测区 ---
-tp @s -106 19 46
+tp @s -108 19 46

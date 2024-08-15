@@ -35,8 +35,8 @@ execute if score level data matches -9 run function halls/settings/about/actionb
 ## -8 | 预览地图
 execute if score level data matches -8 run function halls/settings/explore_map/actionbar_title
 
-## -7 | Q&A
-execute if score level data matches -7 run function halls/settings/question_and_answer/actionbar_title
+## -7 | 杂项设置
+execute if score level data matches -7 run function halls/settings/miscellaneous/actionbar_title
 
 ## -6 | 难度与语言设置
 execute if score level data matches -6 run function halls/settings/difficulty/actionbar_title

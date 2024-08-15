@@ -25,7 +25,11 @@ tp @a -97 20 46 facing -109 20 46
 # --- 特殊内容 ---
 
 ## 复制展示框
-clone -98 16 49 -109 16 43 -109 21 43
+execute if score speedrunMode settings matches 0 run clone -98 16 49 -109 16 43 -109 21 43
+execute if score speedrunMode settings matches 1 run clone -98 17 49 -109 17 43 -109 21 43
+
+## 特殊分值检测
+scoreboard players set settingCenter.creditsViewed data 0
 
 ## 给予物品
 give @a[hasitem={item=wstd:back,quantity=0}] wstd:back 1 0 { "item_lock": { "mode": "lock_in_inventory" } }

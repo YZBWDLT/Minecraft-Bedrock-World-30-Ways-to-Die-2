@@ -14,3 +14,4 @@ execute if score developerMode settings matches 1 if score progress.timeLimited 
 execute if score developerMode settings matches 1 unless score progress.timeLimited record matches 5 run tellraw @a {"rawtext":[{"translate":"chat.developer.time_limited_level_unlocked"}]}
 execute if score developerMode settings matches 1 unless score progress.timeLimited record matches 5 run function lib/modify_states/sound/mob_villager_yes
 execute if score developerMode settings matches 1 unless score progress.timeLimited record matches 5 run scoreboard players set progress.timeLimited record 5
+execute if score developerMode settings matches 1 unless score progress.timeLimited record matches 5 run function lib/scoreboard/time_limited_levels

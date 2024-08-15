@@ -34,3 +34,8 @@ execute if score isNetease data matches 0 run summon wstd:text_display "§b辅�
 execute if score isNetease data matches 1 run summon wstd:text_display "§b协助物品启用设置" -104 20.2 43
 execute if score skipEnabled settings matches 1 run summon wstd:text_display "§c跳过 | §a当前：开" -104 19.9 43
 execute if score skipEnabled settings matches 0 run summon wstd:text_display "§c跳过 | §c当前：关" -104 19.9 43
+
+# --- 速通模式设定 ---
+summon wstd:text_display "§b速通模式设定" -109 20.2 46
+execute if score speedrunMode settings matches 1 run summon wstd:text_display "§a当前：开" -109 19.9 46
+execute if score speedrunMode settings matches 0 run summon wstd:text_display "§c当前：关" -109 19.9 46

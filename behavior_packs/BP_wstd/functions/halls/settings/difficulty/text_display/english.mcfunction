@@ -30,3 +30,8 @@ execute if score strategyEnabled settings matches 0 run summon wstd:text_display
 summon wstd:text_display "§bAux Func settings" -104 20.2 43
 execute if score skipEnabled settings matches 1 run summon wstd:text_display "§cSkip | §aNow: On" -104 19.9 43
 execute if score skipEnabled settings matches 0 run summon wstd:text_display "§cSkip | §cNow: Off" -104 19.9 43
+
+# --- 速通模式设定 ---
+summon wstd:text_display "§bSpeedrun Mode" -109 20.2 46
+execute if score speedrunMode settings matches 1 run summon wstd:text_display "§aNow: On" -109 19.9 46
+execute if score speedrunMode settings matches 0 run summon wstd:text_display "§cNow: Off" -109 19.9 46

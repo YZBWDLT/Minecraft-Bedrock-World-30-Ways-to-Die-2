@@ -33,7 +33,7 @@ execute if score level data matches -9 run function halls/settings/about/timelin
 execute if score level data matches -8 run function halls/settings/explore_map/timeline
 
 ## -7 | 关于本地图相关时间线
-execute if score level data matches -7 run function halls/settings/question_and_answer/timeline
+execute if score level data matches -7 run function halls/settings/miscellaneous/timeline
 
 ## -6 | 难度与语言设置相关时间线
 execute if score level data matches -6 run function halls/settings/difficulty/timeline

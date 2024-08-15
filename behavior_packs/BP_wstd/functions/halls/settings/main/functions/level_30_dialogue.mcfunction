@@ -8,4 +8,4 @@ execute if score language data matches 0 run function halls/settings/main/text_d
 execute if score language data matches 1 run function halls/settings/main/text_display/english
 
 # --- 将玩家传送出检测区 ---
-tp @s -102 19 46
+tp @s -106 19 46

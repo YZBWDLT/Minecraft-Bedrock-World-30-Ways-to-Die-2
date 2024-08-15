@@ -7,4 +7,4 @@ gamemode adventure @s
 function lib/modify_states/sound/random_pop
 
 # --- 将玩家传送出检测区 ---
-tp @s -104 19 46
+tp @s -102 19 46

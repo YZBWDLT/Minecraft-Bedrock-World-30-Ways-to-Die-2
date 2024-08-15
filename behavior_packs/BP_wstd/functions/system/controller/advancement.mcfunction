@@ -96,7 +96,7 @@ execute if score advancement.letMeSee record matches 0 if score level data match
 execute if score advancement.celebration record matches 0 if score advancement.letMeSee record matches 1 if score level data matches -14 run function advancements/miscellaneous/celebration
 
 ## 是谁？ | 查看制作人 | 上游：让我康康
-execute if score advancement.who record matches 0 if score advancement.letMeSee record matches 1 if score level data matches -9 if score settingCenter.creditsViewed data matches 1 run function advancements/miscellaneous/who
+execute if score advancement.who record matches 0 if score advancement.letMeSee record matches 1 if score level data matches -10..-9 if score settingCenter.creditsViewed data matches 1 run function advancements/miscellaneous/who
 
 ## DIY | 进入自定义关卡大厅 | 上游：是谁？
 execute if score advancement.diy record matches 0 if score advancement.who record matches 1 if score level data matches -1 run function advancements/miscellaneous/diy
