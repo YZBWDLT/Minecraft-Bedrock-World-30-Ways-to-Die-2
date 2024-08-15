@@ -64,3 +64,9 @@ execute unless score level data matches -13 if score tick time matches 3 if scor
 execute if score progress.easterEgg record matches -1 if block 28 11 35 stone_button ["facing_direction"=2,"button_pressed_bit"=true] run function halls/hub/easter_egg/events/unlock
 ## 限时关卡解锁 | 通过8个彩蛋关卡和主线解锁
 execute if score progress.timeLimited record matches -1 if score progress.mapStage record matches 1.. if score progress.easterEgg record matches 8.. run function halls/hub/time_limited/events/unlock
+
+# --- 语言与客户端检测 ---
+# 每秒检测1次
+
+execute if score tick time matches 13 run function lib/get_data/language
+execute if score tick time matches 13 run function lib/get_data/client
