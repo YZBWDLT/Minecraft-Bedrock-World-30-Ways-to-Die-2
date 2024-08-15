@@ -9,8 +9,7 @@ scoreboard players set level data 49
 function lib/modify_data/level/start
 
 ## 重置关卡房间
-execute if score language data matches 0 run structure load easter_egg:level_9 20 20 -70
-execute if score language data matches 1 run structure load easter_egg:level_9_en 20 20 -70
+structure load easter_egg:level_9 20 20 -70
 
 ## 给予玩家辅助功能物品
 execute as @a run function lib/modify_data/item/aux_functions
