@@ -13,6 +13,7 @@ functions.general.not_available_in_this_level=§c无法在关卡未开放此功�
 functions.general.used_hint=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔提示使用记录了！ψ(｀∇´)ψ
 functions.general.used_strategy=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔攻略使用记录了！ψ(｀∇´)ψ
 functions.general.used_skip=§c啊哦......这是你第一次玩这关，看来我要给你好好的记上一笔跳过使用记录了！ψ(｀∇´)ψ
+functions.general.new_advancements_opened=§7新进度已开放§r
 
 functions.developer.query.stats.succeed.line1=§a0：未使用 §a1：已使用
 functions.developer.query.stats.succeed.hint=§l===== 提示 =====
@@ -65,7 +66,7 @@ functions.developer.query.variables.succeed.active.sound=active.sound = §a%s §
 functions.developer.query.variables.succeed.active.timeline=active.timeline = §a%s §7| 时间线是否启用 | 0：禁用，1-5：启用且时间流逝，5-：启用
 functions.developer.query.variables.succeed.data=§l===== data记分板 =====
 functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
-functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o（自定义关卡独占）§r§7是否处于编辑模式 | 0：游戏模式，1：编辑模式
+functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o（自定义关卡独占）§r§7房间大小设定 | 0：小，1：中，2：大
 functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o（自定义关卡独占）§r§7当前的教程页数
 functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o（彩蛋第1关独占）§r§7树干是否已被破坏 | 0：未被破坏，1：已被破坏
 functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o（彩蛋第2关独占）§r§7玩家回答正确的题目数
@@ -138,18 +139,22 @@ functions.developer.query.variables.succeed.tags=§l===== 标签型变量 =====
 functions.developer.query.variables.succeed.tags.isAlive_get=isAlive = §atrue §7| 玩家是否存活
 functions.developer.query.variables.succeed.tags.isAlive_not_get=isAlive = §efalse §7| 玩家是否存活
 
+functions.developer.unlock_levels.advancement.fail=§c无法在所有进度已完成的情况下完成进度
+functions.developer.unlock_levels.advancement.succeed=已完成了所有进度
+
 functions.entities.player.using_play_music=§b已为你播放新的音乐~
 
-functions.halls.settings.explore_map.subtitle=§l§b浏览全地图
+functions.halls.settings.explore_map.subtitle=§l§b浏览全地图§r§f
 functions.halls.settings.explore_map.actionbar_title=§l§b浏览全地图§r§f | 抬头以回到设置中心
 functions.halls.settings.explore_map.events.tp_player_back=§c亲，别走太远了哦~ =w=
+functions.halls.settings.miscellneous.subtitle=§l§b杂项设置§r§f
 
 functions.levels.hided.level_2.complete.let_level_22_completed=§b既然这么难的关你都过了，那我就让你跳过第22关吧！(～￣▽￣)～ 
 functions.levels.mainline.level_10.dialogue.line1=§b等下！！！
 functions.levels.mainline.level_10.dialogue.line2=§b你刚刚合成出了个什么东西？？
 functions.levels.mainline.level_10.dialogue.line3=§b一张粉床？！！
 functions.levels.mainline.level_10.dialogue.line4=§b啊？？？你运气也太好了叭！o(≧口≦)o
-functions.levels.mainline.level_10.dialogue.line5=§b要知道，生成一只粉色羊的概率仅仅只有0.1558%%！	## %%是为了显示出一个%
+functions.levels.mainline.level_10.dialogue.line5=§b要知道，生成一只粉色羊的概率仅仅只有0.1558%！
 functions.levels.mainline.level_10.dialogue.line6=§b而在这基础上还要再有1/3的概率剪出3个羊毛......┌(。Д。)┐
 functions.levels.mainline.level_10.dialogue.line7=§b快告诉我你家地址，我要去偷走你的运气！OwO
 
@@ -312,7 +317,7 @@ actionbar.random_hint21=§l§a== 限时关卡和彩蛋关卡的提示攻略跳�
 #### 房间名称 | 设置中心子设置项、教程关卡
 actionbar.setting_center.about=§l§b关于本地图§r
 actionbar.setting_center.advanced_settings=§l§b权限等级设定与高级功能§r
-actionbar.setting_center.difficulty_and_language=§l§b地图难度设定§r
+actionbar.setting_center.difficulty_and_speedrun_mode=§l§b地图难度设定与速通模式§r
 actionbar.setting_center.firework_settings=§l§b结束特效的烟花设定§r
 actionbar.setting_center.explore_map=§l§b预览全地图§r | 使用返回回到设置中心 | 不用怕掉下去，有屏障和保护机制~
 actionbar.setting_center.questions_and_answers=§l§b地图规则与玩法，常见问题§r

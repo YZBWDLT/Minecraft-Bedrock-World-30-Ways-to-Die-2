@@ -13,18 +13,19 @@ functions.general.not_available_in_this_level=§cFailed to use this function whi
 functions.general.used_hint=§cOops...this is the first time you play this level, it seems that I have to record this use of the hint! ψ(｀∇´)ψ
 functions.general.used_strategy=§cOops...this is the first time you play this level, it seems that I have to record this use of the strategy! ψ(｀∇´)ψ
 functions.general.used_skip=§cOops...this is the first time you play this level, it seems that I have to record this use of the skip! ψ(｀∇´)ψ
+functions.general.new_advancements_opened=§7New advancements have been opened.§r
 
 functions.developer.query.stats.succeed.line1=§a0：Unused §a1：Used
-functions.developer.query.stats.succeed.hint=§l===== 提示 =====
-functions.developer.query.stats.succeed.strategy=§l===== 攻略 =====
+functions.developer.query.stats.succeed.hint=§l===== Hints =====
+functions.developer.query.stats.succeed.strategy=§l===== Strategies =====
 functions.developer.query.stats.succeed.general_line1=Level 1 §a%s §f| Level 2 §a%s §f| Level 3 §a%s §f| Level 4 §a%s §f| Level 5 §a%s
 functions.developer.query.stats.succeed.general_line2=Level 6 §a%s §f| Level 7 §a%s §f| Level 8 §a%s §f| Level 9 §a%s §f| Level 10 §a%s
-functions.developer.query.stats.succeed.general_line3=Level 11 §a%s §f| Level 12 §a%s §f| Level 13Part 1 §a%s §f| Level 14 §a%s §f| Level 15 §a%s
+functions.developer.query.stats.succeed.general_line3=Level 11 §a%s §f| Level 12 §a%s §f| Level 13 Part 1 §a%s §f| Level 14 §a%s §f| Level 15 §a%s
 functions.developer.query.stats.succeed.general_line4=Level 16 §a%s §f| Level 17 §a%s §f| Level 18 §a%s §f| Level 19 §a%s §f| Level 23 §a%s
 functions.developer.query.stats.succeed.general_line5=Level 24 §a%s §f| Level 25 §a%s §f| Level 26 §a%s §f| Level 27 §a%s §f| Level 28 §a%s
 functions.developer.query.stats.succeed.general_line6=Level 29 §a%s
-functions.developer.query.stats.succeed.skip=§l===== 跳过 =====
-functions.developer.query.stats.succeed.skip_line1=Level 13Part 1 §a%s §f| Level 13Part 2 §a%s §f| Level 13Part 3 §a%s §f| Level 20 §a%s §f| Level 21 §a%s
+functions.developer.query.stats.succeed.skip=§l===== Skips =====
+functions.developer.query.stats.succeed.skip_line1=Level 13 Part 1 §a%s §f| Level 13 Part 2 §a%s §f| Level 13 Part 3 §a%s §f| Level 20 §a%s §f| Level 21 §a%s
 functions.developer.query.stats.succeed.skip_line2=Level 22 §a%s §f| Level 30 §a%s
 
 functions.developer.query.variables.succeed.line1=Format: <Objective>.<Name>=<Value>.
@@ -39,11 +40,11 @@ functions.developer.query.variables.succeed.active.dialogue=active.dialogue = §
 functions.developer.query.variables.succeed.active.easterEgg5.itemTestDiamondPickaxe=§cactive.easterEgg5.itemTestDiamondPickaxe = §a%s §7| §o(Easter Egg Level 5 only) §r§7The test state of item §oDiamond Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.easterEgg5.itemTestIronPickaxe=§cactive.easterEgg5.itemTestIronPickaxe = §a%s §7| §o(Easter Egg Level 5 only) §r§7The test state of item §oIron Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.easterEgg7.itemTestLever=§cactive.easterEgg7.itemTestLever = §a%s §7| §o(Easter Egg Level 7 only) §r§7The test state of item §oLever§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.hided3.itemTestBrewingStand=§cactive.hided3.itemTestBrewingStand = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oBrewing Stand§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.hided3.itemTestCraftingTable=§cactive.hided3.itemTestCraftingTable = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.hided3.itemTestFurnace=§cactive.hided3.itemTestFurnace = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oFurnace§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.hided3.itemTestWoodenPickaxe=§cactive.hided3.itemTestWoodenPickaxe = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oWooden Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.hided3.itemTestStonePickaxe=§cactive.hided3.itemTestStonePickaxe = §a%s §7| §o(Hided Level 3 only) §r§7The test state of item §oStone Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestBrewingStand=§cactive.hided3.itemTestBrewingStand = §a%s §7| §o(Hidden Level 3 only) §r§7The test state of item §oBrewing Stand§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestCraftingTable=§cactive.hided3.itemTestCraftingTable = §a%s §7| §o(Hidden Level 3 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestFurnace=§cactive.hided3.itemTestFurnace = §a%s §7| §o(Hidden Level 3 only) §r§7The test state of item §oFurnace§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestWoodenPickaxe=§cactive.hided3.itemTestWoodenPickaxe = §a%s §7| §o(Hidden Level 3 only) §r§7The test state of item §oWooden Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestStonePickaxe=§cactive.hided3.itemTestStonePickaxe = §a%s §7| §o(Hidden Level 3 only) §r§7The test state of item §oStone Pickaxe§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level9.itemTestCraftingTable=§cactive.level9.itemTestCraftingTable = §a%s §7| §o(Level 9 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level10.itemTestBlackBed=§cactive.level10.itemTestBlackBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oBlack Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level10.itemTestBrownBed=§cactive.level10.itemTestBrownBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oBrown Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
@@ -51,86 +52,86 @@ functions.developer.query.variables.succeed.active.level10.itemTestGrayBed=§cac
 functions.developer.query.variables.succeed.active.level10.itemTestLightGrayBed=§cactive.level10.itemTestLightGrayBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oLight Gray Bed§r§7, give player the usable item and the hint when test passed示 | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level10.itemTestPinkBed=§cactive.level10.itemTestPinkBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oPink Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level10.itemTestWhiteBed=§cactive.level10.itemTestWhiteBed = §a%s §7| §o(Level 10 only) §r§7The test state of item §oWhite Bed§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.level13.itemTestRedstoneRepeater=§cactive.level13.itemTestRedstoneRepeater = §a%s §7| §o(Level 13 only) §r§7The test state of item §oRedstone Repeater§r§7, give player the usable item and the hint when test passed提示 | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level13.itemTestRedstoneRepeater=§cactive.level13.itemTestRedstoneRepeater = §a%s §7| §o(Level 13 only) §r§7The test state of item §oRedstone Repeater§r§7, give player the usable item and the hint when test passedhint | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level20.itemTestBrewingStand=§cactive.level20.itemTestBrewingStand = §a%s §7| §o(Level 20 only) §r§7The test state of item §oBrewing Stand§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level20.itemTestCraftingTable=§cactive.level20.itemTestCraftingTable = §a%s §7| §o(Level 20 only) §r§7The test state of item §oCrafting Table§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level20.itemTestWaterBucket=§cactive.level20.itemTestWaterBucket = §a%s §7| §o(Level 20 only) §r§7The test state of item §oWater Bucket§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
 functions.developer.query.variables.succeed.active.level26.itemTestDispenser=§cactive.level26.itemTestDispenser = §a%s §7| §o(Level 26 only) §r§7The test state of item §oDispenser§r§7, give player the usable item and the hint when test passed | 0: Stop testing, 1: Is testing
-functions.developer.query.variables.succeed.active.levelCompleteDelay=active.levelCompleteDelay = §a%s §7| 当前的关卡延迟启用状态, 关卡完成后会导致延迟一段时间再判定为完成 | 0: 禁用, 1: 延迟0.25秒, 2: 延迟0.50秒, 3: 延迟0.75秒, 4: 延迟1.00秒, 5: 延迟1.25秒
-functions.developer.query.variables.succeed.active.mainHall.resetMapWarningCountdown=§cactive.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7重置地图警告倒计时是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.active.settingCenter.developerModeWarningCountdown=§cactive.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7开发者模式警告倒计时是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.active.settingCenter.resetMapWarningCountdown=§cactive.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置地图警告倒计时是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.active.settingCenter.resetRecordWarningCountdown=§cactive.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置记录警告倒计时是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.active.levelCompleteDelay=active.levelCompleteDelay = §a%s §7| The state of delay when some level is completed. After the level is completed, it will be delayed for a period of time before being judged as completed | 0: disabled, 1: 延迟0.25second, 2: 延迟0.50second, 3: 延迟0.75second, 4: 延迟1.00second, 5: 延迟1.25second
+functions.developer.query.variables.succeed.active.mainHall.resetMapWarningCountdown=§cactive.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7Whether the countdown for the warning of reset map is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.settingCenter.developerModeWarningCountdown=§cactive.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Whether the countdown for the warning of developer mode isenabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.settingCenter.resetMapWarningCountdown=§cactive.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Whether the countdown for the warning of reset map is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.settingCenter.resetRecordWarningCountdown=§cactive.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Whether the countdown for the warning of reset record isenabled | 0: disabled, 1: enabled
 functions.developer.query.variables.succeed.active.sound=active.sound = §a%s §7| Type of sound player, playing different sound effects according to different values | 0: disabled, 1-: enabled
 functions.developer.query.variables.succeed.active.timeline=active.timeline = §a%s §7| Whether the timeline is enabled | 0: disabled, 1-5: enabled and time passed, 5-: enabled
 functions.developer.query.variables.succeed.data=§l===== data =====
-functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o(DIY Level only) §r§7是否处于Edit mode | 0: Game mode, 1: Edit mode
-functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o(DIY Level only) §r§7是否处于Edit mode | 0: Game mode, 1: Edit mode
-functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o(DIY Level only) §r§7是否处于Edit mode | 0: Game mode, 1: Edit mode
-functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o(Easter Egg Level 1 only) §r§7树干是否已被破坏 | 0: 未被破坏, 1: 已被破坏
-functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o(Easter Egg Level 2 only) §r§7玩家回答正确的题目数
-functions.developer.query.variables.succeed.data.easterEgg3.finishedParkour=§cdata.easterEgg3.finishedParkour = §a%s §7| §o(Easter Egg Level 3 only) §r§7玩家是否完成了跑酷 | 0: 未完成, 1: 已完成
-functions.developer.query.variables.succeed.data.easterEgg4.likedTimes=§cdata.easterEgg4.likedTimes = §a%s §7| §o(Easter Egg Level 4 only) §r§7玩家选择好评的次数
-functions.developer.query.variables.succeed.data.easterEgg6.playerInLava=§cdata.easterEgg6.playerInLava = §a%s §7| §o(Easter Egg Level 6 only) §r§7玩家是否处于岩浆中 | 0: 未处于, 1: 正处于
-functions.developer.query.variables.succeed.data.endStage2.fireworkLauncher=§cdata.endStage2.fireworkLauncher = §a%s §7| §o(Final End Effect only) §r§7当前正在发射的烟花发射器ID, 同时前一个发射器移除红石块, 后一个发射器重置结构准备发射
-functions.developer.query.variables.succeed.data.hided2.endBlockBroken=§cdata.hided2.endBlockBroken = §a%s §7| §o(Hided Level 2 only) §r§7最后的方块是否已被挖开 | 0: 未被挖开, 1: 已被挖开
-functions.developer.query.variables.succeed.data.hintUsed=data.hintUsed = §a%s §7| 当前关卡下是否使用了提示 | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o(DIY Level only) §r§7Whether in edit mode | 0: Game mode, 1: Edit mode
+functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o(DIY Level only) §r§7Room size | 0: small, 1: middle, 2: large
+functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o(DIY Level only) §r§7The page of the tutorial
+functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o(Easter Egg Level 1 only) §r§7Whether the tree is broken | 0: not broken, 1: broken
+functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o(Easter Egg Level 2 only) §r§7The amount of answers player answered correctly
+functions.developer.query.variables.succeed.data.easterEgg3.finishedParkour=§cdata.easterEgg3.finishedParkour = §a%s §7| §o(Easter Egg Level 3 only) §r§7Whether the player has finished parkour | 0: not yet, 1: finished
+functions.developer.query.variables.succeed.data.easterEgg4.likedTimes=§cdata.easterEgg4.likedTimes = §a%s §7| §o(Easter Egg Level 4 only) §r§7Number of times the player chooses like
+functions.developer.query.variables.succeed.data.easterEgg6.playerInLava=§cdata.easterEgg6.playerInLava = §a%s §7| §o(Easter Egg Level 6 only) §r§7Whether the player is in lava | 0: not in lava, 1: in lava
+functions.developer.query.variables.succeed.data.endStage2.fireworkLauncher=§cdata.endStage2.fireworkLauncher = §a%s §7| §o(Final End Effect only) §r§7The ID of the fireworks dispenser that is currently being fired. At the same time, the former dispenser removes the redstone signal, and the latter dispenser resets the structure and prepares to launch
+functions.developer.query.variables.succeed.data.hided2.endBlockBroken=§cdata.hided2.endBlockBroken = §a%s §7| §o(Hidden Level 2 only) §r§7Whether the last square has been dug up | 0: not been dug, 1: been dug
+functions.developer.query.variables.succeed.data.hintUsed=data.hintUsed = §a%s §7| Whether the hint is used in this level | 0: Used, 1: Not used
 functions.developer.query.variables.succeed.data.isNetease=data.isNetease = §a%s §7| Whether the client is Netease version | 0: International version, 1: China Version
-functions.developer.query.variables.succeed.data.level=data.level = §a%s §7| 当前所处的关卡ID, use command §o/function developer/query/level_id§r§7 to query level ID table to compare
-functions.developer.query.variables.succeed.data.level7.enteredNether=§cdata.level7.enteredNether = §a%s §7| §o(Level 7 only) §r§7玩家是否进入过下界 | 0: 未进入过, 1: 进入过
-functions.developer.query.variables.succeed.data.level13.redstoneActivatedTimes=§cdata.level13.redstoneActivatedTimes = §a%s §7| §o(Level 13 only) §r§7第3部分中红石激活的次数
-functions.developer.query.variables.succeed.data.level18.playerFellIntoVoid=§cdata.level18.playerFellIntoVoid = §a%s §7| §o(Level 18 only) §r§7玩家是否跌入虚空
-functions.developer.query.variables.succeed.data.level22.endBlockBroken=§cdata.level22.endBlockBroken = §a%s §7| §o(Level 22 only) §r§7最后的方块是否已被挖开 | 0: 未被挖开, 1: 已被挖开
-functions.developer.query.variables.succeed.data.levelCompleted=data.levelCompleted = §a%s §7| 当前关卡是否已完成 | 0: 未完成, 1: 已完成
-functions.developer.query.variables.succeed.data.mainHall.actionbarTitleRandom=§cdata.mainHall.actionbarTitleRandom = §a%s §7| §o(Mainhall only) §r§7当前正在播放的随机快捷栏标题
-functions.developer.query.variables.succeed.data.pigAmount=data.pigAmount = §a%s §7| 猪类数目(pig, piglin, zombified piglin included), use command §o/function lib/get_data/amount_pig§r§7 to get data
+functions.developer.query.variables.succeed.data.level=data.level = §a%s §7| Current level ID, use command §o/function developer/query/level_id§r§7 to query level ID table to compare
+functions.developer.query.variables.succeed.data.level7.enteredNether=§cdata.level7.enteredNether = §a%s §7| §o(Level 7 only) §r§7Whether the player has entered the nether | 0: not entered, 1: has entered
+functions.developer.query.variables.succeed.data.level13.redstoneActivatedTimes=§cdata.level13.redstoneActivatedTimes = §a%s §7| §o(Level 13 only) §r§7The number of times redstone is activated in Part 3
+functions.developer.query.variables.succeed.data.level18.playerFellIntoVoid=§cdata.level18.playerFellIntoVoid = §a%s §7| §o(Level 18 only) §r§7Whether the player is fell into the void | 0: not yet, 1: is falling
+functions.developer.query.variables.succeed.data.level22.endBlockBroken=§cdata.level22.endBlockBroken = §a%s §7| §o(Level 22 only) §r§7Whether the last square has been dug up | 0: not been dug, 1: been dug
+functions.developer.query.variables.succeed.data.levelCompleted=data.levelCompleted = §a%s §7| Whether the level is completed | 0: not completed yet, 1: is completed
+functions.developer.query.variables.succeed.data.mainHall.actionbarTitleRandom=§cdata.mainHall.actionbarTitleRandom = §a%s §7| §o(Mainhall only) §r§7Random actionbar title currently playing
+functions.developer.query.variables.succeed.data.pigAmount=data.pigAmount = §a%s §7| Amount of pig(pig, piglin, zombified piglin included), use command §o/function lib/get_data/amount_pig§r§7 to get data
 functions.developer.query.variables.succeed.data.playerAmount=data.playerAmount = §a%s §7| Total number of players, use command §o/function lib/get_data/amount_player§r§7 to get data
-functions.developer.query.variables.succeed.data.settingCenter.creditsViewed=§cdata.settingCenter.creditsViewed = §a%s §7| §o(Setting Center only) §r§7玩家是否已看过制作人列表 | 0: 未看过, 1: 已看过
-functions.developer.query.variables.succeed.data.skipUsed=data.skipUsed = §a%s §7| 当前关卡下是否使用了跳过 | 0: Used, 1: Not used
-functions.developer.query.variables.succeed.data.strategyUsed=data.strategyUsed = §a%s §7| 当前关卡下是否使用了攻略 | 0: Used, 1: Not used
-functions.developer.query.variables.succeed.data.timeLimited4.totalScore=§cdata.timeLimited4.totalScore = §a%s §7| §o(Time Limited Level 4 only) §r§7玩家钓入猪的数目, 钓入猪加1分, 钓入猪灵减1分
-functions.developer.query.variables.succeed.data.timeLimited5.totalScore=§cdata.timeLimited5.totalScore = §a%s §7| §o(Time Limited Level 5 only) §r§7完成的建筑数
+functions.developer.query.variables.succeed.data.settingCenter.creditsViewed=§cdata.settingCenter.creditsViewed = §a%s §7| §o(Setting Center only) §r§7Whether the player has watched the credits | 0: not yet, 1: have watched
+functions.developer.query.variables.succeed.data.skipUsed=data.skipUsed = §a%s §7| Whether the skip is used this level | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.strategyUsed=data.strategyUsed = §a%s §7| Whether the strategy is used this level | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.timeLimited4.totalScore=§cdata.timeLimited4.totalScore = §a%s §7| §o(Time Limited Level 4 only) §r§7For the number of pigs fished by players, 1 point will be added for fishing pigs, and 1 point will be deducted for fishing piglins
+functions.developer.query.variables.succeed.data.timeLimited5.totalScore=§cdata.timeLimited5.totalScore = §a%s §7| §o(Time Limited Level 5 only) §r§7Number of completed buildings
 functions.developer.query.variables.succeed.record=§l===== record记分板 =====
-functions.developer.query.variables.succeed.record.bestTime.minute=record.bestTime.minute = §a%s §7| 最佳时间记录 | 单位: 分钟
-functions.developer.query.variables.succeed.record.bestTime.second=record.bestTime.second = §a%s §7| 最佳时间记录 | 单位: 秒
-functions.developer.query.variables.succeed.record.bestTime.tick=record.bestTime.tick = §a%s §7| 最佳时间记录 | 单位: 游戏刻
-functions.developer.query.variables.succeed.record.endTime.minute=record.endTime.minute = §a%s §7| 本次完成全进度时的时间记录 | 单位: 分钟
-functions.developer.query.variables.succeed.record.endTime.second=record.endTime.second = §a%s §7| 本次完成全进度时的时间记录 | 单位: 秒
-functions.developer.query.variables.succeed.record.endTime.tick=record.endTime.tick = §a%s §7| 本次完成全进度时的时间记录 | 单位: 游戏刻
-functions.developer.query.variables.succeed.record.hintUsed=record.hintUsed = §a%s §7| 使用过的提示总数
-functions.developer.query.variables.succeed.record.mapCompletedTimes=record.mapCompletedTimes = §a%s §7| 地图通关次数
-functions.developer.query.variables.succeed.record.progress.advancement=record.progress.advancement = §a%s §7| 进度完成数
-functions.developer.query.variables.succeed.record.progress.easterEgg=record.progress.easterEgg = §a%s §7| Easter Egg 关卡完成数 | -1: 未解锁Easter Egg 
-functions.developer.query.variables.succeed.record.progress.level=record.progress.level = §a%s §7| 主线关卡完成数
-functions.developer.query.variables.succeed.record.progress.mapStage=record.progress.mapStage = §a%s §7| 地图完成阶段 | 0: 完成主线前, 1: 完成主线但未完成全进度, 2: 完成全进度(已通关) 
-functions.developer.query.variables.succeed.record.progress.timeLimited=record.progress.timeLimited = §a%s §7| Time Limited 关卡完成数 | -1: 未解锁Time Limited 关卡
-functions.developer.query.variables.succeed.record.skipUsed=record.skipUsed = §a%s §7| 使用过的跳过总数
-functions.developer.query.variables.succeed.record.strategyUsed=record.strategyUsed = §a%s §7| 使用过的攻略总数
+functions.developer.query.variables.succeed.record.bestTime.minute=record.bestTime.minute = §a%s §7| Best time record ever | Unit: minute
+functions.developer.query.variables.succeed.record.bestTime.second=record.bestTime.second = §a%s §7| Best time record ever | Unit: second
+functions.developer.query.variables.succeed.record.bestTime.tick=record.bestTime.tick = §a%s §7| Best time record ever | Unit: tick
+functions.developer.query.variables.succeed.record.endTime.minute=record.endTime.minute = §a%s §7| Time record when completing all the advancements this time | Unit: minute
+functions.developer.query.variables.succeed.record.endTime.second=record.endTime.second = §a%s §7| Time record when completing all the advancements this time | Unit: second
+functions.developer.query.variables.succeed.record.endTime.tick=record.endTime.tick = §a%s §7| Time record when completing all the advancements this time | Unit: tick
+functions.developer.query.variables.succeed.record.hintUsed=record.hintUsed = §a%s §7| Amount of used hint
+functions.developer.query.variables.succeed.record.mapCompletedTimes=record.mapCompletedTimes = §a%s §7| Map completed times
+functions.developer.query.variables.succeed.record.progress.advancement=record.progress.advancement = §a%s §7| Advancement completion number
+functions.developer.query.variables.succeed.record.progress.easterEgg=record.progress.easterEgg = §a%s §7| Easter Egg completion number | -1: Easter Egg is not unlocked 
+functions.developer.query.variables.succeed.record.progress.level=record.progress.level = §a%s §7| Mainline completion number
+functions.developer.query.variables.succeed.record.progress.mapStage=record.progress.mapStage = §a%s §7| Map completion stage | 0: Before completing, 1: All mainline completed, but all advancements not, 2: All advancements completed 
+functions.developer.query.variables.succeed.record.progress.timeLimited=record.progress.timeLimited = §a%s §7| Time Limited completion number | -1: Time Limited Levels unlocked
+functions.developer.query.variables.succeed.record.skipUsed=record.skipUsed = §a%s §7| Amount of used skip
+functions.developer.query.variables.succeed.record.strategyUsed=record.strategyUsed = §a%s §7| Amount of used strategy
 functions.developer.query.variables.succeed.settings=§l===== settings =====
 functions.developer.query.variables.succeed.settings.developerMode=settings.developerMode = §a%s §7| Whether developer mode is enabled | 0: disabled, 1: enabled
-functions.developer.query.variables.succeed.settings.gameruleLock=settings.gameruleLock = §a%s §7| 游戏规则是否锁定 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.settings.hintEnabled=settings.hintEnabled = §a%s §7| 提示是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.data.language=data.language = §a%s §7| 当前使用的语言 | 0: 中文, 1: 英文
-functions.developer.query.variables.succeed.settings.levelCompleteDelay=settings.levelCompleteDelay = §a%s §7| 当前的关卡延迟设置 | 0: 禁用, 1: 部分0.25秒, 2: 部分0.50秒, 3: 部分0.75秒, 4: 部分1.00秒, 5: 部分1.25秒, 6: 全部0.25秒, 7: 全部0.50秒, 8: 全部0.75秒, 9: 全部1.00秒, 10: 全部1.25秒
-functions.developer.query.variables.succeed.settings.level30Dialogue=settings.level30Dialogue = §a%s §7| 第30关对话是否启用 | 0: 禁用, 1: 启用, 2: 启用并在第30关解锁后播放音效
-functions.developer.query.variables.succeed.settings.mapTime=settings.mapTime = §a%s §7| 地图时间 | 0: 终为白日, 1: 仅在烟花教程切换黑夜, 2: 终为黑夜, 3: 时间流逝
-functions.developer.query.variables.succeed.settings.oplevel=settings.oplevel = §a%s §7| 地图权限等级
-functions.developer.query.variables.succeed.settings.scoreboardDisplay=settings.scoreboardDisplay = §a%s §7| 记分板显示状态 | 0: 不显示, 1: 显示部分信息, 2: 显示完整信息
-functions.developer.query.variables.succeed.settings.speedrunMode=settings.speedrunMode = §a%s §7| 速通模式是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.settings.skipEnabled=settings.skipEnabled = §a%s §7| 跳过是否启用 | 0: 禁用, 1: 启用
-functions.developer.query.variables.succeed.settings.strategyEnabled=settings.strategyEnabled = §a%s §7| 攻略是否启用 | 0: 禁用, 1: 启用
+functions.developer.query.variables.succeed.settings.gameruleLock=settings.gameruleLock = §a%s §7| Whether the gamerule is locked | 0: not locked, 1: locked
+functions.developer.query.variables.succeed.settings.hintEnabled=settings.hintEnabled = §a%s §7| Whether the hint is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.data.language=data.language = §a%s §7| Currently used language | 0: Chinese, 1: English
+functions.developer.query.variables.succeed.settings.levelCompleteDelay=settings.levelCompleteDelay = §a%s §7| Current level complete delay setting | 0: disabled, 1: Some level 0.25 seconds, 2: Some level 0.50 seconds, 3: Some level 0.75 seconds, 4: Some level 1.00 seconds, 5: Some level 1.25 seconds, 6: All levels 0.25 seconds, 7: All levels 0.50 seconds, 8: All levels 0.75 seconds, 9: All levels 1.00 seconds, 10: All levels 1.25 seconds
+functions.developer.query.variables.succeed.settings.level30Dialogue=settings.level30Dialogue = §a%s §7| Whether the dialogue of level 30 is enabled | 0: disabled, 1: enabled, 2: enabled and play sound after level 30 is unlocked
+functions.developer.query.variables.succeed.settings.mapTime=settings.mapTime = §a%s §7| Map time | 0: Always day, 1: Night in Firework Tutorial, 2: Always night, 3: Time passes
+functions.developer.query.variables.succeed.settings.oplevel=settings.oplevel = §a%s §7| Permission level
+functions.developer.query.variables.succeed.settings.scoreboardDisplay=settings.scoreboardDisplay = §a%s §7| How the scoreboard shows | 0: Not show, 1: Show information partly, 2: Show information fully
+functions.developer.query.variables.succeed.settings.speedrunMode=settings.speedrunMode = §a%s §7| Whether speedrun mode is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.settings.skipEnabled=settings.skipEnabled = §a%s §7| Whether skip is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.settings.strategyEnabled=settings.strategyEnabled = §a%s §7| Whether strategy is enabled | 0: disabled, 1: enabled
 functions.developer.query.variables.succeed.time=§l===== time =====
-functions.developer.query.variables.succeed.time.currentMinute=time.currentMinute = §a%s §7| 当前已游玩时间 | 单位: 分钟
-functions.developer.query.variables.succeed.time.currentSecond=time.currentSecond = §a%s §7| 当前已游玩时间 | 单位: 秒
+functions.developer.query.variables.succeed.time.currentMinute=time.currentMinute = §a%s §7| Currently played time | Unit: minute
+functions.developer.query.variables.succeed.time.currentSecond=time.currentSecond = §a%s §7| Currently played time | Unit: second
 functions.developer.query.variables.succeed.time.dialogue=time.dialogue = §a%s §7| Dialogue time, trigger a conversation after reaching a certain value | Unit: tick
-functions.developer.query.variables.succeed.time.endStage2.fireworkTimer=§ctime.endStage2.fireworkTimer = §a%s §7| §o(Final End Effect only) §r§7烟花发射计时器, 为4时发射, 在0~4循环 | 单位: 游戏刻
-functions.developer.query.variables.succeed.time.levelCompleteDelay=time.levelCompleteDelay = §a%s §7| 关卡延迟完成, 为0时为关卡完成的条件之一 | 单位: 游戏刻
-functions.developer.query.variables.succeed.time.mainHall.actionbarTitleSecond=§ctime.mainHall.actionbarTitleSecond = §a%s §7| §o(Mainhall only) §r§7大厅随机快捷栏标题计时, 在0~1循环 | 单位: 秒
-functions.developer.query.variables.succeed.time.mainHall.resetMapWarningCountdown=§ctime.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7重置地图警告倒计时 | 单位: 秒
-functions.developer.query.variables.succeed.time.remainingTime=time.remainingTime = §a%s §7| 当前关卡剩余时间 | 单位: 秒
-functions.developer.query.variables.succeed.time.settingCenter.developerModeWarningCountdown=§ctime.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7开发者模式警告倒计时 | 单位: 秒
-functions.developer.query.variables.succeed.time.settingCenter.resetMapWarningCountdown=§ctime.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置地图警告倒计时 | 单位: 秒
-functions.developer.query.variables.succeed.time.settingCenter.resetRecordWarningCountdown=§ctime.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7重置记录警告倒计时 | 单位: 秒
+functions.developer.query.variables.succeed.time.endStage2.fireworkTimer=§ctime.endStage2.fireworkTimer = §a%s §7| §o(Final End Effect only) §r§7Firework launcher timer, launch when this value equals to 4, loop through 0 ~ 4 | Unit: tick
+functions.developer.query.variables.succeed.time.levelCompleteDelay=time.levelCompleteDelay = §a%s §7| Level Complete Delay, it's a condition player can complete the level while this value equals to 0 | Unit: tick
+functions.developer.query.variables.succeed.time.mainHall.actionbarTitleSecond=§ctime.mainHall.actionbarTitleSecond = §a%s §7| §o(Mainhall only) §r§7Timer of mainhall actionbar title, cycles from 0 to 1 | Unit: second
+functions.developer.query.variables.succeed.time.mainHall.resetMapWarningCountdown=§ctime.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7Countdown for the warning of reset map | Unit: second
+functions.developer.query.variables.succeed.time.remainingTime=time.remainingTime = §a%s §7| Remaining Time in current time | Unit: second
+functions.developer.query.variables.succeed.time.settingCenter.developerModeWarningCountdown=§ctime.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Countdown for the warning of developer mode | Unit: second
+functions.developer.query.variables.succeed.time.settingCenter.resetMapWarningCountdown=§ctime.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Countdown for the warning of reset map | Unit: second
+functions.developer.query.variables.succeed.time.settingCenter.resetRecordWarningCountdown=§ctime.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Countdown for the warning of reset record | Unit: second
 functions.developer.query.variables.succeed.time.sound=time.sound = §a%s §7| Sound player, which triggers a specific sound when it's 0 | Unit: tick
 functions.developer.query.variables.succeed.time.tick=time.tick = §a%s §7| Add one point every tick, and cycle once every second | Unit: tick
 functions.developer.query.variables.succeed.time.timeline=time.timeline = §a%s §7| Timeline time, trigger commands or functions after reaching a certain value | Unit: tick
@@ -138,18 +139,22 @@ functions.developer.query.variables.succeed.tags=§l===== Tags =====
 functions.developer.query.variables.succeed.tags.isAlive_get=isAlive = §atrue §7| Whether the player is alive
 functions.developer.query.variables.succeed.tags.isAlive_not_get=isAlive = §efalse §7| Whether the player is alive
 
+functions.developer.unlock_levels.advancement.fail=§cFailed to complete all advancements while all advancements are completeed
+functions.developer.unlock_levels.advancement.succeed=All advancements have been completed
+
 functions.entities.player.using_play_music=§bNew music has been played for you ~
 
-functions.halls.settings.explore_map.subtitle=§l§bPreview map
-functions.halls.settings.explore_map.actionbar_title=§l§bPreview map§r§f | Head up to back to setting center
+functions.halls.settings.explore_map.subtitle=§l§bPreview Map
+functions.halls.settings.explore_map.actionbar_title=§l§bPreview Map§r§f | Head up to back to setting center
 functions.halls.settings.explore_map.events.tp_player_back=§cHi, don't go too far please~ =w=
+functions.halls.settings.miscellneous.subtitle=§l§bMiscellneous Settings
 
 functions.levels.hided.level_2.complete.let_level_22_completed=§bSince you have passed such a difficult level, well, I'll let you pass level 22 directly too! (～￣▽￣)～ 
 functions.levels.mainline.level_10.dialogue.line1=§bWAIT!!!
 functions.levels.mainline.level_10.dialogue.line2=§bWhat have you just crafted??
 functions.levels.mainline.level_10.dialogue.line3=§bA PINK BED?!!
 functions.levels.mainline.level_10.dialogue.line4=§bWHAT?!! YOU ARE SO LUCKY!! o(≧口≦)o
-functions.levels.mainline.level_10.dialogue.line5=§bYou have to know that the probability of spawning a pink sheep is ONLY 0.1558%%! 	## %%是为了显示出一个%
+functions.levels.mainline.level_10.dialogue.line5=§bYou have to know that the probability of spawning a pink sheep is ONLY 0.1558%!
 functions.levels.mainline.level_10.dialogue.line6=§bAnd based on that, there will be another 1/3 chance to get 3 wools...... ┌(。Д。)┐
 functions.levels.mainline.level_10.dialogue.line7=§bGive me your address, I'm gonna steal your luck! OwO
 
@@ -164,7 +169,6 @@ functions.lib.modify_data.developer_gamemode.change_to_spectator.fail.already_in
 
 functions.settings.developer_mode.disabled=Developer mode is disabled
 functions.settings.developer_mode.enabled=Developer mode is enabled
-
 
 ## ===== Translations in version 2.3 =====
 
@@ -241,10 +245,10 @@ actionbar.open.set_difficulty_line4=§cSpeedrun§7 - Locks to Hard, precise time
 #### The description of all levels
 actionbar.description.level_1=SO EASY!
 actionbar.description.level_2=Everyone knows it~
-actionbar.description.level_3=What can this do to help you achieve your goals?
+actionbar.description.level_3=What can they do to help you achieve your goals?
 actionbar.description.level_4=Choking! Call 911!!! (no
 actionbar.description.level_5=At least much more heavier than you
-actionbar.description.level_6=Tips: Don't go swimming by the river in real life!
+actionbar.description.level_6=Tip: Don't go swimming by the river in real life!
 actionbar.description.level_7=Just guess
 actionbar.description.level_8=So EASY *2~
 actionbar.description.level_9=ZiMin: This level still needs a little brains
@@ -297,7 +301,7 @@ actionbar.random_hint6=§a== Don't use hint if you don't need it! ==§r
 actionbar.random_hint7=§a== Difficulty not right? Adjust in Setting Center! ==§r
 actionbar.random_hint8=§a== R-click on PC, long-press on mobile to use usable items ==§r
 actionbar.random_hint9=§a== Wanna be Ironman? Wear the suit! ==§r
-actionbar.random_hint10=§a== Stuck on a level? Use hints! ==§r
+actionbar.random_hint10=§a== Stuck in a level? Use hints! ==§r
 actionbar.random_hint11=§a== Silently chant "author handsome = success" =) ==§r
 actionbar.random_hint12=§a== In this map, luck is very important! ==§r
 actionbar.random_hint13=§a== V2.3! Functionalization! YEAH!!! ==§r
@@ -313,9 +317,9 @@ actionbar.random_hint21=§a== No record for Time Limited & Easter Egg levels' au
 #### Room name | Subsettings of setting center, tutorial level
 actionbar.setting_center.about=§l§bAbout§r
 actionbar.setting_center.advanced_settings=§l§bPermission Level Setting and Advanced Setting§r
-actionbar.setting_center.difficulty_and_language=§l§bDifficulty and Language Settings§r
-actionbar.setting_center.firework_settings=§l§bFirework settings for end effect§r
-actionbar.setting_center.explore_map=§l§bPreview map§r | Use Back to go back | No falling, barriers in place~
+actionbar.setting_center.difficulty_and_speedrun_mode=§l§bDifficulty and Speedrun Settings§r
+actionbar.setting_center.firework_settings=§l§bFirework Settings for End Effect§r
+actionbar.setting_center.explore_map=§l§bPreview Map§r | Use Back to go back | No falling, barriers in place~
 actionbar.setting_center.questions_and_answers=§l§bRule, play and Q&A of the map§r
 actionbar.tutorial_level=§b§lTutorial Level
 #### Developer Mode
@@ -761,13 +765,13 @@ chat.how_to_play.line20=§7* Only mainline levels are recorded | * The statistic
 chat.how_to_play.line21=§lAuxiliary functions and items
 chat.how_to_play.line22=§7Each level provides §fauxiliary functions§7 for you~
 chat.how_to_play.line23=§7§fReset§7 allows you to restart the level, while §fExit§7 allows you to leave the level directly. (～￣▽￣)～
-chat.how_to_play.line24=§7If your "map difficulty" allows, you can also get hints, strategies, and skipping!
+chat.how_to_play.line24=§7If your "map difficulty" allows, you can also get §fHint, Strategy, and Skip§7!
 chat.how_to_play.line25=§7§fHints§7 provide you with a general idea of how to pass, §fstrategies§7 give you complete walkthroughs, while §fskipping§7 is a quick way to get rid of the level. ψ(｀∇´)ψ
-chat.how_to_play.line26=§7§fUsing hints, strategies, and skipping on unfinished main levels will be recorded!§7 Please use them with caution. (＃°Д°)
+chat.how_to_play.line26=§7§fUsing §fHint, Strategy, and Skip§7 on unfinished main levels will be recorded!§7 Please use them with caution. (＃°Д°)
 chat.how_to_play.line27=§7Please §fright-click (or long-press for mobile players)§7 to use these "usable items" directly!
 chat.how_to_play.line28=§lAdvancements
 chat.how_to_play.line29=§7The map has various advancements waiting for you to explore! Enter the Advancement Center to view details.
-chat.how_to_play.line30=§7Complete all 30 advancements, and you'll have pretty much explored the entire map! Keep going and complete these advancements, there's a surprise waiting for you at the end~
+chat.how_to_play.line30=§7Complete all 30 advancements, and you'll have explored the map entirely! Keep going and complete these advancements, there's a surprise waiting for you at the end~
 chat.how_to_play.line31=That's it! I might have said too much... but have fun playing! If you encounter any problems, you can join the QQ group chat: 673941729. Feel free to speak kindly~
 
 #### Map Rule
@@ -857,8 +861,8 @@ chat.developer.query.level_id.line8=10 Mainline Level 10 | 11 Mainline Level 11 
 chat.developer.query.level_id.line9=15 Mainline Level 15 | 16 Mainline Level 16 | 17 Mainline Level 17 | 18 Mainline Level 18 | 19 Mainline Level 19
 chat.developer.query.level_id.line10=20 Mainline Level 20 | 21 Mainline Level 21 | 22 Mainline Level 22 | 23 Mainline Level 23 | 24 Mainline Level 24
 chat.developer.query.level_id.line11=25 Mainline Level 25 | 26 Mainline Level 26 | 27 Mainline Level 27 | 28 Mainline Level 28 | 29 Mainline Level 29
-chat.developer.query.level_id.line12=30 Mainline Level 30 | 31 Mainline Level 13 Part 2 | 32 Mainline Level 13 Part 3 | 33 Hided Level 1 | 34 Hided Level 2
-chat.developer.query.level_id.line13=35 Hided Level 3 | 36 Time Limited Level 1 | 37 Time Limited Level 2 | 38 Time Limited Level 3 | 39 Time Limited Level 4
+chat.developer.query.level_id.line12=30 Mainline Level 30 | 31 Mainline Level 13 Part 2 | 32 Mainline Level 13 Part 3 | 33 Hidden Level 1 | 34 Hidden Level 2
+chat.developer.query.level_id.line13=35 Hidden Level 3 | 36 Time Limited Level 1 | 37 Time Limited Level 2 | 38 Time Limited Level 3 | 39 Time Limited Level 4
 chat.developer.query.level_id.line14=40 Time Limited Level 5 | 41 Easter Egg Level 1 | 42 Easter Egg Level 2 | 43 Easter Egg Level 3 | 44 Easter Egg Level 4
 chat.developer.query.level_id.line15=45 Easter Egg Level 5 | 46 Easter Egg Level 6 | 47 Easter Egg Level 7 | 48 Easter Egg Level 8 | 49 Easter Egg Level 9
 chat.developer.query.level_id.line16=50 Easter Egg Level 10 | 51 DIY Level 1 | 52 DIY Level 2 | 53 DIY Level 3 | 54 DIY Level 4
@@ -924,7 +928,7 @@ chat.developer.query.structure.line20=
 chat.developer.query.structure.line21=firework:tutorial_1 Firework Tutorial Step 1 | firework:tutorial_2 Firework Tutorial Step 2 | firework:tutorial_3 Firework Tutorial Step 3 | firework:tutorial_4 Firework Tutorial Step 4 | firework:tutorial_5 Firework Tutorial Step 5
 chat.developer.query.structure.line22=firework:tutorial_6 Firework Tutorial Step 6 | firework:tutorial_7 Firework Tutorial Step 7 | firework:tutorial_8 Firework Tutorial Step 8 | firework:settings Setting Room for Firework Show | firework_dispenser *Firework Dispenser for Firework Show
 chat.developer.query.structure.line23= 
-chat.developer.query.structure.line24=hided:level_1 Hided Level 1 | hided:level_2 Hided Level 2 | hided:level_3 Hided Level 3
+chat.developer.query.structure.line24=hided:level_1 Hidden Level 1 | hided:level_2 Hidden Level 2 | hided:level_3 Hidden Level 3
 chat.developer.query.structure.line25= 
 chat.developer.query.structure.line26=system:logo Origin Logo of the Map | system:logo_completed Completed Logo of the Map | system:ban Ban Item Frame | system:tutorial_cb Command Block of Tutorial Level | system:tutorial_chest Chest of Tutorial Level
 chat.developer.query.structure.line27=system:advancement_wall Empty Wall in Advancement Center
@@ -1007,9 +1011,9 @@ title.time_limited_2=§l§6Time Limited§f - Level §e2§r
 title.time_limited_3=§l§6Time Limited§f - Level §e3§r
 title.time_limited_4=§l§6Time Limited§f - Level §e4§r
 title.time_limited_5=§l§6Time Limited§f - Level §e5§r
-title.hided_1=§l§aHided§f - Level §a1§r
-title.hided_2=§l§aHided§f - Level §a2§r
-title.hided_3=§l§aHided§f - Level §a3§r
+title.hided_1=§l§aHidden§f - Level §a1§r
+title.hided_2=§l§aHidden§f - Level §a2§r
+title.hided_3=§l§aHidden§f - Level §a3§r
 title.diy_1=§l§bDIY Level§f - Level §a1§r
 title.diy_2=§l§bDIY Level§f - Level §a2§r
 title.diy_3=§l§bDIY Level§f - Level §a3§r
@@ -1033,7 +1037,7 @@ subtitle.hall=Select a level
 subtitle.easter_egg_hall=STRANGE, ANGESTR, ANSTGER, GERANST
 subtitle.time_limited_hall=Time limit! Can you complete these levels?
 subtitle.diy_hall=Customize a level that belongs to you!
-subtitle.setting_center=Personalized setting map
+subtitle.setting_center=Personalize the map
 subtitle.advancement_center=Check your advencements!
 subtitle.stats_center=See how many auxiliary functions you used!
 subtitle.firework_tutorial=Let's see how to make cool fireworks!
@@ -1043,11 +1047,11 @@ subtitle.level_2=Take a Hot Bath
 subtitle.level_3=Desert Messenger
 subtitle.level_4=Lose Your Breath
 subtitle.level_5=How Heavy!
-subtitle.level_6=Paddle
+subtitle.level_6=Puddle
 subtitle.level_7=The Door to the Unknown
 subtitle.level_8=The Door to the Unknown - 2
 subtitle.level_9=Moo~
-subtitle.level_10=Meh~
+subtitle.level_10=Baah~
 subtitle.level_11=Sombee
 subtitle.level_12=Parabola
 subtitle.level_13=Redstone Engineer's Challenge
@@ -1087,8 +1091,8 @@ subtitle.hided_1=Author's Photo
 subtitle.hided_2=The Real Maze Means Amazing!
 subtitle.hided_3=Final lev... wait, I crossed?
 
-subtitle.open_1=§eYZBWDLT §fMade
-subtitle.open_2=§eAcme Building Workshop §fPresent
+subtitle.open_1=§fMade by §eYZBWDLT
+subtitle.open_2=§fPresented by §eAcme Building Workshop
 subtitle.end_1=§lAUTHOR§r§f | §eYZBWDLT
 subtitle.end_2=§c§l
 subtitle.end_3=§b§l
