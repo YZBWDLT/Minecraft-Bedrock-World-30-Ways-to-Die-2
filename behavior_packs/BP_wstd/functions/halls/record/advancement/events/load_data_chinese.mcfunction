@@ -48,7 +48,7 @@ execute if score advancement.moreSkilled record matches 1 if score advancement.e
 ##        当[藏得够深的！]未已完成但[小试牛刀]已完成，放置8号；
 execute if score advancement.moreSkilled record matches 1 if score advancement.easterEggFound record matches 0 run setblock -105 20 21 wstd:quartz_block_with_line_8
 ##        当[藏得够深的！]已完成但[小试牛刀]未已完成，放置7号；
-execute if score advancement.moreSkilled record matches 0 if score advancement.easterEggFound record matches 1 run setblock -105 20 21 wstd:quartz_block_with_line_7
+execute if score advancement.moreSkilled record matches -1..0 if score advancement.easterEggFound record matches 1 run setblock -105 20 21 wstd:quartz_block_with_line_7
 ## * 第5位当[小试牛刀]已完成，放置7号
 execute if score advancement.moreSkilled record matches 1 run setblock -105 19 21 wstd:quartz_block_with_line_7
 
