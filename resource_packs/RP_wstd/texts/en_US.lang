@@ -224,21 +224,21 @@ functions.settings.how_to_play.how_to_play.subtitle_1=§aUse given items to die 
 
 functions.settings.how_to_play.levels.title=§bLEVELS
 functions.settings.how_to_play.levels.subtitle_1=§aWe have 30 Mainline Levels, go for it!
-functions.settings.how_to_play.levels.subtitle_2=§aThere are also 10 Easter Egg Levels, hidden somewhere in the main hall and try to find it!
-functions.settings.how_to_play.levels.subtitle_3=§a5 Time Limited Levels! Time to challenge your speed!
+functions.settings.how_to_play.levels.subtitle_2=§aThere are also 10 Easter Egg Levels hidden somewhere in the main hall, try to find it!
+functions.settings.how_to_play.levels.subtitle_3=§a5 Time Limited Levels! Beat them to challenge your speed!
 functions.settings.how_to_play.levels.subtitle_4=§aDIY Levels, try to make your own levels!
 
 functions.settings.how_to_play.aux_functions.title=§bAUXILIARY FUNCTIONS
 functions.settings.how_to_play.aux_functions.subtitle_1=§aYou can use §eReset §aor §cQuit §ain every level
 functions.settings.how_to_play.aux_functions.subtitle_2=§bStrategy§a will tell you how to complete this level in detail
 functions.settings.how_to_play.aux_functions.subtitle_3=§aHint will tell you the key idea of how to complete this level
-functions.settings.how_to_play.aux_functions.subtitle_4=§cSkip§a will let you complete the level directly!
+functions.settings.how_to_play.aux_functions.subtitle_4=§cSkip§a will let you skip the level directly!
 
 functions.settings.how_to_play.stats.title=§bSTATS
-functions.settings.how_to_play.stats.subtitle=§aUse of Hint, §bStrategy, §cSkip§a before completing the level will be recorded
+functions.settings.how_to_play.stats.subtitle=§aUse of Hint, §bStrategy, §cSkip§a before first completion will be recorded
 
 functions.settings.how_to_play.advancements.title=§bADVANCEMENTS
-functions.settings.how_to_play.advancements.subtitle=§aComplete all 30 advancements to complete the map!
+functions.settings.how_to_play.advancements.subtitle=§aComplete all 30 advancements to beat the map!
 
 ## ===== Translations in version 2.3 =====
 
@@ -516,7 +516,7 @@ chat.end.advancements_completed.line12=<YZBWDLT> This map has cost me a lot of e
 chat.end.advancements_completed.line13=<YZBWDLT> Back and forth, this map has undergone four major updates, with a time span of several years.
 chat.end.advancements_completed.line14=<YZBWDLT> Exhausted efforts, and ultimately only hope that you have fun, I wonder if you are satisfied with this map?
 chat.end.advancements_completed.line15=<YZBWDLT> If you don't feel satisfied, you can start the whole map again and try to speedrun the whole map! ヾ(≧▽≦*)o
-chat.end.advancements_completed.line16=<YZBWDLT> My speedrun grade is 27:41. I wonder if you can surpass me?
+chat.end.advancements_completed.line16=<YZBWDLT> My speedrun grade is 27:12. I wonder if you can surpass me?
 chat.end.advancements_completed.line17=<YZBWDLT> Well, that's it. Thank you again for your playing! If you like, you can share it with others, or help me put forward suggestions for improvement in the comments section!
 chat.end.advancements_completed.line18=<YZBWDLT> Finally, remind you again that this is just a game, please love your life and cherish your life! Then I'll see you on the next map. Bye!ヾ(•ω•`)o
 
