@@ -23,8 +23,3 @@ execute if score speedrunMode settings matches 1 run function halls/settings/mai
 
 ## 复制展示框
 execute if score speedrunMode settings matches 1 if score tick time matches 2 run clone -98 17 49 -109 17 43 -109 21 43
-
-# --- 展示文本 ---
-execute if score language data matches 0 if score tick time matches 3 run function halls/settings/main/text_display/chinese
-execute if score language data matches 1 if score tick time matches 3 run function halls/settings/main/text_display/english
-
