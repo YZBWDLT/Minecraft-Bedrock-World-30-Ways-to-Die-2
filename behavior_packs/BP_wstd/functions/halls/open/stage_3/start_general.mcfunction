@@ -13,10 +13,10 @@ function lib/modify_data/hall_start
 ## 状态（时间线）
 function lib/modify_states/timeline/disable
 
-# --- 特殊内容 ---
+## 传送玩家
+tp @a 45 21 -27 0 0
 
-## 显示游戏规则
-execute as @a run function settings/map_rule
+# --- 特殊内容 ---
 
 ## 给予玩家下一步
 replaceitem entity @a slot.hotbar 4 wstd:next_step 1 0 {"item_lock": { "mode": "lock_in_inventory" }}
@@ -26,3 +26,7 @@ fill 41 21 -21 49 25 -29 air
 
 ## 播放音效
 function lib/modify_states/sound/random_levelup_2
+
+## 显示展示文本
+execute if score language data matches 0 run function halls/open/stage_3/text_display/chinese
+execute if score language data matches 1 run function halls/open/stage_3/text_display/english

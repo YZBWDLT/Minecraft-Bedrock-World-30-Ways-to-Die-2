@@ -3,9 +3,9 @@
 
 # --- 使用情况不在预期内时 ---
 
-## 不在标准的关卡下 | 特殊情况：-18不清理，-18在使用时不会做任何事情
-execute unless score level data matches -18 unless score level data matches -14 unless score level data matches 1..60 run tellraw @s {"rawtext":[{"translate":"functions.general.error.not_normal_levels"}]}
-execute unless score level data matches -18 unless score level data matches -14 unless score level data matches 1..60 run clear @a wstd:quit
+## 不在标准的关卡下 | 特殊情况：-18和-9不清理，它们在使用时不会做任何事情
+execute unless score level data matches -18 unless score level data matches -14 unless score level data matches -9 unless score level data matches 1..60 run tellraw @s {"rawtext":[{"translate":"functions.general.error.not_normal_levels"}]}
+execute unless score level data matches -18 unless score level data matches -14 unless score level data matches -9 unless score level data matches 1..60 run clear @a wstd:quit
 
 # --- 使用情况在预期内时 ---
 

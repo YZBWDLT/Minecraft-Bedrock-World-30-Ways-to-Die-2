@@ -3,7 +3,7 @@
 # --- 当玩家进入时，倒计时处于激活状态，重置地图记录 ---
 
 ## 重置地图记录
-execute if score settingCenter.resetRecordWarningCountdown active matches 1 run function lib/modify_data/init/record
+execute if score settingCenter.resetRecordWarningCountdown active matches 1 run function developer/reset/record
 execute if score settingCenter.resetRecordWarningCountdown active matches 1 run function lib/modify_states/sound/random_pop
 ## 更改状态为0（间接的，先切换为2，再改为0）
 execute if score settingCenter.resetRecordWarningCountdown active matches 1 run scoreboard players add settingCenter.resetRecordWarningCountdown active 1

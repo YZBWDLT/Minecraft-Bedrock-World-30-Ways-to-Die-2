@@ -14,6 +14,9 @@ execute if score level data matches -13 if score progress.mapStage record matche
 ## -13 | 第一次结束地图时 | 主线关卡完成后 record.progress.mapStage = 1~2
 execute if score level data matches -13 if score progress.mapStage record matches 1..2 run function halls/end/stage_2/dialogue
 
+## -9 | 玩家正在查看如何游玩时
+execute if score level data matches -9 run function halls/settings/about/dialogue
+
 # 10 | 当玩家合成出粉床后出现的彩蛋对话
 execute if score level data matches 10 run function levels/mainline/level_10/dialogue
 

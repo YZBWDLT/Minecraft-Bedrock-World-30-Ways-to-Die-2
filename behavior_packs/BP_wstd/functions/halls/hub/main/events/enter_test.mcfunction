@@ -138,7 +138,7 @@ execute as @a[x=-38.5,y=9,z=29.5,r=0.5] run function halls/hub/main/functions/tp
 # --- 起始屋 ---
 
 ## 地图玩法 | 当完成3关后显示
-execute as @a[x=24,y=9,z=30,r=0.75] if score progress.level record matches 3.. run function halls/hub/main/functions/how_to_play
+execute as @a[x=24.5,y=9,z=30.5,r=0.5] if score progress.level record matches 3.. run function halls/hub/main/functions/how_to_play
 
 # --- 结束屋 ---
 

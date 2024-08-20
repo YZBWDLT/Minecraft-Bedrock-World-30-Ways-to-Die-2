@@ -12,6 +12,7 @@ function lib/modify_data/hall_start
 
 ## 状态（时间线）
 function lib/modify_states/timeline/enable_6
+function lib/modify_states/dialogue/disable
 
 ## 显示展示文本
 execute if score language data matches 0 run function halls/hub/main/text_display/chinese
