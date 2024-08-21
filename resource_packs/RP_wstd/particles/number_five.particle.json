@@ -5,7 +5,7 @@
 			"identifier": "wstd:five",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
-				"texture": "textures/new_particles/numbers"
+				"texture": "textures/particle/new_particles/numbers"
 			}
 		},
 		"components": {

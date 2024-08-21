@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "minecraft:paper",
+                    "type": "item",
+                    "functions": [
+                        { "function": "set_name", "name": "§r§fPaper" },
+                        { "function": "set_lore", "lore": [ "Well... it's just a useless paper, you know..." ] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

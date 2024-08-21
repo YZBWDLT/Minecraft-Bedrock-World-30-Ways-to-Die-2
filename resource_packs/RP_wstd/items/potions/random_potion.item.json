@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:item": {
+        "description": {
+            "category": "Equipment",
+            "identifier": "wstd:random_potion"
+        },
+        "components": {
+            "minecraft:icon": "random_potion",
+            "minecraft:use_animation": "drink"
+        }
+    }
+}

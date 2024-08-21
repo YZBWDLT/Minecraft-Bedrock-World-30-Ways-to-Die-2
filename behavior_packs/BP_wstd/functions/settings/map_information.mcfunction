@@ -1,7 +1,19 @@
-tellraw @s {"rawtext":[{"translate":"chat.map_information.line1"}]}
-tellraw @s {"rawtext":[{"translate":"chat.map_information.line2"}]}
-tellraw @s {"rawtext":[{"translate":"chat.map_information.line3"}]}
-tellraw @s {"rawtext":[{"translate":"chat.map_information.line4"}]}
-tellraw @s {"rawtext":[{"translate":"chat.map_information.line5"}]}
+# ===== 地图信息 =====
 
-scoreboard players set @e[name=soundPlayer] active 3
+# --- 正文 ---
+
+tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.title"}]}
+
+## 国际版
+execute if score isNetease data matches 0 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.international.map_version"}]}
+execute if score isNetease data matches 0 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.international.platforms"}]}
+execute if score isNetease data matches 0 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.international.min_engine_version"}]}
+execute if score isNetease data matches 0 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.international.price"}]}
+
+## 网易版
+execute if score isNetease data matches 1 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.netease.map_version"}]}
+execute if score isNetease data matches 1 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.netease.min_engine_version"}]}
+execute if score isNetease data matches 1 run tellraw @s {"rawtext":[{"translate":"functions.settings.map_information.netease.price"}]}
+
+# --- 音效 ---
+function lib/modify_states/sound/mob_villager_yes

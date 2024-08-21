@@ -1,3 +1,247 @@
+## ===== Translations in version 2.4 =====
+
+item.wstd:change_to_creative=Change To Creative Mode
+item.wstd:change_to_survival=Change To Survival Mode
+item.wstd:change_to_adventure=Change To Adventure Mode
+item.wstd:change_to_spectator=Change To Spectator Mode
+item.wstd:language_test.name=Language Test
+item.wstd:random_potion_used.name=Random Potion Used
+
+functions.general.error.not_normal_levels=§cFailed to use this function while not in normal levels
+functions.general.need_developer_mode=§cThis function is only available in developer mode
+functions.general.not_available_in_this_level=§cFailed to use this function while this function is not turned on at this level
+functions.general.used_hint=§cOops... this is the first time you play this level, so I have to record this use of Hint! ψ(｀∇´)ψ
+functions.general.used_strategy=§cOops... this is the first time you play this level, so I have to record this use of Strategy! ψ(｀∇´)ψ
+functions.general.used_skip=§cOops... this is the first time you play this level, so I have to record this use of Skip! ψ(｀∇´)ψ
+functions.general.new_advancements_opened=§7New advancements have been opened.§r
+
+functions.developer.query.stats.succeed.line1=§a0: Unused §a1: Used
+functions.developer.query.stats.succeed.hint=§l===== Hints =====
+functions.developer.query.stats.succeed.strategy=§l===== Strategies =====
+functions.developer.query.stats.succeed.general_line1=Level 1 §a%s §f| Level 2 §a%s §f| Level 3 §a%s §f| Level 4 §a%s §f| Level 5 §a%s
+functions.developer.query.stats.succeed.general_line2=Level 6 §a%s §f| Level 7 §a%s §f| Level 8 §a%s §f| Level 9 §a%s §f| Level 10 §a%s
+functions.developer.query.stats.succeed.general_line3=Level 11 §a%s §f| Level 12 §a%s §f| Level 13 Part 1 §a%s §f| Level 14 §a%s §f| Level 15 §a%s
+functions.developer.query.stats.succeed.general_line4=Level 16 §a%s §f| Level 17 §a%s §f| Level 18 §a%s §f| Level 19 §a%s §f| Level 23 §a%s
+functions.developer.query.stats.succeed.general_line5=Level 24 §a%s §f| Level 25 §a%s §f| Level 26 §a%s §f| Level 27 §a%s §f| Level 28 §a%s
+functions.developer.query.stats.succeed.general_line6=Level 29 §a%s
+functions.developer.query.stats.succeed.skip=§l===== Skips =====
+functions.developer.query.stats.succeed.skip_line1=Level 13 Part 1 §a%s §f| Level 13 Part 2 §a%s §f| Level 13 Part 3 §a%s §f| Level 20 §a%s §f| Level 21 §a%s
+functions.developer.query.stats.succeed.skip_line2=Level 22 §a%s §f| Level 30 §a%s
+
+functions.developer.query.variables.succeed.line1=Format: <Objective>.<Name>=<Value>.
+functions.developer.query.variables.succeed.line2=§eYellow: Used <Marker> entity to store data
+functions.developer.query.variables.succeed.line3=§bAqua: Player data
+functions.developer.query.variables.succeed.line4=§cRed: Level unique variables
+functions.developer.query.variables.succeed.player_data=§l===== Player Data =====
+functions.developer.query.variables.succeed.dimension.@s=§bdimension.@s = §a%s §7| Player dimension | 0: Overworld, 1: Nether, 2: The End
+functions.developer.query.variables.succeed.isOnline.@s=§bisOnline.@s = §a%s §7| Whether the player is online | 0: Just entered the game, 1: Is online
+functions.developer.query.variables.succeed.active=§l===== active =====
+functions.developer.query.variables.succeed.active.dialogue=active.dialogue = §a%s §7| Whether the dialogue is enabled | 0: disabled, 1-5: enabled and time passed, 6-10: enabled, time passed and camera locked, 9-: enabled
+functions.developer.query.variables.succeed.active.easterEgg5.itemTestDiamondPickaxe=§cactive.easterEgg5.itemTestDiamondPickaxe = §a%s §7| §o(EE 05 only) §r§7The test state of §oDiamond Pickaxe§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.easterEgg5.itemTestIronPickaxe=§cactive.easterEgg5.itemTestIronPickaxe = §a%s §7| §o(EE 05 only) §r§7The test state of §oIron Pickaxe§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.easterEgg7.itemTestLever=§cactive.easterEgg7.itemTestLever = §a%s §7| §o(EE 07 only) §r§7The test state of §oLever§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestBrewingStand=§cactive.hided3.itemTestBrewingStand = §a%s §7| §o(Hidden 03 only) §r§7The test state of §oBrewing Stand§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestCraftingTable=§cactive.hided3.itemTestCraftingTable = §a%s §7| §o(Hidden 03 only) §r§7The test state of §oCrafting Table§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestFurnace=§cactive.hided3.itemTestFurnace = §a%s §7| §o(Hidden 03 only) §r§7The test state of §oFurnace§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestWoodenPickaxe=§cactive.hided3.itemTestWoodenPickaxe = §a%s §7| §o(Hidden 03 only) §r§7The test state of §oWooden Pickaxe§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.hided3.itemTestStonePickaxe=§cactive.hided3.itemTestStonePickaxe = §a%s §7| §o(Hidden 03 only) §r§7The test state of §oStone Pickaxe§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level9.itemTestCraftingTable=§cactive.level9.itemTestCraftingTable = §a%s §7| §o(ML 09 only) §r§7The test state of §oCrafting Table§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestBlackBed=§cactive.level10.itemTestBlackBed = §a%s §7| §o(ML 10 only) §r§7The test state of §oBlack Bed§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestBrownBed=§cactive.level10.itemTestBrownBed = §a%s §7| §o(ML 10 only) §r§7The test state of §oBrown Bed§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestGrayBed=§cactive.level10.itemTestGrayBed = §a%s §7| §o(ML 10 only) §r§7The test state of §oGray Bed§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestLightGrayBed=§cactive.level10.itemTestLightGrayBed = §a%s §7| §o(ML 10 only) §r§7The test state of §oLight Gray Bed§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestPinkBed=§cactive.level10.itemTestPinkBed = §a%s §7| §o(ML 10 only) §r§7The test state of §oPink Bed§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level10.itemTestWhiteBed=§cactive.level10.itemTestWhiteBed = §a%s §7| §o(ML 10 only) §r§7The test state of §oWhite Bed§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level13.itemTestRedstoneRepeater=§cactive.level13.itemTestRedstoneRepeater = §a%s §7| §o(ML 13 only) §r§7The test state of §oRedstone Repeater§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level20.itemTestBrewingStand=§cactive.level20.itemTestBrewingStand = §a%s §7| §o(ML 20 only) §r§7The test state of §oBrewing Stand§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level20.itemTestCraftingTable=§cactive.level20.itemTestCraftingTable = §a%s §7| §o(ML 20 only) §r§7The test state of §oCrafting Table§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level20.itemTestWaterBucket=§cactive.level20.itemTestWaterBucket = §a%s §7| §o(ML 20 only) §r§7The test state of §oWater Bucket§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.level26.itemTestDispenser=§cactive.level26.itemTestDispenser = §a%s §7| §o(ML 26 only) §r§7The test state of §oDispenser§r§7, after which passed the usable item and tip are given | 0: Stop testing, 1: Is testing
+functions.developer.query.variables.succeed.active.levelCompleteDelay=active.levelCompleteDelay = §a%s §7| The state of completion delay. After the level is completed, it will be delayed before being judged as completed. | 0: disabled, 1: 0.25 s, 2: 0.50 s, 3: 0.75 s, 4: 1.00 s, 5: 1.25 s
+functions.developer.query.variables.succeed.active.mainHall.resetMapWarningCountdown=§cactive.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7Whether the warning countdown for Reset Map is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.settingCenter.developerModeWarningCountdown=§cactive.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Whether the warning countdown for Developer Mode is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.settingCenter.resetMapWarningCountdown=§cactive.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Whether the warning countdown for Reset Map is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.settingCenter.resetRecordWarningCountdown=§cactive.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Whether the warning countdown for Reset Record is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.active.sound=active.sound = §a%s §7| Type of sound players, which play different sound effects according to values | 0: disabled, 1-: enabled
+functions.developer.query.variables.succeed.active.timeline=active.timeline = §a%s §7| Whether the timeline is enabled | 0: disabled, 1-5: enabled and time passed, 5-: enabled
+functions.developer.query.variables.succeed.data=§l===== data =====
+functions.developer.query.variables.succeed.data.diyLevels.isEditMode=§cdata.diyLevels.isEditMode = §a%s §7| §o(DIY only) §r§7Whether in edit mode | 0: Game mode, 1: Edit mode
+functions.developer.query.variables.succeed.data.diyLevels.roomSize=§cdata.diyLevels.roomSize = §a%s §7| §o(DIY only) §r§7Room size | 0: small, 1: middle, 2: large
+functions.developer.query.variables.succeed.data.diyLevels.step=§cdata.diyLevels.step = §a%s §7| §o(DIY only) §r§7The page of the tutorial
+functions.developer.query.variables.succeed.data.easterEgg1.treeBlockBroken=§cdata.easterEgg1.treeBlockBroken = §a%s §7| §o(EE 01 only) §r§7Whether the tree is broken | 0: not broken, 1: broken
+functions.developer.query.variables.succeed.data.easterEgg2.totalScore=§cdata.easterEgg2.totalScore = §a%s §7| §o(EE 02 only) §r§7The number of questions player answers correctly
+functions.developer.query.variables.succeed.data.easterEgg3.finishedParkour=§cdata.easterEgg3.finishedParkour = §a%s §7| §o(EE 03 only) §r§7Whether the player finishs parkour | 0: not yet, 1: finished
+functions.developer.query.variables.succeed.data.easterEgg4.likedTimes=§cdata.easterEgg4.likedTimes = §a%s §7| §o(EE 04 only) §r§7Times the player chooses 'Great'
+functions.developer.query.variables.succeed.data.easterEgg6.playerInLava=§cdata.easterEgg6.playerInLava = §a%s §7| §o(EE 06 only) §r§7Whether the player is in lava | 0: not in lava, 1: in lava
+functions.developer.query.variables.succeed.data.endStage2.fireworkLauncher=§cdata.endStage2.fireworkLauncher = §a%s §7| §o(Final End Effect only) §r§7The ID of the firework dispensers that are currently being fired. At the same time, the former dispensers remove the redstone signal, and the latter dispensers reset the structure and prepare to launch
+functions.developer.query.variables.succeed.data.hided2.endBlockBroken=§cdata.hided2.endBlockBroken = §a%s §7| §o(Hidden 02 only) §r§7Whether the last square has been dug up | 0: not yet, 1: dug
+functions.developer.query.variables.succeed.data.hintUsed=data.hintUsed = §a%s §7| Whether Hint is used in this level | 0: used, 1: not used
+functions.developer.query.variables.succeed.data.isNetease=data.isNetease = §a%s §7| Whether the client is China Edition | 0: International Edition, 1: China Edition
+functions.developer.query.variables.succeed.data.level=data.level = §a%s §7| Current level ID, use command §o/function developer/query/level_id§r§7 to query level ID table to compare
+functions.developer.query.variables.succeed.data.level7.enteredNether=§cdata.level7.enteredNether = §a%s §7| §o(Level 7 only) §r§7Whether the player has entered the nether | 0: not entered, 1: has entered
+functions.developer.query.variables.succeed.data.level13.redstoneActivatedTimes=§cdata.level13.redstoneActivatedTimes = §a%s §7| §o(Level 13 only) §r§7The number of times redstone is activated in Part 3
+functions.developer.query.variables.succeed.data.level18.playerFellIntoVoid=§cdata.level18.playerFellIntoVoid = §a%s §7| §o(Level 18 only) §r§7Whether the player is fell into the void | 0: not yet, 1: is falling
+functions.developer.query.variables.succeed.data.level22.endBlockBroken=§cdata.level22.endBlockBroken = §a%s §7| §o(Level 22 only) §r§7Whether the last square has been dug up | 0: not been dug, 1: been dug
+functions.developer.query.variables.succeed.data.levelCompleted=data.levelCompleted = §a%s §7| Whether the level is completed | 0: not completed yet, 1: is completed
+functions.developer.query.variables.succeed.data.mainHall.actionbarTitleRandom=§cdata.mainHall.actionbarTitleRandom = §a%s §7| §o(Mainhall only) §r§7Random actionbar title currently playing
+functions.developer.query.variables.succeed.data.pigAmount=data.pigAmount = §a%s §7| Amount of pig(pig, piglin, zombified piglin included), use command §o/function lib/get_data/amount_pig§r§7 to get data
+functions.developer.query.variables.succeed.data.playerAmount=data.playerAmount = §a%s §7| Total number of players, use command §o/function lib/get_data/amount_player§r§7 to get data
+functions.developer.query.variables.succeed.data.settingCenter.creditsViewed=§cdata.settingCenter.creditsViewed = §a%s §7| §o(Setting Center only) §r§7Whether the player has watched the credits | 0: not yet, 1: have watched
+functions.developer.query.variables.succeed.data.skipUsed=data.skipUsed = §a%s §7| Whether the skip is used this level | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.strategyUsed=data.strategyUsed = §a%s §7| Whether the strategy is used this level | 0: Used, 1: Not used
+functions.developer.query.variables.succeed.data.timeLimited4.totalScore=§cdata.timeLimited4.totalScore = §a%s §7| §o(Time Limited Level 4 only) §r§7For the number of pigs fished by players, 1 point will be added for fishing pigs, and 1 point will be deducted for fishing piglins
+functions.developer.query.variables.succeed.data.timeLimited5.totalScore=§cdata.timeLimited5.totalScore = §a%s §7| §o(Time Limited Level 5 only) §r§7Number of completed buildings
+functions.developer.query.variables.succeed.record=§l===== record记分板 =====
+functions.developer.query.variables.succeed.record.bestTime.minute=record.bestTime.minute = §a%s §7| Best time record ever | Unit: minute
+functions.developer.query.variables.succeed.record.bestTime.second=record.bestTime.second = §a%s §7| Best time record ever | Unit: second
+functions.developer.query.variables.succeed.record.bestTime.tick=record.bestTime.tick = §a%s §7| Best time record ever | Unit: tick
+functions.developer.query.variables.succeed.record.endTime.minute=record.endTime.minute = §a%s §7| Time record when completing all the advancements this time | Unit: minute
+functions.developer.query.variables.succeed.record.endTime.second=record.endTime.second = §a%s §7| Time record when completing all the advancements this time | Unit: second
+functions.developer.query.variables.succeed.record.endTime.tick=record.endTime.tick = §a%s §7| Time record when completing all the advancements this time | Unit: tick
+functions.developer.query.variables.succeed.record.hintUsed=record.hintUsed = §a%s §7| Amount of used hint
+functions.developer.query.variables.succeed.record.mapCompletedTimes=record.mapCompletedTimes = §a%s §7| Map completed times
+functions.developer.query.variables.succeed.record.progress.advancement=record.progress.advancement = §a%s §7| Advancement completion number
+functions.developer.query.variables.succeed.record.progress.easterEgg=record.progress.easterEgg = §a%s §7| Easter Egg completion number | -1: Easter Egg is not unlocked 
+functions.developer.query.variables.succeed.record.progress.level=record.progress.level = §a%s §7| Mainline completion number
+functions.developer.query.variables.succeed.record.progress.mapStage=record.progress.mapStage = §a%s §7| Map completion stage | 0: Before completing, 1: All mainline completed, but all advancements not, 2: All advancements completed 
+functions.developer.query.variables.succeed.record.progress.timeLimited=record.progress.timeLimited = §a%s §7| Time Limited completion number | -1: Time Limited Levels unlocked
+functions.developer.query.variables.succeed.record.skipUsed=record.skipUsed = §a%s §7| Amount of used skip
+functions.developer.query.variables.succeed.record.strategyUsed=record.strategyUsed = §a%s §7| Amount of used strategy
+functions.developer.query.variables.succeed.settings=§l===== settings =====
+functions.developer.query.variables.succeed.settings.developerMode=settings.developerMode = §a%s §7| Whether developer mode is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.settings.gameruleLock=settings.gameruleLock = §a%s §7| Whether the gamerule is locked | 0: not locked, 1: locked
+functions.developer.query.variables.succeed.settings.hintEnabled=settings.hintEnabled = §a%s §7| Whether the hint is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.data.language=data.language = §a%s §7| Currently used language | 0: Chinese, 1: English
+functions.developer.query.variables.succeed.settings.levelCompleteDelay=settings.levelCompleteDelay = §a%s §7| Current level complete delay setting | 0: disabled, 1: Some level 0.25 seconds, 2: Some level 0.50 seconds, 3: Some level 0.75 seconds, 4: Some level 1.00 seconds, 5: Some level 1.25 seconds, 6: All levels 0.25 seconds, 7: All levels 0.50 seconds, 8: All levels 0.75 seconds, 9: All levels 1.00 seconds, 10: All levels 1.25 seconds
+functions.developer.query.variables.succeed.settings.level30Dialogue=settings.level30Dialogue = §a%s §7| Whether the dialogue of level 30 is enabled | 0: disabled, 1: enabled, 2: enabled and play sound after level 30 is unlocked
+functions.developer.query.variables.succeed.settings.mapTime=settings.mapTime = §a%s §7| Map time | 0: Always day, 1: Night in Firework Tutorial, 2: Always night, 3: Time passes
+functions.developer.query.variables.succeed.settings.oplevel=settings.oplevel = §a%s §7| Permission level
+functions.developer.query.variables.succeed.settings.scoreboardDisplay=settings.scoreboardDisplay = §a%s §7| How the scoreboard shows | 0: Not show, 1: Show information partly, 2: Show information fully
+functions.developer.query.variables.succeed.settings.speedrunMode=settings.speedrunMode = §a%s §7| Whether speedrun mode is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.settings.skipEnabled=settings.skipEnabled = §a%s §7| Whether skip is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.settings.strategyEnabled=settings.strategyEnabled = §a%s §7| Whether strategy is enabled | 0: disabled, 1: enabled
+functions.developer.query.variables.succeed.time=§l===== time =====
+functions.developer.query.variables.succeed.time.currentMinute=time.currentMinute = §a%s §7| Currently played time | Unit: minute
+functions.developer.query.variables.succeed.time.currentSecond=time.currentSecond = §a%s §7| Currently played time | Unit: second
+functions.developer.query.variables.succeed.time.dialogue=time.dialogue = §a%s §7| Dialogue time, trigger a conversation after reaching a certain value | Unit: tick
+functions.developer.query.variables.succeed.time.endStage2.fireworkTimer=§ctime.endStage2.fireworkTimer = §a%s §7| §o(Final End Effect only) §r§7Firework launcher timer, launch when this value equals to 4, loop through 0 ~ 4 | Unit: tick
+functions.developer.query.variables.succeed.time.levelCompleteDelay=time.levelCompleteDelay = §a%s §7| Level Complete Delay, it's a condition player can complete the level while this value equals to 0 | Unit: tick
+functions.developer.query.variables.succeed.time.mainHall.actionbarTitleSecond=§ctime.mainHall.actionbarTitleSecond = §a%s §7| §o(Mainhall only) §r§7Timer of mainhall actionbar title, cycles from 0 to 1 | Unit: second
+functions.developer.query.variables.succeed.time.mainHall.resetMapWarningCountdown=§ctime.mainHall.resetMapWarningCountdown = §a%s §7| §o(Mainhall only) §r§7Countdown for the warning of reset map | Unit: second
+functions.developer.query.variables.succeed.time.remainingTime=time.remainingTime = §a%s §7| Remaining Time in current time | Unit: second
+functions.developer.query.variables.succeed.time.settingCenter.developerModeWarningCountdown=§ctime.settingCenter.developerModeWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Countdown for the warning of developer mode | Unit: second
+functions.developer.query.variables.succeed.time.settingCenter.resetMapWarningCountdown=§ctime.settingCenter.resetMapWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Countdown for the warning of reset map | Unit: second
+functions.developer.query.variables.succeed.time.settingCenter.resetRecordWarningCountdown=§ctime.settingCenter.resetRecordWarningCountdown = §a%s §7| §o(Setting Center only) §r§7Countdown for the warning of reset record | Unit: second
+functions.developer.query.variables.succeed.time.sound=time.sound = §a%s §7| Sound player, which triggers a specific sound when it's 0 | Unit: tick
+functions.developer.query.variables.succeed.time.tick=time.tick = §a%s §7| Add one point every tick, and cycle once every second | Unit: tick
+functions.developer.query.variables.succeed.time.timeline=time.timeline = §a%s §7| Timeline time, trigger commands or functions after reaching a certain value | Unit: tick
+functions.developer.query.variables.succeed.tags=§l===== Tags =====
+functions.developer.query.variables.succeed.tags.isAlive_get=isAlive = §atrue §7| Whether the player is alive
+functions.developer.query.variables.succeed.tags.isAlive_not_get=isAlive = §efalse §7| Whether the player is alive
+
+functions.developer.unlock_levels.advancement.fail=§cFailed to complete all advancements while all advancements are completeed
+functions.developer.unlock_levels.advancement.succeed=All advancements have been completed
+
+functions.entities.player.using_play_music=§bNew music has been played for you ~
+
+functions.halls.settings.explore_map.subtitle=§l§bPreview Map
+functions.halls.settings.explore_map.actionbar_title=§l§bPreview Map§r§f | Head up to back to setting center
+functions.halls.settings.explore_map.events.tp_player_back=§cHi, don't go too far please~ =w=
+functions.halls.settings.miscellneous.subtitle=§l§bMiscellneous Settings
+
+functions.levels.hided.level_2.complete.let_level_22_completed=§bSince you have passed such a difficult level, well, I'll let you pass level 22 directly too! (～￣▽￣)～ 
+functions.levels.mainline.level_10.dialogue.line1=§bWAIT!!!
+functions.levels.mainline.level_10.dialogue.line2=§bWhat have you just crafted??
+functions.levels.mainline.level_10.dialogue.line3=§bA PINK BED?!!
+functions.levels.mainline.level_10.dialogue.line4=§bWHAT?!! YOU ARE SO LUCKY!! o(≧口≦)o
+functions.levels.mainline.level_10.dialogue.line5=§bYou have to know that the probability of spawning a pink sheep is ONLY 0.1558%!
+functions.levels.mainline.level_10.dialogue.line6=§bAnd based on that, there will be another 1/3 chance to get 3 wools...... ┌(。Д。)┐
+functions.levels.mainline.level_10.dialogue.line7=§bGive me your address, I'm gonna steal your luck! OwO
+
+functions.lib.modify_data.developer_gamemode.change_to_creative.succeed=Your game mode has been changed to creative
+functions.lib.modify_data.developer_gamemode.change_to_creative.fail.already_in_mode=§cYou're already in creative mode, and you can't change it any more
+functions.lib.modify_data.developer_gamemode.change_to_survival.succeed=Your game mode has been changed to survival
+functions.lib.modify_data.developer_gamemode.change_to_survival.fail.already_in_mode=§cYou're already in survival mode, and you can't change it any more
+functions.lib.modify_data.developer_gamemode.change_to_adventure.succeed=Your game mode has been changed to adventure
+functions.lib.modify_data.developer_gamemode.change_to_adventure.fail.already_in_mode=§cYou're already in adventure mode, and you can't change it any more
+functions.lib.modify_data.developer_gamemode.change_to_spectator.succeed=Your game mode has been changed to spectator, look up to change to creative mode
+functions.lib.modify_data.developer_gamemode.change_to_spectator.fail.already_in_mode=§cYou're already in spectator mode, and you can't change it any more
+
+functions.settings.developer_mode.disabled=Developer mode is disabled
+functions.settings.developer_mode.enabled=Developer mode is enabled
+
+#### Update logs
+functions.settings.update_log.title=§l===== Update Log =====
+functions.settings.update_log.version_2_0=§b2.0 | §7Added the Mainline Levels, Branch Line Levels and Easter Egg Levels, Statistic Center, Achievement Center, DIY Levels, and Setting Center.
+functions.settings.update_log.version_2_1=§b2.1 | §7Added trophies and fixed some bugs.
+functions.settings.update_log.version_2_2=§b2.2 | §7Remade the map from the bottom command system and adopted a new hall layout; replaced achievements with advancements and Branch Line Levels with Time Limited Levels; 9 new levels are added for DIY Levels and the original Branch Line Levels are moved to the preset levels of DIY levels; added BGM; as well as the changes at the bottom systems of other levels.
+functions.settings.update_log.version_2_3=§b2.3 | §7Functionlized the map. Added some new contents from add-ons such as text display, particles. Introduced new design of Main Hall. Fixed some bugs in version 2.2. Added supports for China Edition.
+functions.settings.update_log.version_2_4=§b2.4 | §7 Normalized all functions supported by Experimental Gameplay, adopted new command system from 1.20.10, updated Setting Center, and modified some English translations.
+
+#### Map Information
+functions.settings.map_information.title=§l===== Map Information =====
+functions.settings.map_information.international.map_version=§bMap Version | §72.4 - International Version
+functions.settings.map_information.international.platforms=§bRelease Platform | §7KLPBBS, MineBBS, MCPEDL, TITAIKE, Planet Minecraft, Minecraft Maps
+functions.settings.map_information.international.min_engine_version=§bMinecraft Version | §7Bedrock Edition 1.20.10 or higher
+functions.settings.map_information.international.price=§bPrice | §7Free
+
+functions.settings.map_information.netease.map_version=§bMap Version | §72.4 - China Edition
+functions.settings.map_information.netease.min_engine_version=§bMinecraft Version | §73.0 or higher (based on Bedrock Edition 1.20.10)
+functions.settings.map_information.netease.price=§bPrice | §7300 Diamonds
+
+#### Map Rule
+functions.settings.map_rule.title=§l===== Map Rules =====
+functions.settings.map_rule.commands=§b* Cheating by commands is forbidden, especially using /kill
+functions.settings.map_rule.gamemode=§b* Changing game mode yourself is not recommended
+functions.settings.map_rule.recommended_player_amount=§b* Single-player recommended
+functions.settings.map_rule.notice=§l§bWe are not responsible for any problems caused by cheating!
+functions.settings.map_rule.warning=§l§cWARNING!! Do not imitate dangerous behaviors in the map! IT'S JUST A GAME!
+
+#### Credits
+functions.settings.credits.title=§l===== Credits =====
+functions.settings.credits.author=§bAuthor §r| §7YZBWDLT
+functions.settings.credits.coauthor=§bCo-author §r| §7Andy7343
+functions.settings.credits.present=§bPresented by §r| §7Acme Building Workshop
+functions.settings.credits.release=§bReleased by §r| §7YZBWDLT
+functions.settings.credits.buildings=§bBuildings §r| §7YZBWDLT,  Andy7343 (DIY Level 8 and 9),  冰封君 (Original Branch Line Level 4),  Matthew887 (Original Branch Line Level 3)
+functions.settings.credits.testers=§bTesters §r| §9YZBWDLT,  PigeonKI,  Peroxide07122, PumpkinJui,  §7Andy7343, xiaoshu512,  KrisWenYu, xhduoduobaby,  Tuffy2020China,  IBukreev, kuanpan 9527, CommandBlock228,  §9梦影,  tianqi,  小启OwO,  小嗨黑,  可爱的犀犀利,  樱花可可,  MCPE星际,  §7残梦, huijinya520, MildTurt
+functions.settings.credits.testers_note=§7* Testers of early versions are marked with §9Blue§7, in no particular order
+functions.settings.credits.special_thanks_line1=§bSpecial Thanks
+functions.settings.credits.special_thanks_line2=§7xhduoduobaby(Thanks for providing server!)
+functions.settings.credits.special_thanks_line3=§7ZiMin（Thank you for recording videos for my map!!）
+functions.settings.credits.special_thanks_line4=§7PumpkinJui (Super serious tester)
+functions.settings.credits.special_thanks_line5=§7ChenfengAB (Thanks to the chairman for his efforts to make my map known to more people!)
+functions.settings.credits.special_thanks_line6=§7ProjectXero (Thank you for helping me find banned words awa)
+functions.settings.credits.final=§bThank all test group members' and your support, as well as for your playing!
+
+#### How to play
+functions.settings.how_to_play.start.title_1=WELCOME
+functions.settings.how_to_play.start.title_2=WELCOME TO
+functions.settings.how_to_play.start.subtitle=§l§c30 Ways to Die §62 §f!
+
+functions.settings.how_to_play.how_to_play.title=§bHOW TO PLAY?
+functions.settings.how_to_play.how_to_play.subtitle_1=§aUse given items to die to complete levels!
+
+functions.settings.how_to_play.levels.title=§bLEVELS
+functions.settings.how_to_play.levels.subtitle_1=§aWe have 30 Mainline Levels, go for it!
+functions.settings.how_to_play.levels.subtitle_2=§aThere are also 10 Easter Egg Levels hidden somewhere in the main hall, try to find it!
+functions.settings.how_to_play.levels.subtitle_3=§a5 Time Limited Levels! Beat them to challenge your speed!
+functions.settings.how_to_play.levels.subtitle_4=§aDIY Levels, try to make your own levels!
+
+functions.settings.how_to_play.aux_functions.title=§bAUXILIARY FUNCTIONS
+functions.settings.how_to_play.aux_functions.subtitle_1=§aYou can use §eReset §aor §cQuit §ain every level
+functions.settings.how_to_play.aux_functions.subtitle_2=§bStrategy§a will tell you how to complete this level in detail
+functions.settings.how_to_play.aux_functions.subtitle_3=§aHint will tell you the key idea of how to complete this level
+functions.settings.how_to_play.aux_functions.subtitle_4=§cSkip§a will let you skip the level directly!
+
+functions.settings.how_to_play.stats.title=§bSTATS
+functions.settings.how_to_play.stats.subtitle=§aUse of Hint, §bStrategy, §cSkip§a before first completion will be recorded
+
+functions.settings.how_to_play.advancements.title=§bADVANCEMENTS
+functions.settings.how_to_play.advancements.subtitle=§aComplete all 30 advancements to beat the map!
+
+## ===== Translations in version 2.3 =====
+
 ## New Items Translations
 item.spawn_egg.entity.wstd:creator.name=Author & Tester Egg
 item.wstd:hunger_potion.name=Hunger Potion
@@ -25,7 +269,7 @@ item.wstd:reset_command_system.name=§bReset Command System
 
 ## New Entities Translations
 entity.wstd:creator.name=Author & Tester
-entity.je:marker.name=Marker
+entity.wstd:marker.name=Marker
 entity.flower_solder.name=Wise Flower Merchant
 
 ## New Blocks Translations
@@ -51,7 +295,7 @@ tile.lit_redstone_ore.name=Lit Redstone Ore
 
 ## ===== Rawtext JSON Translation =====
 
-### ----- Actionbar Titles（actionbar.xxx） -----
+### ----- Actionbar Titles(actionbar.xxx)  -----
 #### The end
 actionbar.end_1=§bEnd effect is loading ... please don't quit the game~
 actionbar.end_2=§bUse Back to end the firework show~
@@ -71,10 +315,10 @@ actionbar.open.set_difficulty_line4=§cSpeedrun§7 - Locks to Hard, precise time
 #### The description of all levels
 actionbar.description.level_1=SO EASY!
 actionbar.description.level_2=Everyone knows it~
-actionbar.description.level_3=What can this do to help you achieve your goals?
+actionbar.description.level_3=What can they do to help you achieve your goals?
 actionbar.description.level_4=Choking! Call 911!!! (no
 actionbar.description.level_5=At least much more heavier than you
-actionbar.description.level_6=Tips: Don't go swimming by the river in real life!
+actionbar.description.level_6=Tip: Don't go swimming by the river in real life!
 actionbar.description.level_7=Just guess
 actionbar.description.level_8=So EASY *2~
 actionbar.description.level_9=ZiMin: This level still needs a little brains
@@ -105,13 +349,13 @@ actionbar.description.easter_egg_3=Ordinary... serious?
 actionbar.description.easter_egg_4=Please choose "great", thank you.
 actionbar.description.easter_egg_5=It's just a joke, no cliff here :)
 actionbar.description.easter_egg_6=You can stand under my umbrella~~ella~ella~
-actionbar.description.easter_egg_7=抟扶摇而上者九万里, 去以六月息者也...(From Xiaoyaoyou)
+actionbar.description.easter_egg_7=Then I'll raise you like a phoenix!
 actionbar.description.easter_egg_8=Dream: LET'S GOOOOO!!!!
-actionbar.description.easter_egg_9=It's time to spell character!!!
-actionbar.description.easter_egg_10=WOO~~~~HOOOOOOO~~~~!!(echo)
+actionbar.description.easter_egg_9=Break your legs. Really.
+actionbar.description.easter_egg_10=WHEEEEEEEE! *ECHO*
 actionbar.description.time_limited_1=I didn't say how many items will be crafted
 actionbar.description.time_limited_2=Well... just let the stupid author say what he want
-actionbar.description.time_limited_3=鸡你太美~(A meme from China)
+actionbar.description.time_limited_3=Baw-koks you're beautiful~
 actionbar.description.time_limited_4=You never know how happy fishermen are ... ah, not fishing fishes?
 actionbar.description.time_limited_5=I have a bad feeling...
 actionbar.description.hided_1=Take a group photo! 1... 2... 3... Coo Coo~!
@@ -120,14 +364,14 @@ actionbar.description.hided_3=reminiscence.jpg
 #### Hall random hints
 actionbar.random_hint1=§a== If you have “Fire Resistance” effect, milk required! ==§r
 actionbar.random_hint2=§a== Blocks placed on top of xxx block not always useful! ==§r
-actionbar.random_hint3=§a== Not all items are necessarily useful...  ==§r
+actionbar.random_hint3=§a== Not all given items are useful...  ==§r
 actionbar.random_hint4=§a== Stuck? Use Reset, not recorded! ==§r
 actionbar.random_hint5=§a== No crafting table? You'll need it! ==§r
 actionbar.random_hint6=§a== Don't use hint if you don't need it! ==§r
 actionbar.random_hint7=§a== Difficulty not right? Adjust in Setting Center! ==§r
 actionbar.random_hint8=§a== R-click on PC, long-press on mobile to use usable items ==§r
 actionbar.random_hint9=§a== Wanna be Ironman? Wear the suit! ==§r
-actionbar.random_hint10=§a== Stuck on a level? Use hints! ==§r
+actionbar.random_hint10=§a== Stuck in a level? Use hints! ==§r
 actionbar.random_hint11=§a== Silently chant "author handsome = success" =) ==§r
 actionbar.random_hint12=§a== In this map, luck is very important! ==§r
 actionbar.random_hint13=§a== V2.3! Functionalization! YEAH!!! ==§r
@@ -143,26 +387,26 @@ actionbar.random_hint21=§a== No record for Time Limited & Easter Egg levels' au
 #### Room name | Subsettings of setting center, tutorial level
 actionbar.setting_center.about=§l§bAbout§r
 actionbar.setting_center.advanced_settings=§l§bPermission Level Setting and Advanced Setting§r
-actionbar.setting_center.difficulty_and_language=§l§bDifficulty and Language Settings§r
-actionbar.setting_center.firework_settings=§l§bFirework settings for end effect§r
-actionbar.setting_center.explore_map=§l§bPreview map§r | Use Back to go back | No falling, barriers in place~
+actionbar.setting_center.difficulty_and_speedrun_mode=§l§bDifficulty and Speedrun Settings§r
+actionbar.setting_center.firework_settings=§l§bFirework Settings for End Effect§r
+actionbar.setting_center.explore_map=§l§bPreview Map§r | Use Back to go back | No falling, barriers in place~
 actionbar.setting_center.questions_and_answers=§l§bRule, play and Q&A of the map§r
 actionbar.tutorial_level=§b§lTutorial Level
 #### Developer Mode
-actionbar.developer.oplevel=§bPermission Level §6%s§r	## {"translate":"actionbar.developer.oplevel","with":{"rawtext":[{"score":{"objective":"oplevel","name":"@s"}}]}}
-actionbar.developer.level_id=§bLevel ID §6%s§r	## {"translate":"actionbar.developer.level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
-actionbar.developer.time_played=§bPlayed §6%s: %s§r	## {"translate":"actionbar.developer.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"name":"@e[name=playedSecond]","objective":"time"}}]}}
-actionbar.developer.timeline=§bTimeline status & value §6%s/%s§r	## {"translate":"actionbar.developer.timeline","with":{"rawtext":[{"score":{"objective":"active","name":"@e[name=timeline]"}},{"score":{"name":"@e[name=timeline]","objective":"time"}}]}}
+actionbar.developer.oplevel=§bPermission Level §6%s§r
+actionbar.developer.level_id=§bLevel ID §6%s§r
+actionbar.developer.time_played=§bPlayed §6%s: %s§r
+actionbar.developer.timeline=§bTimeline status & value §6%s/%s§r
 #### Others
 actionbar.firework_tutorial.step=§7Step §a%s §7/ 8	## {"translate":"actionbar.firework_tutorial.step","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=counter]"}}]}}
 actionbar.level_loading=§bThe level is loading, just wait a second~
-actionbar.nether_error=§cOops... There seems to be an error. Please use Next to continue
-actionbar.remaining_time=§bTime remaining: §6 %s §bseconds§r	## {"translate":"actionbar.remaining_time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=remainingTime]"}}]}}
-actionbar.time_played=Played:§6 %s §fminutes§r	## {"translate":"actionbar.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}}]}}
-actionbar.time_played.speedrun_mode=Played:§6 %s:%s.%s §r	## {"translate":"actionbar.time_played.speedrun_mode","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
+actionbar.dimension_error=§cWait! How did you get here?? (＃°Д°) Use Next to back to Hall to prevent errors occur! 
+actionbar.remaining_time=§bTime remaining: §6 %s §bseconds§r
+actionbar.time_played=Played:§6 %s §fminutes§r
+actionbar.time_played.speedrun_mode=Played:§6 %s:%s.%s §r
 actionbar.use_next_to_start=§cUse Next to start the game!
 
-### ----- Advancements（advancement.xxx） ----- | From Mainline -> Easter Egg -> Master -> Miscellaneous
+### ----- Advancements(advancement.xxx)  ----- | From Mainline -> Easter Egg -> Master -> Miscellaneous
 advancement.mainline.get_started=Newcomer
 advancement.mainline.more_skilled=More Skilled
 advancement.mainline.half_way=Halfway Journey
@@ -194,7 +438,7 @@ advancement.miscellaneous.who=Who?
 advancement.miscellaneous.appreciate_and_watch=Appreciation, Observation
 advancement.miscellaneous.diy=DIY! 
 
-### ----- Authors（author.xxx） -----
+### ----- Authors(author.xxx)  -----
 author.yzbwdlt=YZBWDLT
 author.pigeonki=PigeonKI
 author.pumpkinjui=PumpkinJui
@@ -202,7 +446,7 @@ author.andy7343=Andy7343
 author.greeleaf=GreeLeaf
 author.xiaoshu512=xiaoshu512
 
-### ----- Chats（chat.xxx） -----
+### ----- Chats(chat.xxx)  -----
 chat.advancement.get=§a§lAdvancement Made!§r
 chat.advancement.get.normal=%s has made the advancement §a[%s]§r
 chat.advancement.get.rare=%s has made the rare advancement §d[%s]§r
@@ -269,10 +513,10 @@ chat.end.advancements_completed.line9=<YZBWDLT> Then let's get started! ヾ(^▽
 chat.end.advancements_completed.line10=<YZBWDLT> Is the fireworks show good? ( •̀ ω •́ )✧
 chat.end.advancements_completed.line11=<YZBWDLT> Finally, I really appreciate you playing here...
 chat.end.advancements_completed.line12=<YZBWDLT> This map has cost me a lot of energy since the first edition, but it is also my favorite map so far.O(∩_∩)O
-chat.end.advancements_completed.line13=<YZBWDLT> Back and forth, this map has undergone four major updates, with a time span of several years.
+chat.end.advancements_completed.line13=<YZBWDLT> Back and forth, this map has undergone five major updates, with a time span of several years.
 chat.end.advancements_completed.line14=<YZBWDLT> Exhausted efforts, and ultimately only hope that you have fun, I wonder if you are satisfied with this map?
 chat.end.advancements_completed.line15=<YZBWDLT> If you don't feel satisfied, you can start the whole map again and try to speedrun the whole map! ヾ(≧▽≦*)o
-chat.end.advancements_completed.line16=<YZBWDLT> My speedrun grade is 27:41. I wonder if you can surpass me?
+chat.end.advancements_completed.line16=<YZBWDLT> My speedrun grade is 27:12. I wonder if you can surpass me?
 chat.end.advancements_completed.line17=<YZBWDLT> Well, that's it. Thank you again for your playing! If you like, you can share it with others, or help me put forward suggestions for improvement in the comments section!
 chat.end.advancements_completed.line18=<YZBWDLT> Finally, remind you again that this is just a game, please love your life and cherish your life! Then I'll see you on the next map. Bye!ヾ(•ω•`)o
 
@@ -282,9 +526,9 @@ chat.deathmessage.level_1=%s walked into the void
 chat.deathmessage.level_2=%s found this hot water as hot as lava
 chat.deathmessage.level_3=%s tried to hug the cactus warmly
 chat.deathmessage.level_4=%s found that the oxygen content in the sand was low
-chat.deathmessage.level_5=%s succeeded in becoming a two-dimensional creature
-chat.deathmessage.level_6.line1=%s is a drowned now, not a human being
-chat.deathmessage.level_6.line2=§bSo never go swimming by rivers and puddles!
+chat.deathmessage.level_5=%s successfully became a two-dimensional creature
+chat.deathmessage.level_6.line1=%s is now a drowned instead of a human
+chat.deathmessage.level_6.line2=§bSo never swim in rivers and puddles!
 chat.deathmessage.level_7=%s CHEATED!!! Σ(っ °Д °;)っ
 chat.deathmessage.level_8=%s found out that the Ender Dragon didn't welcome him
 chat.deathmessage.level_9=%s found that milk suits hot water
@@ -293,18 +537,18 @@ chat.deathmessage.level_11=%s became food for food
 chat.deathmessage.level_12=%s gone with Newton peacefully
 chat.deathmessage.level_13=%s 's CPU burned up because of overload
 chat.deathmessage.level_13.skip_used=%s 's CPU performance doesn't seem to be enough
-chat.deathmessage.level_14=%s was carried away by §cPeppa Pig§r
-chat.deathmessage.level_15=%s found that it was a magical road ~~
+chat.deathmessage.level_14=%s was sent to Jesus by §cPeppa Pig§r
+chat.deathmessage.level_15=%s was taken home by country road
 chat.deathmessage.level_16=%s found these two bottles of coke unclean
 chat.deathmessage.level_17=%s was accidentally injured in the firefight of many skeletons
-chat.deathmessage.level_18.blow_up=%s was blown upside down
-chat.deathmessage.level_18.void=%s tried to get stuck in the map bug, but failed
+chat.deathmessage.level_18.blow_up=%s was blown into pieces
+chat.deathmessage.level_18.void=%s failed to use glitches
 chat.deathmessage.level_19=%s passed out after drinking the magic drink
 chat.deathmessage.level_20=%s now knows that witches don't do this
-chat.deathmessage.level_21=%s was killed by parkour
+chat.deathmessage.level_21=%s had rhabdomyolysis
 chat.deathmessage.level_22=%s forgot the lesson of the Tutorial Level
 chat.deathmessage.level_23=%s went off with a bang
-chat.deathmessage.level_24=%s understood the significance of strict food handling
+chat.deathmessage.level_24=%s understood the significance of food processing
 chat.deathmessage.level_25=%s shines on the stage, with a boom that engages
 chat.deathmessage.level_26.line1=%s didn't encounter a bug and passed away smoothly
 chat.deathmessage.level_26.line2=§c(Because @ZiMin encountered a bug while playing this level before)
@@ -312,16 +556,16 @@ chat.deathmessage.level_27=%s didn't notice the height limit of two blocks
 chat.deathmessage.level_28.line1=%s found that he shouldn't drive fast
 chat.deathmessage.level_28.line2=§bYZBWDLT reminds you: Roads are countless, safety is foremost
 chat.deathmessage.level_29=%s experienced kinetic energy
-chat.deathmessage.level_30=%s succeeded in living to death
-chat.deathmessage.easter_egg_1=%s was blown up by a Oak Tree
+chat.deathmessage.level_30=%s lived until he died
+chat.deathmessage.easter_egg_1=%s was blown up by an Oak Tree
 chat.deathmessage.easter_egg_1.tree=The Oak Tree was blown up by biogas
 chat.deathmessage.easter_egg_2=%s was awarded the death by the author because he passed the test(wait what?)
 chat.deathmessage.easter_egg_3=%s found that there was no need to parkour at all
 chat.deathmessage.easter_egg_4=%s was struck by lightning for telling the truth
-chat.deathmessage.easter_egg_5=%s was loaded from the mine, but returned
+chat.deathmessage.easter_egg_5=%s harvested in vain for ores
 chat.deathmessage.easter_egg_6=%s is only handsome for a second
-chat.deathmessage.easter_egg_7=%s found that the scenery up there was just like that
-chat.deathmessage.easter_egg_8=%s failed in the race against time... or... succeeded?
+chat.deathmessage.easter_egg_7=%s found the view up there just so-so
+chat.deathmessage.easter_egg_8=%s race against time but lost... or... maybe won?
 chat.deathmessage.easter_egg_9=%s is a lucky dog in reverse
 chat.deathmessage.easter_egg_10=%s jumped into the lava accurately
 chat.deathmessage.time_limited_1=%s was killed by a crafted strange thing
@@ -335,7 +579,7 @@ chat.deathmessage.hided_3=%s had a dream of going back in time
 
 #### Chats in levels
 chat.level.level_13.ender_pearl_used=§bYou can't use Ender Pearls in this level! (@_@;) Here, I'll give you back the Ender Pearl you threw!§r
-chat.level.level_13.void=§cΣ(っ °Д °;)っ Don't get stuck in bugs anymore!§r
+chat.level.level_13.void=§cΣ(っ °Д °;)っ Do not use glitches anymore!§r
 chat.level.level_21.skip_used=§bDid you end up skipping this level in the end? (￣▽￣)§r
 chat.level.level_23.end=§bGood job! And you can review how to craft fireworks after you complete these mainline levels!
 chat.level.level_30.portal=§cYou built a portal really well, so next time don't bother building a new one.(＃°Д°)§r
@@ -372,9 +616,9 @@ chat.level.time_limited_4.too_many_entities=§bThere are too many creatures on t
 chat.level.time_limited_4.fell_into_hole=§cOops... Be more careful next time! I'm sending you back now!(￣▽￣)§r
 chat.level.time_limited_4.succeed=§bYeah! ヽ(✿ﾟ▽ﾟ)ノ Use the skip and end it! §r
 chat.level.hided_1=§bThis level is a hidden stage, and there is no predetermined way to die. (～￣▽￣)～ Stand on the Quartz Brick, and take a photo together with the authors. awa
-chat.level.hided_2=§bIt seems like you've been stuck in this place for a long time, right? Don't worry, I'm not here to help. I'm here to give you an extra boost! Are you happy now? ψ(｀∇´)ψ
-chat.level.hided_3=§bThis is the final level of 30 Ways to Die 1. Let's take a moment to reminisce. awa
-chat.level.hided_3.gift=:) Thank you, a gift for you~
+chat.level.hided_2=§bSeems you've been stuck here for a long time, right? Don't worry, I'm not here to help, but to give you extra challenge! Feeling happy? ψ(｀∇´)ψ
+chat.level.hided_3=§bThis is the final level of 30 Ways to Die 1. Let's take some time to reminisce. awa
+chat.level.hided_3.gift=:) Thank you. Here's a gift for you~
 
 #### Hints and Strategies
 chat.hint.tutorial_level=§lHint for Tutorial Level>>§r§6Aren't you interested in that KILLER command block?(～￣▽￣)～
@@ -479,11 +723,11 @@ chat.item.load_level.start_loading=§bLoading the structure. Please wait...
 chat.item.load_level.completed=§bLoading complete!
 chat.item.save_level.start_saving=§bSaving the structure. Please wait...
 chat.item.save_level.completed=§bSaving Complete!
-chat.item.played_time.time=§bYour play time | §a%s : %s§r	## {"translate":"chat.item.played_time.time","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}}]}}
-chat.item.played_time.time.completed=§bYour play time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.time.completed","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"objective":"time","name":"@e[name=playedSecond]"}},{"score":{"objective":"time","name":"@e[name=ticker]"}}]}}
-chat.item.played_time.end_time=§bMAP COMPLETED! Completed time | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.end_time","with":{"rawtext":[{"score":{"objective":"stats","name":"@e[name=endTimeMinute]"}},{"score":{"objective":"stats","name":"@e[name=endTimeSecond]"}},{"score":{"objective":"stats","name":"@e[name=endTimeTick]"}}]}}
-chat.item.played_time.record=§bBest record | §a%s : %s . %s§r	## {"translate":"chat.item.played_time.record","with":{"rawtext":[{"score":{"objective":"record","name":"@e[name=recordMinute]"}},{"score":{"objective":"record","name":"@e[name=recordSecond]"}},{"score":{"objective":"record","name":"@e[name=recordTick]"}}]}}
-chat.item.played_time.map_completed_times=§bMap completed times | §a%s§r	## {"translate":"chat.item.played_time.map_completed_times","with":{"rawtext":[{"score":{"objective":"record","name":"mapCompletedTimes"}}]}}
+chat.item.played_time.time=§bYour play time | §a%s : %s§r
+chat.item.played_time.time.completed=§bYour play time | §a%s : %s . %s§r
+chat.item.played_time.end_time=§bMAP COMPLETED! Completed time | §a%s : %s . %s§r
+chat.item.played_time.record=§bBest record | §a%s : %s . %s§r
+chat.item.played_time.map_completed_times=§bMap completed times | §a%s§r
 chat.item.played_time.evaluate1=§cYou didn't even finish the mainline! How did you get this item?(╯‵□′)╯︵┻━┻
 chat.item.played_time.evaluate2=§bThe map has not been completed yet, so move towards 30 advancements!
 chat.item.played_time.evaluate3=§6This is amazing!! Σ(っ °Д °;)っSo amazing that I wonder if you cheated...=_=
@@ -540,132 +784,10 @@ chat.settings.scoreboard_display.none=§bScoreboard on the right side of the scr
 chat.settings.speedrun_mode.enabled=§aSpeedrun Mode has been enabled. Time limit music will play, time display will show game tick, difficulty has been locked to Hard, and the dialogue of Level 30 has been disabled.
 chat.settings.speedrun_mode.disabled=§cSpeedrun Mode has been disabled
 
-#### Credits
-chat.credits.line1=§bCredits
-chat.credits.line2=§lAuthor §r| §7YZBWDLT
-chat.credits.line3=§lCo-Author §r| §7Andy7343
-chat.credits.line4=§lPresent §r| §7AB Workshop
-chat.credits.line5=§lRelease §r| §7YZBWDLT
-chat.credits.line6=§lBuildings §r| §7YZBWDLT, Andy7343(DIY Preset Level 8-9), 冰封君(Branch Line Level 4), Matthew887(Branch Line Level 3)
-chat.credits.line7=§lFirst Edition Test §r| §7YZBWDLT, PigeonKI, 地雷, PumpkinJui, 梦影, tianqi, 小启OwO, 小嗨黑, 可爱的犀犀利, 樱花可可, MCPE星际
-chat.credits.line8=§lVersion 2.2 Test §r| §7YZBWDLT, PumpkinJui, Andy7343, 残梦, huijinya520
-chat.credits.line9=§lVersion 2.3 Test §r| §7YZBWDLT, PigeonKI, PumpkinJui, Andy7343, xiaoshu512, xhduoduobaby, huijinya520, Tuffy2020China, AnimalChalk2526, MildTurt
-chat.credits.line10=§lSpecial Thanks §r| §7xhduoduobaby(Thanks for providing server! ), ZiMin(Really really really thank you for recording my map! ), PumpkinJui(Super serious tester), 晨风(Thanks for your help to let more people know my map~), ProjectXero（Thanks for Xero for helping me find these damn shielding words awa）
-chat.credits.line11=§lThanks to all the members of the test group and your support, and thanks for your playing!
-
-#### Map Information
-chat.map_information.line1=§bMap Information
-chat.map_information.line2=§lMap Version §r| §72.3 - International Version Platform
-chat.map_information.line3=§lReleased Platforms §r| §7MCBBS, KLPBBS, MineBBS, MCBEBBS, MCPEDL, TITAIKE
-chat.map_information.line4=§lMC Requirement Version §r| §7Minecraft Bedrock Edition 1.18.30
-chat.map_information.line5=§lPrice §r| §7FREE
-
-#### Update Log
-chat.update_log.line1=§bUpdate Log
-chat.update_log.line2=§l2.0 §r| §7Joined the mainline levels, branch line levels and easter egg levels, statistic center and achievement center, DIY levels, and setting center.
-chat.update_log.line3=§l2.1 §r| §7Added trophies and fixed some bugs.
-chat.update_log.line4=§l2.2 §r| §7Reproduce the map from the bottom of the command and have a new level layout; Replace achievements with advancements and branch line levels with time limited levels; And 9 new level slots are added for DIY level, and the original branch line is moved to the preset level of DIY level; Joined BGM; As well as the changes at the bottom of other levels.
-chat.update_log.line5=§l2.3 §r| §7Functionalize the map, add new contents such as display text and particles at addon level, modify the design language of the hall, fix some bugs in 2.2, and provide support for Netease Version.
-
-#### How to Play
-chat.how_to_play.line1=§bHow to Play
-chat.how_to_play.line2=§lHow to play? 
-chat.how_to_play.line3=§7The rules of the game are very simple. §fUse the given items in every room to die and win! §7Try to complete 30 mainline levels,  §feven 30 advancements§7! (☆▽☆)
-chat.how_to_play.line4=§lLevels
-chat.how_to_play.line5=§7The map is divided into mainlines, easter eggs and time limited levels!
-chat.how_to_play.line6=§7These 30 levels in the hall are the §fmainline level§7, which is plain(ﾉ*･ω･)ﾉ
-chat.how_to_play.line7=§7In addition, the map has §fEaster Egg Levels§7! There are 10 levels in all and very strange(awa). It's hidden somewhere in the hall. Take your time to find it.(￣y▽,￣)╭ 
-chat.how_to_play.line8=§7You can also enter §fTime Limited Levels§7 -- restricts the passage within a specified time, with a total of 5 levels!
-chat.how_to_play.line9=§7Of course, we have §fDIY Levels§7, which allow you to custom the scenery, design and even commands! Of course... to unlock it, you should complete mainline levels first ╰(￣ω￣ｏ)
-chat.how_to_play.line10=§7* The egg level must be unlocked somewhere in the hall before you can enter. | * Time Limited Levels and DIY levels must complete the mainline levels before they can play, and the Time Limited Levels must complete a specific Easter Egg Level before entering.
-chat.how_to_play.line11=§lDifficulty
-chat.how_to_play.line12=§7Each mainline level has a §f"Level Difficulty"§7! 
-chat.how_to_play.line13=§7The difficulty of each level is indicated by the color of the level number. §fGreen§7 means the level is easy, §fyellow§7 means it's average, and §fred§7 means it's challenging.
-chat.how_to_play.line14=§7Green and yellow levels provide §fHints & Strategies§7 (if you can use them, haha), while red levels offer a §fSkip§7 directly!
-chat.how_to_play.line15=§7The overall difficulty of the map is called the "map difficulty," which is determined by what you choose at the beginning!
-chat.how_to_play.line16=§7The §fmap difficulty determines what auxiliary functions§7 you can use. There are fewer restrictions when it's easy, but when it's Hard, you can't use anything! (＃°Д°)
-chat.how_to_play.line17=§7If you make a mistake, you can change it in the settings! 
-chat.how_to_play.line18=§lStatistics
-chat.how_to_play.line19=§7The map §ftracks your usage of auxiliary functions§7! If you don't use any Hints, you can even show off to others! (☆▽☆)
-chat.how_to_play.line20=§7* Only mainline levels are recorded | * The statistics center is only accessible after completing mainline levels | * Usage after level completion won't be recorded
-chat.how_to_play.line21=§lAuxiliary functions and items
-chat.how_to_play.line22=§7Each level provides §fauxiliary functions§7 for you~
-chat.how_to_play.line23=§7§fReset§7 allows you to restart the level, while §fExit§7 allows you to leave the level directly. (～￣▽￣)～
-chat.how_to_play.line24=§7If your "map difficulty" allows, you can also get hints, strategies, and skipping!
-chat.how_to_play.line25=§7§fHints§7 provide you with a general idea of how to pass, §fstrategies§7 give you complete walkthroughs, while §fskipping§7 is a quick way to get rid of the level. ψ(｀∇´)ψ
-chat.how_to_play.line26=§7§fUsing hints, strategies, and skipping on unfinished main levels will be recorded!§7 Please use them with caution. (＃°Д°)
-chat.how_to_play.line27=§7Please §fright-click (or long-press for mobile players)§7 to use these "usable items" directly!
-chat.how_to_play.line28=§lAdvancements
-chat.how_to_play.line29=§7The map has various advancements waiting for you to explore! Enter the Advancement Center to view details.
-chat.how_to_play.line30=§7Complete all 30 advancements, and you'll have pretty much explored the entire map! Keep going and complete these advancements, there's a surprise waiting for you at the end~
-chat.how_to_play.line31=That's it! I might have said too much... but have fun playing! If you encounter any problems, you can join the QQ group chat: 673941729. Feel free to speak kindly~
-
-#### Map Rule
-chat.map_rule.line1=§bRule of the Map
-chat.map_rule.line2=§lDisclaimer
-chat.map_rule.line3=§7When you play this map, you will agree to the precautions specified in this rule by default. We, the AB Workshop, are not responsible for all the consequences caused by violating the rules.
-chat.map_rule.line4=§lVersion requirement
-chat.map_rule.line5=§7Please use at least the §fbedrock version 1.18.30 or the latest China version§7 for a complete experience.
-chat.map_rule.line6=§lGame mode requirement
-chat.map_rule.line7=§fDefault and lock to adventure mode§7, You can unlock this lock, but just like some Android phones are not guaranteed after ROOT, we will not be responsible for the problems caused by changing the game mode.
-chat.map_rule.line8=§lCommand requirement
-chat.map_rule.line9=§fIt is not recommended to use any command, especially the function command that comes with the map. §7If you have related command requirements, you can unlock anti-cheating first in the Advanced Settings in the Setting Center. Commands such as /kill are §cHIGHLY NOT RECOMMENDED§7, because it will seriously damage your game experience, and it is a serious cheating.
-chat.map_rule.line10=§lNumber of players requirement
-chat.map_rule.line11=§fSingleplayer recommended. §7We can't guarantee the stability of the map and the game experience in the case of multi-players, because after testing, the experience of multi-player play is very bad.
-chat.map_rule.line12=§lDANGEROUS CONTENT WARNING
-chat.map_rule.line13=§cThe theme of this map is death map, so please don't imitate the "induced suicide" behavior that may be contained in the map in reality! This is just a game!
-
-#### Q&A
-chat.help.line1=§bQ&A
-chat.help.line2=Here are some questions I could think of that you might encounter. I hope they can be helpful to you~ Of course, if none of these questions are what you want to ask, feel free to ask in the comment section!
-chat.help.line3=Q1: What if the map difficulty is not what I want to choose?
-chat.help.line4=§7A: You can go to the Setting Center - Difficulty and Language Settings to adjust! You can also choose whether to enable hints and other auxiliary functions. (～￣▽￣)～
-chat.help.line5=Q2: Why is the map so large? 40-50MB?
-chat.help.line6=§7A: This is because the map has many built-in BGMs, and the music takes up most of the space QwQ
-chat.help.line7=Q3: The map feels a bit laggy when playing...?
-chat.help.line8=§7A: There's not much I can do about that... I've tried my best to optimize it, but a map of this size is indeed prone to lagging. It could also be due to the international or Netease high versions being laggy themselves (especially the Render Dragon). So, the solution I offer for this issue is: try playing on a different device QwQ
-chat.help.line9=Q4: How did you create custom death messages? I want to learn...
-chat.help.line10=§7A: You can achieve it with a simple tellraw command. If you're interested, you can dissect the map and see (I recommend doing this after you've finished playing) (～￣▽￣)～
-chat.help.line11=Q5: I chose the Hard mode, but now I can't pass the level. What should I do?
-chat.help.line12=§7A: Please refer to Q1 awa
-chat.help.line13=Q6: Why do I only catch pufferfish when fishing? How did you do that?
-chat.help.line14=§7A: I modified the loot table. Not only that, but the Piglin loot table has also been changed (awa). This version also adds more loot tables. If you're interested, you can analyze the map's addon on your own to see =w=
-chat.help.line15=Q7: I've dug all over the map in level 30, but I still don't know how to pass the level...
-chat.help.line16=§7A: You can check the walkthrough for this version on the @AB Workshop's Bilibili account. Make sure it's version 2.3!
-chat.help.line17=Q8: So, I've completed the game after finishing all 30 levels, right?
-chat.help.line18=§7A: Not quite~ I designed many things in this map, including Easter eggs, time-limited levels, and advancements. You only truly complete the game once you've finished all 30 advancements!
-chat.help.line19=Q9: Where are the Easter eggs?
-chat.help.line20=§7A: Since you found this, I'll give you a more obvious hint... In the starting house of the main hall, there's something fishy about the map! If you can't find it now, it's not my fault qwq, it's already very noticeable...
-chat.help.line21=Q10: I want to enable coordinates...
-chat.help.line22=§7A: Of course, you can! But it's a bit complicated. As you can see, this map has a forced gamerule lock. So, you need to go to the Setting Center - Gamerule lock settings, unlock the gamerule lock first, and then enable display coordinates! There's also a lot more to explore in the settings room!
-chat.help.line23=Q11: How to disable the anti-cheat in this map?
-chat.help.line24=§7A: Since you asked, it means you've already discovered that this map has anti-cheat =w=. But don't worry, I've set up a very user-friendly anti-cheat removal solution! Go to Setting Center - Permission Level Settings and Advanced Settings - Change Permission Level, and you can change the permission level there!
-chat.help.line25=§7As long as your permission level is above 1, you can bypass the anti-cheat restrictions! Of course, if you like analyzing map commands, I recommend adjusting the level to 2, which will give you access to many underlying aspects of the map to help you dissect it.
-chat.help.line26=Q12: Can I play this map in multiplayer?
-chat.help.line27=§7A: The previous version couldn't, but this version... at least it has evolved to the point where it can run, but the gaming experience might be poor (QAQ)
-chat.help.line28=Q13: The map is so much fun! Can I recommend it to my friends?
-chat.help.line29=§7A: Of course! Absolutely! §cBut if you want to repost it, please be sure to inform me so that I am aware.
-chat.help.line30=Q14: Does the author have any other maps? Can I try them out?
-chat.help.line31=§7A: Of course! Join the QQ group: 673941729 to experience my latest maps!
-chat.help.line32=Q15: Are you planning to release the map on NetEase?
-chat.help.line33=§7A: By the time you see this, I've already detected through special means that you're using the international version awa. As for the NetEase version, I've updated this version to support it as well. NetEase players should see different content. Indeed, it wasn't easy. I moved almost all of my commands to function packs to prevent them from being blocked... QAQ
-chat.help.line34=Q16: How can I contact the author?
-chat.help.line35=§7A: [QQ]1543585291 | [QQ Test Group]673941729 | [Bilibili]@一只卑微的量筒 | [Bilibili | Workshop]@极筑工坊 | [Netease Version | Workshop]@极筑工坊 | [Netease Version]@YZBWDLT, @我是一只小量筒 | [International Version]@YZBWDLT | Serious inquiries only, please~ It's recommended to contact through the QQ test group.
-chat.help.line36=Q17: There's a bug in the map! I'm stuck QAQ
-chat.help.line37=§7A: In such situations, be sure to report it in the comments section! Or join our test group and talk to the author directly~ We'll fix the bug as quickly as possible (maybe, perhaps, possibly, seemingly, seemingly, perhaps, probably, maybe, we will, =w=)!
-chat.help.line38=Q18: The map is well-done! I want to analyze the map, where should I start?
-chat.help.line39=§7A: First, it should be pointed out that this map has a very complex system in operation, involving advanced commands such as execute and scoreboard, as well as Add-ons. So for beginners, dismantling this map is not an easy task... Moreover, starting from this version, all command systems in the map have been migrated to function packs, making it even more difficult to dismantle the map. If you want to analyze this map, I would give you the following steps:
-chat.help.line40=§71. Finish playing the map, then redownload | 2. Execute /function settings/oplevel twice in the new map to set the permission level to 2 | 3. Execute /function developer/developer_mode to enable developer mode | 4. Use a text editor (such as VSC) to open the map folder (if on Android, you can use MT file manager or similar) | 5. Start analyzing :)
-chat.help.line41=§7Good luck! If you can tackle this challenge, I believe you'll gain a lot! You're also welcome to join the test group to share your techniques~! Friendly communication, serious inquiries only!
-chat.help.line42=Q19: I have other questions!
-chat.help.line43=§7A: Ask in the comments section~ The author hopes everyone can be more active in the comments section qwq
-chat.help.line44=Q20: Have you considered providing download links through other cloud storage services?
-chat.help.line45=§7A: Of course, I have considered it! But I've always been unsure which ones are better to use. If you know a better one, feel free to recommend it to me!
-
 ## Command Feedback of Developer Mode
 chat.developer.clear_items=Items have been cleared successfully
-chat.develoepr.dimension_marker.overworld=The Dimension Marker entity in overworld has been reset
-chat.develoepr.dimension_marker.nether=The Dimension Marker entity in nether has been reset
+chat.developer.dimension_marker.overworld=The Dimension Marker entity in overworld has been reset
+chat.developer.dimension_marker.nether=The Dimension Marker entity in nether has been reset
 chat.developer.gamemode_switcher=Looking up in spectator mode to turn into creative mode
 chat.developer.get_items=Items have been given successfully
 chat.developer.mainline_level_unlocked=All mainline levels have been unlocked
@@ -687,8 +809,8 @@ chat.developer.query.level_id.line8=10 Mainline Level 10 | 11 Mainline Level 11 
 chat.developer.query.level_id.line9=15 Mainline Level 15 | 16 Mainline Level 16 | 17 Mainline Level 17 | 18 Mainline Level 18 | 19 Mainline Level 19
 chat.developer.query.level_id.line10=20 Mainline Level 20 | 21 Mainline Level 21 | 22 Mainline Level 22 | 23 Mainline Level 23 | 24 Mainline Level 24
 chat.developer.query.level_id.line11=25 Mainline Level 25 | 26 Mainline Level 26 | 27 Mainline Level 27 | 28 Mainline Level 28 | 29 Mainline Level 29
-chat.developer.query.level_id.line12=30 Mainline Level 30 | 31 Mainline Level 13 Part 2 | 32 Mainline Level 13 Part 3 | 33 Hided Level 1 | 34 Hided Level 2
-chat.developer.query.level_id.line13=35 Hided Level 3 | 36 Time Limited Level 1 | 37 Time Limited Level 2 | 38 Time Limited Level 3 | 39 Time Limited Level 4
+chat.developer.query.level_id.line12=30 Mainline Level 30 | 31 Mainline Level 13 Part 2 | 32 Mainline Level 13 Part 3 | 33 Hidden Level 1 | 34 Hidden Level 2
+chat.developer.query.level_id.line13=35 Hidden Level 3 | 36 Time Limited Level 1 | 37 Time Limited Level 2 | 38 Time Limited Level 3 | 39 Time Limited Level 4
 chat.developer.query.level_id.line14=40 Time Limited Level 5 | 41 Easter Egg Level 1 | 42 Easter Egg Level 2 | 43 Easter Egg Level 3 | 44 Easter Egg Level 4
 chat.developer.query.level_id.line15=45 Easter Egg Level 5 | 46 Easter Egg Level 6 | 47 Easter Egg Level 7 | 48 Easter Egg Level 8 | 49 Easter Egg Level 9
 chat.developer.query.level_id.line16=50 Easter Egg Level 10 | 51 DIY Level 1 | 52 DIY Level 2 | 53 DIY Level 3 | 54 DIY Level 4
@@ -732,36 +854,36 @@ chat.developer.query.advancement.line34=DIY | Enter DIY Levels hall | Upstream: 
 chat.developer.query.advancement.line35=Appreciation, Observation | Spectate the map | Upstream: DIY
 
 chat.developer.query.structure.line1=§bStructure Table | §7Non-behavior pack structure with *
-chat.developer.query.structure.line2=level_1 Level 1 | level_2 Level 2 | level_3 Level 3 | level_4 Level 4 | level_5 Level 5
-chat.developer.query.structure.line3=level_6 Level 6 | level_7 Level 7 | level_7_nether Level 7 - Part Nether | level_8 Level 8 | level_9 Level 9
-chat.developer.query.structure.line4=level_10 Level 10 | level_11 Level 11 | level_12 Level 12 | level_13_1 Level 13 - Part 1 | level_13_2 Level 13 - Part 2
-chat.developer.query.structure.line5=level_13_3 Level 13 - Part 3 | level_14 Level 14 | level_15 Level 15 | level_16 Level 16 | level_17 Level 17
-chat.developer.query.structure.line6=level_18 Level 18 | level_19 Level 19 | level_20 Level 20 | level_21 Level 21 | level_22 Level 22
-chat.developer.query.structure.line7=level_23 Level 23 | level_24 Level 24 | level_25 Level 25 | level_26 Level 26 | level_27 Level 27
-chat.developer.query.structure.line8=level_28 Level 28 | level_29 Level 29 | level_30 Level 30 | level_0 Tutorial Level | level_11_en Level 11(English)
-chat.developer.query.structure.line9=level_14_en Level 14(English) | level_16_en Level 16(English) | level_17_en Level 17(English) | level_22_en Level 22(English) | level_30_en_patch Level 30(English Sign)
-chat.developer.query.structure.line10=easter_egg_1 Easter Egg Level 1 | easter_egg_2 Easter Egg Level 2 | easter_egg_3 Easter Egg Level 3 - Start Room | easter_egg_3_1 Easter Egg Level 3 - Parkour Room | easter_egg_4 Easter Egg Level 4
-chat.developer.query.structure.line11=easter_egg_5 Easter Egg Level 5 | easter_egg_6 Easter Egg Level 6 | easter_egg_7 Easter Egg Level 7 | easter_egg_8 Easter Egg Level 8 | easter_egg_8_1 Easter Egg Level 8 - Emerald Block Trap
-chat.developer.query.structure.line12=easter_egg_9 Easter Egg Level 9 | easter_egg_10 Easter Egg Level 10 | easter_egg_10_1 Easter Egg Level 10 - Main Room | easter_egg_7_en Easter Egg Level 7(English) | easter_egg_9_en Easter Egg Level 9(English)
+chat.developer.query.structure.line2=mainline:level_1 Level 1 | mainline:level_2 Level 2 | mainline:level_3 Level 3 | mainline:level_4 Level 4 | mainline:level_5 Level 5
+chat.developer.query.structure.line3=mainline:level_6 Level 6 | mainline:level_7 Level 7 | mainline:level_7_nether Level 7 - Part Nether | mainline:level_8 Level 8 | mainline:level_9 Level 9
+chat.developer.query.structure.line4=mainline:level_10 Level 10 | mainline:level_11 Level 11 | mainline:level_12 Level 12 | mainline:level_13_1 Level 13 - Part 1 | mainline:level_13_2 Level 13 - Part 2
+chat.developer.query.structure.line5=mainline:level_13_3 Level 13 - Part 3 | mainline:level_14 Level 14 | mainline:level_15 Level 15 | mainline:level_16 Level 16 | mainline:level_17 Level 17
+chat.developer.query.structure.line6=mainline:level_18 Level 18 | mainline:level_19 Level 19 | mainline:level_20 Level 20 | mainline:level_21 Level 21 | mainline:level_22 Level 22
+chat.developer.query.structure.line7=mainline:level_23 Level 23 | mainline:level_24 Level 24 | mainline:level_25 Level 25 | mainline:level_26 Level 26 | mainline:level_27 Level 27
+chat.developer.query.structure.line8=mainline:level_28 Level 28 | mainline:level_29 Level 29 | mainline:level_30 Level 30 | mainline:level_0 Tutorial Level | mainline:level_11_en Level 11(English)
+chat.developer.query.structure.line9=mainline:level_14_en Level 14(English) | mainline:level_16_en Level 16(English) | mainline:level_17_en Level 17(English) | mainline:level_22_en Level 22(English) | mainline:level_30_en_patch Level 30(English Sign)
+chat.developer.query.structure.line10=easter_egg:level_1 Easter Egg Level 1 | easter_egg:level_2 Easter Egg Level 2 | easter_egg:level_3 Easter Egg Level 3 - Start Room | easter_egg:level_3_1 Easter Egg Level 3 - Parkour Room | easter_egg:level_4 Easter Egg Level 4
+chat.developer.query.structure.line11=easter_egg:level_5 Easter Egg Level 5 | easter_egg:level_6 Easter Egg Level 6 | easter_egg:level_7 Easter Egg Level 7 | easter_egg:level_8 Easter Egg Level 8 | easter_egg:level_8_1 Easter Egg Level 8 - Emerald Block Trap
+chat.developer.query.structure.line12=easter_egg:level_9 Easter Egg Level 9 | easter_egg:level_10 Easter Egg Level 10 | easter_egg:level_10_1 Easter Egg Level 10 - Main Room | easter_egg:level_7_en Easter Egg Level 7(English) | easter_egg:level_9_en Easter Egg Level 9(English)
 chat.developer.query.structure.line13= 
-chat.developer.query.structure.line14=time_limited_1 Time Limited Level 1 | time_limited_2 Time Limited Level 2 | time_limited_3 Time Limited Level 3 | time_limited_4 Time Limited Level 4 | time_limited_5 Time Limited Level 5
-chat.developer.query.structure.line15=time_limited_5_1 Time Limited Level 5 - Building 1 | time_limited_5_2 Time Limited Level 5 - Building 2 | time_limited_5_3 Time Limited Level 5 - Building 3 | time_limited_5_4 Time Limited Level 5 - Building 4 | time_limited_5_5 Time Limited Level 5 - Building 5
-chat.developer.query.structure.line16=time_limited_1_1 Time Limited Level 1 - Resources
+chat.developer.query.structure.line14=time_limited:level_1 Time Limited Level 1 | time_limited:level_2 Time Limited Level 2 | time_limited:level_3 Time Limited Level 3 | time_limited:level_4 Time Limited Level 4 | time_limited:level_5 Time Limited Level 5
+chat.developer.query.structure.line15=time_limited:level_5_1 Time Limited Level 5 - Building 1 | time_limited:level_5_2 Time Limited Level 5 - Building 2 | time_limited:level_5_3 Time Limited Level 5 - Building 3 | time_limited:level_5_4 Time Limited Level 5 - Building 4 | time_limited:level_5_5 Time Limited Level 5 - Building 5
+chat.developer.query.structure.line16=time_limited:level_1_1 Time Limited Level 1 - Resources
 chat.developer.query.structure.line17=diy_1 *DIY Level 1 | diy_2 *DIY Level 2 | diy_3 *DIY Level 3 | diy_4 *DIY Level 4 | diy_5 *DIY Level 5
 chat.developer.query.structure.line18=diy_6 *DIY Level 6 | diy_7 *DIY Level 7 | diy_8 *DIY Level 8 | diy_9 *DIY Level 9 | diy_10 *DIY Level 10
-chat.developer.query.structure.line19=diy_command_system Preset Command System in DIY Levels | small_room Small Room Preset | middle_room Middle Room Preset | large_room Large Room Preset
+chat.developer.query.structure.line19=diy_levels:command_system Preset Command System in DIY Levels | diy_levels:small_room Small Room Preset | diy_levels:middle_room Middle Room Preset | diy_levels:large_room Large Room Preset
 chat.developer.query.structure.line20= 
-chat.developer.query.structure.line21=firework_tutorial_1 Firework Tutorial Step 1 | firework_tutorial_2 Firework Tutorial Step 2 | firework_tutorial_3 Firework Tutorial Step 3 | firework_tutorial_4 Firework Tutorial Step 4 | firework_tutorial_5 Firework Tutorial Step 5
-chat.developer.query.structure.line22=firework_tutorial_6 Firework Tutorial Step 6 | firework_tutorial_7 Firework Tutorial Step 7 | firework_tutorial_8 Firework Tutorial Step 8 | firework_settings Setting Room for Firework Show | firework_dispenser *Firework Dispenser for Firework Show
+chat.developer.query.structure.line21=firework:tutorial_1 Firework Tutorial Step 1 | firework:tutorial_2 Firework Tutorial Step 2 | firework:tutorial_3 Firework Tutorial Step 3 | firework:tutorial_4 Firework Tutorial Step 4 | firework:tutorial_5 Firework Tutorial Step 5
+chat.developer.query.structure.line22=firework:tutorial_6 Firework Tutorial Step 6 | firework:tutorial_7 Firework Tutorial Step 7 | firework:tutorial_8 Firework Tutorial Step 8 | firework:settings Setting Room for Firework Show | firework_dispenser *Firework Dispenser for Firework Show
 chat.developer.query.structure.line23= 
-chat.developer.query.structure.line24=hided_1 Hided Level 1 | hided_2 Hided Level 2 | hided_3 Hided Level 3
+chat.developer.query.structure.line24=hided:level_1 Hidden Level 1 | hided:level_2 Hidden Level 2 | hided:level_3 Hidden Level 3
 chat.developer.query.structure.line25= 
-chat.developer.query.structure.line26=logo Origin Logo of the Map | logo_completed Completed Logo of the Map | ban Ban Item Frame | tutorial_cb Command Block of Tutorial Level | tutorial_chest Chest of Tutorial Level
-chat.developer.query.structure.line27=advancement_wall Empty Wall in Advancement Center
-chat.developer.query.structure.line28=level_zx1 Branch Line Level 1 | level_zx2 Branch Line Level 2 | level_zx3 Branch Line Level 3 | level_zx4 Branch Line Level 4 | level_zx5 Branch Line Level 5
+chat.developer.query.structure.line26=system:logo Origin Logo of the Map | system:logo_completed Completed Logo of the Map | system:ban Ban Item Frame | system:tutorial_cb Command Block of Tutorial Level | system:tutorial_chest Chest of Tutorial Level
+chat.developer.query.structure.line27=system:advancement_wall Empty Wall in Advancement Center
+chat.developer.query.structure.line28=hided:branch_1 Branch Line Level 1 | hided:branch_2 Branch Line Level 2 | hided:branch_3 Branch Line Level 3 | hided:branch_4 Branch Line Level 4 | hided:branch_5 Branch Line Level 5
 
 #### Error Information
-chat.error.invalid_level_id=§cLevel ID %s is invalid	## {"translate":"chat.error.invalid_level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}}
+chat.error.invalid_level_id=§cLevel ID %s is invalid
 chat.error.invalid_level_id.nether=§c%s is not a reasonable nether level ID
 chat.error.invalid_level_id.not_expected=§cLevel ID %s is not expected
 chat.error.developer_mode.run_command_failed=§cSome command cannot execute in developer mode
@@ -778,7 +900,7 @@ chat.error.request_out_of_time=§cThe request has timed out
 chat.error.change_difficulty.in_speedrun_mode=§cChanging difficulty in speedrun mode isn't allowed
 chat.error.is_netease_version=§cFailed to change to English while in Netease adaption mode
 
-### ----- Titles（title.xxx） -----
+### ----- Titles(title.xxx)  -----
 
 title.hall=§l§bHall§r
 title.easter_egg_hall=§l§bEaster Egg Levels§r
@@ -837,9 +959,9 @@ title.time_limited_2=§l§6Time Limited§f - Level §e2§r
 title.time_limited_3=§l§6Time Limited§f - Level §e3§r
 title.time_limited_4=§l§6Time Limited§f - Level §e4§r
 title.time_limited_5=§l§6Time Limited§f - Level §e5§r
-title.hided_1=§l§aHided§f - Level §a1§r
-title.hided_2=§l§aHided§f - Level §a2§r
-title.hided_3=§l§aHided§f - Level §a3§r
+title.hided_1=§l§aHidden§f - Level §a1§r
+title.hided_2=§l§aHidden§f - Level §a2§r
+title.hided_3=§l§aHidden§f - Level §a3§r
 title.diy_1=§l§bDIY Level§f - Level §a1§r
 title.diy_2=§l§bDIY Level§f - Level §a2§r
 title.diy_3=§l§bDIY Level§f - Level §a3§r
@@ -858,12 +980,12 @@ title.map_name.completed=§b§l30 Ways to Die §e2
 title.empty=§f
 title.mainline_completed=§l§bMainline Completed! 
 
-### ----- 副标题类（subtitle.xxx） -----
+### ----- 副标题类(subtitle.xxx)  -----
 subtitle.hall=Select a level
 subtitle.easter_egg_hall=STRANGE, ANGESTR, ANSTGER, GERANST
 subtitle.time_limited_hall=Time limit! Can you complete these levels?
 subtitle.diy_hall=Customize a level that belongs to you!
-subtitle.setting_center=Personalized setting map
+subtitle.setting_center=Personalize the map
 subtitle.advancement_center=Check your advencements!
 subtitle.stats_center=See how many auxiliary functions you used!
 subtitle.firework_tutorial=Let's see how to make cool fireworks!
@@ -873,11 +995,11 @@ subtitle.level_2=Take a Hot Bath
 subtitle.level_3=Desert Messenger
 subtitle.level_4=Lose Your Breath
 subtitle.level_5=How Heavy!
-subtitle.level_6=Paddle
+subtitle.level_6=Puddle
 subtitle.level_7=The Door to the Unknown
 subtitle.level_8=The Door to the Unknown - 2
 subtitle.level_9=Moo~
-subtitle.level_10=Meh~
+subtitle.level_10=Baah~
 subtitle.level_11=Sombee
 subtitle.level_12=Parabola
 subtitle.level_13=Redstone Engineer's Challenge
@@ -913,22 +1035,22 @@ subtitle.time_limited_2=A Normal parkour
 subtitle.time_limited_3=Chicken & Maze
 subtitle.time_limited_4=Fish it!
 subtitle.time_limited_5=Humanoid Printer
-subtitle.hided_1=Author's Photo
+subtitle.hided_1=Group Photo
 subtitle.hided_2=The Real Maze Means Amazing!
-subtitle.hided_3=Final lev... wait, I crossed?
+subtitle.hided_3=Final lev... wait, I time-travelled?
 
-subtitle.open_1=§eYZBWDLT §fMade
-subtitle.open_2=§eAcme Building Workshop §fPresent
+subtitle.open_1=§fMade by §eYZBWDLT
+subtitle.open_2=§fPresented by §eAcme Building Workshop
 subtitle.end_1=§lAUTHOR§r§f | §eYZBWDLT
 subtitle.end_2=§c§l
 subtitle.end_3=§b§l
 subtitle.end_4=§lCO-AUTHOR§r§f | §eAndy7343
 subtitle.end_5=§lMAP TESTER§r§f | §ePumpkinJui
 subtitle.end_6=§lSPECIAL THANKS§r§f | §exhduoduobaby
-subtitle.end_7=§lTime Taken to complete the map§r§f | §a%s : %s
-subtitle.end_8=§lOne More Thing...
-subtitle.end_9=§lOne More Thing... §cis §dFIREWORK §eSHOW §f!!!
-subtitle.end_10=§lTHANKS FOR YOUR PLAYING!!
+subtitle.end_7=§lCompletion time§r§f | §a%s : %s
+subtitle.end_8=§lOne more thing...
+subtitle.end_9=§lOne more thing... §cis the §dFIREWORK §eSHOW §f!!!
+subtitle.end_10=§lTHANKS FOR PLAYING!!
 
 subtitle.random_potion.0=§bYou got effect §aAbsorption for 30 seconds§b ! 
 subtitle.random_potion.1=§bYou got effect §aBad Omen for 30 seconds§b ! 
@@ -956,14 +1078,14 @@ subtitle.random_potion.22=§bYou got effect §aSlow Falling for 30 seconds§b !
 subtitle.random_potion.23=§bYou got effect §aSlowness for 30 seconds§b ! 
 subtitle.random_potion.24=§bYou got effect §aSpeed for 30 seconds§b ! 
 subtitle.random_potion.25=§bYou got effect §aStrength for 30 seconds§b ! 
-subtitle.random_potion.26=§bYou got effect §aVillage Hero for 30 seconds§b ! 
+subtitle.random_potion.26=§bYou got effect §aHero of the Village for 30 seconds§b !
 subtitle.random_potion.27=§bYou got effect §aWater Breathing for 30 seconds§b ! 
 subtitle.random_potion.28=§bYou got effect §aWeakness for 30 seconds§b ! 
 subtitle.random_potion.29=§bYou got effect §aWither for 30 seconds§b ! 
 subtitle.random_potion.30=§bYou got effect §aHealth Boost Level 256 for 10000 seconds§b ! 
 subtitle.random_potion.31=§bYou got effect §aResistance Level 256 for 10000 seconds§b ! 
-subtitle.random_potion.32=§bFull health got! YEAH! (?)
+subtitle.random_potion.32=§bHP fully recovered! YEAH! (?)
 subtitle.random_potion.33=§bYou got effect §aWither for 10000 seconds§b ! 
 subtitle.random_potion.34=§cGOODBYE THIS WORLD! 
 
-subtitle.mainline_completed=§aThe end house is open.
+subtitle.mainline_completed=§aThe end house is opened.

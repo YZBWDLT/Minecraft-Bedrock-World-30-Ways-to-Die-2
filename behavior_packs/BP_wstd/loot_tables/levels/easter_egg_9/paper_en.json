@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "minecraft:paper",
+                    "type": "item",
+                    "functions": [
+                        { "function": "set_name", "name": "§r§fPaper" },
+                        { "function": "set_lore", "lore": [ "§aEach effect have the same probability to get!", "§aThere are also some special effects... Time to spell character!" ] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

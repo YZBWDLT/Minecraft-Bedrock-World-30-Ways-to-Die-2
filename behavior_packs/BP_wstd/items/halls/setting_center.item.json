@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wstd:setting_center"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:food": { "can_always_eat": true, "nutrition": 0, "cooldown_time": 20, "cooldown_type": "setting_center" },
+            "minecraft:use_duration": 9999999
+        }
+    }
+}

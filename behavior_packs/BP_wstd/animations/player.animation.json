@@ -1,0 +1,14 @@
+{
+    "format_version": "1.8.0",
+    "animations": {
+        "animation.player.random_potion_test": {
+            "loop": true,
+            "animation_length": 0.05,
+            "timeline": {
+                "0.0": [
+                    "/function entities/player/random_potion_test"
+                ]
+            }
+        }
+    }
+}

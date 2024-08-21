@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "minecraft:paper",
+                    "type": "item",
+                    "functions": [
+                        { "function": "set_name", "name": "§r§f纸条" },
+                        { "function": "set_lore", "lore": [ "好耶！是一张没什么用的纸条......" ] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

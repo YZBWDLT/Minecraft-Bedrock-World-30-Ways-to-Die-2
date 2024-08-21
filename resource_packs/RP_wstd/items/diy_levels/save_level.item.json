@@ -1,0 +1,12 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "identifier": "wstd:save_level"
+        },
+        "components": {
+            "minecraft:icon": "save_level"
+        }
+    }
+}

@@ -1,20 +1,34 @@
-# 重置所有设置到默认
+# ===== 重置所有设置 =====
 
-# 重置第30关对话为开
-execute @e[name=levelAdvancement,scores={stats=0..32,stats=!29..30}] ~~~ scoreboard players set @e[name=level30Dialogue] settings 2
-execute @e[name=levelAdvancement,scores={stats=29..30}] ~~~ scoreboard players set @e[name=level30Dialogue] settings 1
-# 重置gamerule为锁定
-scoreboard players set @e[name=gameruleLocker] settings 1
-# 重置地图时间为烟花教程黑夜
-scoreboard players set @e[name=mapTime] settings 1
-# 重置关卡完成延迟为部分0.50秒
-scoreboard players set @e[name=levelCompleteDelay] settings 2
-# 重置记分板显示为完整
-scoreboard players set @e[name=scoreboardDisplay] settings 2
-function system/display_scoreboards/show_information
-# 重置速通模式为关闭
-scoreboard players set @e[name=speedrunMode] settings 0
+# --- 第30关对话 ---
+# 默认：开
+execute unless score progress.level record matches 29..30 run scoreboard players set level30Dialogue settings 2
+execute if score progress.level record matches 29..30 run scoreboard players set level30Dialogue settings 1
 
-# 音效与反馈
-scoreboard players set @e[name=soundPlayer] active 3
+# --- 游戏规则锁定 ---
+# 默认：开
+scoreboard players set gameruleLock settings 1
+
+# --- 地图时间 ---
+# 默认：烟花教程黑夜
+scoreboard players set mapTime settings 1
+
+# --- 关卡完成延迟 ---
+# 默认：部分0.5秒
+scoreboard players set levelCompleteDelay settings 2
+
+# --- 记分板显示 ---
+# 默认：完整
+scoreboard players set scoreboardDisplay settings 2
+function lib/modify_data/scoreboard_show
+
+# --- 速通模式 ---
+# 默认：关闭
+scoreboard players set speedrunMode settings 0
+
+# --- 提示 ---
+
+## 聊天栏
 tellraw @a {"rawtext":[{"translate":"chat.settings.reset_settings"}]} 
+## 音效
+function lib/modify_states/sound/mob_villager_yes

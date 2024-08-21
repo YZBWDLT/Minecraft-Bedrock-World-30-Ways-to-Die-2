@@ -1,0 +1,11 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "wstd:change_to_survival"
+        },
+        "components": {
+            "minecraft:icon": { "texture": "change_to_survival" }
+        }
+    }
+}

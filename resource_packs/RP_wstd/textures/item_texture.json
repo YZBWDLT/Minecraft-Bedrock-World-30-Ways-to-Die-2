@@ -1,33 +1,39 @@
 {
-   "resource_pack_name": "vanilla",
-   "texture_name": "atlas.items",
-   "texture_data" : {
-      "hunger_potion": { "textures": "textures/new_items/hunger_potion" },
-      "random_potion": { "textures": "textures/new_items/random_potion" },
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data" : {
+        "hunger_potion": { "textures": "textures/items/new_items/hunger_potion" },
+        "random_potion": { "textures": "textures/items/new_items/random_potion" },
 
-      "hint": { "textures": "textures/new_items/hint" },
-      "strategy": { "textures": "textures/new_items/strategy" },
-      "skip": { "textures": "textures/new_items/skip" },
-      "reset": { "textures": "textures/new_items/reset" },
-      "quit": { "textures": "textures/new_items/quit" },
-      "next_step": { "textures": "textures/new_items/next_step" },
-      "back": { "textures": "textures/new_items/back" },
+        "hint": { "textures": "textures/items/new_items/hint" },
+        "strategy": { "textures": "textures/items/new_items/strategy" },
+        "skip": { "textures": "textures/items/new_items/skip" },
+        "reset": { "textures": "textures/items/new_items/reset" },
+        "quit": { "textures": "textures/items/new_items/quit" },
+        "next_step": { "textures": "textures/items/new_items/next_step" },
+        "back": { "textures": "textures/items/new_items/back" },
 
-      "easter_egg_hall": { "textures": "textures/new_items/easter_egg_hall" },
-      "time_limited_hall": { "textures": "textures/new_items/time_limited_hall" },
-      "diy_hall": { "textures": "textures/new_items/diy_hall" },
+        "easter_egg_hall": { "textures": "textures/items/new_items/easter_egg_hall" },
+        "time_limited_hall": { "textures": "textures/items/new_items/time_limited_hall" },
+        "diy_hall": { "textures": "textures/items/new_items/diy_hall" },
 
-      "advancement_center": { "textures": "textures/new_items/advancement_center" },
-      "stats_center": { "textures": "textures/new_items/stats_center" },
-      "setting_center": { "textures": "textures/new_items/setting_center" },
-      "play_music": { "textures": "textures/new_items/play_music" },
-      "firework_tutorial": { "textures": "textures/new_items/firework_tutorial" },
-      "played_time": { "textures": "textures/new_items/played_time" },
+        "advancement_center": { "textures": "textures/items/new_items/advancement_center" },
+        "stats_center": { "textures": "textures/items/new_items/stats_center" },
+        "setting_center": { "textures": "textures/items/new_items/setting_center" },
+        "play_music": { "textures": "textures/items/new_items/play_music" },
+        "firework_tutorial": { "textures": "textures/items/new_items/firework_tutorial" },
+        "played_time": { "textures": "textures/items/new_items/played_time" },
 
-      "change_room_size": { "textures": "textures/new_items/change_room_size" },
-      "save_level": { "textures": "textures/new_items/save_level" },
-      "load_level": { "textures": "textures/new_items/load_level" },
-      "reset_command_system": { "textures": "textures/new_items/reset_command_system" }
+        "change_room_size": { "textures": "textures/items/new_items/change_room_size" },
+        "save_level": { "textures": "textures/items/new_items/save_level" },
+        "load_level": { "textures": "textures/items/new_items/load_level" },
+        "reset_command_system": { "textures": "textures/items/new_items/reset_command_system" },
 
-   }
+        "random_potion_used": { "textures": "textures/items/new_items/random_potion_used" },
+
+        "change_to_creative": { "textures":"textures/items/apple_golden" },
+        "change_to_survival": { "textures":"textures/items/iron_sword" },
+        "change_to_adventure": { "textures": "textures/items/map_empty" },
+        "change_to_spectator": { "textures": "textures/items/ender_eye" }
+    }
 }

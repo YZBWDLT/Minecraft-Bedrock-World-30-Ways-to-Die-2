@@ -4,7 +4,7 @@
         "description": {
             "identifier": "wstd:text_display",
             "materials": { "default": "entity_alphatest" },
-            "textures": { "default": "textures/new_entities/text_display" },
+            "textures": { "default": "textures/entity/new_entities/text_display" },
             "geometry": { "default": "geometry.text_display" },
             "render_controllers": [ "controller.render.default" ]
         }

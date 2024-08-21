@@ -1,5 +1,0 @@
-## === 未开启开发者模式时 ===
-execute @e[name=developerMode,scores={settings=0}] ~~~ execute @a ~~~ titleraw @s actionbar {"rawtext":[{"translate":"actionbar.open.read_rules"}]}
-
-## === 开启开发者模式时 ===
-execute @e[name=developerMode,scores={settings=1}] ~~~ execute @a ~~~ titleraw @s actionbar {"rawtext":[{"translate":"%%s\n§r%%s","with":{"rawtext":[{"translate":"actionbar.open.read_rules"},{"translate":"%%s | %%s | %%s | %%s","with":{"rawtext":[{"translate":"actionbar.developer.oplevel","with":{"rawtext":[{"score":{"objective":"oplevel","name":"@s"}}]}},{"translate":"actionbar.developer.level_id","with":{"rawtext":[{"score":{"objective":"backend","name":"@e[name=level]"}}]}},{"translate":"actionbar.developer.time_played","with":{"rawtext":[{"score":{"objective":"time","name":"@e[name=playedMinute]"}},{"score":{"name":"@e[name=playedSecond]","objective":"time"}}]}},{"translate":"actionbar.developer.timeline","with":{"rawtext":[{"score":{"objective":"active","name":"@e[name=timeline]"}},{"score":{"name":"@e[name=timeline]","objective":"time"}}]}}]}}]}}]}

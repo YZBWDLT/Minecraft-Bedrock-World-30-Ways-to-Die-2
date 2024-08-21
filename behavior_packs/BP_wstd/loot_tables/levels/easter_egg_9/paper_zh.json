@@ -1,0 +1,17 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "name": "minecraft:paper",
+                    "type": "item",
+                    "functions": [
+                        { "function": "set_name", "name": "§r§f纸条" },
+                        { "function": "set_lore", "lore": [ "§a喝下药水之后每种效果都有相同效果获取！", "§a此外还有一些特殊效果......拼人品的时候到了！" ] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

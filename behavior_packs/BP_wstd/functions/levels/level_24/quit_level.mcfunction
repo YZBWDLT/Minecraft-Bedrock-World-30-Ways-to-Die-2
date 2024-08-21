@@ -1,3 +1,0 @@
-function levels/all_levels/quit_level
-function system/disable_timeline
-difficulty hard

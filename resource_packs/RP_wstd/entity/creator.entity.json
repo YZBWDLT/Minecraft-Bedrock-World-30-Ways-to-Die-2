@@ -5,15 +5,15 @@
             "identifier": "wstd:creator",
             "materials": { "default": "entity_alphatest" },
             "textures": {
-                "lt": "textures/new_entities/creators/yzbwdlt",
-                "bd": "textures/new_entities/creators/andy7343",
-                "ngz": "textures/new_entities/creators/pumpkinjui",
-                "zy": "textures/new_entities/creators/xhduoduobaby",
-                "xs": "textures/new_entities/creators/xiaoshu512",
-                "gz": "textures/new_entities/creators/pigeonk",
-                "hws": "textures/new_entities/creators/animalchalk2526",
-                "mdr": "textures/new_entities/creators/tuffy2020china",
-                "jd": "textures/new_entities/creators/mildturt"
+                "lt": "textures/entity/new_entities/creators/yzbwdlt",
+                "bd": "textures/entity/new_entities/creators/andy7343",
+                "ngz": "textures/entity/new_entities/creators/pumpkinjui",
+                "zy": "textures/entity/new_entities/creators/xhduoduobaby",
+                "xs": "textures/entity/new_entities/creators/xiaoshu512",
+                "gz": "textures/entity/new_entities/creators/pigeonk",
+                "hws": "textures/entity/new_entities/creators/animalchalk2526",
+                "mdr": "textures/entity/new_entities/creators/tuffy2020china",
+                "jd": "textures/entity/new_entities/creators/mildturt"
             },
             "geometry": {
                 "default": "geometry.manikin_male",
