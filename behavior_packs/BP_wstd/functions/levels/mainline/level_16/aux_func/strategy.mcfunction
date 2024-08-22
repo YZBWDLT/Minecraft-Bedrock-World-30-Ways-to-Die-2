@@ -16,7 +16,7 @@ execute if score progress.level record matches 15 if score strategy.level16 reco
 execute if score progress.level record matches 15 if score strategy.level16 record matches 0 run scoreboard players add strategyUsed record 1
 
 ## 标记本关使用过攻略
-execute if score progress.level record matches 15 if score strategy.level16 record matches 0 run scoreboard players set strategyUsed data 1
+scoreboard players set strategyUsed data 1
 
 ## 重置记分板
 execute if score progress.level record matches 15 if score strategy.level16 record matches 0 run function lib/scoreboard/strategy

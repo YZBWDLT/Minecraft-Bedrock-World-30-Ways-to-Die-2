@@ -16,7 +16,7 @@ execute if score progress.level record matches 9 if score hint.level10 record ma
 execute if score progress.level record matches 9 if score hint.level10 record matches 0 run scoreboard players add hintUsed record 1
 
 ## 标记本关使用过提示
-execute if score progress.level record matches 9 if score hint.level10 record matches 0 run scoreboard players set hintUsed data 1
+scoreboard players set hintUsed data 1
 
 ## 重置记分板
 execute if score progress.level record matches 9 if score hint.level10 record matches 0 run function lib/scoreboard/hint

@@ -16,7 +16,7 @@
 ## (设置所有提示的使用数目+1，举例：execute if score progress.level record matches 6 if score hint.level7 record matches 0 run scoreboard players add hintUsed record 1
 
 ## 标记本关使用过提示
-## (标记当前关卡使用过提示，举例：execute if score progress.level record matches 6 if score hint.level7 record matches 0 run scoreboard players set hintUsed data 1
+## (标记当前关卡使用过提示，举例：scoreboard players set hintUsed data 1
 
 ## 重置记分板
 ## (重新刷新记分板，举例：execute if score progress.level record matches 6 if score hint.level7 record matches 0 run function lib/scoreboard/hint

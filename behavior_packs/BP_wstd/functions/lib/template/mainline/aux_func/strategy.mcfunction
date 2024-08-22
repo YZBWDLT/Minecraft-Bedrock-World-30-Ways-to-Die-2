@@ -16,7 +16,7 @@
 ## (设置所有攻略的使用数目+1，举例：execute if score progress.level record matches 6 if score strategy.level7 record matches 0 run scoreboard players add strategyUsed record 1
 
 ## 标记本关使用过攻略
-## (标记当前关卡使用过攻略，举例：execute if score progress.level record matches 6 if score strategy.level7 record matches 0 run scoreboard players set strategyUsed data 1
+## (标记当前关卡使用过攻略，举例：scoreboard players set strategyUsed data 1
 
 ## 重置记分板
 ## (重新刷新记分板，举例：execute if score progress.level record matches 6 if score strategy.level7 record matches 0 run function lib/scoreboard/strategy

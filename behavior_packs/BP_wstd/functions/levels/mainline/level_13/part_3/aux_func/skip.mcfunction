@@ -16,7 +16,7 @@ execute if score progress.level record matches 31 if score skip.level13Part3 rec
 execute if score progress.level record matches 31 if score skip.level13Part3 record matches 0 run scoreboard players add skipUsed record 1
 
 ## 标记本关使用过跳过
-execute if score progress.level record matches 31 if score skip.level13Part3 record matches 0 run scoreboard players set skipUsed data 1
+scoreboard players set skipUsed data 1
 
 ## 重置记分板
 execute if score progress.level record matches 31 if score skip.level13Part3 record matches 0 run function lib/scoreboard/skip
