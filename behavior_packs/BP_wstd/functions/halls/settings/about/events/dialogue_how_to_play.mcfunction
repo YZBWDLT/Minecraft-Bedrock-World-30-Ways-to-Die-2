@@ -66,7 +66,8 @@ execute if score dialogue time matches 801..960 if score language data matches 1
 execute if score dialogue time matches 961 as @a at @s run function lib/modify_states/sound/random_orb_1
 
 ## [961] 标题（进度中心场景）
-execute if score dialogue time matches 961 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 961 if score isNetease data matches 0 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 961 if score isNetease data matches 1 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title_netease"}]}
 execute if score dialogue time matches 961 run titleraw @a subtitle {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_1"}]}
 execute if score dialogue time matches 961..1120 if score language data matches 1 run titleraw @a actionbar {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_1"}]}
 
@@ -76,7 +77,8 @@ execute if score dialogue time matches 961..1120 if score language data matches 
 execute if score dialogue time matches 1121 as @a at @s run function lib/modify_states/sound/random_orb_1
 
 ## [1121] 标题（进度中心场景）
-execute if score dialogue time matches 1121 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 1121 if score isNetease data matches 0 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 1121 if score isNetease data matches 1 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title_netease"}]}
 execute if score dialogue time matches 1121 run titleraw @a subtitle {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_2"}]}
 execute if score dialogue time matches 1121..1280 if score language data matches 1 run titleraw @a actionbar {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_2"}]}
 
@@ -86,7 +88,8 @@ execute if score dialogue time matches 1121..1280 if score language data matches
 execute if score dialogue time matches 1281 as @a at @s run function lib/modify_states/sound/random_orb_1
 
 ## [1281] 标题（进度中心场景）
-execute if score dialogue time matches 1281 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 1281 if score isNetease data matches 0 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 1281 if score isNetease data matches 1 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title_netease"}]}
 execute if score dialogue time matches 1281 run titleraw @a subtitle {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_3"}]}
 execute if score dialogue time matches 1281..1440 if score language data matches 1 run titleraw @a actionbar {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_3"}]}
 
@@ -96,7 +99,8 @@ execute if score dialogue time matches 1281..1440 if score language data matches
 execute if score dialogue time matches 1441 as @a at @s run function lib/modify_states/sound/random_orb_1
 
 ## [1441] 标题（进度中心场景）
-execute if score dialogue time matches 1441 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 1441 if score isNetease data matches 0 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title"}]}
+execute if score dialogue time matches 1441 if score isNetease data matches 1 run titleraw @a title {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.title_netease"}]}
 execute if score dialogue time matches 1441 run titleraw @a subtitle {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_4"}]}
 execute if score dialogue time matches 1441..1600 if score language data matches 1 run titleraw @a actionbar {"rawtext":[{"translate":"functions.settings.how_to_play.aux_functions.subtitle_4"}]}
 

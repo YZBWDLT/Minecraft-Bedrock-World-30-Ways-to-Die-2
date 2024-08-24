@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "register_to_create_menu": true,
+            "identifier": "wstd:time_limited_hall"
+        },
+        "components": {
+            "minecraft:icon": "time_limited_hall"
+        }
+    }
+}

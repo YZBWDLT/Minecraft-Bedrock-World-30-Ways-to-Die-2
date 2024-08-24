@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "register_to_create_menu": true,
+            "identifier": "wstd:firework_tutorial"
+        },
+        "components": {
+            "minecraft:icon": "firework_tutorial"
+        }
+    }
+}

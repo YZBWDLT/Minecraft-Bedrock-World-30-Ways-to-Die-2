@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "category": "Equipment",
+            "register_to_create_menu": true,
+            "identifier": "wstd:hunger_potion"
+        },
+        "components": {
+            "minecraft:icon": "hunger_potion",
+            "minecraft:use_animation": "drink"
+        }
+    }
+}

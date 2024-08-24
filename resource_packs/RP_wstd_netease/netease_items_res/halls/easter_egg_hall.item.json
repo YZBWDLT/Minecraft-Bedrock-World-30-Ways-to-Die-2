@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "category": "Items",
+            "register_to_create_menu": true,
+            "identifier": "wstd:easter_egg_hall"
+        },
+        "components": {
+            "minecraft:icon": "easter_egg_hall"
+        }
+    }
+}

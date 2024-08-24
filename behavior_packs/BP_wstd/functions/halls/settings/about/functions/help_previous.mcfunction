@@ -1,7 +1,7 @@
 # ===== 上一条帮助 =====
 
 # --- 分值变换 ---
-scoreboard players remove settingCenter.help data 1
+scoreboard players add settingCenter.help data -1
 execute unless score settingCenter.help data matches 1..21 run scoreboard players set settingCenter.help data 21
 
 # --- 文本展示实体重显示 ---

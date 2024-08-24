@@ -3,7 +3,8 @@
 # --- 正文 ---
 
 tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule.title"}]}
-tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule.commands"}]}
+execute if score isNetease data matches 0 run tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule.commands"}]}
+execute if score isNetease data matches 1 run tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule_commands"}]}
 tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule.gamemode"}]}
 tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule.recommended_player_amount"}]}
 tellraw @a {"rawtext":[{"translate":"functions.settings.map_rule.notice"}]}

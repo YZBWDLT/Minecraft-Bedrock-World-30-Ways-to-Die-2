@@ -75,7 +75,7 @@ execute if score progress.level record matches 11..32 run particle wstd:yellow -
 execute if score progress.level record matches -1..10 run particle wstd:gray -25 8 31
 particle wstd:one -24.3 11.2 31.9
 execute if score isNetease data matches 0 run particle wstd:two -24.7 11.2 31.9
-execute if score isNetease data matches 1 run particle wstd:two_netease -25.7 11.2 9.9
+execute if score isNetease data matches 1 run particle wstd:two_netease -24.7 11.2 31.9
 
 ## 第13关
 execute if score progress.level record matches 12..32 run particle wstd:red -29 8 31

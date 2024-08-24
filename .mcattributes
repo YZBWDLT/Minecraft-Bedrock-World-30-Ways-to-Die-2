@@ -10,3 +10,4 @@ diagnostic.disable.minecraft.mode.gamemodes.invalid=true
 diagnostic.disable.minecraft.commands.summon.syntax=true
 diagnostic.disable.behaviorpack.item.component.missing=true
 diagnostic.disable.behaviorpack.item.components.deprecated=true
+diagnostic.disable.behaviorpack.block.states.missing=true

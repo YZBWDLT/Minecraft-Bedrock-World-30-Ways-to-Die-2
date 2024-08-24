@@ -1089,33 +1089,3 @@ subtitle.random_potion.33=§b获得状态效果 §a凋零 10000秒§b ！
 subtitle.random_potion.34=§c永别了这个世界！
 
 subtitle.mainline_completed=§a结束屋已开放
-
-## ===== 网易适配专栏 | 网易，谢谢你 (╯‵□′)╯︵┻━┻ =====
-### 辅助 -> 协助
-netease.actionbar.open.set_difficulty_line2=§b非常简单§7 - 启用所有协助功能 §r| §a简单§7 - 禁用攻略
-netease.chat.open.tutorial.line7=§b此外你还能用一些小道具，我管它们叫§e协助功能§b~ヾ(´∀｀。ヾ)§r
-netease.chat.how_to_play.line16=§7§f地图难度决定你能用什么协助功能§7，非常简单时没什么限制，而一直到困难时就什么都用不了了(＃°Д°)
-netease.chat.how_to_play.line19=§7地图§f会统计你的协助功能使用情况§7！如果一个提示都没用，甚至还可以跟别人炫耀炫耀(☆▽☆)
-netease.chat.how_to_play.line21=§l协助性功能与物品
-netease.chat.how_to_play.line22=§7每一关都会给予你一些§f协助性功能§7~
-netease.subtitle.stats_center=来看看你用了多少协助功能吧！
-### ² -> ^2
-netease.actionbar.description.level_12=y^2=2px
-netease.actionbar.description.level_29=E=mv^2/2
-### 口你 -> （删去口）
-netease.chat.hint.easter_egg_7=§l彩蛋第7关提示>>§r§6踩下踏板，进入天花板的洞，你会知道怎么做的。
-### ╯ -> /
-netease.chat.level.easter_egg_2.question_5.wrong=§c你才尾巴！(/‵□′)/︵┻━┻
-netease.chat.level.easter_egg_4.dislike.line3=§c啊啊啊啊啊啊啊啊啊啊给我西内！(╬▔皿▔)/
-netease.chat.item.played_time.evaluate1=§c你甚至连主线都没有完成！怎么拿到的这个物品？(/‵□′)/︵┻━┻
-### 迷你
-netease.subtitle.time_limited_3=只因迷宫
-### 瞬间治疗 -> 瞬间回血
-netease.subtitle.random_potion.11=§b获得状态效果 §aInstant Health§b ！
-### 任意4位字符+.com(pleted) -> ~+_completed
-netease.chat.easter_egg_levels_completed=§b祝贺你完成了所有的彩蛋关卡！你现在离真正的地图完结又近了一步哦~
-netease.chat.time_limited_levels_completed=§b祝贺你完成了所有的限时关卡！太厉害啦，接下来朝着全进度的目标进发吧！！ヽ(✿ﾟ▽ﾟ)ノ
-netease.chat.item.load_level_completed=§b加载完成！
-netease.chat.item.save_level_completed=§b保存完成！
-netease.chat.item.played_time.time_completed=§b你的游玩时间 | §a%s : %s . %s§r
-netease.title.map_name_completed=§b§l30种死法 §e2

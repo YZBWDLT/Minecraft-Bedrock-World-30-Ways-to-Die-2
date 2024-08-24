@@ -26,3 +26,9 @@ tp @a 6 22 88 facing -1 22 81
 ## 标题&副标题 | 通用函数要求：需将本命令延后于通用函数执行
 titleraw @a title {"rawtext":[{"translate":"title.level_17"}]}
 titleraw @a subtitle {"rawtext":[{"translate":"subtitle.level_17"}]}
+
+# --- 特殊内容 ---
+
+## 若为中国版，重置箱子 | 中国版检测箱子存在一个bug，只有两个箱子都因为打开而更新状态之后才能成功检测。有病。
+
+execute if score isNetease data matches 1 run function levels/mainline/level_17/events/replace_chest
