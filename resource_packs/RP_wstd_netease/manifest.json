@@ -1,16 +1,16 @@
 {
     "format_version": 2,
     "header": {
-        "description": "§l§c30种死法§6 2 §r§3专用资源包",
+        "description": "§l§c30种死法§6 2 §r§3专用资源包（中国版包）",
         "name": "§l§c30种死法§6 2",
-        "uuid": "c7946394-8e41-42e2-9d62-77141e358885",
+        "uuid": "04ab0340-2818-46cf-bd6e-376c37ee104f",
         "version": [2, 4, 1],
         "min_engine_version": [ 1, 20, 10 ]
     },
     "modules": [
         {
             "type": "resources",
-            "uuid": "7bebe33f-c6d2-455d-af38-6c8c82fa1f34",
+            "uuid": "506b9830-1e57-4e9b-859e-2ceac6299c1f",
             "version": [2, 0, 0]
         }
     ]
