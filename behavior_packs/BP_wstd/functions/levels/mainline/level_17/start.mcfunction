@@ -29,6 +29,6 @@ titleraw @a subtitle {"rawtext":[{"translate":"subtitle.level_17"}]}
 
 # --- 特殊内容 ---
 
-## 若为中国版，重置箱子 | 中国版检测箱子存在一个bug，只有两个箱子都因为打开而更新状态之后才能成功检测。有病。
+## 若为中国版，直接给予刷怪蛋 | 中国版检测箱子存在一个bug，只有两个箱子都因为打开而更新状态之后才能成功检测。有病。
 
-execute if score isNetease data matches 1 run function levels/mainline/level_17/events/replace_chest
+execute if score isNetease data matches 1 run function levels/mainline/level_17/events/clear_chest
